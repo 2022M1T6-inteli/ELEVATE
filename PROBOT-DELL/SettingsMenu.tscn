@@ -21,7 +21,6 @@ anchor_bottom = 1.0
 tab_align = 0
 
 [node name="Vídeo" type="Tabs" parent="SettingTabs"]
-visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 4.0
@@ -134,6 +133,7 @@ max_value = 0.0
 value = -10.0
 
 [node name="Créditos" type="Tabs" parent="SettingTabs"]
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 4.0
