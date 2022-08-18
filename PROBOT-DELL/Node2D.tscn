@@ -2,7 +2,7 @@
 
 [ext_resource path="res://images/background_jogo.png" type="Texture" id=1]
 [ext_resource path="res://KinematicBody2D.gd" type="Script" id=2]
-[ext_resource path="res://player_probots.png" type="Texture" id=3]
+[ext_resource path="res://images/player_probots.png" type="Texture" id=3]
 [ext_resource path="res://PauseMenu.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Node2D.gd" type="Script" id=5]
 
