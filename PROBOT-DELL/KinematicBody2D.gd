@@ -1,21 +1,18 @@
 extends KinematicBody2D
 
-var moviment = Vector2()
-const speed = 170
 
+var velocity = Vector2.ZERO
+var move_speed = 480
+var gravity = 1200
+var jump_force = -320
 
-
-func movimentPlayer():
-	var left = Input.is_action_pressed("ui_left")
-	var right = Input.is_action_pressed("ui_right")
+func _physics_process(delta: float) -> void:
+	velocity.y += gravity * delta
+	var move_direction = int(Input.is_action_pressed("ui_right")) - int(Input.is_action_pressed("ui_left"))
 	
-	if left:
-		moviment.x = - speed 
-	elif right:
-		moviment.x = speed
-	else:
-		moviment.x = 0
-	moviment = move_and_slide(moviment)
+	if Input.is_action_pressed("ui_up"):
+		velocity.y = jump_force
 	
-func _physics_process(delta):
-	movimentPlayer()
+	velocity.x = move_speed * move_direction
+	
+	move_and_slide(velocity)
