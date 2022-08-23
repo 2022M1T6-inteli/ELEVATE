@@ -7,7 +7,7 @@
 extents = Vector2( 27.5, 36.25 )
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( -1, 0 )
+position = Vector2( -6, -5 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
@@ -22,3 +22,14 @@ vframes = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 7, -42 )
 shape = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+limit_smoothed = true
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
+drag_margin_top = 0.3
+drag_margin_bottom = 0.3
+editor_draw_limits = true
+editor_draw_drag_margin = true
