@@ -1,8 +1,8 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://images/Floor 4.png" type="Texture" id=1]
 [ext_resource path="res://images/Janela recepção.jpeg" type="Texture" id=2]
-[ext_resource path="res://MainPersonagemMVP.gd" type="Script" id=3]
+[ext_resource path="res://MainPersonagemMVP.tscn" type="PackedScene" id=3]
 [ext_resource path="res://images/main Wall.png" type="Texture" id=4]
 [ext_resource path="res://images/elevador para o jogo.jpeg" type="Texture" id=5]
 [ext_resource path="res://images/mesa-recepçãoo.png" type="Texture" id=6]
@@ -13,8 +13,6 @@
 [ext_resource path="res://images/Sofá_recepcao_1_resized.png" type="Texture" id=11]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Other/Box.png" type="Texture" id=12]
 [ext_resource path="res://Passagem.gd" type="Script" id=14]
-[ext_resource path="res://animation_player/Direita.tres" type="Animation" id=15]
-[ext_resource path="res://images/Player.png" type="Texture" id=16]
 
 [sub_resource type="TileSet" id=1]
 0/name = "Floor 4.png 0"
@@ -197,73 +195,6 @@ extents = Vector2( 34.5, 50 )
 [sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 639.125, 57.25 )
 
-[sub_resource type="RectangleShape2D" id=10]
-extents = Vector2( 25, 47.5 )
-
-[sub_resource type="Animation" id=6]
-resource_name = "Animacao_Parada"
-length = 0.1
-tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ 0 ]
-}
-
-[sub_resource type="Animation" id=7]
-resource_name = "Animação_Parada_Esquerda"
-length = 0.1
-tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ 12 ]
-}
-
-[sub_resource type="Animation" id=8]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ 0 ]
-}
-
-[sub_resource type="Animation" id=9]
-resource_name = "esquerda"
-length = 0.6
-loop = true
-tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
-"update": 0,
-"values": [ 12, 13, 14, 15, 16, 17 ]
-}
-
 [node name="Node2D" type="Node2D"]
 
 [node name="Recepcionista" type="Sprite" parent="."]
@@ -319,34 +250,7 @@ position = Vector2( 1280, -3 )
 position = Vector2( -639.125, 637 )
 shape = SubResource( 4 )
 
-[node name="MainPersonagemMVP" type="KinematicBody2D" parent="."]
-position = Vector2( 542, 607 )
-script = ExtResource( 3 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Sprite" type="Sprite" parent="MainPersonagemMVP"]
-position = Vector2( 86.469, -80.873 )
-scale = Vector2( 3.04785, 4.00779 )
-texture = ExtResource( 16 )
-hframes = 60
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="MainPersonagemMVP"]
-position = Vector2( 92, -77.4999 )
-shape = SubResource( 10 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Animacao_Andar" type="AnimationPlayer" parent="MainPersonagemMVP"]
-anims/Animacao_Parada = SubResource( 6 )
-"anims/Animação_Parada_Esquerda" = SubResource( 7 )
-anims/Direita = ExtResource( 15 )
-anims/RESET = SubResource( 8 )
-anims/esquerda = SubResource( 9 )
+[node name="MainPersonagemMVP" parent="." instance=ExtResource( 3 )]
+position = Vector2( 119, 600 )
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
