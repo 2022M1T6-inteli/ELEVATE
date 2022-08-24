@@ -2,10 +2,10 @@ extends Node2D
 
 func _ready():
 	pass
-
+	
+#função que recebe um valor inserido pelo jogador no botão e retorna na tela
 func _on_Button1_pressed():
 	$Label.text=str(1)
-
 
 func _on_Button2_pressed():
 	$Label.text=str(2)
@@ -31,7 +31,5 @@ func _on_Button8_pressed():
 func _on_Button9_pressed():
 	$Label.text=str(9)
 	
-	
-	
-	
-	
+func _on_Button0_pressed():
+	$Label.text=str(0)
