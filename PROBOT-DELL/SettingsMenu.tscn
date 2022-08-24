@@ -72,6 +72,7 @@ margin_bottom = 40.0
 rect_min_size = Vector2( 400, 0 )
 size_flags_horizontal = 10
 size_flags_vertical = 1
+editable = false
 
 [node name="Áudio" type="Tabs" parent="SettingTabs"]
 visible = false
@@ -113,6 +114,7 @@ size_flags_vertical = 1
 min_value = -50.0
 max_value = 0.0
 value = -10.0
+editable = false
 
 [node name="MusicVolume" type="Label" parent="SettingTabs/Áudio/MarginContainer/AudioSettings"]
 margin_top = 21.0
@@ -131,6 +133,7 @@ size_flags_vertical = 1
 min_value = -50.0
 max_value = 0.0
 value = -10.0
+editable = false
 
 [node name="Créditos" type="Tabs" parent="SettingTabs"]
 visible = false

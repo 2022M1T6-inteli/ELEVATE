@@ -211,7 +211,7 @@ position = Vector2( -26, 442 )
 shape = SubResource( 4 )
 
 [node name="MainPersonagemMVP" parent="." instance=ExtResource( 2 )]
-position = Vector2( 95, 474 )
+position = Vector2( 838, 479 )
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2( 4, 4 )
