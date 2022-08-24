@@ -6,7 +6,7 @@
 [ext_resource path="res://images/EXIT.png" type="Texture" id=4]
 [ext_resource path="res://images/png-transparent-pixel-art-sprite-stardew-valley-restart-blue-text-chibi-thumbnail.png" type="Texture" id=5]
 [ext_resource path="res://images/SETTINGS.png" type="Texture" id=6]
-[ext_resource path="res://images/logo_probots.png" type="Texture" id=7]
+[ext_resource path="res://images/Probots-removebg-preview.png" type="Texture" id=7]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/2 Background/Day/2.png" type="Texture" id=8]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/2 Background/Day/3.png" type="Texture" id=9]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/2 Background/Day/1.png" type="Texture" id=10]
@@ -58,13 +58,8 @@ position = Vector2( -30.7869, 15.5863 )
 texture = ExtResource( 8 )
 
 [node name="3" type="Sprite" parent="fundo_inicial"]
-position = Vector2( -32.9248, 16.264 )
+position = Vector2( -32.201, 16.2486 )
 texture = ExtResource( 9 )
-
-[node name="LogoProbots" type="Sprite" parent="."]
-position = Vector2( 636, 126 )
-scale = Vector2( 0.7, 0.7 )
-texture = ExtResource( 7 )
 
 [node name="jogar_button" type="TextureButton" parent="."]
 margin_left = 509.0
@@ -135,6 +130,11 @@ valign = 1
 uppercase = true
 
 [node name="SettingsMenu" parent="." instance=ExtResource( 3 )]
+
+[node name="Probots-removebg-preview" type="Sprite" parent="."]
+position = Vector2( 629, 109 )
+scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 7 )
 
 [connection signal="pressed" from="jogar_button" to="." method="_on_jogar_button_pressed"]
 [connection signal="pressed" from="config_button" to="." method="_on_config_button_pressed"]

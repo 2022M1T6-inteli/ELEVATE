@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/porta.png-27f5474293004e60b1f3af3529246d27.stex"
+path="res://.import/predio.png-075167098ee254b3903de49c69269002.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/porta.png"
-dest_files=[ "res://.import/porta.png-27f5474293004e60b1f3af3529246d27.stex" ]
+source_file="res://images/predio.png"
+dest_files=[ "res://.import/predio.png-075167098ee254b3903de49c69269002.stex" ]
 
 [params]
 
