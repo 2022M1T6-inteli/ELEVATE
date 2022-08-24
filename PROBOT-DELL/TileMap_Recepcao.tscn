@@ -1,8 +1,8 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://images/Floor 4.png" type="Texture" id=1]
 [ext_resource path="res://images/Janela recepção.jpeg" type="Texture" id=2]
-[ext_resource path="res://images/imagem personagem principal frente (1).png" type="Texture" id=3]
+[ext_resource path="res://MainPersonagemMVP.tscn" type="PackedScene" id=3]
 [ext_resource path="res://images/main Wall.png" type="Texture" id=4]
 [ext_resource path="res://images/elevador para o jogo.jpeg" type="Texture" id=5]
 [ext_resource path="res://images/mesa-recepçãoo.png" type="Texture" id=6]
@@ -12,7 +12,6 @@
 [ext_resource path="res://images/cacto resized.png" type="Texture" id=10]
 [ext_resource path="res://images/Sofá_recepcao_1_resized.png" type="Texture" id=11]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Other/Box.png" type="Texture" id=12]
-[ext_resource path="res://Player.tscn" type="PackedScene" id=13]
 [ext_resource path="res://Passagem.gd" type="Script" id=14]
 
 [sub_resource type="TileSet" id=1]
@@ -219,11 +218,6 @@ position = Vector2( 738.5, 547.988 )
 scale = Vector2( 2.03125, 2.0479 )
 texture = ExtResource( 12 )
 
-[node name="DellBorg" type="Sprite" parent="."]
-position = Vector2( 416, 526.5 )
-scale = Vector2( 1.5, 1.54167 )
-texture = ExtResource( 3 )
-
 [node name="Box" type="Sprite" parent="."]
 position = Vector2( 672, 548.533 )
 scale = Vector2( 2.125, 2.09153 )
@@ -256,7 +250,7 @@ position = Vector2( 1280, -3 )
 position = Vector2( -639.125, 637 )
 shape = SubResource( 4 )
 
-[node name="Player" parent="." instance=ExtResource( 13 )]
-position = Vector2( 282, 567 )
+[node name="MainPersonagemMVP" parent="." instance=ExtResource( 3 )]
+position = Vector2( 119, 600 )
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
