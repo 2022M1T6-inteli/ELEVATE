@@ -1,8 +1,9 @@
-[gd_scene load_steps=58 format=2]
+[gd_scene load_steps=60 format=2]
 
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/painel preto.png" type="Texture" id=1]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/botaoazul (1).png" type="Texture" id=2]
 [ext_resource path="res://Font/dogica.otf" type="DynamicFontData" id=3]
+[ext_resource path="res://painelpreto.gd" type="Script" id=4]
 
 [sub_resource type="StyleBoxFlat" id=13]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
@@ -202,8 +203,16 @@ Button/styles/pressed = SubResource( 52 )
 size = 36
 font_data = ExtResource( 3 )
 
+[sub_resource type="DynamicFont" id=55]
+size = 170
+font_data = ExtResource( 3 )
+
 [node name="314dd8" type="Node2D"]
 position = Vector2( 182, -44 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="PainelPreto" type="Sprite" parent="."]
 position = Vector2( 437, 370 )
@@ -345,7 +354,7 @@ custom_fonts/font = SubResource( 6 )
 text = "1"
 icon_align = 1
 
-[node name="Button10" type="Button" parent="."]
+[node name="Button9" type="Button" parent="."]
 margin_left = 527.0
 margin_top = 357.0
 margin_right = 592.0
@@ -374,3 +383,19 @@ margin_left = 240.0
 margin_top = 80.0
 margin_right = 637.0
 margin_bottom = 270.0
+custom_colors/font_color = Color( 0.701961, 0.027451, 0.027451, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 55 )
+align = 1
+valign = 1
+
+[connection signal="pressed" from="Button7" to="." method="_on_Button7_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="Button5" to="." method="_on_Button5_pressed"]
+[connection signal="pressed" from="Button6" to="." method="_on_Button6_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Button1" to="." method="_on_Button1_pressed"]
+[connection signal="pressed" from="Button9" to="." method="_on_Button9_pressed"]
+[connection signal="pressed" from="Button8" to="." method="_on_Button8_pressed"]
