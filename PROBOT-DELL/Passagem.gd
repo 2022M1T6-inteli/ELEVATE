@@ -1,4 +1,5 @@
 extends Area2D
 
 func _on_Area2D_body_entered(_body):
-	return get_tree().change_scene("res://menu_inicial.tscn")
+	return get_tree().change_scene("res://painelpreto.tscn")
+	
