@@ -158,7 +158,7 @@ a = Vector2( 1646, 6 )
 extents = Vector2( 29.25, 47.5 )
 
 [node name="Node2D" type="Node2D"]
-position = Vector2( 10, 74 )
+position = Vector2( -89, 173 )
 script = ExtResource( 5 )
 
 [node name="1" type="Sprite" parent="."]
