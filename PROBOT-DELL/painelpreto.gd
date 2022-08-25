@@ -1,7 +1,12 @@
 extends Node2D
 
-func _ready():
-	pass
+var i
+
+func _process(delta):
+	if i == 0:
+		
+		return get_tree().change_scene("res://TileMap_Recepcao.tscn")
+
 	
 #função que recebe um valor inserido pelo jogador no botão e retorna na tela
 func _on_Button1_pressed():
@@ -33,3 +38,4 @@ func _on_Button9_pressed():
 	
 func _on_Button0_pressed():
 	$Label.text=str(0)
+	i = 0

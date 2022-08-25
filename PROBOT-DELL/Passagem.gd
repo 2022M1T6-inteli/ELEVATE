@@ -5,5 +5,4 @@ func _on_Area2D_body_entered(_body):
 	
 
 
-func _on_Area2D2_body_entered(body):
-	pass # Replace with function body.
+
