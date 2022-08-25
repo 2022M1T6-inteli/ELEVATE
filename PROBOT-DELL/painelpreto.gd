@@ -7,7 +7,6 @@ func _process(delta):
 		
 		return get_tree().change_scene("res://TileMap_Recepcao.tscn")
 
-	
 #função que recebe um valor inserido pelo jogador no botão e retorna na tela
 func _on_Button1_pressed():
 	$Label.text=str(1)

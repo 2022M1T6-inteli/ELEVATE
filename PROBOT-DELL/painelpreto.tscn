@@ -271,7 +271,6 @@ custom_colors/font_color_hover = Color( 0.380392, 1, 0.988235, 1 )
 custom_colors/font_color_pressed = Color( 0.380392, 1, 0.988235, 1 )
 custom_fonts/font = SubResource( 6 )
 text = "1"
-icon_align = 1
 
 [node name="Botaoazul(1)2" type="Sprite" parent="."]
 position = Vector2( 324, 469 )

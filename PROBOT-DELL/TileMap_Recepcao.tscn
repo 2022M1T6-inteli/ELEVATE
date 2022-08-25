@@ -316,11 +316,19 @@ __meta__ = {
 position = Vector2( 4, 2.5 )
 shape = SubResource( 6 )
 
-[node name="PauseMenu" parent="Area2D2" instance=ExtResource( 18 )]
-margin_left = 479.0
-margin_top = -358.0
-margin_right = 479.0
-margin_bottom = -358.0
+[node name="PauseMenu" parent="." instance=ExtResource( 18 )]
+visible = false
+margin_left = 600.0
+margin_top = 152.0
+margin_right = 600.0
+margin_bottom = 152.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 30.0
+margin_top = 418.0
+margin_right = 281.0
+margin_bottom = 441.0
+text = "Pressione \"Espaço\" para sair do prédio"
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
 [connection signal="body_entered" from="Area2D2" to="Area2D2" method="_on_Area2D2_body_entered"]
