@@ -6,7 +6,7 @@ var NewDialog= Dialogic.start('Dialogo_elevador')
 func _ready():
 	add_child(NewDialog)
 
-
+#funçao que verifica se o botao zero foi pressionado para mudar de cena
 func _process(_delta):
 	if i == 0:		
 		return get_tree().change_scene("res://TileMap_Recepcao.tscn")

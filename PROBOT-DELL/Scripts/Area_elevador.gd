@@ -3,7 +3,7 @@ extends Area2D
 var LiberaPorta= false
 
 func _ready():
-	pass # Replace with function body.
+	pass 
 
 func _on_Area_elevador_body_entered(_body):
 	LiberaPorta= true
