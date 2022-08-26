@@ -231,9 +231,9 @@ texture = ExtResource( 17 )
 
 [node name="Texto_Entrar_Prédio" type="Label" parent="."]
 margin_left = 891.0
-margin_top = 336.0
+margin_top = 335.0
 margin_right = 1152.0
-margin_bottom = 356.0
+margin_bottom = 355.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Press \"Space\" to get into the building"
 
