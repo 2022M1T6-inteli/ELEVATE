@@ -14,6 +14,7 @@ func _process(delta):
 #função que recebe um valor inserido pelo jogador no botão e retorna na tela
 func _on_Button1_pressed():
 	$Label.text=str(1)
+	get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 func _on_Button2_pressed():
 	$Label.text=str(2)

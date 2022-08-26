@@ -211,7 +211,7 @@ position = Vector2( -26, 442 )
 shape = SubResource( 4 )
 
 [node name="MainPersonagemMVP" parent="." instance=ExtResource( 2 )]
-position = Vector2( 838, 479 )
+position = Vector2( 79, 480 )
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2( 4, 4 )
@@ -228,13 +228,13 @@ position = Vector2( 1020, 299 )
 scale = Vector2( 0.107075, 0.100733 )
 texture = ExtResource( 17 )
 
-[node name="Label" type="Label" parent="."]
+[node name="Texto_Entrar_Prédio" type="Label" parent="."]
 margin_left = 891.0
 margin_top = 336.0
 margin_right = 1152.0
-margin_bottom = 392.0
+margin_bottom = 356.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Pressione \"Espaço\" Para entrar no prédio"
+text = "Press \"Space\" to get into the building"
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Area2D" to="Area2D" method="_on_Area2D_body_exited"]
