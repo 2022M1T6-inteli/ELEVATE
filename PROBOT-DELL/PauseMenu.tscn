@@ -6,18 +6,20 @@
 pause_mode = 2
 anchor_right = 1.0
 anchor_bottom = 1.009
-margin_left = 425.0
-margin_top = 201.0
-margin_right = 147.0
-margin_bottom = 44.15
+margin_left = 650.0
+margin_top = 91.0
+margin_right = 372.0
+margin_bottom = -65.85
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="ColorRect" type="ColorRect" parent="."]
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_right = 0.325
+anchor_bottom = 0.432
+margin_right = -72.4
+margin_bottom = -215.568
 color = Color( 0, 0.498039, 0.74902, 1 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]

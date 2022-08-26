@@ -106,7 +106,10 @@ shape = SubResource( 8 )
 shape = SubResource( 8 )
 
 [node name="PauseMenu" parent="." instance=ExtResource( 4 )]
-visible = false
+margin_left = 596.0
+margin_top = 196.0
+margin_right = 596.0
+margin_bottom = 196.0
 
 [node name="Area_elevador" type="Area2D" parent="."]
 script = ExtResource( 5 )
@@ -121,6 +124,7 @@ shape = SubResource( 9 )
 position = Vector2( 195, 606 )
 
 [node name="Label" type="Label" parent="."]
+pause_mode = 2
 margin_left = 134.0
 margin_top = 394.0
 margin_right = 256.0

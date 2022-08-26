@@ -280,7 +280,7 @@ extents = Vector2( 639.125, 15.625 )
 extents = Vector2( 54, 63.5 )
 
 [node name="Node2D" type="Node2D"]
-pause_mode = 2
+pause_mode = 1
 
 [node name="Area_Recepcionista" type="Area2D" parent="."]
 position = Vector2( 706, 528 )
@@ -369,6 +369,7 @@ margin_right = 600.0
 margin_bottom = 152.0
 
 [node name="Texto_Sair_Predio_Dell" type="Label" parent="."]
+pause_mode = 2
 margin_left = 70.0
 margin_top = 394.0
 margin_right = 195.0
