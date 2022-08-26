@@ -2,7 +2,7 @@ extends Node2D
 
 var i
 
-func _process(delta):
+func _process(_delta):
 	if i == 0:
 		
 		return get_tree().change_scene("res://TileMap_Recepcao.tscn")

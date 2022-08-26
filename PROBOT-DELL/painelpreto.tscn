@@ -473,4 +473,3 @@ valign = 1
 [connection signal="pressed" from="Botaoazul(1)8/Button6" to="." method="_on_Button6_pressed"]
 [connection signal="pressed" from="Botaoazul(1)9/Button3" to="." method="_on_Button3_pressed"]
 [connection signal="pressed" from="Botaoazul(1)0/Button0" to="." method="_on_Button0_pressed"]
-[connection signal="pressed" from="Botaoazul(1)0/Button0" to="." method="_on_Button_pressed"]
