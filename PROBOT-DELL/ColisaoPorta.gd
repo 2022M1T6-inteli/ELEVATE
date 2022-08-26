@@ -1,16 +1,14 @@
 extends Area2D
 
-var control= false 
-
-func changeScene():
-	return get_tree().change_scene("res://TileMap_Recepcao.tscn")
-
-func _input(event):
-	if event is InputEventKey and event.is_action_pressed("ui_accept"):
-		changeScene()
+var LiberaPorta= false 
 
 func _on_Area2D_body_entered(_body):
-	_input(Input)
+	LiberaPorta= true
 
 
-		
+func _on_Area2D_body_exited(body):
+	LiberaPorta= false
+	
+func _physics_process(delta):
+	if LiberaPorta == true and Input.is_action_just_pressed("ui_accept"):
+		get_tree().change_scene("res://TileMap_Recepcao.tscn")

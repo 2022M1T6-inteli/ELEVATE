@@ -290,7 +290,7 @@ shape = SubResource( 5 )
 [node name="Colisao_Parede_Direita" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Colisao_Parede_Direita"]
-position = Vector2( 1280, -3 )
+position = Vector2( 1271, -2 )
 shape = SubResource( 3 )
 
 [node name="Colisao_Chao" type="StaticBody2D" parent="."]
@@ -331,4 +331,6 @@ margin_bottom = 441.0
 text = "Pressione \"Espaço\" para sair do prédio"
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="Area2D" to="Area2D" method="_on_Area2D_body_exited"]
 [connection signal="body_entered" from="Area2D2" to="Area2D2" method="_on_Area2D2_body_entered"]
+[connection signal="body_exited" from="Area2D2" to="Area2D2" method="_on_Area2D2_body_exited"]

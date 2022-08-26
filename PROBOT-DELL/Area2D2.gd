@@ -1,12 +1,17 @@
 extends Area2D
 
+var LiberaPorta= false 
 
-func changeScene():
-	return get_tree().change_scene("res://Node2D.tscn")
+func _on_Area2D2_body_entered(body):
+	LiberaPorta= true
 
-func _input(event):
-	if event is InputEventKey and event.is_action_pressed("ui_accept"):
-		changeScene()
 
-func _on_Area2D2_body_entered(_body):
-	_input(Input)
+func _on_Area2D2_body_exited(body):
+	LiberaPorta= false
+
+	
+func _physics_process(delta):
+	if LiberaPorta == true and Input.is_action_just_pressed("ui_accept"):
+		get_tree().change_scene("res://Node2D.tscn")
+
+

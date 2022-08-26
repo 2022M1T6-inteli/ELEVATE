@@ -191,14 +191,14 @@ tile_data = PoolIntArray( 983039, 0, 0, 917504, 1, 0, 917505, 1, 0, 917506, 1, 0
 [node name="LimiteTelaEsquerda" type="StaticBody2D" parent="."]
 
 [node name="CollisionShapeEsquerda" type="CollisionShape2D" parent="LimiteTelaEsquerda"]
-position = Vector2( 11, 13 )
+position = Vector2( -6, 14 )
 shape = SubResource( 2 )
 
 [node name="LimiteTelaDireita" type="StaticBody2D" parent="."]
 position = Vector2( -12, -75 )
 
 [node name="CollisionShapeDireita" type="CollisionShape2D" parent="LimiteTelaDireita"]
-position = Vector2( 1712, 42 )
+position = Vector2( 1276, 51 )
 shape = SubResource( 2 )
 
 [node name="PauseMenu" parent="." instance=ExtResource( 4 )]
@@ -237,3 +237,4 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Pressione \"Espaço\" Para entrar no prédio"
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="Area2D" to="Area2D" method="_on_Area2D_body_exited"]
