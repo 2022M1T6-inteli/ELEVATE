@@ -82,7 +82,7 @@ _global_script_class_icons={
 
 config/name="PROBOT-DELL"
 run/main_scene="res://menu_inicial.tscn"
-config/icon="res://icon.png"
+config/icon="res://images/icon.png"
 
 [display]
 

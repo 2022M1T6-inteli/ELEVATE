@@ -4,7 +4,7 @@
 [ext_resource path="res://MainPersonagemMVP.tscn" type="PackedScene" id=2]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/2 Background/Day/2.png" type="Texture" id=3]
 [ext_resource path="res://PauseMenu.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Node2D.gd" type="Script" id=5]
+[ext_resource path="res://Scripts/Node2D.gd" type="Script" id=5]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/Tile_03.png" type="Texture" id=6]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/Tile_01.png" type="Texture" id=7]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/Tile_02.png" type="Texture" id=8]
@@ -15,9 +15,10 @@
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/Tile_66.png" type="Texture" id=13]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/Tile_70.png" type="Texture" id=14]
 [ext_resource path="res://images/PREDIOS 2.png" type="Texture" id=15]
-[ext_resource path="res://ColisaoPorta.gd" type="Script" id=16]
+[ext_resource path="res://Scripts/ColisaoPorta.gd" type="Script" id=16]
 [ext_resource path="res://images/Dell-Logo-1989-2016.png" type="Texture" id=17]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/2 Background/Day/1.png" type="Texture" id=18]
+
 
 [sub_resource type="TileSet" id=3]
 0/name = "01"

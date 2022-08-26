@@ -1,7 +1,8 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://NinePatchRect.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/NinePatchRect.gd" type="Script" id=1]
 [ext_resource path="res://images/TextBox_Sci-Fi_02_transparent.png" type="Texture" id=2]
+
 
 
 [node name="DialogBox_recpcionista" type="Node2D"]

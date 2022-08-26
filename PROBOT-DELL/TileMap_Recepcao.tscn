@@ -13,16 +13,17 @@
 [ext_resource path="res://images/Sofá_recepcao_1_resized.png" type="Texture" id=11]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Other/Box.png" type="Texture" id=12]
 [ext_resource path="res://images/door_outside_resized.png" type="Texture" id=13]
-[ext_resource path="res://Passagem.gd" type="Script" id=14]
+[ext_resource path="res://Scripts/Passagem.gd" type="Script" id=14]
 [ext_resource path="res://images/Door_new.png" type="Texture" id=15]
 [ext_resource path="res://images/Double_door_outside.png" type="Texture" id=16]
-[ext_resource path="res://Area2D2.gd" type="Script" id=17]
+[ext_resource path="res://Scripts/Area2D2.gd" type="Script" id=17]
 [ext_resource path="res://PauseMenu.tscn" type="PackedScene" id=18]
-[ext_resource path="res://Area_Recepcionista.gd" type="Script" id=19]
+[ext_resource path="res://Scripts/Area_Recepcionista.gd" type="Script" id=19]
 [ext_resource path="res://images/Floor 1.png" type="Texture" id=20]
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=21]
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=22]
 [ext_resource path="res://images/Parede_laranja.png" type="Texture" id=23]
+
 
 [sub_resource type="RectangleShape2D" id=7]
 extents = Vector2( 64, 49 )

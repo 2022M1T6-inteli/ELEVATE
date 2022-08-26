@@ -1,7 +1,7 @@
 [gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://images/background_inicial.png" type="Texture" id=1]
-[ext_resource path="res://menu_inicial.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/menu_inicial.gd" type="Script" id=2]
 [ext_resource path="res://SettingsMenu.tscn" type="PackedScene" id=3]
 [ext_resource path="res://images/EXIT.png" type="Texture" id=4]
 [ext_resource path="res://images/png-transparent-pixel-art-sprite-stardew-valley-restart-blue-text-chibi-thumbnail.png" type="Texture" id=5]
