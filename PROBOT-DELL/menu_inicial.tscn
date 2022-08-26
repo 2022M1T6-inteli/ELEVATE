@@ -130,6 +130,7 @@ valign = 1
 uppercase = true
 
 [node name="SettingsMenu" parent="." instance=ExtResource( 3 )]
+visible = false
 
 [node name="Probots-removebg-preview" type="Sprite" parent="."]
 position = Vector2( 629, 109 )

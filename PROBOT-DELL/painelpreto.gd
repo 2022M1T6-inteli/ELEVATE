@@ -6,14 +6,9 @@ var NewDialog= Dialogic.start('Dialogo_elevador')
 func _ready():
 	add_child(NewDialog)
 
-<<<<<<< HEAD
+
 func _process(delta):
 	if i == 0:		
-=======
-func _process(_delta):
-	if i == 0:
-		
->>>>>>> 4c1080161ffe07dc7470b69d89095b5be61080ba
 		return get_tree().change_scene("res://TileMap_Recepcao.tscn")
 
 #função que recebe um valor inserido pelo jogador no botão e retorna na tela
