@@ -7,14 +7,14 @@ func _ready():
 	add_child(NewDialog)
 
 
-func _process(delta):
+func _process(_delta):
 	if i == 0:		
 		return get_tree().change_scene("res://TileMap_Recepcao.tscn")
 
 #função que recebe um valor inserido pelo jogador no botão e retorna na tela
 func _on_Button1_pressed():
 	$Label.text=str(1)
-	get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 func _on_Button2_pressed():
 	$Label.text=str(2)
