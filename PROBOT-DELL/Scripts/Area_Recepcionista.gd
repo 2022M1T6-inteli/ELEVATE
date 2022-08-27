@@ -1,17 +1,14 @@
 extends Area2D
 
+#criação de variáveis
 var DialogControl= false
 var NewDialog= Dialogic.start('Dialogo_recepcionista')
 
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass
-	
+#funcao que seta a variavel de controle do diálogo para true quando o player entrar no área 2D
 func _on_Area_Recepcionista_body_entered(_body):
 	DialogControl= true
 	
-		
+#funcao que seta a variavel de controle do diálogo para false quando o player sair da área 2D
 func _on_Area_Recepcionista_body_exited(_body):
 	DialogControl= false
 

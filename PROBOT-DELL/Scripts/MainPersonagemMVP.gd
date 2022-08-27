@@ -1,11 +1,11 @@
 extends KinematicBody2D
 
+#declaração de variáveis
 var velocity = Vector2.ZERO
 var move_speed = 280
 var gravity = 1200
 var jump_force = -320
 var isMoving: bool = false
-
 onready var animationPlayer= $Animacao_Andar
 
 # funçao que controla as mecanicas de movimento do personagem
@@ -30,6 +30,5 @@ func _physics_process(delta: float) -> void:
 		
 	elif velocity.x == 0 && isMoving==false:
 		$Animacao_Andar.play("Animacao_Parada")
-		
-	
+			
 	velocity = move_and_slide(velocity)

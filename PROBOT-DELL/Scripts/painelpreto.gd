@@ -1,8 +1,10 @@
 extends Node2D
 
+#declaração de variaveis
 var i
 var NewDialog= Dialogic.start('Dialogo_elevador')
 
+#função que começa o dialógo assim que o personagem entrar na cena
 func _ready():
 	add_child(NewDialog)
 
@@ -11,7 +13,7 @@ func _process(_delta):
 	if i == 0:		
 		return get_tree().change_scene("res://TileMap_Recepcao.tscn")
 
-#função que recebe um valor inserido pelo jogador no botão e retorna na tela
+#funções que recebem um valor inserido pelo jogador no botão e retorna na tela
 func _on_Button1_pressed():
 	$Label.text=str(1)
 	return get_tree().change_scene("res://Primeiro_Plano.tscn")
