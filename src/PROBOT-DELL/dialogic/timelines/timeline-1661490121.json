@@ -1,0 +1,71 @@
+{
+	"events": [
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1661489767.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1661489767.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Welcome, DellBorg, I'm Atlas and I will guide you through this journey. First, let me put into context what is going on."
+		},
+		{
+			"character": "character-1661489767.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Basically you are our last hope to save Dell from the biggest financial crisis in history."
+		},
+		{
+			"character": "character-1661489767.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In 2050 (The year we are now, of course hehe) the world is collapsing, and the other companies are still using the project model."
+		},
+		{
+			"character": "character-1661489767.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But we know that this model is outdated and that's why many of them are at rock bottom."
+		},
+		{
+			"character": "character-1661489767.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's why you will learn products model and save our company. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Try hard,  you are our last hope and we believe you!!!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fine... To begin our journey,  enter in Dell building  [color=#FF0000] (you can do that by pressing space when you are in the front of the main door). [/color]Let's go!!!!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1661490121.json",
+		"name": "Dialogo_inicial"
+	}
+}

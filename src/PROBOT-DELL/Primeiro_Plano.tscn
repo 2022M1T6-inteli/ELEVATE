@@ -1,0 +1,153 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://images/Floor 1.png" type="Texture" id=1]
+[ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=2]
+[ext_resource path="res://images/elevador para o jogo.jpeg" type="Texture" id=3]
+[ext_resource path="res://PauseMenu.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scripts/Area_elevador.gd" type="Script" id=5]
+[ext_resource path="res://images/Computer station 2.png" type="Texture" id=6]
+[ext_resource path="res://MainPersonagemMVP.tscn" type="PackedScene" id=7]
+[ext_resource path="res://images/Wall 3.png" type="Texture" id=8]
+
+
+[sub_resource type="TileSet" id=1]
+0/name = "Floor 1.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 64, 32 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "Wall 4 Light.png 1"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 128, 128 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "Computer station 2.png 2"
+2/texture = ExtResource( 6 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 128, 128 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+3/name = "elevador para o jogo.jpeg 3"
+3/texture = ExtResource( 3 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 128, 128 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape_one_way = false
+3/shape_one_way_margin = 0.0
+3/shapes = [  ]
+3/z_index = 0
+4/name = "Wall 3.png 4"
+4/texture = ExtResource( 8 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 64, 64 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 639.125, 15.625 )
+
+[sub_resource type="SegmentShape2D" id=8]
+b = Vector2( 1, 656 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 35, 50 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap2" type="TileMap" parent="."]
+tile_set = SubResource( 1 )
+format = 1
+tile_data = PoolIntArray( 0, 4, 0, 2, 4, 0, 4, 1, 0, 8, 1, 0, 10, 1, 0, 12, 1, 0, 14, 1, 0, 16, 1, 0, 18, 1, 0, 65536, 4, 0, 65537, 4, 0, 65538, 4, 0, 131072, 1, 0, 131076, 1, 0, 131078, 1, 0, 131080, 1, 0, 131082, 1, 0, 131084, 1, 0, 131086, 1, 0, 131088, 1, 0, 131090, 1, 0, 262144, 1, 0, 262146, 1, 0, 262148, 1, 0, 262150, 1, 0, 262152, 1, 0, 262154, 1, 0, 262156, 1, 0, 262158, 1, 0, 262160, 1, 0, 262162, 1, 0, 327680, 1, 0, 327682, 1, 0, 327684, 1, 0, 327686, 1, 0, 327688, 1, 0, 327690, 1, 0, 327692, 1, 0, 327694, 1, 0, 327696, 1, 0, 327698, 1, 0, 458754, 1, 0, 458756, 1, 0, 458759, 4, 0, 458760, 4, 0, 458762, 4, 0, 458763, 4, 0, 458764, 4, 0, 458765, 4, 0, 458766, 4, 0, 458768, 4, 0, 458769, 4, 0, 524288, 4, 0, 524295, 4, 0, 524296, 4, 0, 524298, 4, 0, 524299, 4, 0, 524301, 4, 0, 524302, 4, 0, 524304, 4, 0, 524305, 4, 0, 589824, 0, 0, 589825, 0, 0, 589826, 0, 0, 589827, 0, 0, 589828, 0, 0, 589829, 0, 0, 589830, 0, 0, 589831, 0, 0, 589832, 0, 0, 589833, 0, 0, 589834, 0, 0, 589835, 0, 0, 589836, 0, 0, 589837, 0, 0, 589838, 0, 0, 589839, 0, 0, 589840, 0, 0, 589841, 0, 0, 589842, 0, 0, 589843, 0, 0 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 1 )
+format = 1
+tile_data = PoolIntArray( 1, 4, 0, 3, 4, 0, 4, 4, 0, 5, 4, 0, 6, 4, 0, 7, 4, 0, 8, 4, 0, 9, 4, 0, 10, 4, 0, 11, 4, 0, 12, 4, 0, 13, 4, 0, 14, 4, 0, 15, 4, 0, 16, 4, 0, 17, 4, 0, 18, 4, 0, 19, 4, 0, 65537, 4, 0, 65539, 4, 0, 65540, 4, 0, 65541, 4, 0, 65542, 4, 0, 65543, 4, 0, 65544, 4, 0, 65545, 4, 0, 65546, 4, 0, 65547, 4, 0, 65548, 4, 0, 65549, 4, 0, 65550, 4, 0, 65551, 4, 0, 65552, 4, 0, 65553, 4, 0, 65554, 4, 0, 65555, 4, 0, 131072, 4, 0, 131073, 4, 0, 131074, 4, 0, 131075, 4, 0, 131076, 4, 0, 131077, 4, 0, 131078, 4, 0, 131079, 4, 0, 131080, 4, 0, 131081, 4, 0, 131082, 4, 0, 131083, 4, 0, 131084, 4, 0, 131085, 4, 0, 131086, 4, 0, 131087, 4, 0, 131088, 4, 0, 131089, 4, 0, 131090, 4, 0, 131091, 4, 0, 196608, 4, 0, 196609, 4, 0, 196610, 4, 0, 196611, 4, 0, 196612, 4, 0, 196613, 4, 0, 196614, 4, 0, 196615, 4, 0, 196616, 4, 0, 196617, 4, 0, 196618, 4, 0, 196619, 4, 0, 196620, 4, 0, 196621, 4, 0, 196622, 4, 0, 196623, 4, 0, 196624, 4, 0, 196625, 4, 0, 196626, 4, 0, 196627, 4, 0, 262144, 4, 0, 262145, 4, 0, 262146, 4, 0, 262147, 4, 0, 262148, 4, 0, 262149, 4, 0, 262150, 4, 0, 262151, 4, 0, 262152, 4, 0, 262153, 4, 0, 262154, 4, 0, 262155, 4, 0, 262156, 4, 0, 262157, 4, 0, 262158, 4, 0, 262159, 4, 0, 262160, 4, 0, 262161, 4, 0, 262162, 4, 0, 262163, 4, 0, 327680, 4, 0, 327681, 4, 0, 327682, 4, 0, 327683, 4, 0, 327684, 4, 0, 327685, 4, 0, 327686, 4, 0, 327687, 4, 0, 327688, 4, 0, 327689, 4, 0, 327690, 4, 0, 327691, 4, 0, 327692, 4, 0, 327693, 4, 0, 327694, 4, 0, 327695, 4, 0, 327696, 4, 0, 327697, 4, 0, 327698, 4, 0, 327699, 4, 0, 393216, 4, 0, 393217, 4, 0, 393218, 4, 0, 393219, 4, 0, 393220, 4, 0, 393221, 4, 0, 393222, 4, 0, 393223, 4, 0, 393224, 4, 0, 393225, 4, 0, 393226, 4, 0, 393227, 4, 0, 393228, 4, 0, 393229, 4, 0, 393230, 4, 0, 393231, 4, 0, 393232, 4, 0, 393233, 4, 0, 393234, 4, 0, 393235, 4, 0, 458752, 4, 0, 458753, 4, 0, 458754, 3, 0, 458756, 4, 0, 458757, 4, 0, 458758, 4, 0, 458759, 2, 0, 458761, 4, 0, 458762, 2, 0, 458764, 4, 0, 458765, 2, 0, 458767, 4, 0, 458768, 2, 0, 458770, 4, 0, 458771, 4, 0, 524289, 4, 0, 524292, 4, 0, 524293, 4, 0, 524294, 4, 0, 524297, 4, 0, 524300, 4, 0, 524303, 4, 0, 524306, 4, 0, 524307, 4, 0, 589824, 0, 0, 589825, 0, 0, 589826, 0, 0, 589827, 0, 0, 589828, 0, 0, 589829, 0, 0, 589830, 0, 0, 589831, 0, 0, 589832, 0, 0, 589833, 0, 0, 589834, 0, 0, 589835, 0, 0, 589836, 0, 0, 589837, 0, 0, 589838, 0, 0, 589839, 0, 0, 589840, 0, 0, 589841, 0, 0, 589842, 0, 0, 589843, 0, 0 )
+
+[node name="Colisao_Chao" type="StaticBody2D" parent="."]
+position = Vector2( 1280, -3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Colisao_Chao"]
+position = Vector2( -639.125, 595.375 )
+shape = SubResource( 4 )
+
+[node name="Colisao_Parede_Direita" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Colisao_Parede_Direita"]
+position = Vector2( 1270, -2 )
+shape = SubResource( 8 )
+
+[node name="Colisao_Parede_Esquerda" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Colisao_Parede_Esquerda"]
+shape = SubResource( 8 )
+
+[node name="PauseMenu" parent="." instance=ExtResource( 4 )]
+visible = false
+margin_left = 596.0
+margin_top = 196.0
+margin_right = 596.0
+margin_bottom = 196.0
+
+[node name="Area_elevador" type="Area2D" parent="."]
+script = ExtResource( 5 )
+
+[node name="Sprite" type="Sprite" parent="Area_elevador"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area_elevador"]
+position = Vector2( 192, 526 )
+shape = SubResource( 9 )
+
+[node name="MainPersonagemMVP" parent="." instance=ExtResource( 7 )]
+position = Vector2( 195, 606 )
+
+[node name="Text_Entrar_Elevador" type="Label" parent="."]
+pause_mode = 2
+margin_left = 134.0
+margin_top = 394.0
+margin_right = 256.0
+margin_bottom = 442.0
+text = "Press \"Space\" to get into the elevator"
+autowrap = true
+
+[connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
+[connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]

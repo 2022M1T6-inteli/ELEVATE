@@ -1,0 +1,65 @@
+{
+	"events": [
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1661486496.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1661486496.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahhh, finally you've arrived!!!! I'll tell you what the product model is about  "
+		},
+		{
+			"character": "character-1661486496.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The product model is a modern software development tool. The model enables operational agility, which allows organizations to react at startup speed."
+		},
+		{
+			"character": "character-1661486496.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In the product model, autonomous teams develop capabilities focused on achieving business outcomes by acting directly on user feedback to rapidly deploy and deliver value."
+		},
+		{
+			"character": "character-1661486496.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Product Model has 9 dimensions split into 4 increasingly maturity levels as part of the transformation journey."
+		},
+		{
+			"character": "character-1661486496.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After teaching the product model, we will evaluate you according to POMA (Product Operation Maturity Assessment)."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Get in the elevator and go to the first floor to learn about the first dimension: [color=#00FF00]Vision[/color]"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1661486684.json",
+		"name": "Dialogo_recepcionista"
+	}
+}
