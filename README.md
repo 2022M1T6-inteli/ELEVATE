@@ -8,7 +8,7 @@
 
 ## Nome do Grupo
 
-## Integrantes: <a href="https://www.linkedin.com/in/mariana-g%C3%B6rresen-b03059210">Mariana Görresen</a>, <a href="https://www.linkedin.com/in/thomaz-klifson-046490125">Thomaz Klifson</a>, <a href="https://www.linkedin.com/in/emely-tavares-3575ba24a/">Emely Tavares</a>, <a href="[https://www.linkedin.com/in/victorbarq/](https://www.linkedin.com/in/guilherme-moura-9668821a5/)">Guilherme Moura</a>, <a href="https://www.linkedin.com/in/henrique-burle/">Henrique Burle</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/mariana-g%C3%B6rresen-b03059210">Mariana Görresen</a>, <a href="https://www.linkedin.com/in/thomaz-klifson-046490125">Thomaz Klifson</a>, <a href="https://www.linkedin.com/in/emely-tavares-3575ba24a/">Emely Tavares</a>, <a href="https://www.linkedin.com/in/guilherme-moura-9668821a5/">Guilherme Moura</a>, <a href="https://www.linkedin.com/in/henrique-burle/">Henrique Burle</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
 
 ## Descrição
 
