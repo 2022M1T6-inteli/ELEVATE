@@ -43,6 +43,12 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "To go there, [color=#FF0000]press the button that contains the number 1.[/color]"
+		},
+		{
+			"character": "character-1661489767.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "okfowkediwe"
 		}
 	],
 	"metadata": {

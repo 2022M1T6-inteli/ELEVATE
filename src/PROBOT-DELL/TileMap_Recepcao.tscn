@@ -24,7 +24,6 @@
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=22]
 [ext_resource path="res://images/Parede_laranja.png" type="Texture" id=23]
 
-
 [sub_resource type="RectangleShape2D" id=7]
 extents = Vector2( 64, 49 )
 
