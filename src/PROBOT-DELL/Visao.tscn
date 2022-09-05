@@ -35,10 +35,11 @@ keep_pressed_outside = true
 text = "Erreiiii"
 
 [node name="Texto_Button_Tras" type="Label" parent="Maturidade_1/Pergunta_1/FlashCard_Tras"]
-margin_left = 7.0
-margin_top = 16.0
-margin_right = 655.0
-margin_bottom = 375.0
+margin_right = 443.0
+margin_bottom = 257.0
+rect_scale = Vector2( 1.5, 1.5 )
+align = 1
+valign = 1
 
 [node name="FlashCard_Frente" type="ColorRect" parent="Maturidade_1/Pergunta_1"]
 margin_left = 327.0
@@ -46,6 +47,9 @@ margin_top = 129.0
 margin_right = 991.0
 margin_bottom = 514.0
 color = Color( 0.0588235, 0.666667, 0.745098, 1 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Button_Flashcard_Front" type="Button" parent="Maturidade_1/Pergunta_1/FlashCard_Frente"]
 modulate = Color( 1, 1, 1, 0 )
@@ -55,10 +59,11 @@ margin_right = 666.0
 margin_bottom = 387.0
 
 [node name="Texto_Button_Frente" type="Label" parent="Maturidade_1/Pergunta_1/FlashCard_Frente"]
-margin_left = 9.0
-margin_top = 6.0
-margin_right = 663.0
-margin_bottom = 378.0
+margin_right = 443.0
+margin_bottom = 257.0
+rect_scale = Vector2( 1.5, 1.5 )
+align = 1
+valign = 1
 
 [node name="Maturidade_2" type="Node2D" parent="."]
 
