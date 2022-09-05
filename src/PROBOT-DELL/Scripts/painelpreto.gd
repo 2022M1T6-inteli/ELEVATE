@@ -1,7 +1,6 @@
 extends Node2D
 
 #declaração de variaveis
-var i
 var NewDialog= Dialogic.start('Dialogo_elevador')
 var cont=0
 
@@ -13,8 +12,6 @@ func _ready():
 
 #funçao que verifica se o botao zero foi pressionado para mudar de cena
 func _process(_delta):
-	if i == 0:		
-		return get_tree().change_scene("res://TileMap_Recepcao.tscn")
 	if cont == 0:
 		add_child(NewDialog)
 		cont += 1
@@ -26,6 +23,7 @@ func _on_Button1_pressed():
 
 func _on_Button2_pressed():
 	$Label.text=str(2)
+	return get_tree().change_scene("res://Segundo_Plano.tscn")
 	
 func _on_Button3_pressed():
 	$Label.text=str(3)
@@ -50,4 +48,4 @@ func _on_Button9_pressed():
 	
 func _on_Button0_pressed():
 	$Label.text=str(0)
-	i = 0
+	return get_tree().change_scene("res://TileMap_Recepcao.tscn")
