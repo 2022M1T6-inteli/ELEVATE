@@ -23,6 +23,14 @@ func _process(delta):
 	pass
 		
 func _on_Button_Certo_pressed():
+	PassCards()
+
+
+func _on_Button_Errado_pressed():
+	PassCards()
+	
+	
+func PassCards():
 	cont += 1
 	if cont == 1:
 		visibility_card_front.visible= true
@@ -36,12 +44,5 @@ func _on_Button_Certo_pressed():
 		visibility_card_back.visible= false
 		texto_frente.text= quest[2]
 		texto_tras.text= answer[2]
-
-
-func _on_Button_Errado_pressed():
-	pass 
-	
-	
-
 	
 	
