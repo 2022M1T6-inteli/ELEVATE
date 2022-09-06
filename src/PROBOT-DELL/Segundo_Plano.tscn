@@ -153,6 +153,7 @@ text = "Press \"Space\" to get into the elevator"
 autowrap = true
 
 [node name="NPC_rosa" parent="." instance=ExtResource( 7 )]
+visible = false
 
 [node name="NPC_Azul" parent="." instance=ExtResource( 14 )]
 

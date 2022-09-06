@@ -139,6 +139,9 @@ script = ExtResource( 5 )
 position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
+[node name="NPC_rosa" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2, -6 )
+
 [node name="MainPersonagemMVP" parent="." instance=ExtResource( 7 )]
 position = Vector2( 195, 606 )
 
@@ -150,8 +153,6 @@ margin_right = 256.0
 margin_bottom = 442.0
 text = "Press \"Space\" to get into the elevator"
 autowrap = true
-
-[node name="NPC_rosa" parent="." instance=ExtResource( 9 )]
 
 [connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
 [connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]
