@@ -13,7 +13,7 @@ func _ready():
 #funçao que verifica se o botao zero foi pressionado para mudar de cena
 func _process(_delta):
 	if cont == 0:
-		add_child(NewDialog)
+		#add_child(NewDialog)
 		cont += 1
 
 #funções que recebem um valor inserido pelo jogador no botão e retorna na tela

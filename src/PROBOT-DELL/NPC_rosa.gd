@@ -1,5 +1,6 @@
 extends Node2D
 
+var VisibRosa= false
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -18,3 +19,4 @@ func _ready():
 
 func _on_Area2D2_body_entered(body):
 	$Area2D2.visible= false
+	VisibRosa= false

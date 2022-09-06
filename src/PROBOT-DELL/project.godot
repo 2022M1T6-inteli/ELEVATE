@@ -86,7 +86,7 @@ config/icon="res://images/icon.png"
 
 [autoload]
 
-NpcRosa="*res://NPC_rosa.tscn"
+Global="*res://Global.gd"
 
 [display]
 
