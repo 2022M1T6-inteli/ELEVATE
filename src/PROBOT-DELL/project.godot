@@ -84,6 +84,10 @@ config/name="PROBOT-DELL"
 run/main_scene="res://menu_inicial.tscn"
 config/icon="res://images/icon.png"
 
+[autoload]
+
+NpcRosa="*res://NPC_rosa.tscn"
+
 [display]
 
 window/size/width=1270
