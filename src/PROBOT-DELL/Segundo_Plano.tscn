@@ -1,10 +1,11 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=1]
 [ext_resource path="res://images/Floor 1.png" type="Texture" id=2]
 [ext_resource path="res://images/elevador para o jogo.jpeg" type="Texture" id=3]
 [ext_resource path="res://images/Computer station 2.png" type="Texture" id=4]
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=5]
+[ext_resource path="res://Popups.tscn" type="PackedScene" id=6]
 [ext_resource path="res://NPC_rosa.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Segundo_Plano.gd" type="Script" id=8]
 [ext_resource path="res://MainPersonagemMVP.tscn" type="PackedScene" id=9]
@@ -140,17 +141,10 @@ script = ExtResource( 13 )
 position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
+[node name="Info_Popup" parent="Area_elevador" instance=ExtResource( 6 )]
+
 [node name="MainPersonagemMVP" parent="." instance=ExtResource( 9 )]
 position = Vector2( 195, 606 )
-
-[node name="Text_Entrar_Elevador" type="Label" parent="."]
-pause_mode = 2
-margin_left = 134.0
-margin_top = 394.0
-margin_right = 256.0
-margin_bottom = 442.0
-text = "Press \"Space\" to get into the elevator"
-autowrap = true
 
 [node name="NPC_rosa" parent="." instance=ExtResource( 7 )]
 visible = false

@@ -87,6 +87,8 @@ config/icon="res://images/icon.png"
 [autoload]
 
 Global="*res://Global.gd"
+Popups="*res://Popups.gd"
+PopupsScene="*res://Popups.tscn"
 
 [display]
 

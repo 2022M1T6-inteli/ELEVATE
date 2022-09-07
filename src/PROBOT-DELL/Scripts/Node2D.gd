@@ -5,6 +5,6 @@ var NewDialog= Dialogic.start('Dialogo_inicial')
 
 #função que implementa o diálogo assim que o jogador entrar na cena
 func _ready():
-	add_child(NewDialog)
-
+	#add_child(NewDialog)
+	pass
 

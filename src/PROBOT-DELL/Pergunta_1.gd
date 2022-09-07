@@ -41,7 +41,7 @@ func PassCards():
 		texto_frente.text= quest[3]
 		texto_tras.text= answer[3]
 	
-
+#funcao que mostra qual foi a medalha ganha pelo usuário
 func Premiacao():
 	if cont == 4:
 		if pontos == 4:
@@ -52,6 +52,8 @@ func Premiacao():
 			print ("PRATA")
 		if pontos == 1:
 			print ("BRONZE")
+		if pontos == 0:
+			print ("Você não atingiu a pontuação suficiente para passar de fase")
 
 func _on_Button_Flashcard_Front_pressed():
 	visibility_card_front.visible= false
@@ -60,6 +62,7 @@ func _on_Button_Flashcard_Front_pressed():
 func _process(delta):
 	#Premiacao()
 	pass
+		
 		
 func _on_Button_Certo_pressed():
 	PassCards()
