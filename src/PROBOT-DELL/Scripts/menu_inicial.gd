@@ -8,6 +8,7 @@ func _on_jogar_button_pressed():
 func _on_config_button_pressed():
 	SettingsMenu.popup_centered()
 
+
 func _on_sair_button_pressed():
 	get_tree().quit()
 

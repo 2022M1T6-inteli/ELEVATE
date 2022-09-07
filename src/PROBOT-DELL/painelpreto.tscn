@@ -1,10 +1,11 @@
-[gd_scene load_steps=68 format=2]
+[gd_scene load_steps=69 format=2]
 
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/painel preto.png" type="Texture" id=1]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/botaoazul (1).png" type="Texture" id=2]
 [ext_resource path="res://Font/dogica.otf" type="DynamicFontData" id=3]
 [ext_resource path="res://Scripts/painelpreto.gd" type="Script" id=4]
 [ext_resource path="res://images/background_inicial.png" type="Texture" id=5]
+[ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=6]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
@@ -236,7 +237,6 @@ size = 170
 font_data = ExtResource( 3 )
 
 [node name="314dd8" type="Node2D"]
-position = Vector2( 209, -58 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
@@ -462,6 +462,8 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 55 )
 align = 1
 valign = 1
+
+[node name="Mouse_Cursor" parent="." instance=ExtResource( 6 )]
 
 [connection signal="pressed" from="Botaoazul(1)/Button1" to="." method="_on_Button1_pressed"]
 [connection signal="pressed" from="Botaoazul(1)2/Button4" to="." method="_on_Button4_pressed"]

@@ -1,8 +1,8 @@
-[gd_scene load_steps=32 format=2]
+[gd_scene load_steps=34 format=2]
 
 [ext_resource path="res://images/Floor 4.png" type="Texture" id=1]
 [ext_resource path="res://images/Janela recepção.jpeg" type="Texture" id=2]
-[ext_resource path="res://MainPersonagemMVP.tscn" type="PackedScene" id=3]
+[ext_resource path="res://DellBorg_Player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://images/main Wall.png" type="Texture" id=4]
 [ext_resource path="res://images/elevador para o jogo.jpeg" type="Texture" id=5]
 [ext_resource path="res://images/mesa-recepçãoo.png" type="Texture" id=6]
@@ -24,6 +24,8 @@
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=22]
 [ext_resource path="res://images/Parede_laranja.png" type="Texture" id=23]
 [ext_resource path="res://Popups.tscn" type="PackedScene" id=24]
+[ext_resource path="res://TileMap_Recepcao.gd" type="Script" id=25]
+[ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=26]
 
 [sub_resource type="TileSet" id=3]
 0/name = "Floor 4.png 0"
@@ -324,7 +326,7 @@
 2/z_index = 0
 
 [sub_resource type="RectangleShape2D" id=7]
-extents = Vector2( 64, 49 )
+extents = Vector2( 65, 53.75 )
 
 [sub_resource type="SegmentShape2D" id=8]
 b = Vector2( 1, 656 )
@@ -340,6 +342,7 @@ extents = Vector2( 639.125, 15.625 )
 
 [node name="Node2D" type="Node2D"]
 pause_mode = 1
+script = ExtResource( 25 )
 
 [node name="TileMap_Ground_Floor" type="TileMap" parent="."]
 tile_set = SubResource( 3 )
@@ -353,7 +356,7 @@ format = 1
 tile_data = PoolIntArray( 458753, 2, 0, 458754, 2, 0, 458762, 2, 0, 458763, 2, 0, 524289, 2, 0, 524290, 2, 0, 524292, 2, 0, 524293, 2, 0, 524294, 2, 0, 524295, 2, 0, 524298, 2, 0, 524299, 2, 0, 524300, 1, 0 )
 
 [node name="Area_Recepcionista" type="Area2D" parent="."]
-position = Vector2( 706, 528 )
+position = Vector2( 715, 525 )
 script = ExtResource( 19 )
 __meta__ = {
 "_edit_group_": true
@@ -364,7 +367,7 @@ scale = Vector2( 1.5625, 1.54167 )
 texture = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area_Recepcionista"]
-position = Vector2( 7.5, 4.5 )
+position = Vector2( -9, -0.25 )
 shape = SubResource( 7 )
 
 [node name="Info_Popup" parent="Area_Recepcionista" instance=ExtResource( 24 )]
@@ -413,7 +416,7 @@ shape = SubResource( 5 )
 [node name="Colisao_Parede_Direita" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Colisao_Parede_Direita"]
-position = Vector2( 1271, -2 )
+position = Vector2( 1286, -3 )
 shape = SubResource( 8 )
 
 [node name="Colisao_Chao" type="StaticBody2D" parent="."]
@@ -423,15 +426,16 @@ position = Vector2( 1280, -3 )
 position = Vector2( -636, 595 )
 shape = SubResource( 4 )
 
-[node name="MainPersonagemMVP" parent="." instance=ExtResource( 3 )]
-position = Vector2( 138, 606 )
-
 [node name="PauseMenu" parent="." instance=ExtResource( 18 )]
 visible = false
 margin_left = 600.0
 margin_top = 152.0
 margin_right = 600.0
 margin_bottom = 152.0
+
+[node name="MainPersonagemMVP2" parent="." instance=ExtResource( 3 )]
+
+[node name="Mouse_Cursor" parent="." instance=ExtResource( 26 )]
 
 [connection signal="body_entered" from="Area_Recepcionista" to="Area_Recepcionista" method="_on_Area_Recepcionista_body_entered"]
 [connection signal="body_exited" from="Area_Recepcionista" to="Area_Recepcionista" method="_on_Area_Recepcionista_body_exited"]

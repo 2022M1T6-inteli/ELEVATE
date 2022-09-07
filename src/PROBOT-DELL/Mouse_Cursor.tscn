@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://images/Probots_Pointer_new.png" type="Texture" id=1]
+[ext_resource path="res://Mouse_Cursor.gd" type="Script" id=2]
+
+[node name="Mouse_Cursor" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 1.1875, 1.125 )
+texture = ExtResource( 1 )
