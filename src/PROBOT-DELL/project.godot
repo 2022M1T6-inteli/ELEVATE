@@ -86,8 +86,8 @@ config/icon="res://images/icon.png"
 
 [autoload]
 
-Global="*res://Global.gd"
-Popups="*res://Popups.gd"
+Global="*res://Scripts/Global.gd"
+Popups="*res://Scripts/Popups.gd"
 PopupsScene="*res://Popups.tscn"
 MouseCursor="*res://Mouse_Cursor.tscn"
 Visao="*res://Visao.tscn"

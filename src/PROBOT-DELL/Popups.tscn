@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://images/PopupDesign.png" type="Texture" id=1]
-[ext_resource path="res://Popups.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/Popups.gd" type="Script" id=2]
 
 [node name="Info_Popup" type="Popup"]
 margin_right = 167.0

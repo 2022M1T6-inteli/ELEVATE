@@ -9,7 +9,7 @@
 [ext_resource path="res://DellBorg_Player.tscn" type="PackedScene" id=7]
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=8]
 [ext_resource path="res://NPC_rosa.tscn" type="PackedScene" id=9]
-[ext_resource path="res://Primeiro_Plano.gd" type="Script" id=10]
+[ext_resource path="res://Scripts/Primeiro_Plano.gd" type="Script" id=10]
 [ext_resource path="res://Popups.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=12]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=13]
@@ -17,9 +17,9 @@
 [ext_resource path="res://AssetsInventario/INVENTARIO.png.png" type="Texture" id=15]
 [ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=16]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=17]
-[ext_resource path="res://AreaPC_Visao.gd" type="Script" id=18]
-[ext_resource path="res://NPC_Marcos.png" type="Texture" id=19]
-[ext_resource path="res://NPC_Marcos.gd" type="Script" id=20]
+[ext_resource path="res://Scripts/AreaPC_Visao.gd" type="Script" id=18]
+[ext_resource path="res://images/NPC_Marcos.png" type="Texture" id=19]
+[ext_resource path="res://Scripts/NPC_Marcos.gd" type="Script" id=20]
 
 [sub_resource type="TileSet" id=12]
 0/name = "Wall 3.png 0"

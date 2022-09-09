@@ -1,20 +1,18 @@
 extends Area2D
 
-
+#declaração de variáveis
 onready var InfoPopup= $Info_Popup
 onready var LabelPopup= $Info_Popup/Label_InfoPopup
-
-#declaração de variáveis
 var LiberaPorta= false
 
-#define variavel de controle como true ao entrar na area 2D
+#Define a variavel de controle como true. E mostra o popup na tela
 func _on_Area_elevador_body_entered(_body):
 	LiberaPorta= true
 	InfoPopup.visible= true
 	LabelPopup.text= Popups.InfoPopupList[0]	
 	InfoPopup.set_global_position(Vector2(110, 330))
 
-#define variavel de controle como false ao sair da area 2D
+#define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
 func _on_Area_elevador_body_exited(_body):
 	LiberaPorta= false
 	InfoPopup.visible= false

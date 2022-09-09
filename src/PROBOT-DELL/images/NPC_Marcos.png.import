@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/spritesheet_teste.png-a199a20eb7c98481fb0a432693fc29fe.stex"
+path="res://.import/NPC_Marcos.png-495aa9190370c63303eb8e6542c7fb84.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheet_teste.png"
-dest_files=[ "res://.import/spritesheet_teste.png-a199a20eb7c98481fb0a432693fc29fe.stex" ]
+source_file="res://images/NPC_Marcos.png"
+dest_files=[ "res://.import/NPC_Marcos.png-495aa9190370c63303eb8e6542c7fb84.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

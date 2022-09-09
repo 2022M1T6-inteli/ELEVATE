@@ -9,7 +9,7 @@ onready var LabelPopup= $Info_Popup/Label_InfoPopup
 func _ready():
 	pass
 
-#funcao que seta a variavel de controle do diálogo para true quando o player entrar no área 2D
+#Define a variavel de controle como true. E mostra o popup na tela
 func _on_Area_Recepcionista_body_entered(_body):
 	print("Oi")
 	DialogControl= true
@@ -17,7 +17,7 @@ func _on_Area_Recepcionista_body_entered(_body):
 	LabelPopup.text= Popups.InfoPopupList[3]
 	InfoPopup.set_global_position(Vector2(620, 370))
 	
-#funcao que seta a variavel de controle do diálogo para false quando o player sair da área 2D
+#define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
 func _on_Area_Recepcionista_body_exited(_body):
 	DialogControl= false
 	InfoPopup.visible= false

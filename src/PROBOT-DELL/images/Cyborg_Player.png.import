@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cyborg_Main_Personagem.png-31b9c5dc9313e2319589e269c7ddc68d.stex"
+path="res://.import/Cyborg_Player.png-5f9d5e87d48f36b34ea51776c7bca14f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cyborg_Main_Personagem.png"
-dest_files=[ "res://.import/Cyborg_Main_Personagem.png-31b9c5dc9313e2319589e269c7ddc68d.stex" ]
+source_file="res://images/Cyborg_Player.png"
+dest_files=[ "res://.import/Cyborg_Player.png-5f9d5e87d48f36b34ea51776c7bca14f.stex" ]
 
 [params]
 

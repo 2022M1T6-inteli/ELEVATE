@@ -24,7 +24,7 @@
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=22]
 [ext_resource path="res://images/Parede_laranja.png" type="Texture" id=23]
 [ext_resource path="res://Popups.tscn" type="PackedScene" id=24]
-[ext_resource path="res://TileMap_Recepcao.gd" type="Script" id=25]
+[ext_resource path="res://Scripts/TileMap_Recepcao.gd" type="Script" id=25]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=26]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=27]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=28]

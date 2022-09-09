@@ -1,5 +1,6 @@
 extends Node2D
 
+#Código reservado para mecânica que será implementada no futuro
 
 # Called when the node enters the scene tree for the first time.
 #func _ready():

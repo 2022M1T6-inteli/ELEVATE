@@ -1,5 +1,7 @@
 extends NinePatchRect
 
+#Código reservado para implementação de mecânicas futuras
+
 onready var text= $RichTextLabel
 
 var MessageQueue: Array = [

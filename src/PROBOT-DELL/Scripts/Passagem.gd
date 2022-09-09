@@ -4,14 +4,14 @@ var LiberaPorta= false
 onready var InfoPopup= $Info_Popup
 onready var LabelPopup= $Info_Popup/Label_InfoPopup
 
-#funçao que define se algo entrou em contato com a AREA2D
+#Define a variavel de controle como true. E mostra o popup na tela
 func _on_Area2D_body_entered(_body):
 	LiberaPorta= true
 	InfoPopup.visible= true
 	LabelPopup.text= Popups.InfoPopupList[0]
 	InfoPopup.set_global_position(Vector2(1000, 330))
 	
-#funçao que define se algo saiu de contato com a AREA2D
+#define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
 func _on_Area2D_body_exited(_body):
 	LiberaPorta= false
 	InfoPopup.visible= false

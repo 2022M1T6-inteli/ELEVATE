@@ -10,11 +10,11 @@ func _ready():
 	elif Global.NPCAzul_visible == true:
 		$NPC_Azul/Area2D.visible= false
 	
-
+#Define a variavel de controle como true.
 func _on_Area2D_body_entered(body):
 	PenDrive_visibility= true
 
-
+#define variavel de controle como false. 
 func _on_Area2D_body_exited(body):
 	PenDrive_visibility= false
 

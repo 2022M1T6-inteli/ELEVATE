@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cyborg_Player.png-0e99d6bb8a84063f70d684fbe403ac14.stex"
+path="res://.import/Cyborg_SpriteSheet.png-dca58140cb71a7e1b19a50cd6636db12.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cyborg_Player.png"
-dest_files=[ "res://.import/Cyborg_Player.png-0e99d6bb8a84063f70d684fbe403ac14.stex" ]
+source_file="res://images/Cyborg_SpriteSheet.png"
+dest_files=[ "res://.import/Cyborg_SpriteSheet.png-dca58140cb71a7e1b19a50cd6636db12.stex" ]
 
 [params]
 

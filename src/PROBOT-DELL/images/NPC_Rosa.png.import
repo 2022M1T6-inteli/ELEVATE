@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Biker_idle_esquerda.png-5d2bdb0ef10f5448ee5f075422013c2d.stex"
+path="res://.import/NPC_Rosa.png-e07416dcd43c8033643ce4c8ea415ecb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Biker_idle_esquerda.png"
-dest_files=[ "res://.import/Biker_idle_esquerda.png-5d2bdb0ef10f5448ee5f075422013c2d.stex" ]
+source_file="res://images/NPC_Rosa.png"
+dest_files=[ "res://.import/NPC_Rosa.png-e07416dcd43c8033643ce4c8ea415ecb.stex" ]
 
 [params]
 
