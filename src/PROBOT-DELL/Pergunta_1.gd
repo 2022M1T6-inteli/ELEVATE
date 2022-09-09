@@ -7,13 +7,16 @@ onready var texto_frente= $FlashCard_Frente/Texto_Button_Frente
 onready var texto_tras= $FlashCard_Tras/Texto_Button_Tras 
 
 var cont= 0    
-var quest= ["Você gosta de pipoca?", "Você é legal?", "O que é Visão", "Yo soy cabrero?"]
-var answer= ["Gosto", "Sou", "Visão é o que usamos para enxergar", "Soy si"]
-#var perguntas= {
-	#"Você gosta de pipoca??": "Gosto",
-	#"Você é legal": "Sou"
-	
-#}
+var quest= ["What is the vision's dimension of the product model?", 
+			"What is a vision statement?", 
+			"What is OGSM and why is it important to the vision´s dimension?", 
+			"What is PLM and what are our advantages in adopting it?"]
+			
+var answer= ["A statement of intent unit indicating what a company, business, or team wants to become and guiding transformational initiatives by setting a defined direction for future growth.", 
+			"The vision statement works like the Mission Statement for the product. Basically it explains why your product exists and involves setting a specific, realistic, long-term goal that shows where you want your product to be in the future.",
+			"The OGSM structure is an acronym for Objectives, Goals, Strategies and measures. It is very important to Vision because it allows companies to define what they wanna do first and then how they will get there.",
+			"The Product Lifecycle Management (PLM) is a management system of the product life cycle. One of the main advantages is a bigger comprehension of the market, facilitating the creation and development  of new products and raising market share."]
+
 var ListaPontos= []
 var pontos= 0
 
@@ -92,4 +95,21 @@ func _on_Button_Errado_pressed():
 	Premiacao()
 	
 
-	
+func _on_Home_Button_Platina_pressed():
+	get_tree().change_scene("res://Primeiro_Plano.tscn")
+
+
+func _on_Home_Button_Ouro_pressed():
+	get_tree().change_scene("res://Primeiro_Plano.tscn")
+
+
+func _on_Home_Button_Prata_pressed():
+	get_tree().change_scene("res://Primeiro_Plano.tscn")
+
+
+func _on_Home_Button_Bronze_pressed():
+	get_tree().change_scene("res://Primeiro_Plano.tscn")
+
+
+func _on_Home_Button_SemMedalha_pressed():
+	get_tree().change_scene("res://Primeiro_Plano.tscn")

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sofá_recepcao_1_resized.png-9e9490fc758b606ef6a79b4b414c56f7.stex"
+path="res://.import/NPC_Marcos.png-7c7f403c411081a1b59f95792fe745b3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Sofá_recepcao_1_resized.png"
-dest_files=[ "res://.import/Sofá_recepcao_1_resized.png-9e9490fc758b606ef6a79b4b414c56f7.stex" ]
+source_file="res://NPC_Marcos.png"
+dest_files=[ "res://.import/NPC_Marcos.png-7c7f403c411081a1b59f95792fe745b3.stex" ]
 
 [params]
 

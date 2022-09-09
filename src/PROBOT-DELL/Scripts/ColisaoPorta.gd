@@ -10,7 +10,7 @@ func _on_Area2D_body_entered(_body):
 	LiberaPorta= true
 	InfoPopup.visible= true
 	LabelPopup.text= Popups.InfoPopupList[1]
-	InfoPopup.set_global_position(Vector2(830, 340))
+	InfoPopup.set_global_position(Vector2(930, 340))
 	
 
 #funçao que verifica se algo saiu de contato com a AREA2D

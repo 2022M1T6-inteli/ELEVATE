@@ -1,0 +1,71 @@
+{
+	"events": [
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662703225.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662703225.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello, Dellborg. I have heard that you need a computer part to fix the computer downstairs. I am only authorized to give you the part after you learn more about what OGSM is."
+		},
+		{
+			"character": "character-1662703225.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Objectives, goals, strategies and measures is a fast method used in strategic planning. This is how it works:"
+		},
+		{
+			"character": "character-1662703225.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Objectives: You can start by defining clearly what you wish to achieve in the long term. Separate your objectives in smaller and more achievable goals."
+		},
+		{
+			"character": "character-1662703225.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " [color=#FF0000]Remember![/color] your goals must be specific, measurable, achievable and timebound."
+		},
+		{
+			"character": "character-1662703225.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Strategy: Consider which steps you have to take to achieve each one of your goals and develop your strategies. You also have to consider the available resources and the timeline."
+		},
+		{
+			"character": "character-1662703225.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Measures: Define quantifiable metrics to measure your progress."
+		},
+		{
+			"character": "character-1662703225.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Very well! you are free to grab the part. It is by my side!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1662703265.json",
+		"name": "Dialogo_Pinky"
+	}
+}

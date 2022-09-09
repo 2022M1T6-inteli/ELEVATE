@@ -11,7 +11,7 @@ func _on_Area2D2_body_entered(_body):
 	LiberaPorta= true
 	InfoPopup.visible= true
 	LabelPopup.text= Popups.InfoPopupList[2]
-	InfoPopup.set_global_position(Vector2(55, 325))
+	InfoPopup.set_global_position(Vector2(45, 335))
 
 
 #define variavel de controle como false ao sair da area 2D

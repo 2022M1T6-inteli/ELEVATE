@@ -4,7 +4,7 @@
 [ext_resource path="res://Popups.gd" type="Script" id=2]
 
 [node name="Info_Popup" type="Popup"]
-margin_right = 190.0
+margin_right = 167.0
 margin_bottom = 86.0
 script = ExtResource( 2 )
 __meta__ = {

@@ -15,7 +15,7 @@ func _on_Area_Recepcionista_body_entered(_body):
 	DialogControl= true
 	InfoPopup.visible= true
 	LabelPopup.text= Popups.InfoPopupList[3]
-	InfoPopup.set_global_position(Vector2(595, 370))
+	InfoPopup.set_global_position(Vector2(620, 370))
 	
 #funcao que seta a variavel de controle do diálogo para false quando o player sair da área 2D
 func _on_Area_Recepcionista_body_exited(_body):

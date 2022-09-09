@@ -168,27 +168,27 @@ extents = Vector2( 54.5, 49 )
 script = ExtResource( 5 )
 
 [node name="1" type="Sprite" parent="."]
-position = Vector2( 888.25, 75.5 )
+position = Vector2( 893, 175 )
 scale = Vector2( 3.1658, 2.86728 )
 texture = ExtResource( 18 )
 
 [node name="3" type="Sprite" parent="."]
-position = Vector2( 748, 72 )
+position = Vector2( 748, 170 )
 scale = Vector2( 2.40972, 2.37037 )
 texture = ExtResource( 1 )
 
 [node name="2" type="Sprite" parent="."]
-position = Vector2( 832, -22 )
+position = Vector2( 832, 82 )
 scale = Vector2( 2.98264, 2.91512 )
 texture = ExtResource( 3 )
 
 [node name="Predios2" type="Sprite" parent="."]
-position = Vector2( 1026, 90 )
+position = Vector2( 1026, 190 )
 scale = Vector2( 2.58333, 2.18586 )
 texture = ExtResource( 15 )
 
 [node name="TileMap" type="TileMap" parent="."]
-position = Vector2( 5, 0 )
+position = Vector2( 5, 105 )
 tile_set = SubResource( 3 )
 cell_size = Vector2( 32, 32 )
 format = 1
@@ -214,6 +214,7 @@ visible = false
 position = Vector2( -26, 442 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( -8, 104 )
 shape = SubResource( 4 )
 
 [node name="Area2D" type="Area2D" parent="."]
@@ -223,18 +224,18 @@ script = ExtResource( 16 )
 [node name="Sprite" type="Sprite" parent="Area2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( 1016.5, 395 )
+position = Vector2( 1014, 500 )
 shape = SubResource( 5 )
 
 [node name="Info_Popup" parent="Area2D" instance=ExtResource( 19 )]
 
 [node name="Dell-Logo-1989-2016" type="Sprite" parent="."]
-position = Vector2( 1020, 299 )
+position = Vector2( 1023, 337 )
 scale = Vector2( 0.107075, 0.100733 )
 texture = ExtResource( 17 )
 
 [node name="MainPersonagemMVP2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 115, 433 )
+position = Vector2( 117, 537 )
 
 [node name="Mouse_Cursor" parent="." instance=ExtResource( 20 )]
 
