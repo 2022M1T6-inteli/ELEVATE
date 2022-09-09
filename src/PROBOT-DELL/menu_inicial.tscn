@@ -139,7 +139,6 @@ texture = ExtResource( 7 )
 
 [node name="Mouse_Cursor" parent="." instance=ExtResource( 11 )]
 position = Vector2( 0, 3.05176e-05 )
-scale = Vector2( 1, 1 )
 
 [connection signal="pressed" from="jogar_button" to="." method="_on_jogar_button_pressed"]
 [connection signal="pressed" from="config_button" to="." method="_on_config_button_pressed"]

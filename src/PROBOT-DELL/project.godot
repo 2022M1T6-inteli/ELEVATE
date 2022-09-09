@@ -90,6 +90,7 @@ Global="*res://Global.gd"
 Popups="*res://Popups.gd"
 PopupsScene="*res://Popups.tscn"
 MouseCursor="*res://Mouse_Cursor.tscn"
+Visao="*res://Visao.tscn"
 
 [display]
 

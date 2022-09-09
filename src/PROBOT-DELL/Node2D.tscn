@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=30 format=2]
 
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/2 Background/Day/3.png" type="Texture" id=1]
 [ext_resource path="res://DellBorg_Player.tscn" type="PackedScene" id=2]
@@ -20,6 +20,11 @@
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/2 Background/Day/1.png" type="Texture" id=18]
 [ext_resource path="res://Popups.tscn" type="PackedScene" id=19]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=20]
+[ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=21]
+[ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=22]
+[ext_resource path="res://AssetsInventario/INVENTARIO.png.png" type="Texture" id=23]
+[ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=24]
+[ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=25]
 
 [sub_resource type="TileSet" id=3]
 0/name = "01"
@@ -232,6 +237,37 @@ texture = ExtResource( 17 )
 position = Vector2( 115, 433 )
 
 [node name="Mouse_Cursor" parent="." instance=ExtResource( 20 )]
+
+[node name="Inventario" type="Camera2D" parent="."]
+
+[node name="Inventariopng" type="Sprite" parent="Inventario"]
+position = Vector2( 286, 213.5 )
+scale = Vector2( 3.13333, 2.98333 )
+texture = ExtResource( 23 )
+
+[node name="PenDrive" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( -70.3723, -52.0391 )
+scale = Vector2( 0.489729, 0.324588 )
+texture = ExtResource( 21 )
+
+[node name="RAM" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( -41.0106, -51.4525 )
+scale = Vector2( 0.253609, 0.352837 )
+texture = ExtResource( 22 )
+
+[node name="Cd" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( 17.0745, -51.7877 )
+scale = Vector2( 0.330825, 0.310669 )
+texture = ExtResource( 25 )
+
+[node name="PapelSenha" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( -11.25, -51.6201 )
+scale = Vector2( 0.341945, 0.237989 )
+texture = ExtResource( 24 )
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Area2D" to="Area2D" method="_on_Area2D_body_exited"]

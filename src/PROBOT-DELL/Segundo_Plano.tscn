@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=1]
 [ext_resource path="res://images/Floor 1.png" type="Texture" id=2]
@@ -11,8 +11,13 @@
 [ext_resource path="res://DellBorg_Player.tscn" type="PackedScene" id=9]
 [ext_resource path="res://PauseMenu.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=11]
+[ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=12]
 [ext_resource path="res://Scripts/Area_elevador.gd" type="Script" id=13]
 [ext_resource path="res://NPC_Azul.tscn" type="PackedScene" id=14]
+[ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=15]
+[ext_resource path="res://AssetsInventario/INVENTARIO.png.png" type="Texture" id=16]
+[ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=17]
+[ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=18]
 
 [sub_resource type="TileSet" id=1]
 0/name = "Floor 1.png 0"
@@ -95,6 +100,9 @@ b = Vector2( 1, 656 )
 [sub_resource type="RectangleShape2D" id=9]
 extents = Vector2( 35, 50 )
 
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 25, 23 )
+
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 8 )
 
@@ -143,6 +151,8 @@ position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
 [node name="Info_Popup" parent="Area_elevador" instance=ExtResource( 6 )]
+margin_top = 80.0
+margin_bottom = 580.0
 
 [node name="NPC_rosa" parent="." instance=ExtResource( 7 )]
 visible = false
@@ -152,10 +162,58 @@ position = Vector2( 256, 559 )
 
 [node name="NPC_Azul" parent="." instance=ExtResource( 14 )]
 
+[node name="Mouse_Cursor2" parent="." instance=ExtResource( 11 )]
+
+[node name="Inventario" type="Camera2D" parent="."]
+
+[node name="Inventariopng" type="Sprite" parent="Inventario"]
+position = Vector2( 286, 213.5 )
+scale = Vector2( 3.13333, 2.98333 )
+texture = ExtResource( 16 )
+
+[node name="PenDrive" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( -70.3723, -52.0391 )
+scale = Vector2( 0.489729, 0.324588 )
+texture = ExtResource( 12 )
+
+[node name="RAM" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( -41.0106, -51.4525 )
+scale = Vector2( 0.253609, 0.352837 )
+texture = ExtResource( 15 )
+
+[node name="Cd" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( 17.0745, -51.7877 )
+scale = Vector2( 0.330825, 0.310669 )
+texture = ExtResource( 18 )
+
+[node name="PapelSenha" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( -11.25, -51.6201 )
+scale = Vector2( 0.341945, 0.237989 )
+texture = ExtResource( 17 )
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2( 834, 566 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="PenDrive" type="Sprite" parent="Area2D"]
+position = Vector2( -1, -2 )
+scale = Vector2( 0.489729, 0.324588 )
+texture = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -2, -13 )
+shape = SubResource( 10 )
+
 [node name="MainPersonagemMVP2" parent="." instance=ExtResource( 9 )]
 position = Vector2( 256, 559 )
 
-[node name="Mouse_Cursor2" parent="." instance=ExtResource( 11 )]
-
 [connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
 [connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]

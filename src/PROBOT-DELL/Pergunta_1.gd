@@ -46,14 +46,29 @@ func Premiacao():
 	if cont == 4:
 		if pontos == 4:
 			print("PLATINA")
+			$FlashCard_Tras.visible= false
+			$FlashCard_Frente.visible= false
+			$"/root/Visao/Platina".visible= true
 		if pontos == 3:
 			print ("OURO")
+			$FlashCard_Tras.visible= false
+			$FlashCard_Frente.visible= false
+			$"/root/Visao/Ouro".visible= true
 		if pontos == 2:
 			print ("PRATA")
+			$FlashCard_Tras.visible= false
+			$FlashCard_Frente.visible= false
+			$"/root/Visao/Prata".visible= true
 		if pontos == 1:
 			print ("BRONZE")
+			$FlashCard_Tras.visible= false
+			$FlashCard_Frente.visible= false
+			$"/root/Visao/Bronze".visible= true
 		if pontos == 0:
 			print ("Você não atingiu a pontuação suficiente para passar de fase")
+			$FlashCard_Tras.visible= false
+			$FlashCard_Frente.visible= false
+			$"/root/Visao/SemMedalha".visible= true
 
 func _on_Button_Flashcard_Front_pressed():
 	visibility_card_front.visible= false

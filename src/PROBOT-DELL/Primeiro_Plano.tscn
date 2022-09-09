@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://images/Floor 1.png" type="Texture" id=1]
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=2]
@@ -12,6 +12,12 @@
 [ext_resource path="res://Primeiro_Plano.gd" type="Script" id=10]
 [ext_resource path="res://Popups.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=12]
+[ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=13]
+[ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=14]
+[ext_resource path="res://AssetsInventario/INVENTARIO.png.png" type="Texture" id=15]
+[ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=16]
+[ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=17]
+[ext_resource path="res://AreaPC_Visao.gd" type="Script" id=18]
 
 [sub_resource type="TileSet" id=1]
 0/name = "Floor 1.png 0"
@@ -94,6 +100,9 @@ b = Vector2( 1, 656 )
 [sub_resource type="RectangleShape2D" id=9]
 extents = Vector2( 35, 50 )
 
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 50, 63.5 )
+
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 10 )
 
@@ -135,6 +144,8 @@ position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
 [node name="Info_Popup" parent="Area_elevador" instance=ExtResource( 11 )]
+margin_left = 100.0
+margin_right = 300.0
 
 [node name="NPC_rosa" parent="." instance=ExtResource( 9 )]
 position = Vector2( -12, -6 )
@@ -151,5 +162,49 @@ position = Vector2( 236, 561 )
 
 [node name="Mouse_Cursor" parent="." instance=ExtResource( 12 )]
 
+[node name="Inventario" type="Camera2D" parent="."]
+
+[node name="Inventariopng" type="Sprite" parent="Inventario"]
+position = Vector2( 286, 213.5 )
+scale = Vector2( 3.13333, 2.98333 )
+texture = ExtResource( 15 )
+
+[node name="PenDrive" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( -70.3723, -52.0391 )
+scale = Vector2( 0.489729, 0.324588 )
+texture = ExtResource( 13 )
+
+[node name="RAM" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( -41.0106, -51.4525 )
+scale = Vector2( 0.253609, 0.352837 )
+texture = ExtResource( 14 )
+
+[node name="Cd" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( 17.0745, -51.7877 )
+scale = Vector2( 0.330825, 0.310669 )
+texture = ExtResource( 17 )
+
+[node name="PapelSenha" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( -11.25, -51.6201 )
+scale = Vector2( 0.341945, 0.237989 )
+texture = ExtResource( 16 )
+
+[node name="AreaPC_Visao" type="Area2D" parent="."]
+position = Vector2( 1051, 565 )
+script = ExtResource( 18 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaPC_Visao"]
+position = Vector2( 22, -53.5 )
+shape = SubResource( 10 )
+
 [connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
 [connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]
+[connection signal="body_entered" from="AreaPC_Visao" to="AreaPC_Visao" method="_on_AreaPC_Visao_body_entered"]
+[connection signal="body_exited" from="AreaPC_Visao" to="AreaPC_Visao" method="_on_AreaPC_Visao_body_exited"]

@@ -6,5 +6,8 @@ var NewDialog= Dialogic.start('Dialogo_inicial')
 #função que implementa o diálogo assim que o jogador entrar na cena
 func _ready():
 	#add_child(NewDialog)
-	pass
+	if Global.Inventario_Itens[0] == true:
+		$Inventario/Inventariopng/PenDrive.visible= true
+	if Global.Inventario_Itens[0] == false:
+		$Inventario/Inventariopng/PenDrive.visible= false
 
