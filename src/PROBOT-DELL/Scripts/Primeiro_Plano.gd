@@ -7,5 +7,5 @@ func _ready():
 		$Inventario/Inventariopng/PenDrive.visible= true 
 
 	
-func _physics_process(delta):
+func _physics_process(_delta):
 	pass

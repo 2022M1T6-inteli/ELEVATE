@@ -11,7 +11,7 @@ func _ready():
 
 
 #Define a variavel de controle como true. E mostra o popup na tela
-func _on_NPC_Pinky_body_entered(body):
+func _on_NPC_Pinky_body_entered(_body):
 	DialogControl= true
 	InfoPopup.visible= true
 	LabelPopup.text= Popups.InfoPopupList[5]
@@ -19,11 +19,11 @@ func _on_NPC_Pinky_body_entered(body):
 	
 
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
-func _on_NPC_Pinky_body_exited(body):
+func _on_NPC_Pinky_body_exited(_body):
 	DialogControl= false
 	InfoPopup.visible= false
 	
 	
-func _physics_process(delta):
+func _physics_process(_delta):
 	if DialogControl == true and Input.is_action_just_pressed("ui_e"):
 		add_child(NewDialog)

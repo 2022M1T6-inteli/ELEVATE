@@ -4,7 +4,7 @@ onready var visibility_card_front= $FlashCard_Frente
 onready var visibility_card_back= $FlashCard_Tras
 onready var texto_frente= $FlashCard_Frente/Texto_Button_Frente
 onready var texto_tras= $FlashCard_Tras/Texto_Button_Tras 
-var cont= 0    
+var conta= 0    
 var quest= ["What is the vision's dimension of the product model?", 
 			"What is a vision statement?", 
 			"What is OGSM and why is it important to the vision´s dimension?", 
@@ -27,19 +27,19 @@ func _ready():
 #então irá fazer um if, onde dependendo do valor do cont, ele irá mostrar uma 
 #nova pergunta e uma nova resposta
 func PassCards():
-	cont += 1
-	if cont == 1:
+	conta += 1
+	if conta == 1:
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[1]
 		texto_tras.text= answer[1]
 	
-	if cont == 2:
+	if conta == 2:
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[2]
 		texto_tras.text= answer[2]
-	if cont == 3:
+	if conta == 3:
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[3]
@@ -47,28 +47,28 @@ func PassCards():
 	
 #funcao que mostra qual foi a medalha ganha pelo usuário
 func Premiacao():
-	if cont == 4:
+	if conta == 4:
 		if pontos == 4:
 			print("PLATINA")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			$"/root/Visao/Platina".visible= true
-		if pontos == 3:
+		elif pontos == 3:
 			print ("OURO")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			$"/root/Visao/Ouro".visible= true
-		if pontos == 2:
+		elif pontos == 2:
 			print ("PRATA")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			$"/root/Visao/Prata".visible= true
-		if pontos == 1:
+		elif pontos == 1:
 			print ("BRONZE")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			$"/root/Visao/Bronze".visible= true
-		if pontos == 0:
+		elif pontos == 0:
 			print ("Você não atingiu a pontuação suficiente para passar de fase")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
@@ -99,20 +99,20 @@ func _on_Button_Errado_pressed():
 #Funções que trocam de cena ao player apertar o botão home depois que ele terminar
 #todos os flashcards daquela dimensão
 func _on_Home_Button_Platina_pressed():
-	get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 
 func _on_Home_Button_Ouro_pressed():
-	get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 
 func _on_Home_Button_Prata_pressed():
-	get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 
 func _on_Home_Button_Bronze_pressed():
-	get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 
 func _on_Home_Button_SemMedalha_pressed():
-	get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Primeiro_Plano.tscn")
