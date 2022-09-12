@@ -19,6 +19,8 @@ func _on_Area_elevador_body_exited(_body):
 	
 
 #funcao process delta que está fazendo a verificação da variavel de controle e de qual botão do teclado foi pressionado, para então trocar para a cena da recepção
-func _physics_process(_delta):
+func _process(_delta):
+	print (LiberaPorta)
 	if LiberaPorta == true and Input.is_action_just_pressed("ui_accept"):
+		print("Im entering")
 		return get_tree().change_scene("res://painelpreto.tscn")

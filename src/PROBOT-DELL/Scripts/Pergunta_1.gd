@@ -99,20 +99,25 @@ func _on_Button_Errado_pressed():
 #Funções que trocam de cena ao player apertar o botão home depois que ele terminar
 #todos os flashcards daquela dimensão
 func _on_Home_Button_Platina_pressed():
+	Global.Inventario_Itens[0]= false
 	return get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 
 func _on_Home_Button_Ouro_pressed():
+	Global.Inventario_Itens[0]= false
 	return get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 
 func _on_Home_Button_Prata_pressed():
+	Global.Inventario_Itens[0]= false
 	return get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 
 func _on_Home_Button_Bronze_pressed():
+	Global.Inventario_Itens[0]= false
 	return get_tree().change_scene("res://Primeiro_Plano.tscn")
 
 
 func _on_Home_Button_SemMedalha_pressed():
+	Global.Inventario_Itens[0]= false
 	return get_tree().change_scene("res://Primeiro_Plano.tscn")

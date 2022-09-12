@@ -5,6 +5,8 @@ extends Node2D
 func _ready():
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true 
+	elif Global.Inventario_Itens[0] == false:
+		$Inventario/Inventariopng/PenDrive.visible= false 
 
 	
 func _physics_process(_delta):
