@@ -18,8 +18,10 @@ func _process(_delta):
 "
 
 [node name="Mouse_Cursor" type="Node2D"]
+pause_mode = 2
 script = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
+pause_mode = 2
 scale = Vector2( 1.1875, 1.125 )
 texture = ExtResource( 1 )

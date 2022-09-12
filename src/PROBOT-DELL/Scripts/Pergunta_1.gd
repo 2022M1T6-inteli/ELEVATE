@@ -120,4 +120,4 @@ func _on_Home_Button_Bronze_pressed():
 
 func _on_Home_Button_SemMedalha_pressed():
 	Global.Inventario_Itens[0]= false
-	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().go("res://Primeiro_Plano.tscn")
