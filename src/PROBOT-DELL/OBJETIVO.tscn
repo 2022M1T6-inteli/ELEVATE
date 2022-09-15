@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://OBJETIVO.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 629.0
+margin_top = 28.0
+margin_right = 1012.0
+margin_bottom = 119.0
+color = Color( 0, 0, 0, 0.14902 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label" type="Label" parent="ColorRect"]
+margin_right = 154.0
+margin_bottom = 35.0
+rect_scale = Vector2( 2.5, 2.5 )
+custom_colors/font_color = Color( 0.968627, 1, 0.027451, 1 )
+text = "Enter the building"
+align = 1
+valign = 1

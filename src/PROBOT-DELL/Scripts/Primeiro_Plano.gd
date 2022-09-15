@@ -7,7 +7,8 @@ func _ready():
 		$Inventario/Inventariopng/PenDrive.visible= true 
 	elif Global.Inventario_Itens[0] == false:
 		$Inventario/Inventariopng/PenDrive.visible= false 
+	Global.contador += 1
 
 	
 func _physics_process(_delta):
-	pass
+	print(Global.contador)

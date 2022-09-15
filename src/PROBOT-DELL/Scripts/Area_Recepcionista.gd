@@ -17,6 +17,7 @@ func _on_Area_Recepcionista_body_entered(_body):
 	LabelPopup.text= Popups.InfoPopupList[3]
 	InfoPopup.set_global_position(Vector2(620, 370))
 	
+	
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
 func _on_Area_Recepcionista_body_exited(_body):
 	DialogControl= false
@@ -26,4 +27,6 @@ func _on_Area_Recepcionista_body_exited(_body):
 func _physics_process(_delta):
 	if DialogControl == true and Input.is_action_just_pressed("ui_e"):
 		add_child(NewDialog)
+		Global.contador += 1
+		
 		

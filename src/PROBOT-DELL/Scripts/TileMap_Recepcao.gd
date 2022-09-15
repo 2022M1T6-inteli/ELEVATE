@@ -11,8 +11,7 @@ extends Node2D
 func _ready():
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true 
+	Global.contador += 1
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
 #	pass

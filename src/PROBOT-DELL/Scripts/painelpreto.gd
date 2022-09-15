@@ -20,6 +20,7 @@ func _process(_delta):
 func _on_Button1_pressed():
 	get_node("PainelPreto/Label").text= str(1)
 	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	
 
 func _on_Button2_pressed():
 	get_node("PainelPreto/Label").text= str(2)
