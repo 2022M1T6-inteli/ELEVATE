@@ -91,6 +91,7 @@ Popups="*res://Scripts/Popups.gd"
 PopupsScene="*res://Popups.tscn"
 MouseCursor="*res://Mouse_Cursor.tscn"
 Visao="*res://Visao.tscn"
+BackgroundMusic="*res://BackgroundMusic.tscn"
 
 [display]
 

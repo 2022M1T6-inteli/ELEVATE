@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=2]
+[gd_scene load_steps=50 format=2]
 
 [ext_resource path="res://images/Floor 4.png" type="Texture" id=1]
 [ext_resource path="res://images/Janela recepção.jpeg" type="Texture" id=2]
@@ -11,7 +11,7 @@
 [ext_resource path="res://images/imagem personagem 2 frente (1).png" type="Texture" id=9]
 [ext_resource path="res://images/cacto resized.png" type="Texture" id=10]
 [ext_resource path="res://images/Sofá_recepcao_1_resized.png" type="Texture" id=11]
-[ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Other/Box.png" type="Texture" id=12]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/Pc Recepção.png" type="Texture" id=12]
 [ext_resource path="res://images/door_outside_resized.png" type="Texture" id=13]
 [ext_resource path="res://Scripts/Passagem.gd" type="Script" id=14]
 [ext_resource path="res://images/Door_new.png" type="Texture" id=15]
@@ -32,6 +32,14 @@
 [ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=30]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=31]
 [ext_resource path="res://OBJETIVO.tscn" type="PackedScene" id=32]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/TVAnimação/TVTESTE1.png" type="Texture" id=33]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/Porta.png" type="Texture" id=34]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/Trava Porta.png" type="Texture" id=35]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/mapa.png" type="Texture" id=36]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/Mesa Recepção.png" type="Texture" id=37]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/TVAnimação/TVTESTE2.png" type="Texture" id=38]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/0.png" type="Texture" id=39]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/TVAnimação/TVTESTE3.png" type="Texture" id=40]
 
 [sub_resource type="TileSet" id=9]
 0/name = "Parede_laranja.png 0"
@@ -362,6 +370,14 @@ extents = Vector2( 34.5, 50 )
 [sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 639.125, 15.625 )
 
+[sub_resource type="SpriteFrames" id=10]
+animations = [ {
+"frames": [ ExtResource( 33 ), ExtResource( 38 ), ExtResource( 40 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
 [node name="Node2D" type="Node2D"]
 pause_mode = 1
 script = ExtResource( 25 )
@@ -406,16 +422,6 @@ shape = SubResource( 7 )
 
 [node name="Info_Popup" parent="Area_Recepcionista" instance=ExtResource( 24 )]
 
-[node name="Box2" type="Sprite" parent="."]
-position = Vector2( 738.5, 549.988 )
-scale = Vector2( 2.03125, 2.0479 )
-texture = ExtResource( 12 )
-
-[node name="Box" type="Sprite" parent="."]
-position = Vector2( 672, 549.988 )
-scale = Vector2( 2.125, 2.09153 )
-texture = ExtResource( 12 )
-
 [node name="Colisao_Parede_Esquerda" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Colisao_Parede_Esquerda"]
@@ -447,6 +453,11 @@ shape = SubResource( 5 )
 
 [node name="Info_Popup" parent="Area2D" instance=ExtResource( 24 )]
 
+[node name="Porta" type="Sprite" parent="Area2D"]
+position = Vector2( 125, 513.063 )
+scale = Vector2( 0.439024, 0.338061 )
+texture = ExtResource( 34 )
+
 [node name="Colisao_Parede_Direita" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Colisao_Parede_Direita"]
@@ -466,8 +477,6 @@ margin_left = 600.0
 margin_top = 152.0
 margin_right = 600.0
 margin_bottom = 152.0
-
-[node name="MainPersonagemMVP2" parent="." instance=ExtResource( 3 )]
 
 [node name="Mouse_Cursor" parent="." instance=ExtResource( 26 )]
 
@@ -503,6 +512,50 @@ scale = Vector2( 0.341945, 0.237989 )
 texture = ExtResource( 30 )
 
 [node name="Node2D" parent="." instance=ExtResource( 32 )]
+
+[node name="PcRecepção" type="Sprite" parent="."]
+position = Vector2( 678, 538 )
+scale = Vector2( 0.206026, 0.209288 )
+texture = ExtResource( 12 )
+
+[node name="MesaRecepção" type="Sprite" parent="PcRecepção"]
+position = Vector2( -232.98, 76.4495 )
+scale = Vector2( 0.939585, 0.830067 )
+texture = ExtResource( 37 )
+
+[node name="MesaRecepção2" type="Sprite" parent="PcRecepção"]
+position = Vector2( 237.834, 76.45 )
+scale = Vector2( 0.939585, 0.830067 )
+texture = ExtResource( 37 )
+
+[node name="TravaPorta" type="Sprite" parent="PcRecepção"]
+position = Vector2( -232.98, -105.119 )
+scale = Vector2( 0.537911, 0.489034 )
+texture = ExtResource( 35 )
+
+[node name="TravaPorta" type="Sprite" parent="."]
+position = Vector2( 198, 514 )
+scale = Vector2( 0.121134, 0.112416 )
+texture = ExtResource( 35 )
+
+[node name="Mapa" type="Sprite" parent="."]
+position = Vector2( 492, 422 )
+scale = Vector2( 0.194193, 0.197644 )
+texture = ExtResource( 36 )
+
+[node name="Tvteste1" type="AnimatedSprite" parent="."]
+position = Vector2( 895, 424 )
+scale = Vector2( 0.596939, 0.644 )
+frames = SubResource( 10 )
+speed_scale = 0.15
+playing = true
+
+[node name="0" type="Sprite" parent="."]
+position = Vector2( 1085, 407 )
+scale = Vector2( 2.0625, 1.88889 )
+texture = ExtResource( 39 )
+
+[node name="MainPersonagemMVP2" parent="." instance=ExtResource( 3 )]
 
 [connection signal="body_entered" from="Area_Recepcionista" to="Area_Recepcionista" method="_on_Area_Recepcionista_body_entered"]
 [connection signal="body_exited" from="Area_Recepcionista" to="Area_Recepcionista" method="_on_Area_Recepcionista_body_exited"]
