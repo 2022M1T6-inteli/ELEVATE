@@ -1,15 +1,19 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Scripts/PauseMenu.gd" type="Script" id=1]
+[ext_resource path="res://images/BOTAO_CONT_BRANCO.png" type="Texture" id=2]
+[ext_resource path="res://images/BOTAO_CONT_ROSA2.png" type="Texture" id=3]
+[ext_resource path="res://images/BOTAO_MENU_BRANCO.png" type="Texture" id=4]
+[ext_resource path="res://images/BOTAO_MENU_ROSA.png" type="Texture" id=5]
 
 [node name="PauseMenu" type="Control"]
 pause_mode = 2
 anchor_right = 1.0
 anchor_bottom = 1.009
-margin_left = 650.0
-margin_top = 91.0
-margin_right = 372.0
-margin_bottom = -65.85
+margin_left = 132.0
+margin_top = -61.0
+margin_right = -146.0
+margin_bottom = -217.85
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
@@ -25,16 +29,20 @@ color = Color( 0, 0.498039, 0.74902, 1 )
 [node name="CenterContainer" type="CenterContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = -8.0
+margin_top = -5.0
+margin_right = -8.0
+margin_bottom = -5.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
-margin_left = 461.0
-margin_top = 202.0
-margin_right = 530.0
-margin_bottom = 296.0
+margin_left = 469.0
+margin_top = 232.0
+margin_right = 522.0
+margin_bottom = 266.0
 custom_constants/separation = 10
 
 [node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
-margin_right = 69.0
+margin_right = 53.0
 margin_bottom = 14.0
 text = "Pausado"
 align = 1
@@ -42,21 +50,29 @@ valign = 1
 
 [node name="Control" type="Control" parent="CenterContainer/VBoxContainer"]
 margin_top = 24.0
-margin_right = 69.0
+margin_right = 53.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 0, 10 )
 
-[node name="ContinueButton" type="Button" parent="CenterContainer/VBoxContainer"]
-margin_top = 44.0
-margin_right = 69.0
-margin_bottom = 64.0
-text = "Continue"
+[node name="ContinueButton" type="TextureButton" parent="."]
+margin_left = 433.0
+margin_top = 259.0
+margin_right = 538.0
+margin_bottom = 296.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 2 )
+texture_hover = ExtResource( 2 )
+expand = true
 
-[node name="QuitButton" type="Button" parent="CenterContainer/VBoxContainer"]
-margin_top = 74.0
-margin_right = 69.0
-margin_bottom = 94.0
-text = "Menu"
+[node name="QuitButton" type="TextureButton" parent="."]
+margin_left = 433.0
+margin_top = 304.0
+margin_right = 538.0
+margin_bottom = 339.0
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+expand = true
 
-[connection signal="pressed" from="CenterContainer/VBoxContainer/ContinueButton" to="." method="_on_ContinueButton_pressed"]
-[connection signal="pressed" from="CenterContainer/VBoxContainer/QuitButton" to="." method="_on_QuitButton_pressed"]
+[connection signal="pressed" from="ContinueButton" to="." method="_on_ContinueButton_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_QuitButton_pressed"]
