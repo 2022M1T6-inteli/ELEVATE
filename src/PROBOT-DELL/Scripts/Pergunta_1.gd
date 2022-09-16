@@ -7,13 +7,13 @@ onready var texto_tras= $FlashCard_Tras/Texto_Button_Tras
 var conta= 0    
 var botaoCerto = 0;
 var botaoErrado = 0;
-var quest= ["Bem vindo ao jogo, clique na tela",
+var quest= ["Welcome to the game, click on the screen to proceed",
 			"What is the vision's dimension of the product model?", 
 			"What is a vision statement?", 
 			"What is OGSM and why is it important to the vision´s dimension?", 
 			"What is PLM and what are our advantages in adopting it?"]
 			
-var answer= ["Aqui aparecerá as respostas, clique CHECK",
+var answer= ["Here the statements about the questions will appear. If you think the statement is correct, press check, if you think the statement is false, press X.",
 			"It is a statement of intent indicating what a company, business unit or team wants to become and guiding transformational initiatives, setting a defined direction for future growth.", 
 			"It is a detailed document on how the project will reach the desired result, involving all stages of the process",
 			"The OGSM structure is an acronym for Objectives, Goals, Strategies and measures. It is very important to Vision because it allows companies to define what they wanna do first and then how they will get there.",
