@@ -26,4 +26,5 @@ func _physics_process(_delta):
 	if Global.Inventario_Itens[0] == true and ControlPc == true and Input.is_action_just_pressed("ui_e"):
 		InfoPopup.visible= false
 		return get_tree().change_scene("res://Visao.tscn")
+		Global.contador = 7
 

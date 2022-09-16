@@ -5,21 +5,22 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_left = 629.0
-margin_top = 28.0
-margin_right = 1012.0
-margin_bottom = 119.0
-color = Color( 0, 0, 0, 0.14902 )
+margin_left = 474.0
+margin_top = 22.0
+margin_right = 1213.0
+margin_bottom = 84.0
+color = Color( 0.32549, 0.396078, 0.458824, 1 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Label" type="Label" parent="ColorRect"]
-margin_right = 154.0
-margin_bottom = 35.0
+margin_top = 1.0
+margin_right = 285.0
+margin_bottom = 28.0
 rect_scale = Vector2( 2.5, 2.5 )
-custom_colors/font_color = Color( 0.968627, 1, 0.027451, 1 )
+custom_colors/font_color = Color( 0.290196, 0.505882, 0.654902, 1 )
 text = "Enter the building"
 align = 1
 valign = 1

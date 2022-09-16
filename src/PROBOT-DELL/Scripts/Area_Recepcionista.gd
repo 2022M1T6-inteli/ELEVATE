@@ -27,6 +27,6 @@ func _on_Area_Recepcionista_body_exited(_body):
 func _physics_process(_delta):
 	if DialogControl == true and Input.is_action_just_pressed("ui_e"):
 		add_child(NewDialog)
-		Global.contador += 1
+		Global.contador = 2
 		
 		

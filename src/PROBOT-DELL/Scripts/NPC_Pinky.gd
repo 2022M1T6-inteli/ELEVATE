@@ -27,3 +27,4 @@ func _on_NPC_Pinky_body_exited(_body):
 func _physics_process(_delta):
 	if DialogControl == true and Input.is_action_just_pressed("ui_e"):
 		add_child(NewDialog)
+		Global.contador = 5

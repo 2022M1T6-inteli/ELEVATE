@@ -11,7 +11,7 @@ extends Node2D
 func _ready():
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true 
-	Global.contador += 1
+	Global.contador = 1
 
 
 #	pass
