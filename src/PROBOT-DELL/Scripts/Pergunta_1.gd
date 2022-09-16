@@ -5,13 +5,17 @@ onready var visibility_card_back= $FlashCard_Tras
 onready var texto_frente= $FlashCard_Frente/Texto_Button_Frente
 onready var texto_tras= $FlashCard_Tras/Texto_Button_Tras 
 var conta= 0    
-var quest= ["What is the vision's dimension of the product model?", 
+var botaoCerto = 0;
+var botaoErrado = 0;
+var quest= ["Bem vindo ao jogo, clique na tela",
+			"What is the vision's dimension of the product model?", 
 			"What is a vision statement?", 
 			"What is OGSM and why is it important to the vision´s dimension?", 
 			"What is PLM and what are our advantages in adopting it?"]
 			
-var answer= ["A statement of intent unit indicating what a company, business, or team wants to become and guiding transformational initiatives by setting a defined direction for future growth.", 
-			"The vision statement works like the Mission Statement for the product. Basically it explains why your product exists and involves setting a specific, realistic, long-term goal that shows where you want your product to be in the future.",
+var answer= ["Aqui aparecerá as respostas, clique CHECK",
+			"It is a statement of intent indicating what a company, business unit or team wants to become and guiding transformational initiatives, setting a defined direction for future growth.", 
+			"It is a detailed document on how the project will reach the desired result, involving all stages of the process",
 			"The OGSM structure is an acronym for Objectives, Goals, Strategies and measures. It is very important to Vision because it allows companies to define what they wanna do first and then how they will get there.",
 			"The Product Lifecycle Management (PLM) is a management system of the product life cycle. One of the main advantages is a bigger comprehension of the market, facilitating the creation and development  of new products and raising market share."]
 
@@ -20,34 +24,78 @@ var pontos= 0
 
 #chama 
 func _ready():
-	texto_frente.text= quest[0]
-	texto_tras.text= answer[0]
+	texto_frente.text = quest[0]
+	texto_tras.text = answer[0]
+	
 	
 #Sempre que a função for executada, o contador irá contar incrementar mais um
 #então irá fazer um if, onde dependendo do valor do cont, ele irá mostrar uma 
 #nova pergunta e uma nova resposta
 func PassCards():
+	
 	conta += 1
 	if conta == 1:
+		pontos = 0
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[1]
 		texto_tras.text= answer[1]
-	
+		print(quest[1])
+		botaoCerto = 0
+		botaoErrado = 0
+		
 	if conta == 2:
+		if botaoCerto == 1:
+			pontos = pontos + 1
+			botaoCerto = 0
+			print("VOCE ACERTOU")
+		else:
+			print("VOCE ERROU")
+		print("Pontos 1 perg: ", pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[2]
 		texto_tras.text= answer[2]
+	
 	if conta == 3:
+		if botaoErrado == 1:
+			pontos = pontos + 1
+			botaoErrado = 0
+			print("VOCE ACERTOU")
+		else:
+			print("VOCE ERROU")
+		print("Pontos 2 perg: ", pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[3]
 		texto_tras.text= answer[3]
 	
+	if conta == 4:
+		if botaoCerto == 1:
+			pontos = pontos + 1
+			botaoCerto = 0
+			print("VOCE ACERTOU")
+		else:
+			print("VOCE ERROU")
+		print("Pontos 3 perg: ", pontos)
+		visibility_card_front.visible= true
+		visibility_card_back.visible= false
+		texto_frente.text= quest[4]
+		texto_tras.text= answer[4]
+		
+	if conta == 5:
+		if botaoCerto == 1:
+			pontos = pontos + 1
+			botaoCerto = 0
+			print("VOCE ACERTOU")
+		else:
+			print("VOCE ERROU")
+		print("Pontos 4 perg: ", pontos)
+	
+	
 #funcao que mostra qual foi a medalha ganha pelo usuário
 func Premiacao():
-	if conta == 4:
+	if conta == 5:
 		if pontos == 4:
 			print("PLATINA")
 			$FlashCard_Tras.visible= false
@@ -83,16 +131,17 @@ func _on_Button_Flashcard_Front_pressed():
 #funcao que, caso o usuario acerte a pergunta, incrementa mais um na variavel pontos
 #e chama a função "Premiação()"	
 func _on_Button_Certo_pressed():
+	botaoCerto = 1
 	PassCards()
-	pontos= pontos + 1
-	print("Pontos: ", pontos)
+	
 	Premiacao()	
 	
 #funcao que, caso o usuario erre a pergunta, decrementa menos um na variavel pontos
 #e chama a função "Premiação()"	
 func _on_Button_Errado_pressed():
+	botaoErrado = 1
 	PassCards()
-	print ("Pontos: ", pontos)
+	
 	Premiacao()
 	
 
