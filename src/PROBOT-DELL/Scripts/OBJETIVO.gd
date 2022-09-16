@@ -2,7 +2,7 @@ extends ColorRect
 
 
 
-var objetivo2 = str("Talk to John")
+var objetivo2 = str("Talk to Ellen")
 var objetivo3 = str("Go to floor 1")
 var objetivo4 = str("Talk to Marcos")
 var objetivo5 = str("Talk to Pinky on floor 2")

@@ -1,11 +1,11 @@
 {
-	"color": "#ff0387d1",
+	"color": "#ff0df9e3",
 	"description": "Recepcionista da Dell",
-	"display_name": "John",
+	"display_name": "Ellen",
 	"display_name_bool": true,
 	"id": "character-1661486496.json",
 	"mirror_portraits": false,
-	"name": "John",
+	"name": "Ellen",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 5,
@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://images/imagem personagem 2 frente (1).png"
+			"path": ""
 		}
 	],
 	"scale": 790,
