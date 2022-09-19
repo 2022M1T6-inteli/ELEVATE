@@ -11,4 +11,5 @@ func _ready():
 
 	
 func _physics_process(_delta):
-	print(Global.contador)
+	#print(Global.contador)
+	pass

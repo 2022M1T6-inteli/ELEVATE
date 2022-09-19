@@ -11,7 +11,6 @@ func _ready():
 
 #Define a variavel de controle como true. 
 func _on_Area2D2_body_entered(_body):
-	print("oi")
 	AppearControl= true
 
 #define variavel de controle como false.

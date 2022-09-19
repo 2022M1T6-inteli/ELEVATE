@@ -14,7 +14,6 @@ func _physics_process(delta: float) -> void:
 	var move_direction = int(Input.is_action_pressed("ui_right")) - int(Input.is_action_pressed("ui_left"))
 		
 	velocity.x = move_speed * move_direction
-	print(velocity.x)
 	
 	# laço de controle que verifica a movimentaçao para associonar a animaçao
 	if velocity.x > 0:

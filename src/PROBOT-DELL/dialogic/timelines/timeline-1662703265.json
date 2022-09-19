@@ -61,6 +61,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Very well! you are free to grab the part. It is by my side!"
+		},
+		{
+			"emit_signal": "timeline_end",
+			"event_id": "dialogic_040"
 		}
 	],
 	"metadata": {

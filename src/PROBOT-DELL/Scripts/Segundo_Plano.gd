@@ -9,6 +9,12 @@ func _ready():
 		$NPC_Azul/Area2D.visible= true
 	elif Global.NPCAzul_visible == true:
 		$NPC_Azul/Area2D.visible= false
+	if Global.Inventario_Itens[0] == true:
+		$Inventario/Inventariopng/PenDrive.visible= true 
+	elif Global.Inventario_Itens[0] == false:
+		$Inventario/Inventariopng/PenDrive.visible= false 
+	
+	
 	
 #Define a variavel de controle como true.
 func _on_Area2D_body_entered(_body):
@@ -24,3 +30,8 @@ func _physics_process(_delta):
 		inventario[0].visible= true
 		Global.Inventario_Itens[0]= inventario[0].visible
 		Global.contador = 6
+	if Global.controlPenDrive == true:
+		$PenDrive_Cena.visible= true
+	
+	if Global.Inventario_Itens[0] == true:
+		Global.controlPenDrive= false

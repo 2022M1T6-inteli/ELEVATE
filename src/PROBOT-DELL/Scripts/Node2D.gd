@@ -5,7 +5,10 @@ var NewDialog= Dialogic.start('Dialogo_inicial')
 
 #função que implementa o diálogo assim que o jogador entrar na cena
 func _ready():
-	add_child(NewDialog)
+	if Global.Dialogoutcontrol == false:
+		add_child(NewDialog)
+		Global.Dialogoutcontrol= true
+		print(Global.Dialogoutcontrol)
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true
 	if Global.Inventario_Itens[0] == false:
