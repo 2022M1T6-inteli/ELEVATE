@@ -21,11 +21,17 @@ var answer= ["Here the statements about the questions will appear. If you think 
 
 var ListaPontos= []
 var pontos= 0
+onready var platina = $"../Platina"
+onready var ouro = $"../Ouro"
+onready var prata = $"../Prata"
+onready var bronze = $"../Bronze"
+onready var sem_medalha = $"../SemMedalha"
 
 #chama 
 func _ready():
 	texto_frente.text = quest[0]
 	texto_tras.text = answer[0]
+	
 	
 	
 #Sempre que a função for executada, o contador irá contar incrementar mais um
@@ -100,27 +106,28 @@ func Premiacao():
 			print("PLATINA")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
+			platina.visible= true
 		elif pontos == 3:
 			print ("OURO")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
-			$Ouro.visible= true
+			ouro.visible= true
 		elif pontos == 2:
 			print ("PRATA")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
-			$Prata.visible= true
+			prata.visible= true
 		elif pontos == 1:
 			print ("BRONZE")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
-			$Bronze.visible= true
+			bronze.visible= true
 		elif pontos == 0:
 			print ("Você não atingiu a pontuação suficiente para passar de fase")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
-			$SemMedalha.visible= true
-
+			sem_medalha.visible= true
+		
 #funcao que vira o flashcard e mostra a parte traseira
 func _on_Button_Flashcard_Front_pressed():
 	visibility_card_front.visible= false
@@ -132,7 +139,6 @@ func _on_Button_Flashcard_Front_pressed():
 func _on_Button_Certo_pressed():
 	botaoCerto = 1
 	PassCards()
-	
 	Premiacao()	
 	
 #funcao que, caso o usuario erre a pergunta, decrementa menos um na variavel pontos
@@ -140,7 +146,6 @@ func _on_Button_Certo_pressed():
 func _on_Button_Errado_pressed():
 	botaoErrado = 1
 	PassCards()
-	
 	Premiacao()
 	
 

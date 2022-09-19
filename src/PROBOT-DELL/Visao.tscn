@@ -76,9 +76,7 @@ align = 1
 valign = 1
 autowrap = true
 
-[node name="Premiacoes" type="Node2D" parent="."]
-
-[node name="Platina" type="ColorRect" parent="Premiacoes"]
+[node name="Platina" type="ColorRect" parent="."]
 visible = false
 margin_left = 241.0
 margin_top = 88.0
@@ -86,12 +84,12 @@ margin_right = 983.0
 margin_bottom = 512.0
 color = Color( 0, 0.498039, 0.74902, 1 )
 
-[node name="Sprite" type="Sprite" parent="Premiacoes/Platina"]
+[node name="Sprite" type="Sprite" parent="Platina"]
 position = Vector2( 368.5, 68.6875 )
 scale = Vector2( 2.22, 1.7725 )
 texture = ExtResource( 5 )
 
-[node name="Label" type="Label" parent="Premiacoes/Platina"]
+[node name="Label" type="Label" parent="Platina"]
 margin_left = 40.0
 margin_top = 141.0
 margin_right = 306.0
@@ -100,7 +98,7 @@ rect_scale = Vector2( 2.5, 2.5 )
 text = "Congratulations! you have reached the final maturity! your team is supported by a growth board."
 autowrap = true
 
-[node name="Home_Button_Platina" type="TextureButton" parent="Premiacoes/Platina"]
+[node name="Home_Button_Platina" type="TextureButton" parent="Platina"]
 margin_left = 326.0
 margin_top = 293.0
 margin_right = 710.0
@@ -108,7 +106,7 @@ margin_bottom = 677.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
-[node name="Ouro" type="ColorRect" parent="Premiacoes"]
+[node name="Ouro" type="ColorRect" parent="."]
 visible = false
 margin_left = 241.0
 margin_top = 88.0
@@ -116,12 +114,12 @@ margin_right = 983.0
 margin_bottom = 512.0
 color = Color( 0, 0.498039, 0.74902, 1 )
 
-[node name="Sprite" type="Sprite" parent="Premiacoes/Ouro"]
+[node name="Sprite" type="Sprite" parent="Ouro"]
 position = Vector2( 368.5, 68.6875 )
 scale = Vector2( 2.22, 1.7725 )
 texture = ExtResource( 8 )
 
-[node name="Label" type="Label" parent="Premiacoes/Ouro"]
+[node name="Label" type="Label" parent="Ouro"]
 margin_left = 45.0
 margin_top = 155.0
 margin_right = 308.0
@@ -130,7 +128,7 @@ rect_scale = Vector2( 2.5, 2.5 )
 text = "You´ve reached the third maturity of vision´s dimension. Now your team uses the product´s vision to make its decisions."
 autowrap = true
 
-[node name="Home_Button_Ouro" type="TextureButton" parent="Premiacoes/Ouro"]
+[node name="Home_Button_Ouro" type="TextureButton" parent="Ouro"]
 margin_left = 330.0
 margin_top = 302.0
 margin_right = 714.0
@@ -138,7 +136,7 @@ margin_bottom = 686.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
-[node name="Prata" type="ColorRect" parent="Premiacoes"]
+[node name="Prata" type="ColorRect" parent="."]
 visible = false
 margin_left = 241.0
 margin_top = 88.0
@@ -146,12 +144,12 @@ margin_right = 983.0
 margin_bottom = 512.0
 color = Color( 0, 0.498039, 0.74902, 1 )
 
-[node name="Sprite" type="Sprite" parent="Premiacoes/Prata"]
+[node name="Sprite" type="Sprite" parent="Prata"]
 position = Vector2( 368.5, 68.6875 )
 scale = Vector2( 2.22, 1.7725 )
 texture = ExtResource( 6 )
 
-[node name="Label" type="Label" parent="Premiacoes/Prata"]
+[node name="Label" type="Label" parent="Prata"]
 margin_left = 59.0
 margin_top = 153.0
 margin_right = 310.0
@@ -160,7 +158,7 @@ rect_scale = Vector2( 2.5, 2.5 )
 text = "You are doing good, here in maturity 2 your team is aware of it´s vision of the product and believe it reflects the objective of it´s work"
 autowrap = true
 
-[node name="Home_Button_Prata" type="TextureButton" parent="Premiacoes/Prata"]
+[node name="Home_Button_Prata" type="TextureButton" parent="Prata"]
 margin_left = 334.0
 margin_top = 328.0
 margin_right = 718.0
@@ -168,7 +166,7 @@ margin_bottom = 712.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
-[node name="Bronze" type="ColorRect" parent="Premiacoes"]
+[node name="Bronze" type="ColorRect" parent="."]
 visible = false
 margin_left = 241.0
 margin_top = 88.0
@@ -176,12 +174,12 @@ margin_right = 983.0
 margin_bottom = 512.0
 color = Color( 0, 0.498039, 0.74902, 1 )
 
-[node name="Sprite" type="Sprite" parent="Premiacoes/Bronze"]
+[node name="Sprite" type="Sprite" parent="Bronze"]
 position = Vector2( 368.5, 68.6875 )
 scale = Vector2( 2.22, 1.7725 )
 texture = ExtResource( 7 )
 
-[node name="Label" type="Label" parent="Premiacoes/Bronze"]
+[node name="Label" type="Label" parent="Bronze"]
 margin_left = 71.0
 margin_top = 142.0
 margin_right = 321.0
@@ -190,7 +188,7 @@ rect_scale = Vector2( 2.5, 2.5 )
 text = "You are in the first maturity of the vision´s dimension. The team doesn't know or doesn't have a vision of the product"
 autowrap = true
 
-[node name="Home_Button_Bronze" type="TextureButton" parent="Premiacoes/Bronze"]
+[node name="Home_Button_Bronze" type="TextureButton" parent="Bronze"]
 margin_left = 329.0
 margin_top = 303.0
 margin_right = 713.0
@@ -198,7 +196,7 @@ margin_bottom = 687.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
-[node name="SemMedalha" type="ColorRect" parent="Premiacoes"]
+[node name="SemMedalha" type="ColorRect" parent="."]
 visible = false
 margin_left = 241.0
 margin_top = 88.0
@@ -206,7 +204,7 @@ margin_right = 983.0
 margin_bottom = 512.0
 color = Color( 0, 0.498039, 0.74902, 1 )
 
-[node name="Label" type="Label" parent="Premiacoes/SemMedalha"]
+[node name="Label" type="Label" parent="SemMedalha"]
 margin_left = 51.0
 margin_top = 62.0
 margin_right = 375.0
@@ -215,7 +213,7 @@ rect_scale = Vector2( 2, 2 )
 text = "Try again. You are not yet ready to go to the next level."
 autowrap = true
 
-[node name="Home_Button_SemMedalha" type="TextureButton" parent="Premiacoes/SemMedalha"]
+[node name="Home_Button_SemMedalha" type="TextureButton" parent="SemMedalha"]
 margin_left = 348.0
 margin_top = 301.0
 margin_right = 732.0
@@ -228,8 +226,8 @@ texture_normal = ExtResource( 9 )
 [connection signal="pressed" from="Visao_Perguntas/FlashCard_Tras/Button_Certo" to="Visao_Perguntas" method="_on_Button_Certo_pressed"]
 [connection signal="pressed" from="Visao_Perguntas/FlashCard_Tras/Button_Errado" to="Visao_Perguntas" method="_on_Button_Errado_pressed"]
 [connection signal="pressed" from="Visao_Perguntas/FlashCard_Frente/Button_Flashcard_Front" to="Visao_Perguntas" method="_on_Button_Flashcard_Front_pressed"]
-[connection signal="pressed" from="Premiacoes/Platina/Home_Button_Platina" to="Visao_Perguntas" method="_on_Home_Button_Platina_pressed"]
-[connection signal="pressed" from="Premiacoes/Ouro/Home_Button_Ouro" to="Visao_Perguntas" method="_on_Home_Button_Ouro_pressed"]
-[connection signal="pressed" from="Premiacoes/Prata/Home_Button_Prata" to="Visao_Perguntas" method="_on_Home_Button_Prata_pressed"]
-[connection signal="pressed" from="Premiacoes/Bronze/Home_Button_Bronze" to="Visao_Perguntas" method="_on_Home_Button_Bronze_pressed"]
-[connection signal="pressed" from="Premiacoes/SemMedalha/Home_Button_SemMedalha" to="Visao_Perguntas" method="_on_Home_Button_SemMedalha_pressed"]
+[connection signal="pressed" from="Platina/Home_Button_Platina" to="Visao_Perguntas" method="_on_Home_Button_Platina_pressed"]
+[connection signal="pressed" from="Ouro/Home_Button_Ouro" to="Visao_Perguntas" method="_on_Home_Button_Ouro_pressed"]
+[connection signal="pressed" from="Prata/Home_Button_Prata" to="Visao_Perguntas" method="_on_Home_Button_Prata_pressed"]
+[connection signal="pressed" from="Bronze/Home_Button_Bronze" to="Visao_Perguntas" method="_on_Home_Button_Bronze_pressed"]
+[connection signal="pressed" from="SemMedalha/Home_Button_SemMedalha" to="Visao_Perguntas" method="_on_Home_Button_SemMedalha_pressed"]
