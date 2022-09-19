@@ -38,70 +38,37 @@ func _ready():
 #então irá fazer um if, onde dependendo do valor do cont, ele irá mostrar uma 
 #nova pergunta e uma nova resposta
 func PassCards():
-	
 	conta += 1
 	if conta == 1:
-		pontos = 0
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[1]
 		texto_tras.text= answer[1]
-		print(quest[1])
-		botaoCerto = 0
-		botaoErrado = 0
-		
+		print("Pontos 4 perg: ", pontos)
 	if conta == 2:
-		if botaoCerto == 1:
-			pontos = pontos + 1
-			botaoCerto = 0
-			print("VOCE ACERTOU")
-		else:
-			print("VOCE ERROU")
-		print("Pontos 1 perg: ", pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[2]
 		texto_tras.text= answer[2]
-	
+		print("Pontos 4 perg: ", pontos)
+
 	if conta == 3:
-		if botaoErrado == 1:
-			pontos = pontos + 1
-			botaoErrado = 0
-			print("VOCE ACERTOU")
-		else:
-			print("VOCE ERROU")
-		print("Pontos 2 perg: ", pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[3]
 		texto_tras.text= answer[3]
-	
+		print("Pontos 4 perg: ", pontos)
 	if conta == 4:
-		if botaoCerto == 1:
-			pontos = pontos + 1
-			botaoCerto = 0
-			print("VOCE ACERTOU")
-		else:
-			print("VOCE ERROU")
-		print("Pontos 3 perg: ", pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[4]
 		texto_tras.text= answer[4]
-		
-	if conta == 5:
-		if botaoCerto == 1:
-			pontos = pontos + 1
-			botaoCerto = 0
-			print("VOCE ACERTOU")
-		else:
-			print("VOCE ERROU")
 		print("Pontos 4 perg: ", pontos)
 	
 	
 #funcao que mostra qual foi a medalha ganha pelo usuário
 func Premiacao():
-	if conta == 5:
+	if conta == 4:
 		if pontos == 4:
 			print("PLATINA")
 			$FlashCard_Tras.visible= false
@@ -137,14 +104,13 @@ func _on_Button_Flashcard_Front_pressed():
 #funcao que, caso o usuario acerte a pergunta, incrementa mais um na variavel pontos
 #e chama a função "Premiação()"	
 func _on_Button_Certo_pressed():
-	botaoCerto = 1
+	pontos += 1
 	PassCards()
 	Premiacao()	
 	
 #funcao que, caso o usuario erre a pergunta, decrementa menos um na variavel pontos
 #e chama a função "Premiação()"	
 func _on_Button_Errado_pressed():
-	botaoErrado = 1
 	PassCards()
 	Premiacao()
 	
