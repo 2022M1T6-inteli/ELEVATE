@@ -10,10 +10,15 @@ func _ready():
 		$Inventario/Inventariopng/PenDrive.visible= true 
 	elif Global.Inventario_Itens[0] == false:
 		$Inventario/Inventariopng/PenDrive.visible= false 
-	Global.contador = 3
+	
 	
 	if Global.PCcont == 1:
 		smokeanim.visible= false
+	
+	if Global.Inventario_Itens[0] == true:
+		Global.contador = 6
+	else:
+		Global.contador = 3
 
 	
 func _physics_process(_delta):
