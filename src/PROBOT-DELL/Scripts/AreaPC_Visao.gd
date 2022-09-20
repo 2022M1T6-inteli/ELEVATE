@@ -2,8 +2,9 @@ extends Area2D
 
 #Declaração de variáveis
 var ControlPc= false
-onready var InfoPopup= $Info_Popup
-onready var LabelPopup= $Info_Popup/Label_InfoPopup
+onready var popup_E= $Popup_tecla_E
+onready var inventory= get_node("../Inventario/Inventariopng/PenDrive")
+onready var smokeanim= get_node("../Fumacasembg")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -12,19 +13,29 @@ func _ready():
 #Define a variavel de controle como true. E mostra o popup na tela
 func _on_AreaPC_Visao_body_entered(_body):
 	ControlPc= true
-	InfoPopup.visible= true
-	LabelPopup.text= Popups.InfoPopupList[6]
-	InfoPopup.set_global_position(Vector2(1000, 350))
+	if Global.Inventario_Itens[0] == true or Global.PCcont == 1:
+		popup_E.visible= true
+		popup_E.set_global_position(Vector2(1060, 380))
+	
 
 #Define a variavel de controle como false. E remove o popup na tela
 func _on_AreaPC_Visao_body_exited(_body):
 	ControlPc= false
-	InfoPopup.visible= false
-	 
+	if Global.Inventario_Itens[0] == true or Global.PCcont == 1:
+		popup_E.visible= false
+	
+	
 
 func _physics_process(_delta):
 	if Global.Inventario_Itens[0] == true and ControlPc == true and Input.is_action_just_pressed("ui_e"):
-		InfoPopup.visible= false
+		print("Oi brother")
+		Global.PCcont= 1
+		inventory.visible= false 
+		smokeanim.visible= false
+	if Global.PCcont == 1 and Input.is_action_just_pressed("ui_e"):
 		return get_tree().change_scene("res://Visao.tscn")
 		Global.contador = 7
+		
+		
+
 

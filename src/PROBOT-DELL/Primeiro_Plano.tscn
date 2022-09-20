@@ -266,6 +266,8 @@ __meta__ = {
 position = Vector2( 22, -53.5 )
 shape = SubResource( 10 )
 
+[node name="Popup_tecla_E" parent="AreaPC_Visao" instance=ExtResource( 23 )]
+
 [node name="NPC_Marcos" type="Area2D" parent="."]
 position = Vector2( 598, 557 )
 script = ExtResource( 20 )
