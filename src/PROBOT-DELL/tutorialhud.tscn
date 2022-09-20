@@ -9,25 +9,25 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="TeclaE" type="Sprite" parent="."]
-position = Vector2( 340, 210 )
-scale = Vector2( 3.58333, 3.5 )
+position = Vector2( 339.25, 214 )
+scale = Vector2( 3.45833, 2.83333 )
 texture = ExtResource( 5 )
 
 [node name="Teclaroxaesq(2)" type="Sprite" parent="."]
-position = Vector2( 121, 213 )
-scale = Vector2( 0.190833, 0.193027 )
+position = Vector2( 124.812, 216.187 )
+scale = Vector2( 0.165417, 0.171343 )
 texture = ExtResource( 2 )
 
 [node name="Teclaroxadir(2)" type="Sprite" parent="."]
-position = Vector2( 199, 212 )
-scale = Vector2( 0.121935, 0.116261 )
+position = Vector2( 195.703, 215.219 )
+scale = Vector2( 0.107876, 0.102622 )
 texture = ExtResource( 1 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_left = 88.0
 margin_top = 241.0
 margin_right = 241.0
-margin_bottom = 276.0
+margin_bottom = 271.0
 color = Color( 0.247059, 0, 0.701961, 1 )
 
 [node name="Movimentaçãolabel-removebg-preview" type="Sprite" parent="ColorRect"]

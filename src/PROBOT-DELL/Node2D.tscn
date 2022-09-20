@@ -167,7 +167,7 @@ b = Vector2( 93, 574 )
 a = Vector2( 1646, 6 )
 
 [sub_resource type="RectangleShape2D" id=5]
-extents = Vector2( 56.75, 43 )
+extents = Vector2( 56.75, 48.5 )
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 5 )
@@ -188,23 +188,23 @@ scale = Vector2( 2.98264, 2.91512 )
 texture = ExtResource( 3 )
 
 [node name="ArvoreForaDoPredio" type="Sprite" parent="."]
-position = Vector2( 621, 372 )
+position = Vector2( 889, 352 )
 scale = Vector2( 0.899734, 0.930905 )
 texture = ExtResource( 27 )
 
 [node name="Poste" type="Sprite" parent="ArvoreForaDoPredio"]
-position = Vector2( -630.186, 80.5667 )
+position = Vector2( -630.186, 85.9379 )
 scale = Vector2( 1.2651, 1.21883 )
 texture = ExtResource( 29 )
 
 [node name="Prediodolado-removebg-preview" type="Sprite" parent="."]
-position = Vector2( 843, 377 )
-scale = Vector2( 0.766846, 0.693441 )
+position = Vector2( 1116, 285 )
+scale = Vector2( 0.965573, 1.05818 )
 texture = ExtResource( 15 )
 
 [node name="Prediopixell" type="Sprite" parent="."]
-position = Vector2( 1048, 253 )
-scale = Vector2( 1.26974, 1.21053 )
+position = Vector2( 829, 195 )
+scale = Vector2( 1.27632, 1.45614 )
 texture = ExtResource( 28 )
 
 [node name="Dell-Logo-1989-2016" type="Sprite" parent="Prediopixell"]
@@ -247,12 +247,16 @@ position = Vector2( 4, 4 )
 script = ExtResource( 16 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( 1039, 503 )
+position = Vector2( 819, 499.5 )
 shape = SubResource( 5 )
 
 [node name="Sprite" type="Sprite" parent="Area2D"]
 
 [node name="Popup_tecla_E" parent="Area2D" instance=ExtResource( 19 )]
+margin_left = 801.0
+margin_top = 380.0
+margin_right = 838.0
+margin_bottom = 417.0
 
 [node name="MainPersonagemMVP2" parent="." instance=ExtResource( 2 )]
 position = Vector2( 117, 537 )
@@ -293,6 +297,7 @@ texture = ExtResource( 24 )
 [node name="Node2D" parent="." instance=ExtResource( 26 )]
 
 [node name="Node2D2" parent="." instance=ExtResource( 30 )]
+position = Vector2( -75, 366 )
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Area2D" to="Area2D" method="_on_Area2D_body_exited"]
