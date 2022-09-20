@@ -10,7 +10,7 @@ onready var popup_E= $Popup_tecla_E
 func _on_Area2D_body_entered(_body):
 	LiberaPorta= true
 	popup_E.visible= true
-	popup_E.set_global_position(Vector2(1020, 390))
+	popup_E.set_global_position(Vector2(805, 390))
 	
 
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
@@ -20,7 +20,7 @@ func _on_Area2D_body_exited(_body):
 	
 # funçao que controla se a varivel é verdadeira e o botao foi pressionado para mudar de cena
 func _physics_process(_delta):
-	if LiberaPorta == true and Input.is_action_just_pressed("ui_accept"):
+	if LiberaPorta == true and Input.is_action_just_pressed("ui_e"):
 		return get_tree().change_scene("res://TileMap_Recepcao.tscn")
 
 	

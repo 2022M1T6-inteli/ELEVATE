@@ -1,13 +1,23 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Scripts/SettingsMenu.gd" type="Script" id=1]
+[sub_resource type="GDScript" id=1]
+script/source = "extends Popup
+
+func _ready():
+	MouseCursor.z_index= 1
+
+#função que fecha o popup de configurações ao clicar no botão \"X\"
+func _on_CloseButton_pressed():
+	return get_tree().change_scene(\"res://menu_inicial.tscn\")
+	
+"
 
 [node name="SettingsMenu" type="Popup"]
 pause_mode = 2
 margin_right = 566.0
 margin_bottom = 400.0
 rect_min_size = Vector2( 500, 400 )
-script = ExtResource( 1 )
+script = SubResource( 1 )
 
 [node name="Background" type="ColorRect" parent="."]
 margin_right = 566.0

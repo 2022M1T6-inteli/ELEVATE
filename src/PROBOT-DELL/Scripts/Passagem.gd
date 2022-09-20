@@ -19,6 +19,6 @@ func _on_Area2D_body_exited(_body):
 
 #funçao que verifica se a variavel é verdadeira e o botao foi pressionado para liberar uma mecanica de mudança de cena
 func _physics_process(_delta):
-	if LiberaPorta == true and Input.is_action_just_pressed("ui_accept"):
+	if LiberaPorta == true and Input.is_action_just_pressed("ui_e"):
 		return get_tree().change_scene("res://painelpreto.tscn")
 	

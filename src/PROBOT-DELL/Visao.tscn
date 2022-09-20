@@ -76,6 +76,26 @@ align = 1
 valign = 1
 autowrap = true
 
+[node name="Feedback" type="ColorRect" parent="Visao_Perguntas"]
+visible = false
+margin_left = 116.0
+margin_top = 75.0
+margin_right = 1145.0
+margin_bottom = 549.0
+color = Color( 0.6, 0.0784314, 0.0784314, 1 )
+
+[node name="Label_Feedback" type="Label" parent="Visao_Perguntas/Feedback"]
+margin_right = 1028.0
+margin_bottom = 473.0
+autowrap = true
+
+[node name="Button_Feedback" type="Button" parent="Visao_Perguntas/Feedback"]
+margin_left = 318.0
+margin_top = 335.0
+margin_right = 684.0
+margin_bottom = 427.0
+text = "Retornar"
+
 [node name="Platina" type="ColorRect" parent="."]
 visible = false
 margin_left = 241.0
@@ -226,6 +246,7 @@ texture_normal = ExtResource( 9 )
 [connection signal="pressed" from="Visao_Perguntas/FlashCard_Tras/Button_Certo" to="Visao_Perguntas" method="_on_Button_Certo_pressed"]
 [connection signal="pressed" from="Visao_Perguntas/FlashCard_Tras/Button_Errado" to="Visao_Perguntas" method="_on_Button_Errado_pressed"]
 [connection signal="pressed" from="Visao_Perguntas/FlashCard_Frente/Button_Flashcard_Front" to="Visao_Perguntas" method="_on_Button_Flashcard_Front_pressed"]
+[connection signal="pressed" from="Visao_Perguntas/Feedback/Button_Feedback" to="Visao_Perguntas" method="_on_Button_Feedback_pressed"]
 [connection signal="pressed" from="Platina/Home_Button_Platina" to="Visao_Perguntas" method="_on_Home_Button_Platina_pressed"]
 [connection signal="pressed" from="Ouro/Home_Button_Ouro" to="Visao_Perguntas" method="_on_Home_Button_Ouro_pressed"]
 [connection signal="pressed" from="Prata/Home_Button_Prata" to="Visao_Perguntas" method="_on_Home_Button_Prata_pressed"]
