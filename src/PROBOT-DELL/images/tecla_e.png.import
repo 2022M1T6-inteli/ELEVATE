@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/g12106 (1).png-fa7c1611f91fa8699cf0066bf207c0f6.stex"
+path="res://.import/tecla_e.png-03db77c044976d529789f0c6eb8f6de1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/g12106 (1).png"
-dest_files=[ "res://.import/g12106 (1).png-fa7c1611f91fa8699cf0066bf207c0f6.stex" ]
+source_file="res://images/tecla_e.png"
+dest_files=[ "res://.import/tecla_e.png-03db77c044976d529789f0c6eb8f6de1.stex" ]
 
 [params]
 

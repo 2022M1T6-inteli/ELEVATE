@@ -1,6 +1,9 @@
 extends Area2D
 
+PHJOHNSON
+
 #declaração de variáveis
+
 var LiberaPorta= false
 onready var popup_E= $Popup_tecla_E
 

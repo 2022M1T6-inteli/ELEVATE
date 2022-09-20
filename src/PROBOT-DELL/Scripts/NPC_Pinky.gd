@@ -15,6 +15,7 @@ func pendriveap(argument):
 
 #Define a variavel de controle como true. E mostra o popup na tela
 func _on_NPC_Pinky_body_entered(_body):
+	print(DialogControl)
 	DialogControl= true
 	popup_E.visible= true
 	popup_E.set_global_position(Vector2(718, 430))
@@ -22,6 +23,7 @@ func _on_NPC_Pinky_body_entered(_body):
 
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
 func _on_NPC_Pinky_body_exited(_body):
+	print(DialogControl)
 	DialogControl= false
 	popup_E.visible= false
 	

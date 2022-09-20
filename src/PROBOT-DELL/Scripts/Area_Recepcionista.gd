@@ -3,8 +3,8 @@ extends Area2D
 #criação de variáveis
 var DialogControl= false
 var NewDialog= Dialogic.start('Dialogo_recepcionista')
-onready var InfoPopup= $Info_Popup
-onready var LabelPopup= $Info_Popup/Label_InfoPopup
+onready var popup_E= $Popup_tecla_E
+
 
 func _ready():
 	pass
@@ -13,15 +13,14 @@ func _ready():
 func _on_Area_Recepcionista_body_entered(_body):
 	print("Oi")
 	DialogControl= true
-	InfoPopup.visible= true
-	LabelPopup.text= Popups.InfoPopupList[3]
-	InfoPopup.set_global_position(Vector2(620, 370))
+	popup_E.visible= true
+	popup_E.set_global_position(Vector2(690, 425))
 	
 	
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
 func _on_Area_Recepcionista_body_exited(_body):
 	DialogControl= false
-	InfoPopup.visible= false
+	popup_E.visible= false
 
 #funçao que verifica se a variavel é verdadeira e botao foi pressionado para habilitar o dialogo
 func _physics_process(_delta):

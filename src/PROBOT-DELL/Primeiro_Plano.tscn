@@ -10,7 +10,6 @@
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=8]
 [ext_resource path="res://NPC_rosa.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Scripts/Primeiro_Plano.gd" type="Script" id=10]
-[ext_resource path="res://Popups.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=12]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=13]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=14]
@@ -22,6 +21,7 @@
 [ext_resource path="res://Scripts/NPC_Marcos.gd" type="Script" id=20]
 [ext_resource path="res://OBJETIVO.tscn" type="PackedScene" id=21]
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/1.png" type="Texture" id=22]
+[ext_resource path="res://Popup_tecla_E.tscn" type="PackedScene" id=23]
 
 [sub_resource type="TileSet" id=12]
 0/name = "Wall 3.png 0"
@@ -178,9 +178,7 @@ script = ExtResource( 5 )
 position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
-[node name="Info_Popup" parent="Area_elevador" instance=ExtResource( 11 )]
-margin_left = 100.0
-margin_right = 300.0
+[node name="Popup_tecla_E" parent="Area_elevador" instance=ExtResource( 23 )]
 
 [node name="NPC_rosa" parent="." instance=ExtResource( 9 )]
 visible = false
@@ -235,8 +233,6 @@ __meta__ = {
 position = Vector2( 22, -53.5 )
 shape = SubResource( 10 )
 
-[node name="Info_Popup" parent="AreaPC_Visao" instance=ExtResource( 11 )]
-
 [node name="NPC_Marcos" type="Area2D" parent="."]
 position = Vector2( 598, 557 )
 script = ExtResource( 20 )
@@ -253,7 +249,7 @@ texture = ExtResource( 19 )
 position = Vector2( 19, -31.5 )
 shape = SubResource( 11 )
 
-[node name="Info_Popup" parent="NPC_Marcos" instance=ExtResource( 11 )]
+[node name="Popup_tecla_E" parent="NPC_Marcos" instance=ExtResource( 23 )]
 
 [node name="MainPersonagemMVP2" parent="." instance=ExtResource( 7 )]
 position = Vector2( 236, 561 )

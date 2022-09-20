@@ -186,9 +186,7 @@ script = ExtResource( 13 )
 position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
-[node name="Info_Popup" parent="Area_elevador" instance=ExtResource( 6 )]
-margin_top = 80.0
-margin_bottom = 580.0
+[node name="Popup_tecla_E" parent="Area_elevador" instance=ExtResource( 23 )]
 
 [node name="NPC_rosa" parent="." instance=ExtResource( 7 )]
 visible = false
@@ -242,6 +240,8 @@ texture = ExtResource( 12 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PenDrive_Cena"]
 position = Vector2( -2, -13 )
 shape = SubResource( 10 )
+
+[node name="Popup_tecla_E" parent="PenDrive_Cena" instance=ExtResource( 23 )]
 
 [node name="NPC_Pinky" type="Area2D" parent="."]
 position = Vector2( 698, 557 )

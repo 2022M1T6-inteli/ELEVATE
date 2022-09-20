@@ -8,6 +8,7 @@
 [ext_resource path="res://images/mesa-recepçãoo.png" type="Texture" id=6]
 [ext_resource path="res://images/mesarecp.png" type="Texture" id=7]
 [ext_resource path="res://images/mesarecepcaooo.png" type="Texture" id=8]
+[ext_resource path="res://Popup_tecla_E.tscn" type="PackedScene" id=9]
 [ext_resource path="res://images/cacto resized.png" type="Texture" id=10]
 [ext_resource path="res://images/Sofá_recepcao_1_resized.png" type="Texture" id=11]
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/Pc Recepção.png" type="Texture" id=12]
@@ -22,7 +23,6 @@
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=21]
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=22]
 [ext_resource path="res://images/Parede_laranja.png" type="Texture" id=23]
-[ext_resource path="res://Popups.tscn" type="PackedScene" id=24]
 [ext_resource path="res://Scripts/TileMap_Recepcao.gd" type="Script" id=25]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=26]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=27]
@@ -460,7 +460,7 @@ anims/RESET = SubResource( 12 )
 position = Vector2( -9, -0.25 )
 shape = SubResource( 7 )
 
-[node name="Info_Popup" parent="Area_Recepcionista" instance=ExtResource( 24 )]
+[node name="Popup_tecla_E" parent="Area_Recepcionista" instance=ExtResource( 9 )]
 
 [node name="Colisao_Parede_Esquerda" type="StaticBody2D" parent="."]
 
@@ -480,7 +480,7 @@ __meta__ = {
 position = Vector2( 4, 2.5 )
 shape = SubResource( 6 )
 
-[node name="Info_Popup" parent="Area2D2" instance=ExtResource( 24 )]
+[node name="Popup_tecla_E" parent="Area2D2" instance=ExtResource( 9 )]
 
 [node name="Area2D" type="Area2D" parent="."]
 script = ExtResource( 14 )
@@ -491,12 +491,12 @@ script = ExtResource( 14 )
 position = Vector2( 1088.5, 524 )
 shape = SubResource( 5 )
 
-[node name="Info_Popup" parent="Area2D" instance=ExtResource( 24 )]
-
 [node name="Porta" type="Sprite" parent="Area2D"]
 position = Vector2( 125, 513.063 )
 scale = Vector2( 0.439024, 0.338061 )
 texture = ExtResource( 34 )
+
+[node name="Popup_tecla_E" parent="Area2D" instance=ExtResource( 9 )]
 
 [node name="Colisao_Parede_Direita" type="StaticBody2D" parent="."]
 
@@ -587,6 +587,7 @@ texture = ExtResource( 36 )
 position = Vector2( 895, 424 )
 scale = Vector2( 0.596939, 0.644 )
 frames = SubResource( 10 )
+frame = 1
 speed_scale = 0.15
 playing = true
 

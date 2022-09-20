@@ -18,7 +18,7 @@
 [ext_resource path="res://Scripts/ColisaoPorta.gd" type="Script" id=16]
 [ext_resource path="res://images/Dell-Logo-1989-2016.png" type="Texture" id=17]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/2 Background/Day/1.png" type="Texture" id=18]
-[ext_resource path="res://Popups.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Popup_tecla_E.tscn" type="PackedScene" id=19]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=20]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=21]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=22]
@@ -251,7 +251,7 @@ shape = SubResource( 5 )
 
 [node name="Sprite" type="Sprite" parent="Area2D"]
 
-[node name="Info_Popup" parent="Area2D" instance=ExtResource( 19 )]
+[node name="Popup_tecla_E" parent="Area2D" instance=ExtResource( 19 )]
 
 [node name="MainPersonagemMVP2" parent="." instance=ExtResource( 2 )]
 position = Vector2( 117, 537 )
