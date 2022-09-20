@@ -9,7 +9,7 @@ margin_left = 466.0
 margin_top = 24.0
 margin_right = 1205.0
 margin_bottom = 86.0
-color = Color( 0.32549, 0.396078, 0.458824, 1 )
+color = Color( 0.364706, 0.0941176, 0.717647, 1 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
