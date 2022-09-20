@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/interaçãolabel-removebg-preview.png-75013012be7e1a16f377fac3b802ac61.stex"
+path="res://.import/interaçãolabel-removebg-preview.png-ffd6ff0043d6bc5c849692bbe4f7259d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://interaçãolabel-removebg-preview.png"
-dest_files=[ "res://.import/interaçãolabel-removebg-preview.png-75013012be7e1a16f377fac3b802ac61.stex" ]
+source_file="res://images/interaçãolabel-removebg-preview.png"
+dest_files=[ "res://.import/interaçãolabel-removebg-preview.png-ffd6ff0043d6bc5c849692bbe4f7259d.stex" ]
 
 [params]
 

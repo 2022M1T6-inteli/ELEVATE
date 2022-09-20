@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/movimentaçãolabel-removebg-preview.png-73516d85dad5722d625e3b7322ac8572.stex"
+path="res://.import/teclaroxadir (2).png-f51676a6d84512f026ef8279fbcf3037.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://movimentaçãolabel-removebg-preview.png"
-dest_files=[ "res://.import/movimentaçãolabel-removebg-preview.png-73516d85dad5722d625e3b7322ac8572.stex" ]
+source_file="res://images/teclaroxadir (2).png"
+dest_files=[ "res://.import/teclaroxadir (2).png-f51676a6d84512f026ef8279fbcf3037.stex" ]
 
 [params]
 

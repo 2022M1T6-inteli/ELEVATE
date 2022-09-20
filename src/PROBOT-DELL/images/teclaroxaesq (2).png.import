@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/teclaroxaesq (2).png-9a72ee1cd30d5f9dedca676dc8b56d98.stex"
+path="res://.import/teclaroxaesq (2).png-ad6ad89280398de29c13c906a4ebb12a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://teclaroxaesq (2).png"
-dest_files=[ "res://.import/teclaroxaesq (2).png-9a72ee1cd30d5f9dedca676dc8b56d98.stex" ]
+source_file="res://images/teclaroxaesq (2).png"
+dest_files=[ "res://.import/teclaroxaesq (2).png-ad6ad89280398de29c13c906a4ebb12a.stex" ]
 
 [params]
 

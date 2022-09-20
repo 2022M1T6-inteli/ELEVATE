@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://teclaroxadir (2).png" type="Texture" id=1]
-[ext_resource path="res://teclaroxaesq (2).png" type="Texture" id=2]
-[ext_resource path="res://movimentaçãolabel-removebg-preview.png" type="Texture" id=3]
-[ext_resource path="res://interaçãolabel-removebg-preview.png" type="Texture" id=4]
+[ext_resource path="res://images/teclaroxadir (2).png" type="Texture" id=1]
+[ext_resource path="res://images/teclaroxaesq (2).png" type="Texture" id=2]
+[ext_resource path="res://images/movimentaçãolabel-removebg-preview.png" type="Texture" id=3]
+[ext_resource path="res://images/interaçãolabel-removebg-preview.png" type="Texture" id=4]
 [ext_resource path="res://images/tecla_e.png" type="Texture" id=5]
 
 [node name="Node2D" type="Node2D"]
