@@ -4,6 +4,9 @@ onready var visibility_card_front= $FlashCard_Frente
 onready var visibility_card_back= $FlashCard_Tras
 onready var texto_frente= $FlashCard_Frente/Texto_Button_Frente
 onready var texto_tras= $FlashCard_Tras/Texto_Button_Tras 
+onready var LabelFeedback= $Feedback/Label_Feedback
+onready var ButtonFeedback= $Feedback/Button_Feedback
+onready var feedback= $Feedback
 var conta= 0    
 var botaoCerto = 0;
 var botaoErrado = 0;
@@ -18,6 +21,13 @@ var answer= ["Here the statements about the questions will appear. If you think 
 			"It is a detailed document on how the project will reach the desired result, involving all stages of the process",
 			"The OGSM structure is an acronym for Objectives, Goals, Strategies and measures. It is very important to Vision because it allows companies to define what they wanna do first and then how they will get there.",
 			"The Product Lifecycle Management (PLM) is a management system of the product life cycle. One of the main advantages is a bigger comprehension of the market, facilitating the creation and development  of new products and raising market share."]
+
+var feedback_certo= ["Você acertou a primeira pergunta", 
+	
+]
+var feedback_errado= ["Você errou a segunda pergunta", 
+	
+]
 
 var ListaPontos= []
 var pontos= 0
@@ -55,6 +65,8 @@ func PassCards():
 			pontos = pontos + 1
 			botaoCerto = 0
 			print("VOCE ACERTOU")
+			feedback.visible= true
+			LabelFeedback.text= feedback_certo[0]
 		else:
 			print("VOCE ERROU")
 		print("Pontos 1 perg: ", pontos)
@@ -68,6 +80,8 @@ func PassCards():
 			pontos = pontos + 1
 			botaoErrado = 0
 			print("VOCE ACERTOU")
+			feedback.visible= true
+			LabelFeedback.text= feedback_certo[1]
 		else:
 			print("VOCE ERROU")
 		print("Pontos 2 perg: ", pontos)
@@ -75,6 +89,8 @@ func PassCards():
 		visibility_card_back.visible= false
 		texto_frente.text= quest[3]
 		texto_tras.text= answer[3]
+		feedback.visible= true
+		LabelFeedback.text= feedback_errado[0]
 	
 	if conta == 4:
 		if botaoCerto == 1:
@@ -173,3 +189,8 @@ func _on_Home_Button_Bronze_pressed():
 func _on_Home_Button_SemMedalha_pressed():
 	Global.Inventario_Itens[0]= false
 	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+
+
+
+func _on_Button_Feedback_pressed():
+	feedback.visible= false
