@@ -25,7 +25,7 @@ func _on_Area2D_body_exited(_body):
 	PenDrive_visibility= false
 
 func _physics_process(_delta):
-	if PenDrive_visibility ==true and Input.is_action_just_pressed("ui_e"):
+	if PenDrive_visibility == true and Input.is_action_just_pressed("ui_e") and $PenDrive_Cena.visible == true:
 		$PenDrive_Cena/PenDrive.visible= false
 		inventario[0].visible= true
 		Global.Inventario_Itens[0]= inventario[0].visible
