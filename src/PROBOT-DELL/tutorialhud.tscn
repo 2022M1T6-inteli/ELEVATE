@@ -9,8 +9,8 @@
 [node name="Node2D2" type="Node2D"]
 
 [node name="TeclaE" type="Sprite" parent="."]
-position = Vector2( 339.25, 214 )
-scale = Vector2( 3.45833, 2.83333 )
+position = Vector2( 338.25, 214 )
+scale = Vector2( 3.29167, 2.83333 )
 texture = ExtResource( 5 )
 
 [node name="Teclaroxaesq(2)" type="Sprite" parent="."]
