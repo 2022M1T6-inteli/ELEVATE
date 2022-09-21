@@ -4,7 +4,7 @@
 [ext_resource path="res://cobra.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 22, 19 )
+extents = Vector2( 16, 13 )
 
 [node name="cobra" type="Node2D"]
 script = ExtResource( 2 )
@@ -16,8 +16,8 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="cabeca"]
-position = Vector2( 0, 4.76837e-07 )
-scale = Vector2( 0.34375, 0.296875 )
+position = Vector2( 1.12057e-05, 3.09944e-06 )
+scale = Vector2( 0.25, 0.203125 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="cabeca"]

@@ -24,3 +24,5 @@ func nasceu_nova():
 	#pontuacao
 func _process(delta):
 	$Label.text = str(pontuacao)	
+	if pontuacao == 20:
+		$Label.text = "voce conseguiu!"
