@@ -6,5 +6,5 @@ var controlPenDrive= false
 var contador = 0
 var Dialogoutcontrol= false
 var PCcont= 0
-
+var portaElevador = false
 

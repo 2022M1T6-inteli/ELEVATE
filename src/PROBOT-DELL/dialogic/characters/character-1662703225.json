@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://NPC_Pinky.png"
+			"path": "res://images/NPC_Pinky.png"
 		}
 	],
-	"scale": 1100,
+	"scale": 1400,
 	"theme": ""
 }

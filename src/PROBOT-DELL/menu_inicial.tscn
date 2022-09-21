@@ -43,7 +43,7 @@ Button/styles/hover = SubResource( 11 )
 Button/styles/normal = SubResource( 12 )
 Button/styles/pressed = SubResource( 13 )
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D2" type="Node2D"]
 pause_mode = 2
 script = ExtResource( 2 )
 

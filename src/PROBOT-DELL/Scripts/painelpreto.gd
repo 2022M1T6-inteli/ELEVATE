@@ -7,6 +7,7 @@ var cont=0
 
 #função que começa o dialógo assim que o personagem entrar na cena
 func _ready():
+	$elevadorsfx.play()
 	pass
 	
 

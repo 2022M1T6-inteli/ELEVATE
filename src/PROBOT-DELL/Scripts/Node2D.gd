@@ -8,7 +8,6 @@ func _ready():
 	if Global.Dialogoutcontrol == false:
 		add_child(NewDialog)
 		Global.Dialogoutcontrol= true
-		print(Global.Dialogoutcontrol)
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true
 	if Global.Inventario_Itens[0] == false:

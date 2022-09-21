@@ -87,6 +87,8 @@ color = Color( 0.6, 0.0784314, 0.0784314, 1 )
 [node name="Label_Feedback" type="Label" parent="Visao_Perguntas/Feedback"]
 margin_right = 1028.0
 margin_bottom = 473.0
+align = 1
+valign = 1
 autowrap = true
 
 [node name="Button_Feedback" type="Button" parent="Visao_Perguntas/Feedback"]

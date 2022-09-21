@@ -22,10 +22,16 @@ var answer= ["Here the statements about the questions will appear. If you think 
 			"The OGSM structure is an acronym for Objectives, Goals, Strategies and measures. It is very important to Vision because it allows companies to define what they wanna do first and then how they will get there.",
 			"The Product Lifecycle Management (PLM) is a management system of the product life cycle. One of the main advantages is a bigger comprehension of the market, facilitating the creation and development  of new products and raising market share."]
 
-var feedback_certo= ["Você acertou a primeira pergunta", 
+var feedback_certo= ["You got it right, the vision dimension is exactly that!", 
+"You're right, this alternative is false. The vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
+"Você acertou a terceira pergunta", 
+"Você acertou a quarta pergunta"
 	
 ]
-var feedback_errado= ["Você errou a segunda pergunta", 
+var feedback_errado= ["You got it wrong, that statement is true", 
+"You got it wrong, actually the vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
+"Você errou a terceira pergunta",
+"Você errou a quarta pergunta"
 	
 ]
 
@@ -37,12 +43,11 @@ onready var prata = $"../Prata"
 onready var bronze = $"../Bronze"
 onready var sem_medalha = $"../SemMedalha"
 
-#chama 
+
 func _ready():
 	texto_frente.text = quest[0]
 	texto_tras.text = answer[0]
-	
-	
+		
 	
 #Sempre que a função for executada, o contador irá contar incrementar mais um
 #então irá fazer um if, onde dependendo do valor do cont, ele irá mostrar uma 
@@ -56,20 +61,19 @@ func PassCards():
 		visibility_card_back.visible= false
 		texto_frente.text= quest[1]
 		texto_tras.text= answer[1]
-		print(quest[1])
 		botaoCerto = 0
 		botaoErrado = 0
 		
 	if conta == 2:
 		if botaoCerto == 1:
-			pontos = pontos + 1
 			botaoCerto = 0
-			print("VOCE ACERTOU")
 			feedback.visible= true
 			LabelFeedback.text= feedback_certo[0]
+			pontos = pontos + 1
 		else:
-			print("VOCE ERROU")
-		print("Pontos 1 perg: ", pontos)
+			feedback.visible= true
+			LabelFeedback.text= feedback_errado[0]
+		print(pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[2]
@@ -77,29 +81,31 @@ func PassCards():
 	
 	if conta == 3:
 		if botaoErrado == 1:
-			pontos = pontos + 1
 			botaoErrado = 0
+			pontos = pontos + 1
 			print("VOCE ACERTOU")
 			feedback.visible= true
 			LabelFeedback.text= feedback_certo[1]
 		else:
 			print("VOCE ERROU")
-		print("Pontos 2 perg: ", pontos)
+			feedback.visible= true
+			LabelFeedback.text= feedback_errado[1]
+		print(pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[3]
 		texto_tras.text= answer[3]
-		feedback.visible= true
-		LabelFeedback.text= feedback_errado[0]
 	
 	if conta == 4:
 		if botaoCerto == 1:
 			pontos = pontos + 1
 			botaoCerto = 0
-			print("VOCE ACERTOU")
+			feedback.visible= true
+			LabelFeedback.text= feedback_certo[2]
 		else:
-			print("VOCE ERROU")
-		print("Pontos 3 perg: ", pontos)
+			feedback.visible= true
+			LabelFeedback.text= feedback_errado[2]
+		print(pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
 		texto_frente.text= quest[4]
@@ -109,10 +115,13 @@ func PassCards():
 		if botaoCerto == 1:
 			pontos = pontos + 1
 			botaoCerto = 0
-			print("VOCE ACERTOU")
+			feedback.visible= true
+			LabelFeedback.text= feedback_certo[3]
 		else:
-			print("VOCE ERROU")
-		print("Pontos 4 perg: ", pontos)
+			feedback.visible= true
+			LabelFeedback.text= feedback_errado[3]
+		print(pontos)
+	print("Pergunta:", conta)
 	
 #funcao que mostra qual foi a medalha ganha pelo usuário
 func Premiacao():
@@ -122,6 +131,7 @@ func Premiacao():
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			platina.visible= true
+			
 		elif pontos == 3:
 			print ("OURO")
 			$FlashCard_Tras.visible= false
@@ -154,7 +164,8 @@ func _on_Button_Flashcard_Front_pressed():
 func _on_Button_Certo_pressed():
 	botaoCerto = 1
 	PassCards()
-	Premiacao()	
+	if conta == 5:
+		Premiacao()
 	
 #funcao que, caso o usuario erre a pergunta, decrementa menos um na variavel pontos
 #e chama a função "Premiação()"	
@@ -194,3 +205,5 @@ func _on_Home_Button_SemMedalha_pressed():
 
 func _on_Button_Feedback_pressed():
 	feedback.visible= false
+	if conta == 5:
+		feedback.visible= false

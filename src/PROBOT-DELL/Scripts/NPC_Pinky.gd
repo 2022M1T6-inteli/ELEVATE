@@ -10,7 +10,7 @@ onready var popup_E= $Popup_tecla_E
 func _ready():
 	NewDialog.connect("timeline_end", self, 'pendriveap')
 
-func pendriveap(argument):
+func pendriveap(_argument):
 	Global.controlPenDrive= true
 
 #Define a variavel de controle como true. E mostra o popup na tela

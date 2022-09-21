@@ -32,7 +32,7 @@ func _physics_process(_delta):
 		Global.PCcont= 1
 		inventory.visible= false 
 		smokeanim.visible= false
-	if Global.PCcont == 1 and Input.is_action_just_pressed("ui_e"):
+	if Global.PCcont == 1 and Input.is_action_just_pressed("ui_e") and Global.portaElevador == false:
 		return get_tree().change_scene("res://Visao.tscn")
 		Global.contador = 7
 		
