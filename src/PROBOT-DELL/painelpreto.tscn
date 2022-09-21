@@ -1,4 +1,4 @@
-[gd_scene load_steps=69 format=2]
+[gd_scene load_steps=70 format=2]
 
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/painel preto.png" type="Texture" id=1]
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/botaoazul (1).png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Scripts/painelpreto.gd" type="Script" id=4]
 [ext_resource path="res://images/background_inicial.png" type="Texture" id=5]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Sounds/barulho de elevador.ogg" type="AudioStream" id=7]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
@@ -464,6 +465,9 @@ align = 1
 valign = 1
 
 [node name="Mouse_Cursor" parent="." instance=ExtResource( 6 )]
+
+[node name="elevadorsfx" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 7 )
 
 [connection signal="pressed" from="PainelPreto/Botaoazul(1)/Button1" to="." method="_on_Button1_pressed"]
 [connection signal="pressed" from="PainelPreto/Botaoazul(1)2/Button4" to="." method="_on_Button4_pressed"]
