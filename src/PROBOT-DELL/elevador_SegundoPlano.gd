@@ -1,6 +1,5 @@
 extends Area2D
 
-PHJOHNSON
 
 #declaração de variáveis
 

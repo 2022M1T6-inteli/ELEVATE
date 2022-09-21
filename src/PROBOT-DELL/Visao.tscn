@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scripts/Pergunta_1.gd" type="Script" id=1]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://images/Medal_Bronze.png" type="Texture" id=7]
 [ext_resource path="res://images/Medal_Ouro.png" type="Texture" id=8]
 [ext_resource path="res://images/button_home.png" type="Texture" id=9]
+[ext_resource path="res://Sounds/PC-LIGANDO.ogg" type="AudioStream" id=10]
 
 [node name="Node2D" type="Node2D"]
 
@@ -97,6 +98,9 @@ margin_top = 335.0
 margin_right = 684.0
 margin_bottom = 427.0
 text = "Retornar"
+
+[node name="pcligandosfx" type="AudioStreamPlayer2D" parent="Visao_Perguntas"]
+stream = ExtResource( 10 )
 
 [node name="Platina" type="ColorRect" parent="."]
 visible = false
