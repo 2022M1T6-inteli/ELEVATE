@@ -22,14 +22,14 @@ var answer= ["Here the statements about the questions will appear. If you think 
 			"The OGSM structure is an acronym for Objectives, Goals, Strategies and measures. It is very important to Vision because it allows companies to define what they wanna do first and then how they will get there.",
 			"The Product Lifecycle Management (PLM) is a management system of the product life cycle. One of the main advantages is a bigger comprehension of the market, facilitating the creation and development  of new products and raising market share."]
 
-var feedback_certo= ["Você acertou a primeira pergunta", 
-"Você acertou a segunda pergunta",
+var feedback_certo= ["You got it right, the vision dimension is exactly that!", 
+"You're right, this alternative is false. The vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
 "Você acertou a terceira pergunta", 
 "Você acertou a quarta pergunta"
 	
 ]
-var feedback_errado= ["Você errou a primeira pergunta", 
-"Você errou a segunda pergunta",
+var feedback_errado= ["You got it wrong, that statement is true", 
+"You got it wrong, actually the vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
 "Você errou a terceira pergunta",
 "Você errou a quarta pergunta"
 	
