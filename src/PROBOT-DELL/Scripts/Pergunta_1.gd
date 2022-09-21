@@ -37,6 +37,7 @@ var feedback_errado= ["You got it wrong, that statement is true",
 
 var ListaPontos= []
 var pontos= 0
+var ContFeedback= 0
 onready var platina = $"../Platina"
 onready var ouro = $"../Ouro"
 onready var prata = $"../Prata"
@@ -55,7 +56,6 @@ func _ready():
 #então irá fazer um if, onde dependendo do valor do cont, ele irá mostrar uma 
 #nova pergunta e uma nova resposta
 func PassCards():
-	
 	conta += 1
 	if conta == 1:
 		pontos = 0
@@ -72,9 +72,11 @@ func PassCards():
 			feedback.visible= true
 			LabelFeedback.text= feedback_certo[0]
 			pontos = pontos + 1
+			feedback.color= Color(0.258824, 0.682353, 0.086275)
 		else:
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[0]
+			feedback.color= Color(0.6, 0.078431, 0.078431)
 		print(pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
@@ -88,10 +90,13 @@ func PassCards():
 			print("VOCE ACERTOU")
 			feedback.visible= true
 			LabelFeedback.text= feedback_certo[1]
+			feedback.color= Color(0.258824, 0.682353, 0.086275)
+			
 		else:
 			print("VOCE ERROU")
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[1]
+			feedback.color= Color(0.6, 0.078431, 0.078431)
 		print(pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
@@ -104,9 +109,11 @@ func PassCards():
 			botaoCerto = 0
 			feedback.visible= true
 			LabelFeedback.text= feedback_certo[2]
+			feedback.color= Color(0.258824, 0.682353, 0.086275)
 		else:
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[2]
+			feedback.color= Color(0.6, 0.078431, 0.078431)
 		print(pontos)
 		visibility_card_front.visible= true
 		visibility_card_back.visible= false
@@ -119,9 +126,11 @@ func PassCards():
 			botaoCerto = 0
 			feedback.visible= true
 			LabelFeedback.text= feedback_certo[3]
+			feedback.color= Color(0.258824, 0.682353, 0.086275)
 		else:
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[3]
+			feedback.color= Color(0.6, 0.078431, 0.078431)
 		print(pontos)
 	print("Pergunta:", conta)
 	
@@ -166,15 +175,16 @@ func _on_Button_Flashcard_Front_pressed():
 func _on_Button_Certo_pressed():
 	botaoCerto = 1
 	PassCards()
-	if conta == 5:
-		Premiacao()
+	#if ContFeedback == 4:
+		#Premiacao()
 	
 #funcao que, caso o usuario erre a pergunta, decrementa menos um na variavel pontos
 #e chama a função "Premiação()"	
 func _on_Button_Errado_pressed():
 	botaoErrado = 1
 	PassCards()
-	Premiacao()
+	#if ContFeedback == 4:
+		#Premiacao()
 	
 
 #Funções que trocam de cena ao player apertar o botão home depois que ele terminar
@@ -212,5 +222,8 @@ func _on_Home_Button_SemMedalha_pressed():
 
 func _on_Button_Feedback_pressed():
 	feedback.visible= false
-	if conta == 5:
-		feedback.visible= false
+	ContFeedback += 1
+	if ContFeedback == 4:
+		Premiacao()
+	print ("Botao feedback: ", ContFeedback)
+	
