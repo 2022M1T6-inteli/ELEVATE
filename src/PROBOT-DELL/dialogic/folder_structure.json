@@ -5,16 +5,7 @@
 	"folders": {
 		"Characters": {
 			"files": [
-				"character-1661486496.json",
-				"character-1661489767.json",
-				"character-1662701964.json",
-				"character-1662703225.json",
-				"Screenshot_34.png",
-				"Screenshot_34.png.import",
-				"Screenshot_35.png",
-				"Screenshot_35.png.import",
-				"ssss-removebg-preview.png",
-				"ssss-removebg-preview.png.import"
+				"character-1663873596.json"
 			],
 			"folders": {
 
@@ -38,7 +29,7 @@
 		},
 		"Themes": {
 			"files": [
-				"theme-1661487136.cfg"
+				"default-theme.cfg"
 			],
 			"folders": {
 
@@ -50,11 +41,7 @@
 		},
 		"Timelines": {
 			"files": [
-				"timeline-1661486684.json",
-				"timeline-1661490121.json",
-				"timeline-1661490879.json",
-				"timeline-1662702036.json",
-				"timeline-1662703265.json"
+				"timeline-1663873580.json"
 			],
 			"folders": {
 

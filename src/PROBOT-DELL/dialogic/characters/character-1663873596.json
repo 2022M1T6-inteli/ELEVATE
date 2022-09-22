@@ -1,11 +1,11 @@
 {
-	"color": "#ff007fbf",
+	"color": "#ffffffff",
 	"description": "",
-	"display_name": "Pinky",
+	"display_name": "Tonyboy",
 	"display_name_bool": true,
-	"id": "character-1662703225.json",
-	"mirror_portraits": true,
-	"name": "Pinky",
+	"id": "character-1663873596.json",
+	"mirror_portraits": false,
+	"name": "TonyBoy.json",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://images/NPC_Pinky.png"
+			"path": ""
 		}
 	],
-	"scale": 1400,
+	"scale": 100,
 	"theme": ""
 }
