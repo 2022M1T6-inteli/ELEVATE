@@ -24,14 +24,14 @@ var answer= ["Here the statements about the questions will appear. If you think 
 
 var feedback_certo= ["You got it right, the vision dimension is exactly that!", 
 "You're right, this alternative is false. The vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
-"Você acertou a terceira pergunta", 
-"Você acertou a quarta pergunta"
+"You got it right, the vision dimension is exactly that!", 
+"You got it right, the vision dimension is exactly that!"
 	
 ]
 var feedback_errado= ["You got it wrong, that statement is true", 
 "You got it wrong, actually the vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
-"Você errou a terceira pergunta",
-"Você errou a quarta pergunta"
+"You got it wrong, that statement is true",
+"You got it wrong, that statement is true"
 	
 ]
 
@@ -87,13 +87,11 @@ func PassCards():
 		if botaoErrado == 1:
 			botaoErrado = 0
 			pontos = pontos + 1
-			print("VOCE ACERTOU")
 			feedback.visible= true
 			LabelFeedback.text= feedback_certo[1]
 			feedback.color= Color(0.258824, 0.682353, 0.086275)
 			
 		else:
-			print("VOCE ERROU")
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[1]
 			feedback.color= Color(0.6, 0.078431, 0.078431)
@@ -108,9 +106,11 @@ func PassCards():
 			pontos = pontos + 1
 			botaoCerto = 0
 			feedback.visible= true
+			print("VOCE ACERTOU")
 			LabelFeedback.text= feedback_certo[2]
 			feedback.color= Color(0.258824, 0.682353, 0.086275)
 		else:
+			print("VOCE ERROU")
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[2]
 			feedback.color= Color(0.6, 0.078431, 0.078431)

@@ -65,6 +65,26 @@
 		{
 			"emit_signal": "timeline_end",
 			"event_id": "dialogic_040"
+		},
+		{
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_012",
+			"value": ""
+		},
+		{
+			"choice": "",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
 		}
 	],
 	"metadata": {

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/navejogador.png-c29b85c8624ae610274d8fd9dc809f93.stex"
+path="res://.import/bgspace.png-11345a799dcd0ac57e353023de2d8bc2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://navejogador.png"
-dest_files=[ "res://.import/navejogador.png-c29b85c8624ae610274d8fd9dc809f93.stex" ]
+source_file="res://images/bgspace.png"
+dest_files=[ "res://.import/bgspace.png-11345a799dcd0ac57e353023de2d8bc2.stex" ]
 
 [params]
 
