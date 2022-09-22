@@ -7,4 +7,4 @@ var contador = 0
 var Dialogoutcontrol= false
 var PCcont= 0
 var portaElevador = false
-
+var medalha_1 = 0

@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=2]
+[gd_scene load_steps=33 format=2]
 
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=1]
 [ext_resource path="res://images/Floor 1.png" type="Texture" id=2]
@@ -15,7 +15,7 @@
 [ext_resource path="res://Scripts/Area_elevador.gd" type="Script" id=13]
 [ext_resource path="res://NPC_Azul.tscn" type="PackedScene" id=14]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=15]
-[ext_resource path="res://AssetsInventario/INVENTARIO.png.png" type="Texture" id=16]
+[ext_resource path="res://images/hud inventaria.png" type="Texture" id=16]
 [ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=17]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=18]
 [ext_resource path="res://images/NPC_Pinky.png" type="Texture" id=19]
@@ -24,6 +24,7 @@
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/2.png" type="Texture" id=22]
 [ext_resource path="res://Popup_tecla_E.tscn" type="PackedScene" id=23]
 [ext_resource path="res://Sounds/Coletar Item.ogg" type="AudioStream" id=24]
+[ext_resource path="res://HUD_INVENTARIO.tscn" type="PackedScene" id=25]
 
 [sub_resource type="TileSet" id=12]
 0/name = "Wall 3.png 0"
@@ -131,6 +132,8 @@ extents = Vector2( 40.5, 55 )
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 8 )
 
+[node name="HUD_INVENTARIO" parent="." instance=ExtResource( 25 )]
+
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_left = 1.0
 margin_top = 2.0
@@ -198,33 +201,33 @@ visible = false
 [node name="Inventario" type="Camera2D" parent="."]
 
 [node name="Inventariopng" type="Sprite" parent="Inventario"]
-position = Vector2( 286, 213.5 )
-scale = Vector2( 3.13333, 2.98333 )
+position = Vector2( 221.092, 94.9521 )
+scale = Vector2( 1.80473, 1.81542 )
 texture = ExtResource( 16 )
 
 [node name="PenDrive" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( -70.3723, -52.0391 )
-scale = Vector2( 0.489729, 0.324588 )
+position = Vector2( -66.7022, -9.55308 )
+scale = Vector2( 0.553009, 0.365957 )
 texture = ExtResource( 12 )
 
 [node name="RAM" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( -41.0106, -51.4525 )
-scale = Vector2( 0.253609, 0.352837 )
+position = Vector2( -20.4256, -10.2235 )
+scale = Vector2( 0.314875, 0.423405 )
 texture = ExtResource( 15 )
-
-[node name="Cd" type="Sprite" parent="Inventario/Inventariopng"]
-visible = false
-position = Vector2( 17.0745, -51.7877 )
-scale = Vector2( 0.330825, 0.310669 )
-texture = ExtResource( 18 )
 
 [node name="PapelSenha" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( -11.25, -51.6201 )
-scale = Vector2( 0.341945, 0.237989 )
+position = Vector2( 27.4468, -7.5419 )
+scale = Vector2( 0.475097, 0.342738 )
 texture = ExtResource( 17 )
+
+[node name="Cd" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( 75.3957, -7.35816 )
+scale = Vector2( 0.468994, 0.455785 )
+texture = ExtResource( 18 )
 
 [node name="PenDrive_Cena" type="Area2D" parent="."]
 visible = false

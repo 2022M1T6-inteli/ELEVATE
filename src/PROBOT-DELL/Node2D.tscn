@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=2]
+[gd_scene load_steps=36 format=2]
 
 [ext_resource path="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/2 Background/Day/3.png" type="Texture" id=1]
 [ext_resource path="res://DellBorg_Player.tscn" type="PackedScene" id=2]
@@ -22,7 +22,7 @@
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=20]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=21]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=22]
-[ext_resource path="res://AssetsInventario/INVENTARIO.png.png" type="Texture" id=23]
+[ext_resource path="res://images/hud inventaria.png" type="Texture" id=23]
 [ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=24]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=25]
 [ext_resource path="res://OBJETIVO.tscn" type="PackedScene" id=26]
@@ -30,6 +30,7 @@
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsExteriorPredio/prediopixell.png" type="Texture" id=28]
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsExteriorPredio/Poste.png" type="Texture" id=29]
 [ext_resource path="res://tutorialhud.tscn" type="PackedScene" id=30]
+[ext_resource path="res://HUD_INVENTARIO.tscn" type="PackedScene" id=31]
 
 [sub_resource type="TileSet" id=3]
 0/name = "01"
@@ -219,6 +220,8 @@ cell_size = Vector2( 32, 32 )
 format = 1
 tile_data = PoolIntArray( 983039, 0, 0, 917504, 1, 0, 917505, 1, 0, 917506, 1, 0, 917507, 1, 0, 917508, 1, 0, 917509, 1, 0, 917510, 1, 0, 917511, 1, 0, 917512, 1, 0, 917513, 1, 0, 917514, 1, 0, 917515, 1, 0, 917516, 1, 0, 917517, 1, 0, 917518, 1, 0, 917519, 1, 0, 917520, 1, 0, 917521, 1, 0, 917522, 1, 0, 917523, 1, 0, 917524, 1, 0, 917525, 1, 0, 917526, 1, 0, 917527, 1, 0, 917528, 1, 0, 917529, 1, 0, 917530, 1, 0, 917531, 1, 0, 917532, 1, 0, 917533, 1, 0, 917534, 1, 0, 917535, 1, 0, 917536, 1, 0, 917537, 1, 0, 917538, 1, 0, 917539, 1, 0, 917540, 1, 0, 917541, 1, 0, 917542, 1, 0, 917543, 536870913, 0, 917544, 536870913, 0, 917545, 536870913, 0, 917546, 536870913, 0, 917547, 536870913, 0, 917548, 536870913, 0, 917549, 536870913, 0, 917550, 536870913, 0, 917551, 536870913, 0, 917552, 536870913, 0, 917553, 536870913, 0, 917554, 536870913, 0, 917555, 536870913, 0, 917556, 536870913, 0, 917557, 536870913, 0, 917558, 536870913, 0, 917559, 536870912, 0, 1048575, 536870920, 0, 983040, 1073741832, 0, 983041, 1073741832, 0, 983042, 1073741832, 0, 983043, 1073741832, 0, 983044, 1073741832, 0, 983045, 1073741832, 0, 983046, 1073741832, 0, 983047, 1073741832, 0, 983048, -1610612728, 0, 983049, -1610612728, 0, 983050, -1610612728, 0, 983051, -1610612728, 0, 983052, -1610612728, 0, 983053, -1610612728, 0, 983054, -1610612728, 0, 983055, -1610612728, 0, 983056, -1610612728, 0, 983057, -1610612728, 0, 983058, -1610612728, 0, 983059, -1610612728, 0, 983060, -1610612728, 0, 983061, -1610612728, 0, 983062, -1610612728, 0, 983063, -1610612728, 0, 983064, -1610612728, 0, 983065, -1610612728, 0, 983066, -1610612728, 0, 983067, -1610612728, 0, 983068, -1610612728, 0, 983069, -1610612728, 0, 983070, -1610612728, 0, 983071, 1073741832, 0, 983072, 1073741832, 0, 983073, -1610612728, 0, 983074, -1610612728, 0, 983075, -1610612728, 0, 983076, -1610612728, 0, 983077, -1610612728, 0, 983078, -1610612728, 0, 983079, -1610612728, 0, 983080, -1610612728, 0, 983081, -1610612728, 0, 983082, -1610612728, 0, 983083, -1610612728, 0, 983084, -1610612728, 0, 983085, -1610612728, 0, 983086, -1610612728, 0, 983087, -1610612728, 0, 983088, -1610612728, 0, 983089, -1610612728, 0, 983090, -1610612728, 0, 983091, -1610612728, 0, 983092, -1610612728, 0, 983093, -1610612728, 0, 983094, 1073741832, 0, 983095, 8, 0, 1114111, 536870918, 0, 1048576, -2147483640, 0, 1048577, -2147483640, 0, 1048578, -2147483640, 0, 1048579, -2147483640, 0, 1048580, -2147483640, 0, 1048581, -2147483640, 0, 1048582, -2147483640, 0, 1048583, -2147483640, 0, 1048584, -2147483640, 0, 1048585, -2147483640, 0, 1048586, -2147483640, 0, 1048587, -2147483640, 0, 1048588, -2147483640, 0, 1048589, -2147483640, 0, 1048590, -2147483640, 0, 1048591, -1610612728, 0, 1048592, -1610612728, 0, 1048593, -1610612728, 0, 1048594, -1610612728, 0, 1048595, -1610612728, 0, 1048596, -1610612728, 0, 1048597, -2147483640, 0, 1048598, -2147483640, 0, 1048599, -1610612728, 0, 1048600, -1610612728, 0, 1048601, -1610612728, 0, 1048602, -1610612728, 0, 1048603, -1610612728, 0, 1048604, -1610612728, 0, 1048605, -1610612728, 0, 1048606, -2147483640, 0, 1048607, -2147483640, 0, 1048608, -2147483640, 0, 1048609, -1610612728, 0, 1048610, -1610612728, 0, 1048611, -1610612728, 0, 1048612, -1610612728, 0, 1048613, -1610612728, 0, 1048614, -1610612728, 0, 1048615, -1610612728, 0, 1048616, -1610612728, 0, 1048617, -1610612728, 0, 1048618, -1610612728, 0, 1048619, -1610612728, 0, 1048620, -1610612728, 0, 1048621, -1610612728, 0, 1048622, -1610612728, 0, 1048623, -1610612728, 0, 1048624, -1610612728, 0, 1048625, -1610612728, 0, 1048626, -1610612728, 0, 1048627, -1610612728, 0, 1048628, -1610612728, 0, 1048629, -1610612728, 0, 1048630, -1610612728, 0, 1048631, 536870919, 0 )
 
+[node name="HUD_INVENTARIO" parent="." instance=ExtResource( 31 )]
+
 [node name="LimiteTelaEsquerda" type="StaticBody2D" parent="."]
 
 [node name="CollisionShapeEsquerda" type="CollisionShape2D" parent="LimiteTelaEsquerda"]
@@ -266,32 +269,32 @@ position = Vector2( 117, 537 )
 [node name="Inventario" type="Camera2D" parent="."]
 
 [node name="Inventariopng" type="Sprite" parent="Inventario"]
-position = Vector2( 286, 213.5 )
-scale = Vector2( 3.13333, 2.98333 )
+position = Vector2( 216, 95.5 )
+scale = Vector2( 1.85992, 1.86598 )
 texture = ExtResource( 23 )
 
 [node name="PenDrive" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( -70.3723, -52.0391 )
-scale = Vector2( 0.489729, 0.324588 )
+position = Vector2( -67.3405, -10.2235 )
+scale = Vector2( 0.602532, 0.404144 )
 texture = ExtResource( 21 )
 
 [node name="RAM" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( -41.0106, -51.4525 )
-scale = Vector2( 0.253609, 0.352837 )
+position = Vector2( -18.75, -7.70952 )
+scale = Vector2( 0.306326, 0.445457 )
 texture = ExtResource( 22 )
 
 [node name="Cd" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( 17.0745, -51.7877 )
-scale = Vector2( 0.330825, 0.310669 )
+position = Vector2( 77.1544, -9.55309 )
+scale = Vector2( 0.383368, 0.392424 )
 texture = ExtResource( 25 )
 
 [node name="PapelSenha" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( -11.25, -51.6201 )
-scale = Vector2( 0.341945, 0.237989 )
+position = Vector2( 24.7939, -7.91901 )
+scale = Vector2( 0.441939, 0.314246 )
 texture = ExtResource( 24 )
 
 [node name="Node2D" parent="." instance=ExtResource( 26 )]

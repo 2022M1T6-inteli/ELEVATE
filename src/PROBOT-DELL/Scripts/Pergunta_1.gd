@@ -142,27 +142,31 @@ func Premiacao():
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			platina.visible= true
-			
+			Global.medalha_1 = 1
 		elif pontos == 3:
 			print ("OURO")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			ouro.visible= true
+			Global.medalha_1 = 2
 		elif pontos == 2:
 			print ("PRATA")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			prata.visible= true
+			Global.medalha_1 = 3
 		elif pontos == 1:
 			print ("BRONZE")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			bronze.visible= true
+			Global.medalha_1 = 4
 		elif pontos == 0:
 			print ("Você não atingiu a pontuação suficiente para passar de fase")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			sem_medalha.visible= true
+			Global.medalha_1 = 0
 		
 #funcao que vira o flashcard e mostra a parte traseira
 func _on_Button_Flashcard_Front_pressed():
