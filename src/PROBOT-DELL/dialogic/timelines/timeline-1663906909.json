@@ -1,0 +1,65 @@
+{
+	"events": [
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1663906833.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1663906833.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wellcome, Dellborg. I'm Atlas and I will guide you through this journey. First, let me put into context what is going."
+		},
+		{
+			"character": "character-1663906833.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Basically you are our last hope to save Dell from the biggest financial crisis in history."
+		},
+		{
+			"character": "character-1663906833.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In 2050 (The year we are now, of course hehe) the world is collapsing, and the other companies are still the project model."
+		},
+		{
+			"character": "character-1663906833.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But we know that this model is outdated and that's why many of them are at rock."
+		},
+		{
+			"character": "character-1663906833.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Therefore, try hard. You are our last hope and we believe you!!!"
+		},
+		{
+			"character": "character-1663906833.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "To begin our journey, enter in Dell building, you can do that by pressing [color=#FF0000]E[/color] when you are in front of the main door. Let's go!!!!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1663906909.json",
+		"name": "Dialogo_inicial"
+	}
+}

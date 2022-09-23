@@ -1,11 +1,11 @@
 {
 	"color": "#ff5500b3",
 	"description": "",
-	"display_name": "Marcos",
+	"display_name": "Hawking",
 	"display_name_bool": true,
-	"id": "character-1663873596.json",
-	"mirror_portraits": true,
-	"name": "Marcos.json",
+	"id": "character-1663908054.json",
+	"mirror_portraits": false,
+	"name": "Hawking.json",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://images/NPC_Marcos.png"
+			"path": "res://Idle_Hawking_new.png"
 		}
 	],
-	"scale": 1400,
+	"scale": 1200,
 	"theme": ""
 }

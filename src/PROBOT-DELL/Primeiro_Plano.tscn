@@ -292,8 +292,6 @@ shape = SubResource( 11 )
 [node name="MainPersonagemMVP2" parent="." instance=ExtResource( 7 )]
 position = Vector2( 236, 561 )
 
-[node name="Mouse_Cursor" parent="." instance=ExtResource( 12 )]
-
 [node name="Node2D" parent="." instance=ExtResource( 21 )]
 
 [node name="1" type="Sprite" parent="."]
@@ -311,6 +309,8 @@ vframes = 2
 autoplay = "fumaca"
 anims/RESET = SubResource( 13 )
 anims/fumaca = SubResource( 14 )
+
+[node name="Mouse_Cursor" parent="." instance=ExtResource( 12 )]
 
 [connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
 [connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]

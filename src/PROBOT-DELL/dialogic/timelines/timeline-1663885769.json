@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1663885732.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1663885732.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello Dellborg, I have heard that you need a computer part to fix the computer downstars."
+		},
+		{
+			"emit_signal": "Play_Snake",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1663885769.json",
+		"name": "Dialogo_Pinky"
+	}
+}

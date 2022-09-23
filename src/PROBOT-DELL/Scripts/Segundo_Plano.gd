@@ -14,8 +14,7 @@ func _ready():
 		$Inventario/Inventariopng/PenDrive.visible= true 
 	elif Global.Inventario_Itens[0] == false:
 		$Inventario/Inventariopng/PenDrive.visible= false 
-	
-	
+		
 	
 #Define a variavel de controle como true.
 func _on_Area2D_body_entered(_body):

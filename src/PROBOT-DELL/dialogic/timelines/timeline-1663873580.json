@@ -1,10 +1,51 @@
 {
 	"events": [
-
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1663873596.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1663873596.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello, I'm Marcos, and you are in the vision's dimension. This dimension is the idealization of the product we are going to develop"
+		},
+		{
+			"character": "character-1663873596.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The first step to a good vision of the product of the product is making vision statment. This describes the future state of the product that a company wishes to accomplish."
+		},
+		{
+			"character": "character-1663873596.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, I need your help with a thing. Our computer is broken, take the computer part on the second floor to fix it."
+		},
+		{
+			"emit_signal": "Warning_EndMarcos",
+			"event_id": "dialogic_040"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1663873580.json",
-		"name": "timeline-1663873580"
+		"name": "Dialogo_Marcos"
 	}
 }

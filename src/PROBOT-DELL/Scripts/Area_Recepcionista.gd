@@ -11,7 +11,6 @@ func _ready():
 
 #Define a variavel de controle como true. E mostra o popup na tela
 func _on_Area_Recepcionista_body_entered(_body):
-	print("Oi")
 	DialogControl= true
 	popup_E.visible= true
 	popup_E.set_global_position(Vector2(690, 425))

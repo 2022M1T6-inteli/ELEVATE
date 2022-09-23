@@ -2,7 +2,6 @@ extends Node2D
 
 onready var smokeanim= $Fumacasembg
 
-
 #Verifica se o index[0] da lista que está no script Global está com ovisible true,
 #caso esteja. Mostra o item 1 no inventário
 func _ready():

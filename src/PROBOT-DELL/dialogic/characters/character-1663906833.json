@@ -1,11 +1,11 @@
 {
 	"color": "#ff5500b3",
 	"description": "",
-	"display_name": "Marcos",
+	"display_name": "Atlas",
 	"display_name_bool": true,
-	"id": "character-1663873596.json",
+	"id": "character-1663906833.json",
 	"mirror_portraits": true,
-	"name": "Marcos.json",
+	"name": "Atlas.json",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://images/NPC_Marcos.png"
+			"path": "res://images/Character_1-removebg-preview.png"
 		}
 	],
-	"scale": 1400,
+	"scale": 600,
 	"theme": ""
 }

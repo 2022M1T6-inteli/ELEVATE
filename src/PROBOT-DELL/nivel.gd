@@ -24,5 +24,7 @@ func nasceu_nova():
 	#pontuacao
 func _process(delta):
 	$Label.text = str(pontuacao)	
-	if pontuacao == 20:
+	if pontuacao == 5:
+		Global.DialogoPenDrive= true
+		get_tree().change_scene("res://Segundo_Plano.tscn")
 		$Label.text = "voce conseguiu!"

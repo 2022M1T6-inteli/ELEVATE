@@ -2,8 +2,6 @@ extends Area2D
 
 #declaração de variáveis
 var LiberaPorta= false 
-onready var InfoPopup= $Info_Popup
-onready var LabelPopup= $Info_Popup/Label_InfoPopup
 onready var popup_E= $Popup_tecla_E
 
 #Define a variavel de controle como true. E mostra o popup na tela
