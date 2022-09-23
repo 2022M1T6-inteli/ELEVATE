@@ -1,5 +1,6 @@
 extends Node2D
 
+
 onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node("Inventario/Inventariopng/RAM"), get_node("Inventario/Inventariopng/Cd"), get_node("Inventario/Inventariopng/PapelSenha")]
 var RAM_visibility= false
 var contSfx = 0

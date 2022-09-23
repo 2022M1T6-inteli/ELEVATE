@@ -7,7 +7,7 @@
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=5]
 [ext_resource path="res://Idle_Hawking_new.png" type="Texture" id=6]
 [ext_resource path="res://NPC_rosa.tscn" type="PackedScene" id=7]
-[ext_resource path="res://Scripts/Segundo_Plano.gd" type="Script" id=8]
+[ext_resource path="res://Terceiro_Plano.gd" type="Script" id=8]
 [ext_resource path="res://DellBorg_Player.tscn" type="PackedScene" id=9]
 [ext_resource path="res://PauseMenu.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=11]
@@ -228,23 +228,23 @@ position = Vector2( 75.3957, -7.35816 )
 scale = Vector2( 0.468994, 0.455785 )
 texture = ExtResource( 18 )
 
-[node name="PenDrive_Cena" type="Area2D" parent="."]
+[node name="RAM_Cena" type="Area2D" parent="."]
 visible = false
 position = Vector2( 834, 566 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="PenDrive" type="Sprite" parent="PenDrive_Cena"]
+[node name="RAM" type="Sprite" parent="RAM_Cena"]
 position = Vector2( -1, -2 )
 scale = Vector2( 0.489729, 0.324588 )
-texture = ExtResource( 12 )
+texture = ExtResource( 15 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="PenDrive_Cena"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RAM_Cena"]
 position = Vector2( -2, -13 )
 shape = SubResource( 10 )
 
-[node name="Popup_tecla_E" parent="PenDrive_Cena" instance=ExtResource( 23 )]
+[node name="Popup_tecla_E" parent="RAM_Cena" instance=ExtResource( 23 )]
 
 [node name="NPC_Hawking" type="Area2D" parent="."]
 position = Vector2( 698, 557 )
@@ -283,7 +283,7 @@ volume_db = -7.363
 
 [connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
 [connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]
-[connection signal="body_entered" from="PenDrive_Cena" to="." method="_on_Area2D_body_entered"]
-[connection signal="body_exited" from="PenDrive_Cena" to="." method="_on_Area2D_body_exited"]
+[connection signal="body_entered" from="RAM_Cena" to="." method="_on_RAM_Cena_body_entered"]
+[connection signal="body_exited" from="RAM_Cena" to="." method="_on_RAM_Cena_body_exited"]
 [connection signal="body_entered" from="NPC_Hawking" to="NPC_Hawking" method="_on_NPC_Hawking_body_entered"]
 [connection signal="body_exited" from="NPC_Hawking" to="NPC_Hawking" method="_on_NPC_Hawking_body_exited"]

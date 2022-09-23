@@ -2,18 +2,15 @@ extends Area2D
 
 #Declaração de variáveis
 var DialogControl= false
-var NewDialog= Dialogic.start('Dialogo_Marcos')
+var NewDialog= Dialogic.start('Dialogo_Hawking')
 onready var popup_E= $Popup_tecla_E
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	#NewDialog.connect("WarningEnd_Marcos", self, 'SwitchDialogMarcos')
-	pass
+	NewDialog.connect("timeline_end", self, 'playship')
 
-#func SwitchDialogMarcos(_argument):
-	#Global.Marcos_DialogSwitch= true
-	
+
 
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
 func _on_NPC_Hawking_body_entered(body):
@@ -30,3 +27,6 @@ func _physics_process(_delta):
 	if DialogControl == true and Input.is_action_just_pressed("ui_e"):
 		add_child(NewDialog)
 		Global.contador = 4
+
+func playship(_argument):
+	get_tree().change_scene("res://mundo.tscn")

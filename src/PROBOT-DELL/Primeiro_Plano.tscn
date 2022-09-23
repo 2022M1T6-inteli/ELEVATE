@@ -122,7 +122,7 @@ b = Vector2( 1, 656 )
 [sub_resource type="RectangleShape2D" id=9]
 extents = Vector2( 35, 50 )
 
-[sub_resource type="RectangleShape2D" id=10]
+[sub_resource type="RectangleShape2D" id=15]
 extents = Vector2( 50, 63.5 )
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -267,7 +267,7 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AreaPC_Visao"]
 position = Vector2( 22, -53.5 )
-shape = SubResource( 10 )
+shape = SubResource( 15 )
 
 [node name="Popup_tecla_E" parent="AreaPC_Visao" instance=ExtResource( 23 )]
 

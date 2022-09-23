@@ -12,4 +12,8 @@ func _ready():
 		$Inventario/Inventariopng/PenDrive.visible= true
 	if Global.Inventario_Itens[0] == false:
 		$Inventario/Inventariopng/PenDrive.visible= false
+	if Global.Inventario_Itens[1] == true:
+		$Inventario/Inventariopng/RAM.visible= true
+	if Global.Inventario_Itens[1] == false:
+		$Inventario/Inventariopng/RAM.visible= false
 

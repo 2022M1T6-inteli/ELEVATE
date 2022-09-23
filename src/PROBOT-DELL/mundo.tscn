@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://bgspace.png" type="Texture" id=1]
+[ext_resource path="res://images/bgspace.png" type="Texture" id=1]
 [ext_resource path="res://personagens/jogador/jogador.tscn" type="PackedScene" id=2]
 [ext_resource path="res://personagens/inimigo/spawnInimigo.tscn" type="PackedScene" id=3]
 

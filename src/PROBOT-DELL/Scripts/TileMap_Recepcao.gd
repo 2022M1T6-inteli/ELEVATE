@@ -11,6 +11,12 @@ extends Node2D
 func _ready():
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true 
+	if Global.Inventario_Itens[0] == false:
+		$Inventario/Inventariopng/PenDrive.visible= false 
+	if Global.Inventario_Itens[1] == true:
+		$Inventario/Inventariopng/RAM.visible= true 
+	if Global.Inventario_Itens[1] == false:
+		$Inventario/Inventariopng/RAM.visible= false 
 	Global.contador = 1
 
 
