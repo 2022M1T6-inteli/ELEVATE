@@ -3,7 +3,7 @@ extends Node2D
 onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node("Inventario/Inventariopng/RAM"), get_node("Inventario/Inventariopng/Cd"), get_node("Inventario/Inventariopng/PapelSenha")]
 var PenDrive_visibility= false
 var contSfx = 0
-var contador = 0
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -40,7 +40,7 @@ func _physics_process(_delta):
 		inventario[0].visible= true
 		Global.Inventario_Itens[0]= inventario[0].visible
 		Global.contador = 6
-		contador = 1
+		
 		if contSfx == 0: 
 			$itempegadosfx.play()
 		contSfx = contSfx+1
