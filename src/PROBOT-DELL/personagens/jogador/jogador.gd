@@ -34,7 +34,7 @@ func levar_dano(dano):
 	print("oo")
 	
 
-	
+
 
 
 func _on_jogador_area_entered(area):

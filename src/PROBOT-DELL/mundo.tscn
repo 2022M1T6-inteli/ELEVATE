@@ -15,9 +15,6 @@ texture = ExtResource( 1 )
 
 [node name="jogador" parent="." instance=ExtResource( 2 )]
 position = Vector2( 608, 583 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="spawnInimigo" parent="." instance=ExtResource( 3 )]
 

@@ -3,6 +3,8 @@ extends Area2D
 var velocidade = 250
 var vida = 1
 
+
+
 func _process(delta):
 	global_position.y += velocidade * delta
 	

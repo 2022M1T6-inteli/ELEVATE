@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 50.5, 37.5 )
 
-[node name="jogador" type="Area2D"]
+[node name="jogador" type="Area2D" groups=["jogador"]]
 position = Vector2( 620, 578 )
 scale = Vector2( 0.6, 0.6 )
 collision_layer = 2
