@@ -31,7 +31,7 @@ func levar_dano(dano):
 	Global.vida_global -= dano
 	#if Global.vida_global <= 0:
 		#queue_free()
-	
+	print("oo")
 	
 
 	
