@@ -343,8 +343,8 @@ shape = SubResource( 15 )
 
 [connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
 [connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]
-[connection signal="body_entered" from="PenDrive_Cena" to="." method="_on_Area2D_body_entered"]
-[connection signal="body_exited" from="PenDrive_Cena" to="." method="_on_Area2D_body_exited"]
+[connection signal="body_entered" from="PenDrive_Cena" to="." method="_on_PenDrive_Cena_body_entered"]
+[connection signal="body_exited" from="PenDrive_Cena" to="." method="_on_PenDrive_Cena_body_exited"]
 [connection signal="body_entered" from="NPC_Pinky" to="NPC_Pinky" method="_on_NPC_Pinky_body_entered"]
 [connection signal="body_exited" from="NPC_Pinky" to="NPC_Pinky" method="_on_NPC_Pinky_body_exited"]
 [connection signal="body_entered" from="AreaPC_Roadmap" to="AreaPC_Roadmap" method="_on_AreaPC_Roadmap_body_entered"]

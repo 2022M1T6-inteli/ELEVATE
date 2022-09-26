@@ -86,8 +86,11 @@ margin_bottom = 549.0
 color = Color( 0.258824, 0.682353, 0.0862745, 1 )
 
 [node name="Label_Feedback" type="Label" parent="Visao_Perguntas/Feedback"]
-margin_right = 1028.0
-margin_bottom = 473.0
+margin_left = 123.0
+margin_top = 57.0
+margin_right = 626.0
+margin_bottom = 221.0
+rect_scale = Vector2( 1.5, 1.5 )
 align = 1
 valign = 1
 autowrap = true
