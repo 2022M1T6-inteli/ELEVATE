@@ -18,8 +18,8 @@ func tirar_da_cauda():
 func add_na_cauda(head_pos,dir):
 		pos_array.append(head_pos)
 		direcoes.append(dir)
-		print("add na cauda")
-		
+	
+	
 	
 
 

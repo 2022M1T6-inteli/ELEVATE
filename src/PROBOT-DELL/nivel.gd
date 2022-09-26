@@ -7,6 +7,7 @@ onready var comida = preload("res://comida.tscn")
 func _ready():
 	add_comida()
 	
+	
 	#definicao de nascimento da proxima comida
 func add_comida():
 	var instance = comida.instance()
@@ -28,3 +29,6 @@ func _process(delta):
 		Global.DialogoPenDrive= true
 		get_tree().change_scene("res://Segundo_Plano.tscn")
 		$Label.text = "voce conseguiu!"
+		
+
+

@@ -1,7 +1,7 @@
 extends Node2D
 
-var direcao = Vector2(0,2)
-var gap = -4
+var direcao = Vector2(0,1)
+var gap = -50
 var direcao_prox_cauda = Vector2(1,0)
 var direcao_anterior = Vector2(1,0)
 
@@ -10,13 +10,13 @@ onready var cauda = preload("res://cauda.tscn")
 
 func _process(delta):
 	if Input.is_action_just_pressed("ui_up"):
-		direcao = Vector2(0,-13)
+		direcao = Vector2(0,-1)
 	if Input.is_action_just_pressed("ui_down"):
-		direcao = Vector2(0,13)
+		direcao = Vector2(0,1)
 	if Input.is_action_just_pressed("ui_left"):
-		direcao = Vector2(-13,0)
+		direcao = Vector2(-1,0)
 	if Input.is_action_just_pressed("ui_right"):
-		direcao = Vector2(13,0)	
+		direcao = Vector2(1,0)	
 	
 	move_snake()
 	
@@ -35,13 +35,14 @@ func move_snake():
 
 
 func add_cauda():
-	var instance = cauda.instance()
+	dsawdsawsavar instance = cauda.instance()
 	var cauda_anterior = get_child(get_child_count()-1 )
 	if cauda_anterior.name != "cabeca":
 		instance.direcao_atual = cauda_anterior.direcao_atual
 		for i in range(0,cauda_anterior.pos_array.size()):
 			instance.pos_array.append(cauda_anterior.pos_array[i])
 			instance.direcoes.append(cauda_anterior.direcoes[i])
+		
 		instance.position = cauda_anterior.position + cauda_anterior.direcao_atual * gap
 		
 	else:
@@ -49,7 +50,7 @@ func add_cauda():
 		instance.position = cauda_anterior.position + direcao * gap
 	add_child(instance)
 			
-	print("add cauda")  
+
 			
 			
 		
