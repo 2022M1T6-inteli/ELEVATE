@@ -98,6 +98,7 @@ PopupsScene="*res://Popups.tscn"
 MouseCursor="*res://Mouse_Cursor.tscn"
 BackgroundMusic="*res://BackgroundMusic.tscn"
 Keys="*res://Popup_tecla_E.tscn"
+Transicao="*res://Transicao.tscn"
 
 [display]
 

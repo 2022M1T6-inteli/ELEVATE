@@ -35,6 +35,9 @@ func _on_PenDrive_Cena_body_exited(body):
 
 
 func _physics_process(_delta):
+	if Global.controlPenDrive == true and inventario[0].visible == false:
+		$PenDrive_Cena.visible = true
+	
 	if PenDrive_visibility == true and Input.is_action_just_pressed("ui_e") and $PenDrive_Cena.visible == true:
 		$PenDrive_Cena.visible = false
 		inventario[0].visible= true
@@ -44,8 +47,7 @@ func _physics_process(_delta):
 		if contSfx == 0: 
 			$itempegadosfx.play()
 		contSfx = contSfx+1
-	if Global.controlPenDrive == true and inventario[0].visible == false:
-		$PenDrive_Cena.visible = true
+
 	
 	if Global.Inventario_Itens[0] == true:
 		Global.controlPenDrive= false

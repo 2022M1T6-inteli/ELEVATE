@@ -57,6 +57,7 @@ func _ready():
 #nova pergunta e uma nova resposta
 func PassCards():
 	conta += 1
+	
 	if conta == 1:
 		pontos = 0
 		visibility_card_front.visible= true
@@ -74,6 +75,7 @@ func PassCards():
 			pontos = pontos + 1
 			feedback.color= Color(0.258824, 0.682353, 0.086275)
 		else:
+			botaoErrado = 0
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[0]
 			feedback.color= Color(0.6, 0.078431, 0.078431)
@@ -92,6 +94,7 @@ func PassCards():
 			feedback.color= Color(0.258824, 0.682353, 0.086275)
 			
 		else:
+			botaoCerto = 0
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[1]
 			feedback.color= Color(0.6, 0.078431, 0.078431)
@@ -111,6 +114,7 @@ func PassCards():
 			feedback.color= Color(0.258824, 0.682353, 0.086275)
 		else:
 			print("VOCE ERROU")
+			botaoErrado = 0
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[2]
 			feedback.color= Color(0.6, 0.078431, 0.078431)
@@ -128,6 +132,7 @@ func PassCards():
 			LabelFeedback.text= feedback_certo[3]
 			feedback.color= Color(0.258824, 0.682353, 0.086275)
 		else:
+			botaoErrado = 0
 			feedback.visible= true
 			LabelFeedback.text= feedback_errado[3]
 			feedback.color= Color(0.6, 0.078431, 0.078431)
