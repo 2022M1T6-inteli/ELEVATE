@@ -23,7 +23,6 @@ func _ready():
 		$Inventario/Inventariopng/RAM.visible= false 
 		
 		
-	
 
 #Define a variavel de controle como true.
 func _on_RAM_Cena_body_entered(body):

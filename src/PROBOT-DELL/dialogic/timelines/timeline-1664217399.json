@@ -24,22 +24,18 @@
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Hii my friend"
+			"text": "Congrats on passsing the minigame"
 		},
 		{
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You need to play this minigame to take the part"
-		},
-		{
-			"emit_signal": "Play_Ship",
-			"event_id": "dialogic_040"
+			"text": "Take the RAM beside me "
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
-		"file": "timeline-1663912785.json",
-		"name": "Dialogo_Hawking"
+		"file": "timeline-1664217399.json",
+		"name": "Dialogo_Hawking_RAM"
 	}
 }

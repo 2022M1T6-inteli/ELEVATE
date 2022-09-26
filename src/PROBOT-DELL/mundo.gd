@@ -12,7 +12,10 @@ func _on_jogador_spawn_laser(local):
 func _process(delta):
 	$LabelVida.text = "vida: " + str(Global.vida_global)
 	$LabelPontuacao.text = "pontuação:" + str(Global.pontuacao)
-	if Global.pontuacao >= 500:
+	if Global.pontuacao >= 40:
+		$LabelPontuacao.text = "Você conseguiu!"
+		Global.DialogoRAM= true
+		yield(get_tree().create_timer(1.0), "timeout")
+		get_tree().change_scene("res://Terceiro_Plano.tscn")
 		
-		$LabelPontuacao.text = "voce conseguiu!"
-	print(Global.vida_global)
+	#print(Global.vida_global)

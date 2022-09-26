@@ -29,6 +29,7 @@ func _on_Button2_pressed():
 	
 func _on_Button3_pressed():
 	get_node("PainelPreto/Label").text= str(3)
+	return get_tree().change_scene("res://Terceiro_Plano.tscn")
 	
 func _on_Button4_pressed():
 	get_node("PainelPreto/Label").text= str(4)
