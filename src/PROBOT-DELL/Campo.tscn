@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://pingas/camponovo.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 635, 5 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10, 330 )
+
+[node name="Campo" type="Node2D"]
+
+[node name="Topo" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Topo"]
+position = Vector2( 635, -5 )
+shape = SubResource( 1 )
+
+[node name="Base" type="StaticBody2D" parent="."]
+position = Vector2( 0, 660 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Base"]
+position = Vector2( 635, -5 )
+shape = SubResource( 1 )
+
+[node name="GolEsquerda" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GolEsquerda"]
+position = Vector2( -10, 320 )
+shape = SubResource( 2 )
+
+[node name="GolDireita" type="Area2D" parent="."]
+position = Vector2( 1270, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GolDireita"]
+position = Vector2( 10, 321 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 631, 326 )
+texture = ExtResource( 1 )

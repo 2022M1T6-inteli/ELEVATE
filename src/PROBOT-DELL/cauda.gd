@@ -15,9 +15,9 @@ func tirar_da_cauda():
 	direcoes.pop_front()
 	pos_array.pop_front()
 	
-func add_na_cauda(head_pos,dir):
-		pos_array.append(head_pos)
-		direcoes.append(dir)
+func add_na_cauda(posicao_cabeca,direcao):
+		pos_array.append(posicao_cabeca)
+		direcoes.append(direcao)
 	
 	
 	
