@@ -25,10 +25,12 @@ func _ready():
 		
 
 #Define a variavel de controle como true.
+# warning-ignore:unused_argument
 func _on_RAM_Cena_body_entered(body):
 	RAM_visibility= true
 
 #define variavel de controle como false. 
+# warning-ignore:unused_argument
 func _on_RAM_Cena_body_exited(body):
 	RAM_visibility= false
 
