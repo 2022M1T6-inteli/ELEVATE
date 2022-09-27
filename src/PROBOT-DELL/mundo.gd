@@ -1,6 +1,7 @@
 
 extends Node2D
 
+export var SceneToGo= ""
 var is_paused
 var laser =  preload("res://projetil/laserjogador.tscn")
 onready var mundo = $"."
@@ -15,7 +16,10 @@ func _process(delta):
 	if Global.pontuacao >= 40:
 		$LabelPontuacao.text = "Você conseguiu!"
 		Global.DialogoRAM= true
+		print("Dialogo 2 True")
 		yield(get_tree().create_timer(1.0), "timeout")
-		get_tree().change_scene("res://Terceiro_Plano.tscn")
+		Transicao.FadeInto(SceneToGo)
+		#get_tree().change_scene("res://Terceiro_Plano.tscn")
+		
 		
 	#print(Global.vida_global)

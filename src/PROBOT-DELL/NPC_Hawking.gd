@@ -9,7 +9,8 @@ onready var popup_E= $Popup_tecla_E
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	if Global.DialogoRAM == true:
+	if Global.DialogoRAM == true and Global.Inventario_Itens[1] == false:
+		print("Estou no Global RAM")
 		add_child(DialogRAM)
 		Global.controlRAM= true
 		

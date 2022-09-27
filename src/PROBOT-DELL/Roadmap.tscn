@@ -78,6 +78,7 @@ valign = 1
 autowrap = true
 
 [node name="Feedback" type="ColorRect" parent="Roadmap_Perguntas"]
+visible = false
 margin_left = 116.0
 margin_top = 75.0
 margin_right = 1145.0

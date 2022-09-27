@@ -143,31 +143,31 @@ func Premiacao():
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			platina.visible= true
-			Global.medalha_1 = 1
+			Global.medalha_2 = 1
 		elif pontos == 3:
 			print ("OURO")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			ouro.visible= true
-			Global.medalha_1 = 2
+			Global.medalha_2 = 2
 		elif pontos == 2:
 			print ("PRATA")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			prata.visible= true
-			Global.medalha_1 = 3
+			Global.medalha_2 = 3
 		elif pontos == 1:
 			print ("BRONZE")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			bronze.visible= true
-			Global.medalha_1 = 4
+			Global.medalha_2 = 4
 		elif pontos == 0:
 			print ("Você não atingiu a pontuação suficiente para passar de fase")
 			$FlashCard_Tras.visible= false
 			$FlashCard_Frente.visible= false
 			sem_medalha.visible= true
-			Global.medalha_1 = 0
+			Global.medalha_2 = 0
 		
 #funcao que vira o flashcard e mostra a parte traseira
 func _on_Button_Flashcard_Front_pressed():
@@ -197,13 +197,13 @@ func _on_Button_Errado_pressed():
 func _on_Home_Button_Platina_pressed():
 	Global.Inventario_Itens[0]= false
 	BackgroundMusic.play()
-	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Segundo_Plano.tscn")
 
 
 func _on_Home_Button_Ouro_pressed():
 	Global.Inventario_Itens[0]= false
 	BackgroundMusic.play()
-	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Segundo_Plano.tscn")
 
 
 func _on_Home_Button_Prata_pressed():

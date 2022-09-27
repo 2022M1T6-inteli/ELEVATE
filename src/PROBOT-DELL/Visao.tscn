@@ -56,9 +56,6 @@ margin_right = 1267.0
 margin_bottom = 649.0
 texture = ExtResource( 3 )
 expand = true
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Button_Flashcard_Front" type="Button" parent="Visao_Perguntas/FlashCard_Frente"]
 modulate = Color( 1, 1, 1, 0 )

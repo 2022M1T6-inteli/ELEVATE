@@ -7,10 +7,10 @@ var contSfx = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	if Global.NPCAzul_visible == false:
-		$NPC_Azul/Area2D.visible= true
-	elif Global.NPCAzul_visible == true:
-		$NPC_Azul/Area2D.visible= false
+	#if Global.NPCAzul_visible == false:
+		#$NPC_Azul/Area2D.visible= true
+	#elif Global.NPCAzul_visible == true:
+		#$NPC_Azul/Area2D.visible= false
 		
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true 
@@ -25,25 +25,29 @@ func _ready():
 		
 
 #Define a variavel de controle como true.
+# warning-ignore:unused_argument
 func _on_RAM_Cena_body_entered(body):
 	RAM_visibility= true
 
 #define variavel de controle como false. 
+# warning-ignore:unused_argument
 func _on_RAM_Cena_body_exited(body):
 	RAM_visibility= false
 
 
 func _physics_process(_delta):
+	if Global.controlRAM == true and inventario[1].visible == false: 
+		$RAM_Cena.visible= true
+	
 	if RAM_visibility == true and Input.is_action_just_pressed("ui_e") and $RAM_Cena.visible == true:
 		$RAM_Cena.visible= false
-		inventario[0].visible= true
+		inventario[1].visible= true
 		Global.Inventario_Itens[1]= inventario[1].visible
 		Global.contador = 6
 		if contSfx == 0: 
 			$itempegadosfx.play()
 		contSfx = contSfx+1
-	if Global.controlPenDrive == true:
-		$RAM_Cena.visible= true
+	
 	
 	if Global.Inventario_Itens[1] == true:
 		Global.controlRAM= false

@@ -19,8 +19,8 @@
 [ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=17]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=18]
 [ext_resource path="res://NPC_Hawking.gd" type="Script" id=19]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/3.png" type="Texture" id=20]
 [ext_resource path="res://OBJETIVO.tscn" type="PackedScene" id=21]
-[ext_resource path="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/2.png" type="Texture" id=22]
 [ext_resource path="res://Popup_tecla_E.tscn" type="PackedScene" id=23]
 [ext_resource path="res://Sounds/Coletar Item.ogg" type="AudioStream" id=24]
 [ext_resource path="res://HUD_INVENTARIO.tscn" type="PackedScene" id=25]
@@ -272,10 +272,10 @@ position = Vector2( 256, 559 )
 
 [node name="Node2D" parent="." instance=ExtResource( 21 )]
 
-[node name="2" type="Sprite" parent="."]
+[node name="3" type="Sprite" parent="."]
 position = Vector2( 192, 412 )
 scale = Vector2( 2, 1.86111 )
-texture = ExtResource( 22 )
+texture = ExtResource( 20 )
 
 [node name="itempegadosfx" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 24 )
