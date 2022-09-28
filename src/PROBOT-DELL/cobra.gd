@@ -30,7 +30,7 @@ func move_snake():
 		mudanca_direcao = true
 	if mudanca_direcao == true:
 		for i in range(1,get_child_count()):
-			get_child(i).add_na_cauda(posicao_cabeca,direcao)
+ 			get_child(i).add_na_cauda(posicao_cabeca,direcao)
 			
 
 
