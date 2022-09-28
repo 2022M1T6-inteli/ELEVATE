@@ -3,6 +3,8 @@ extends Area2D
 #declaração de variáveis
 var LiberaPorta= false 
 onready var popup_E= $Popup_tecla_E
+export var SceneToGo= ""
+
 
 #Define a variavel de controle como true. E mostra o popup na tela
 func _on_Area2D_body_entered(_body):
@@ -19,6 +21,9 @@ func _on_Area2D_body_exited(_body):
 # funçao que controla se a varivel é verdadeira e o botao foi pressionado para mudar de cena
 func _physics_process(_delta):
 	if LiberaPorta == true and Input.is_action_just_pressed("ui_e"):
-		return get_tree().change_scene("res://TileMap_Recepcao.tscn")
-
+		#return get_tree().change_scene("res://TileMap_Recepcao.tscn")
+		Transicao.FadeInto(SceneToGo)
+		
+		
+		
 	

@@ -219,6 +219,7 @@ margin_bottom = 251.0
 
 [node name="Area_elevador" type="Area2D" parent="."]
 script = ExtResource( 13 )
+SceneToGo = "res://painelpreto.tscn"
 
 [node name="Sprite" type="Sprite" parent="Area_elevador"]
 
@@ -334,6 +335,7 @@ script = ExtResource( 26 )
 __meta__ = {
 "_edit_group_": true
 }
+SceneToGo = "res://Roadmap.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AreaPC_Roadmap"]
 position = Vector2( 22, -53.5 )

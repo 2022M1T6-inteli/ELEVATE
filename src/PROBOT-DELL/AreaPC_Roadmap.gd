@@ -5,6 +5,7 @@ var ControlPcRoadmap= false
 onready var popup_E= $Popup_tecla_E
 onready var inventory= get_node("../Inventario/Inventariopng/PenDrive")
 onready var smokeanim= get_node("../Fumacasembg")
+export var SceneToGo= ""
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -33,7 +34,8 @@ func _physics_process(_delta):
 		inventory.visible= false 
 		smokeanim.visible= false
 	if Global.PCcontRoadmap == 1 and Input.is_action_just_pressed("ui_e") and Global.portaElevador == false:
-		return get_tree().change_scene("res://Roadmap.tscn")
+		#return get_tree().change_scene("res://Roadmap.tscn")
+		Transicao.FadeInto(SceneToGo)
 		Global.contador = 7
 		
 		
