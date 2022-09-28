@@ -17,13 +17,13 @@ func _ready():
 	NewDialog.connect("timeline_end", self, 'playship')
 
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
-func _on_NPC_Hawking_body_entered(body):
+func _on_NPC_Hawking_body_entered(_body):
 	DialogControl= true
 	popup_E.visible= true
 	popup_E.set_global_position(Vector2(715, 440))
 
 #Define a variavel de controle como true. E mostra o popup na tela
-func _on_NPC_Hawking_body_exited(body):
+func _on_NPC_Hawking_body_exited(_body):
 	DialogControl= false
 	popup_E.visible= false
 	
@@ -33,4 +33,4 @@ func _physics_process(_delta):
 		Global.contador = 4
 
 func playship(_argument):
-	get_tree().change_scene("res://mundo.tscn")
+	return get_tree().change_scene("res://mundo.tscn")

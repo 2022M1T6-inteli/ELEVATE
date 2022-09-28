@@ -12,7 +12,7 @@ func _ready():
 
 
 #Define a variavel de controle como true. E mostra o popup na tela
-func _on_AreaPC_Roadmap_body_entered(body):
+func _on_AreaPC_Roadmap_body_entered(_body):
 	ControlPcRoadmap= true
 	if Global.Inventario_Itens[0] == true or Global.PCcontRoadmap == 1:
 		popup_E.visible= true
@@ -20,14 +20,14 @@ func _on_AreaPC_Roadmap_body_entered(body):
 	
 
 #Define a variavel de controle como false. E remove o popup na tela
-func _on_AreaPC_Roadmap_body_exited(body):
+func _on_AreaPC_Roadmap_body_exited(_body):
 	ControlPcRoadmap= false
 	if Global.Inventario_Itens[0] == true or Global.PCcontRoadmap == 1:
 		popup_E.visible= false
 	
 
 func _physics_process(_delta):
-	if Global.Inventario_Itens[1] == true and ControlPcRoadmap == true and Input.is_action_just_pressed("ui_e"):
+	if Global.Inventario_Itens[1] == true and ControlPcRoadmap == true and Input.is_action_just_pressed("ui_e") and Global.verificacaoFase1 == 1:
 		
 		Global.PCcontRoadmap= 1
 		inventory.visible= false 

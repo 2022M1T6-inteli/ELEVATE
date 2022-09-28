@@ -21,3 +21,5 @@ var DialogoRAM= false
 
 var vida_global = 5
 var pontuacao = 0
+
+var verificacaoFase1 = 0
