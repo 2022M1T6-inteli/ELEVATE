@@ -207,6 +207,7 @@ shape = SubResource( 8 )
 
 [node name="Area_elevador" type="Area2D" parent="."]
 script = ExtResource( 5 )
+SceneToGo = "res://painelpreto.tscn"
 
 [node name="Sprite" type="Sprite" parent="Area_elevador"]
 
@@ -264,6 +265,7 @@ script = ExtResource( 18 )
 __meta__ = {
 "_edit_group_": true
 }
+SceneToGo = "res://Visao.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AreaPC_Visao"]
 position = Vector2( 22, -53.5 )

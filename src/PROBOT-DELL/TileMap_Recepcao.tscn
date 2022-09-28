@@ -476,6 +476,7 @@ script = ExtResource( 17 )
 __meta__ = {
 "_edit_group_": true
 }
+SceneToGo = "res://Node2D.tscn"
 
 [node name="Sprite" type="Sprite" parent="Area2D2"]
 
@@ -487,6 +488,7 @@ shape = SubResource( 6 )
 
 [node name="Area2D" type="Area2D" parent="."]
 script = ExtResource( 14 )
+SceneToGo = "res://painelpreto.tscn"
 
 [node name="Sprite" type="Sprite" parent="Area2D"]
 
@@ -590,7 +592,7 @@ texture = ExtResource( 36 )
 position = Vector2( 895, 424 )
 scale = Vector2( 0.596939, 0.644 )
 frames = SubResource( 10 )
-frame = 1
+frame = 2
 speed_scale = 0.15
 playing = true
 

@@ -182,6 +182,7 @@ margin_bottom = 196.0
 
 [node name="Area_elevador" type="Area2D" parent="."]
 script = ExtResource( 13 )
+SceneToGo = "res://painelpreto.tscn"
 
 [node name="Sprite" type="Sprite" parent="Area_elevador"]
 
