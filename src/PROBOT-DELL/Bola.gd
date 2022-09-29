@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 
-export var velocidade_inicial_bola = 500
+export var velocidade_inicial_bola = 650
 var mutador_velocidade = 50
 var velocidade_bola = velocidade_inicial_bola
 

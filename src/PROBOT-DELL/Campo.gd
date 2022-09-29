@@ -12,7 +12,8 @@ func _ready():
 
 func _on_GolEsquerda_body_entered(body):
 	 emit_signal("gol_esquerda")
-
+	 print("ajaoifjioa")
 
 func _on_GolDireita_body_entered(body):
 	emit_signal("gol_direita")
+	print("asdiaosfjasiofj")

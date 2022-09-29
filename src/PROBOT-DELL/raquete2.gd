@@ -5,7 +5,7 @@ signal atualizar
 
 
 
-export var velocidade_movimento = 300
+export var velocidade_movimento = 400
 var direcao = Vector2()
 
 
