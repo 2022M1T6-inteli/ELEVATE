@@ -1,11 +1,9 @@
-[gd_scene load_steps=38 format=2]
+[gd_scene load_steps=36 format=2]
 
 [ext_resource path="res://images/painel_elevador3 (1).png" type="Texture" id=1]
 [ext_resource path="res://images/botao elevador 2 principal  (1).png" type="Texture" id=2]
 [ext_resource path="res://Font/dogica.otf" type="DynamicFontData" id=3]
 [ext_resource path="res://Scripts/painelpreto.gd" type="Script" id=4]
-[ext_resource path="res://images/background_inicial.png" type="Texture" id=5]
-[ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Sounds/barulho de elevador.ogg" type="AudioStream" id=7]
 [ext_resource path="res://images/botao elevador 2 (1).png" type="Texture" id=8]
 [ext_resource path="res://images/botao elevador 3 (1).png" type="Texture" id=9]
@@ -94,13 +92,8 @@ Button/styles/hover = SubResource( 26 )
 Button/styles/normal = SubResource( 27 )
 Button/styles/pressed = SubResource( 28 )
 
-[node name="314dd8" type="Node2D"]
+[node name="painel_elevador" type="Popup"]
 script = ExtResource( 4 )
-
-[node name="BackgroundInicial" type="Sprite" parent="."]
-position = Vector2( 580, 454 )
-scale = Vector2( 1.48643, 2.69748 )
-texture = ExtResource( 5 )
 
 [node name="PainelPreto" type="Sprite" parent="."]
 position = Vector2( 582, 198 )
@@ -161,8 +154,6 @@ texture_normal = ExtResource( 16 )
 texture_pressed = ExtResource( 10 )
 texture_hover = ExtResource( 10 )
 expand = true
-
-[node name="Mouse_Cursor" parent="." instance=ExtResource( 6 )]
 
 [node name="elevadorsfx" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 7 )

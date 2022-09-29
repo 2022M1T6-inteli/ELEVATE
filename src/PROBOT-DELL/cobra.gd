@@ -30,25 +30,22 @@ func move_snake():
 		mudanca_direcao = true
 	if mudanca_direcao == true:
 		for i in range(1,get_child_count()):
- 			get_child(i).add_na_cauda(posicao_cabeca,direcao)
+			get_child(i).add_na_cauda(posicao_cabeca, direcao)
 			
-
-
 func add_cauda():
 	var instance = cauda.instance()
 	var cauda_anterior = get_child(get_child_count()-1 )
 	if cauda_anterior.name != "cabeca":
 		instance.direcao_atual = cauda_anterior.direcao_atual
-		for i in range(0,cauda_anterior.pos_array.size()):
+		for i in range(0, cauda_anterior.pos_array.size()):
 			instance.pos_array.append(cauda_anterior.pos_array[i])
 			instance.direcoes.append(cauda_anterior.direcoes[i])
-		instance.position = cauda_anterior.position + cauda_anterior.direcao_atual * gap
-		
+		instance.position = cauda_anterior.position + cauda_anterior.direcao_atual * gap	
 	else:
 		instance.direcao_atual = direcao
 		instance.position = cauda_anterior.position + direcao * gap
 	add_child(instance)
-			
+
 	print("add cauda")  
 			
 			

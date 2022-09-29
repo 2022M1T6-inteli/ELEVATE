@@ -1,9 +1,10 @@
 extends Area2D
 
 var LiberaPorta= false
-onready var InfoPopup= $Info_Popup
-onready var LabelPopup= $Info_Popup/Label_InfoPopup
+
 onready var popup_E= $Popup_tecla_E
+onready var popup_elevador= $painel_elevador
+
 export var SceneToGo= ""
 
 #Define a variavel de controle como true. E mostra o popup na tela
@@ -21,5 +22,10 @@ func _on_Area2D_body_exited(_body):
 func _physics_process(_delta):
 	if LiberaPorta == true and Input.is_action_just_pressed("ui_e"):
 		#return get_tree().change_scene("res://painelpreto.tscn")
-		Transicao.FadeInto(SceneToGo)
+		#Transicao.FadeInto(SceneToGo)
+		popup_elevador.visible= true
+		popup_elevador.set_global_position(Vector2(70, 15))
+		
+	elif Global.portaElevador == false and Input.is_action_just_pressed("ui_e"):
+		popup_elevador.visible= false
 	
