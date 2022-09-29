@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
 
-export var velocidade_inicial_bola = 300
-export var comutador_bola = 50
+export var velocidade_inicial_bola = 500
+var mutador_velocidade = 50
 var velocidade_bola = velocidade_inicial_bola
 
 var contador_hits = 0
@@ -29,11 +29,20 @@ func set_direcao_inicial():
 	
 func _physics_process(delta):
 	var colisao = move_and_collide(direcao * delta)
-	
+
 	if colisao:
-		direcao.direcao.bounce(colisao.normal)
-		if colisao.colider.is_in_group("raquetes"):
-			direcao = direcao.normalized() * (velocidade_bola + contador_hits * comutador_bola)
+		direcao = direcao.bounce(colisao.normal)
+		if colisao.collider.is_in_group("raquetes"):
+			var y = direcao.y / 2 + colisao.collider_velocity.y
 			
+			direcao = Vector2(direcao.x, y).normalized() * (velocidade_bola + contador_hits * mutador_velocidade) 
 			
+			if contador_hits < contador_hits_maximo:
+				contador_hits += 1
+				
+	
+func reset():
+	position = Vector2(620,350)
+	direcao = Vector2()
+	contador_hits = 0
 			

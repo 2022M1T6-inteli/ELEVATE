@@ -1,21 +1,19 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Bola.gd" type="Script" id=1]
 [ext_resource path="res://pingas/Bola.png" type="Texture" id=2]
 
+[sub_resource type="CircleShape2D" id=1]
+radius = 14.0
+
 [node name="Bola" type="KinematicBody2D"]
-position = Vector2( 572, 302 )
+collision_layer = 3
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 21.35, -22.5 )
-scale = Vector2( 0.0430808, 0.0341667 )
+position = Vector2( 19, 10 )
+scale = Vector2( 0.0430808, 0.0408333 )
 texture = ExtResource( 2 )
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( 2.48466, -31.8036 )
-scale = Vector2( 0.869318, 0.803572 )
-polygon = PoolVector2Array( 2, -13, 7, -12, 12, -8, 13, -8, 16, -1, 16, -1, 16, 4, 16, 4, 12, 10, 5, 15, -6, 14, -12, 11, -17, 4, -17, -3, -11, -11, -4, -13 )
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
