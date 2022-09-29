@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=2]
+[gd_scene load_steps=33 format=2]
 
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=1]
 [ext_resource path="res://images/Floor 1.png" type="Texture" id=2]
@@ -21,6 +21,7 @@
 [ext_resource path="res://NPC_Hawking.gd" type="Script" id=19]
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/3.png" type="Texture" id=20]
 [ext_resource path="res://OBJETIVO.tscn" type="PackedScene" id=21]
+[ext_resource path="res://painelpreto.tscn" type="PackedScene" id=22]
 [ext_resource path="res://Popup_tecla_E.tscn" type="PackedScene" id=23]
 [ext_resource path="res://Sounds/Coletar Item.ogg" type="AudioStream" id=24]
 [ext_resource path="res://HUD_INVENTARIO.tscn" type="PackedScene" id=25]
@@ -190,6 +191,8 @@ position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
 [node name="Popup_tecla_E" parent="Area_elevador" instance=ExtResource( 23 )]
+
+[node name="painel_elevador" parent="Area_elevador" instance=ExtResource( 22 )]
 
 [node name="NPC_rosa" parent="." instance=ExtResource( 7 )]
 visible = false

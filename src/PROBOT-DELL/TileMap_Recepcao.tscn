@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=2]
+[gd_scene load_steps=54 format=2]
 
 [ext_resource path="res://images/Floor 4.png" type="Texture" id=1]
 [ext_resource path="res://images/Janela recepção.jpeg" type="Texture" id=2]
@@ -41,6 +41,7 @@
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/0.png" type="Texture" id=39]
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/TVAnimação/TVTESTE3.png" type="Texture" id=40]
 [ext_resource path="res://craftpix-net-481510-free-townspeople-cyberpunk-pixel-art/3/Idle.png" type="Texture" id=41]
+[ext_resource path="res://painelpreto.tscn" type="PackedScene" id=42]
 
 [sub_resource type="TileSet" id=9]
 0/name = "Parede_laranja.png 0"
@@ -476,6 +477,7 @@ script = ExtResource( 17 )
 __meta__ = {
 "_edit_group_": true
 }
+SceneToGo = "res://Node2D.tscn"
 
 [node name="Sprite" type="Sprite" parent="Area2D2"]
 
@@ -487,6 +489,7 @@ shape = SubResource( 6 )
 
 [node name="Area2D" type="Area2D" parent="."]
 script = ExtResource( 14 )
+SceneToGo = "res://painelpreto.tscn"
 
 [node name="Sprite" type="Sprite" parent="Area2D"]
 
@@ -500,6 +503,8 @@ scale = Vector2( 0.439024, 0.338061 )
 texture = ExtResource( 34 )
 
 [node name="Popup_tecla_E" parent="Area2D" instance=ExtResource( 9 )]
+
+[node name="painel_elevador" parent="Area2D" instance=ExtResource( 42 )]
 
 [node name="Colisao_Parede_Direita" type="StaticBody2D" parent="."]
 
@@ -590,7 +595,7 @@ texture = ExtResource( 36 )
 position = Vector2( 895, 424 )
 scale = Vector2( 0.596939, 0.644 )
 frames = SubResource( 10 )
-frame = 1
+frame = 2
 speed_scale = 0.15
 playing = true
 

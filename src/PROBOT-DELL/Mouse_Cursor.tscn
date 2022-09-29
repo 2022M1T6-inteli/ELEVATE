@@ -18,6 +18,7 @@ func _process(_delta):
 
 [node name="Mouse_Cursor" type="Node2D"]
 pause_mode = 2
+z_index = 1
 script = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
