@@ -37,6 +37,7 @@ func _physics_process(delta):
 			
 			direcao = Vector2(direcao.x, y).normalized() * (velocidade_bola + contador_hits * mutador_velocidade) 
 			
+			
 			if contador_hits < contador_hits_maximo:
 				contador_hits += 1
 				
@@ -45,5 +46,5 @@ func reset():
 	position = Vector2(620,350)
 	direcao = Vector2()
 	contador_hits = 0
-	print("bola resetou")
+
 				

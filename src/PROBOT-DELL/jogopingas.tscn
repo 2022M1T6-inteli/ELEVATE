@@ -32,5 +32,38 @@ position = Vector2( 1220, 304 )
 script = ExtResource( 5 )
 caminho_bola = NodePath("../../Bola")
 
+[node name="Label" type="Label" parent="."]
+anchor_bottom = 0.022
+margin_right = 234.0
+margin_bottom = 99.7
+rect_scale = Vector2( 2, 2 )
+align = 1
+valign = 1
+
+[node name="Label2" type="Label" parent="."]
+anchor_bottom = 0.022
+margin_left = 800.0
+margin_top = 2.0
+margin_right = 1034.0
+margin_bottom = 101.7
+rect_scale = Vector2( 2, 2 )
+align = 1
+valign = 1
+
+[node name="Label3" type="Label" parent="."]
+anchor_bottom = 0.022
+margin_left = 398.0
+margin_top = 216.0
+margin_right = 632.0
+margin_bottom = 315.7
+rect_scale = Vector2( 2, 2 )
+align = 1
+valign = 1
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 120.0
+autostart = true
+
 [connection signal="gol_direita" from="Campo" to="." method="_on_Campo_gol_direita"]
 [connection signal="gol_esquerda" from="Campo" to="." method="_on_Campo_gol_esquerda"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

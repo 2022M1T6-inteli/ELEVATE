@@ -1,6 +1,6 @@
 extends Node2D
 
-var direcao = Vector2(0,2)
+var direcao = Vector2(0,1)
 var gap = -50
 var direcao_prox_cauda = Vector2(1,0)
 var direcao_anterior = Vector2(1,0)
@@ -17,7 +17,7 @@ func _process(delta):
 		direcao = Vector2(-1,0)
 	if Input.is_action_just_pressed("ui_right"):
 		direcao = Vector2(1,0)	
-	
+
 	move_snake()#a
 	
 func move_snake():
@@ -48,7 +48,9 @@ func add_cauda():
 
 	print("add cauda")  
 			
-			
+
 		
+
+
 		
 	

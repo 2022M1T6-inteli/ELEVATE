@@ -18,11 +18,11 @@ func input_movimento():
 	raquete.direcao = Vector2(0, pegar_direcao_bola())
 	
 func pegar_direcao_bola():
-	if abs(raquete.position.y - bola.position.y) > 0:
-		if raquete.position.y < bola.position.y:
-			return 1
-		else:
-			return -1
+	#if abs(raquete.position.y - bola.position.y) > 0:
+	if raquete.position.y < bola.position.y:
+		return 1
+	elif raquete.position.y > bola.position.y:
+		return -1
 		
 	else:
 		return 0

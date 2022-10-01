@@ -25,10 +25,14 @@ func nasceu_nova():
 	#pontuacao
 func _process(delta):
 	$Label.text = str(pontuacao)	
-	if pontuacao == 5:
+	if pontuacao == 30:
 		Global.DialogoPenDrive= true
 		get_tree().change_scene("res://Segundo_Plano.tscn")
 		$Label.text = "voce conseguiu!"
+	if $cobra/cabeca.position.x < 0 or $cobra/cabeca.position.x > 1260:
+		get_tree().reload_current_scene()
+	elif $cobra/cabeca.position.y < 0 or $cobra/cabeca.position.y > 660:
+		get_tree().reload_current_scene()
 		
-
+	
 
