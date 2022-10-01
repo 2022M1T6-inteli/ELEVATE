@@ -10,17 +10,19 @@ func _ready():
 
 
 func _on_Campo_gol_esquerda():
-	pontos_jogador_1 += 1
-	if pontos_jogador_1 < maximo_de_pontos:
-		comeca_round_novo()
+	#pontos_jogador_1 += 1
+	#if pontos_jogador_1 < maximo_de_pontos:
+	comeca_round_novo()
 	
 
 func _on_Campo_gol_direita():
-	pontos_jogador_2 += 1
-	if pontos_jogador_2 < maximo_de_pontos:
-		comeca_round_novo()
+	#pontos_jogador_2 += 1
+	#if pontos_jogador_2 < maximo_de_pontos:
+	comeca_round_novo()
 	
 		
 func comeca_round_novo():
 	$Bola.reset()
+	print("comecou round novo")
 	
+
