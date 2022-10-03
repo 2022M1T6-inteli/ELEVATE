@@ -13,6 +13,7 @@ func _ready():
 		print("Estou no Global RAM")
 		add_child(DialogRAM)
 		Global.controlRAM= true
+	
 		
 		
 	NewDialog.connect("timeline_end", self, 'playship')
@@ -32,8 +33,10 @@ func _on_NPC_Hawking_body_exited(_body):
 func _physics_process(_delta):
 	if DialogControl == true and Input.is_action_just_pressed("ui_e"):
 		add_child(NewDialog)
-		Global.contador = 9
+		
+		
 		
 
 func playship(_argument):
 	return get_tree().change_scene("res://mundo.tscn")
+	

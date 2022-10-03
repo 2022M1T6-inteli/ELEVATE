@@ -11,7 +11,10 @@ func _ready():
 		#$NPC_Azul/Area2D.visible= true
 	#elif Global.NPCAzul_visible == true:
 		#$NPC_Azul/Area2D.visible= false
-	Global.contador = 8
+	if Global.terminou_jogo_nave == true:
+		Global.contador = 9
+	else:
+		Global.contador = 8
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true 
 	elif Global.Inventario_Itens[0] == false:
@@ -55,3 +58,7 @@ func _physics_process(_delta):
 	
 	if Global.Inventario_Itens[1] == true:
 		Global.controlRAM= false
+		
+		
+	if Global.Inventario_Itens[1] == true:
+		Global.contador = 10

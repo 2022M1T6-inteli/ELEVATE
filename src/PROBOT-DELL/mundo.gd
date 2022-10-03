@@ -29,3 +29,5 @@ func TimerNave():
 	yield(get_tree().create_timer(1.0), "timeout")
 	queue_free()
 	
+func _ready():
+	Global.terminou_jogo_nave = true
