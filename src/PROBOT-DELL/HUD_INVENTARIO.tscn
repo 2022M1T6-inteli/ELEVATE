@@ -1,10 +1,10 @@
 [gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://images/hud inventaria.png" type="Texture" id=1]
+[ext_resource path="res://images/hud inventario.png" type="Texture" id=1]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=2]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=3]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=4]
-[ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=5]
+[ext_resource path="res://AssetsInventario/PeçasPC3.png" type="Texture" id=5]
 [ext_resource path="res://images/Medal_Ouro.png" type="Texture" id=6]
 [ext_resource path="res://images/Medal_Platina.png" type="Texture" id=7]
 [ext_resource path="res://images/Medal_Prata.png" type="Texture" id=8]
@@ -99,7 +99,7 @@ position = Vector2( 76.6756, -6.87151 )
 scale = Vector2( 0.441749, 0.441478 )
 texture = ExtResource( 4 )
 
-[node name="PapelSenha" type="Sprite" parent="Inventariopng"]
+[node name="PlacaVideo" type="Sprite" parent="Inventariopng"]
 visible = false
 position = Vector2( 25.5319, -8.88269 )
 scale = Vector2( 0.499447, 0.345251 )

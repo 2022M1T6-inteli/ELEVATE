@@ -33,7 +33,8 @@ func _on_Button3_pressed():
 	Transicao.FadeInto(SceneToGo)
 	
 func _on_Button4_pressed():
-	pass
+	SceneToGo= "res://Quarto_Plano.tscn"
+	Transicao.FadeInto(SceneToGo)
 	
 func _on_Button0_pressed():
 	#return get_tree().change_scene("res://TileMap_Recepcao.tscn")

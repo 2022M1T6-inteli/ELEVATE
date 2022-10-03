@@ -15,9 +15,6 @@ script = ExtResource( 7 )
 
 [node name="Bola" parent="." instance=ExtResource( 1 )]
 position = Vector2( 622, 341 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Raquete" parent="." instance=ExtResource( 3 )]
 position = Vector2( 25, 325 )

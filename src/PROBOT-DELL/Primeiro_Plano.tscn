@@ -14,8 +14,8 @@
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=12]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=13]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=14]
-[ext_resource path="res://images/hud inventaria.png" type="Texture" id=15]
-[ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=16]
+[ext_resource path="res://images/hud inventario.png" type="Texture" id=15]
+[ext_resource path="res://AssetsInventario/PeçasPC3.png" type="Texture" id=16]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=17]
 [ext_resource path="res://Scripts/AreaPC_Visao.gd" type="Script" id=18]
 [ext_resource path="res://images/NPC_Marcos.png" type="Texture" id=19]
@@ -287,10 +287,9 @@ position = Vector2( 75.6384, -8.88269 )
 scale = Vector2( 0.402829, 0.384249 )
 texture = ExtResource( 17 )
 
-[node name="PapelSenha" type="Sprite" parent="Inventario/Inventariopng"]
-visible = false
-position = Vector2( 27.5406, -8.18359 )
-scale = Vector2( 0.42795, 0.310056 )
+[node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
+position = Vector2( 28.0914, -6.78047 )
+scale = Vector2( 0.213548, 0.279553 )
 texture = ExtResource( 16 )
 
 [node name="AreaPC_Visao" type="Area2D" parent="."]

@@ -1,7 +1,7 @@
 extends Node2D
 
 
-onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node("Inventario/Inventariopng/RAM"), get_node("Inventario/Inventariopng/Cd"), get_node("Inventario/Inventariopng/PapelSenha")]
+onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node("Inventario/Inventariopng/RAM"), get_node("Inventario/Inventariopng/Cd"), get_node("Inventario/Inventariopng/PlacaVideo")]
 var RAM_visibility= false
 var contSfx = 0
 
@@ -22,6 +22,10 @@ func _ready():
 	elif Global.Inventario_Itens[1] == false:
 		$Inventario/Inventariopng/RAM.visible= false 
 		
+	if Global.Inventario_Itens[3] == true:
+		$Inventario/Inventariopng/PlacaVideo.visible= true 
+	elif Global.Inventario_Itens[3] == false:
+		$Inventario/Inventariopng/PlacaVideo.visible= false 
 		
 
 #Define a variavel de controle como true.

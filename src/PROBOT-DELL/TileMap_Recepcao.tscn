@@ -23,13 +23,13 @@
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=21]
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=22]
 [ext_resource path="res://images/Parede_laranja.png" type="Texture" id=23]
-[ext_resource path="res://images/hud inventaria.png" type="Texture" id=24]
+[ext_resource path="res://images/hud inventario.png" type="Texture" id=24]
 [ext_resource path="res://Scripts/TileMap_Recepcao.gd" type="Script" id=25]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=26]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=27]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=28]
 [ext_resource path="res://HUD_INVENTARIO.tscn" type="PackedScene" id=29]
-[ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=30]
+[ext_resource path="res://AssetsInventario/PeçasPC3.png" type="Texture" id=30]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=31]
 [ext_resource path="res://OBJETIVO.tscn" type="PackedScene" id=32]
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsInteriorPredio/TVAnimação/TVTESTE1.png" type="Texture" id=33]
@@ -542,7 +542,6 @@ scale = Vector2( 0.586024, 0.425359 )
 texture = ExtResource( 27 )
 
 [node name="RAM" type="Sprite" parent="Inventario/Inventariopng"]
-visible = false
 position = Vector2( -18.9096, -8.04472 )
 scale = Vector2( 0.303476, 0.436636 )
 texture = ExtResource( 28 )
@@ -553,10 +552,9 @@ position = Vector2( 76.2767, -7.20671 )
 scale = Vector2( 0.410613, 0.412863 )
 texture = ExtResource( 31 )
 
-[node name="PapelSenha" type="Sprite" parent="Inventario/Inventariopng"]
-visible = false
-position = Vector2( 28.3644, -9.80448 )
-scale = Vector2( 0.423805, 0.310056 )
+[node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
+position = Vector2( 28.6155, -5.35627 )
+scale = Vector2( 0.214, 0.28 )
 texture = ExtResource( 30 )
 
 [node name="Node2D" parent="." instance=ExtResource( 32 )]

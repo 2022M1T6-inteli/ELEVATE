@@ -1,36 +1,35 @@
-[gd_scene load_steps=42 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=1]
 [ext_resource path="res://images/Floor 1.png" type="Texture" id=2]
 [ext_resource path="res://images/elevador para o jogo.jpeg" type="Texture" id=3]
 [ext_resource path="res://images/Computer station 2.png" type="Texture" id=4]
 [ext_resource path="res://images/Wall 3.png" type="Texture" id=5]
-[ext_resource path="res://images/fumacasembg.png" type="Texture" id=6]
+[ext_resource path="res://images/NPC_Norman.png" type="Texture" id=6]
 [ext_resource path="res://NPC_rosa.tscn" type="PackedScene" id=7]
-[ext_resource path="res://Scripts/Segundo_Plano.gd" type="Script" id=8]
+[ext_resource path="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/4.png" type="Texture" id=8]
 [ext_resource path="res://DellBorg_Player.tscn" type="PackedScene" id=9]
 [ext_resource path="res://PauseMenu.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=11]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=12]
-[ext_resource path="res://Scripts/Area_elevador.gd" type="Script" id=13]
+[ext_resource path="res://Quarto_Plano.gd" type="Script" id=13]
 [ext_resource path="res://NPC_Azul.tscn" type="PackedScene" id=14]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=15]
 [ext_resource path="res://images/hud inventario.png" type="Texture" id=16]
 [ext_resource path="res://AssetsInventario/PeçasPC3.png" type="Texture" id=17]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=18]
-[ext_resource path="res://images/NPC_Pinky.png" type="Texture" id=19]
-[ext_resource path="res://Scripts/NPC_Pinky.gd" type="Script" id=20]
+[ext_resource path="res://NPC_Norman.gd" type="Script" id=19]
+[ext_resource path="res://Area_elevador_QuartoPlano.gd" type="Script" id=20]
 [ext_resource path="res://OBJETIVO.tscn" type="PackedScene" id=21]
-[ext_resource path="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/2.png" type="Texture" id=22]
+[ext_resource path="res://painelpreto.tscn" type="PackedScene" id=22]
 [ext_resource path="res://Popup_tecla_E.tscn" type="PackedScene" id=23]
 [ext_resource path="res://Sounds/Coletar Item.ogg" type="AudioStream" id=24]
 [ext_resource path="res://HUD_INVENTARIO.tscn" type="PackedScene" id=25]
-[ext_resource path="res://AreaPC_Roadmap.gd" type="Script" id=26]
-[ext_resource path="res://painelpreto.tscn" type="PackedScene" id=27]
-[ext_resource path="res://assetssprint5alt/1tv.png" type="Texture" id=28]
-[ext_resource path="res://assetssprint5alt/1board.png" type="Texture" id=29]
-[ext_resource path="res://assetssprint5alt/aabebedouroasset-removebg-preview.png" type="Texture" id=30]
-[ext_resource path="res://assetssprint5alt/1escaneadorelevador.png" type="Texture" id=31]
+[ext_resource path="res://assetssprint5alt/1pc2.png" type="Texture" id=26]
+[ext_resource path="res://assetssprint5alt/1escaneadorelevador.png" type="Texture" id=27]
+[ext_resource path="res://assetssprint5alt/1pcalternativo.png" type="Texture" id=28]
+[ext_resource path="res://assetssprint5alt/1paineleletrico.png" type="Texture" id=29]
+[ext_resource path="res://assetssprint5alt/1telefone.png" type="Texture" id=30]
 
 [sub_resource type="TileSet" id=12]
 0/name = "Wall 3.png 0"
@@ -130,54 +129,20 @@ b = Vector2( 1, 656 )
 extents = Vector2( 35, 50 )
 
 [sub_resource type="RectangleShape2D" id=10]
-extents = Vector2( 25, 23 )
+extents = Vector2( 25, 24 )
 
 [sub_resource type="RectangleShape2D" id=11]
 extents = Vector2( 40.5, 55 )
 
-[sub_resource type="Animation" id=13]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/path = NodePath(".:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ 0 ]
-}
-
-[sub_resource type="Animation" id=14]
-resource_name = "fumaca"
-length = 1.4
-loop = true
-tracks/0/type = "value"
-tracks/0/path = NodePath(".:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 0.2, 0.4, 0.7, 1, 1.3 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
-"update": 1,
-"values": [ 0, 1, 2, 3, 4, 5 ]
-}
-
-[sub_resource type="RectangleShape2D" id=15]
-extents = Vector2( 67.5, 63.5 )
-
 [node name="Node2D" type="Node2D"]
-script = ExtResource( 8 )
+script = ExtResource( 13 )
+
+[node name="HUD_INVENTARIO" parent="." instance=ExtResource( 25 )]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_left = 1.0
-margin_top = 2.0
-margin_right = 1293.0
-margin_bottom = 657.0
+margin_top = 11.0
+margin_right = 1292.0
+margin_bottom = 666.0
 color = Color( 0.466667, 0.458824, 0.462745, 1 )
 
 [node name="TileMap3" type="TileMap" parent="."]
@@ -193,15 +158,13 @@ tile_data = PoolIntArray( 0, 4, 0, 2, 4, 0, 4, 1, 0, 8, 1, 0, 10, 1, 0, 12, 1, 0
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 1 )
 format = 1
-tile_data = PoolIntArray( 1, 4, 0, 3, 4, 0, 4, 4, 0, 5, 4, 0, 6, 4, 0, 7, 4, 0, 8, 4, 0, 9, 4, 0, 10, 4, 0, 11, 4, 0, 12, 4, 0, 13, 4, 0, 14, 4, 0, 15, 4, 0, 16, 4, 0, 17, 4, 0, 18, 4, 0, 19, 4, 0, 65537, 4, 0, 65539, 4, 0, 65540, 4, 0, 65541, 4, 0, 65542, 4, 0, 65543, 4, 0, 65544, 4, 0, 65545, 4, 0, 65546, 4, 0, 65547, 4, 0, 65548, 4, 0, 65549, 4, 0, 65550, 4, 0, 65551, 4, 0, 65552, 4, 0, 65553, 4, 0, 65554, 4, 0, 65555, 4, 0, 131072, 4, 0, 131073, 4, 0, 131074, 4, 0, 131075, 4, 0, 131076, 4, 0, 131077, 4, 0, 131078, 4, 0, 131079, 4, 0, 131080, 4, 0, 131081, 4, 0, 131082, 4, 0, 131083, 4, 0, 131084, 4, 0, 131085, 4, 0, 131086, 4, 0, 131087, 4, 0, 131088, 4, 0, 131089, 4, 0, 131090, 4, 0, 131091, 4, 0, 196608, 4, 0, 196609, 4, 0, 196610, 4, 0, 196611, 4, 0, 196612, 4, 0, 196613, 4, 0, 196614, 4, 0, 196615, 4, 0, 196616, 4, 0, 196617, 4, 0, 196618, 4, 0, 196619, 4, 0, 196620, 4, 0, 196621, 4, 0, 196622, 4, 0, 196623, 4, 0, 196624, 4, 0, 196625, 4, 0, 196626, 4, 0, 196627, 4, 0, 262144, 4, 0, 262145, 4, 0, 262146, 4, 0, 262147, 4, 0, 262148, 4, 0, 262149, 4, 0, 262150, 4, 0, 262151, 4, 0, 262152, 4, 0, 262153, 4, 0, 262154, 4, 0, 262155, 4, 0, 262156, 4, 0, 262157, 4, 0, 262158, 4, 0, 262159, 4, 0, 262160, 4, 0, 262161, 4, 0, 262162, 4, 0, 262163, 4, 0, 327680, 4, 0, 327681, 4, 0, 327682, 4, 0, 327683, 4, 0, 327684, 4, 0, 327685, 4, 0, 327686, 4, 0, 327687, 4, 0, 327688, 4, 0, 327689, 4, 0, 327690, 4, 0, 327691, 4, 0, 327692, 4, 0, 327693, 4, 0, 327694, 4, 0, 327695, 4, 0, 327696, 4, 0, 327697, 4, 0, 327698, 4, 0, 327699, 4, 0, 393216, 4, 0, 393217, 4, 0, 393218, 4, 0, 393219, 4, 0, 393220, 4, 0, 393221, 4, 0, 393222, 4, 0, 393223, 4, 0, 393224, 4, 0, 393225, 4, 0, 393226, 4, 0, 393227, 4, 0, 393228, 4, 0, 393229, 4, 0, 393230, 4, 0, 393231, 4, 0, 393232, 4, 0, 393233, 4, 0, 393234, 4, 0, 393235, 4, 0, 458752, 4, 0, 458753, 4, 0, 458754, 3, 0, 458756, 4, 0, 458757, 4, 0, 458758, 4, 0, 458759, 4, 0, 458761, 4, 0, 458762, 4, 0, 458764, 4, 0, 458765, 4, 0, 458767, 4, 0, 458768, 2, 0, 458770, 4, 0, 458771, 4, 0, 524289, 4, 0, 524292, 4, 0, 524293, 4, 0, 524294, 4, 0, 524297, 4, 0, 524300, 4, 0, 524303, 4, 0, 524306, 4, 0, 524307, 4, 0, 589824, 0, 0, 589825, 0, 0, 589826, 0, 0, 589827, 0, 0, 589828, 0, 0, 589829, 0, 0, 589830, 0, 0, 589831, 0, 0, 589832, 0, 0, 589833, 0, 0, 589834, 0, 0, 589835, 0, 0, 589836, 0, 0, 589837, 0, 0, 589838, 0, 0, 589839, 0, 0, 589840, 0, 0, 589841, 0, 0, 589842, 0, 0, 589843, 0, 0 )
-
-[node name="HUD_INVENTARIO" parent="." instance=ExtResource( 25 )]
+tile_data = PoolIntArray( 1, 4, 0, 3, 4, 0, 4, 4, 0, 5, 4, 0, 6, 4, 0, 7, 4, 0, 8, 4, 0, 9, 4, 0, 10, 4, 0, 11, 4, 0, 12, 4, 0, 13, 4, 0, 14, 4, 0, 15, 4, 0, 16, 4, 0, 17, 4, 0, 18, 4, 0, 19, 4, 0, 65537, 4, 0, 65539, 4, 0, 65540, 4, 0, 65541, 4, 0, 65542, 4, 0, 65543, 4, 0, 65544, 4, 0, 65545, 4, 0, 65546, 4, 0, 65547, 4, 0, 65548, 4, 0, 65549, 4, 0, 65550, 4, 0, 65551, 4, 0, 65552, 4, 0, 65553, 4, 0, 65554, 4, 0, 65555, 4, 0, 131072, 4, 0, 131073, 4, 0, 131074, 4, 0, 131075, 4, 0, 131076, 4, 0, 131077, 4, 0, 131078, 4, 0, 131079, 4, 0, 131080, 4, 0, 131081, 4, 0, 131082, 4, 0, 131083, 4, 0, 131084, 4, 0, 131085, 4, 0, 131086, 4, 0, 131087, 4, 0, 131088, 4, 0, 131089, 4, 0, 131090, 4, 0, 131091, 4, 0, 196608, 4, 0, 196609, 4, 0, 196610, 4, 0, 196611, 4, 0, 196612, 4, 0, 196613, 4, 0, 196614, 4, 0, 196615, 4, 0, 196616, 4, 0, 196617, 4, 0, 196618, 4, 0, 196619, 4, 0, 196620, 4, 0, 196621, 4, 0, 196622, 4, 0, 196623, 4, 0, 196624, 4, 0, 196625, 4, 0, 196626, 4, 0, 196627, 4, 0, 262144, 4, 0, 262145, 4, 0, 262146, 4, 0, 262147, 4, 0, 262148, 4, 0, 262149, 4, 0, 262150, 4, 0, 262151, 4, 0, 262152, 4, 0, 262153, 4, 0, 262154, 4, 0, 262155, 4, 0, 262156, 4, 0, 262157, 4, 0, 262158, 4, 0, 262159, 4, 0, 262160, 4, 0, 262161, 4, 0, 262162, 4, 0, 262163, 4, 0, 327680, 4, 0, 327681, 4, 0, 327682, 4, 0, 327683, 4, 0, 327684, 4, 0, 327685, 4, 0, 327686, 4, 0, 327687, 4, 0, 327688, 4, 0, 327689, 4, 0, 327690, 4, 0, 327691, 4, 0, 327692, 4, 0, 327693, 4, 0, 327694, 4, 0, 327695, 4, 0, 327696, 4, 0, 327697, 4, 0, 327698, 4, 0, 327699, 4, 0, 393216, 4, 0, 393217, 4, 0, 393218, 4, 0, 393219, 4, 0, 393220, 4, 0, 393221, 4, 0, 393222, 4, 0, 393223, 4, 0, 393224, 4, 0, 393225, 4, 0, 393226, 4, 0, 393227, 4, 0, 393228, 4, 0, 393229, 4, 0, 393230, 4, 0, 393231, 4, 0, 393232, 4, 0, 393233, 4, 0, 393234, 4, 0, 393235, 4, 0, 458752, 4, 0, 458753, 4, 0, 458754, 3, 0, 458756, 4, 0, 458757, 4, 0, 458758, 4, 0, 458759, 4, 0, 458761, 4, 0, 458762, 4, 0, 458764, 4, 0, 458765, 4, 0, 458767, 4, 0, 458768, 4, 0, 458769, 4, 0, 458770, 4, 0, 458771, 4, 0, 524289, 4, 0, 524292, 4, 0, 524293, 4, 0, 524294, 4, 0, 524297, 4, 0, 524300, 4, 0, 524303, 4, 0, 524304, 4, 0, 524305, 4, 0, 524306, 4, 0, 524307, 4, 0, 589824, 0, 0, 589825, 0, 0, 589826, 0, 0, 589827, 0, 0, 589828, 0, 0, 589829, 0, 0, 589830, 0, 0, 589831, 0, 0, 589832, 0, 0, 589833, 0, 0, 589834, 0, 0, 589835, 0, 0, 589836, 0, 0, 589837, 0, 0, 589838, 0, 0, 589839, 0, 0, 589840, 0, 0, 589841, 0, 0, 589842, 0, 0, 589843, 0, 0 )
 
 [node name="Colisao_Chao" type="StaticBody2D" parent="."]
 position = Vector2( 1280, -3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Colisao_Chao"]
-position = Vector2( -639.125, 595.375 )
+position = Vector2( -607, 596 )
 shape = SubResource( 4 )
 
 [node name="Colisao_Parede_Direita" type="StaticBody2D" parent="."]
@@ -217,34 +180,13 @@ shape = SubResource( 8 )
 
 [node name="PauseMenu" parent="." instance=ExtResource( 10 )]
 visible = false
-margin_left = 605.0
-margin_top = 251.0
-margin_right = 605.0
-margin_bottom = 251.0
-
-[node name="Aabebedouroasset-removebg-preview" type="Sprite" parent="."]
-position = Vector2( 758.75, 527.813 )
-scale = Vector2( 0.704167, 0.58693 )
-texture = ExtResource( 30 )
-
-[node name="1Escaneadorelevador" type="Sprite" parent="."]
-position = Vector2( 279.05, 503.5 )
-scale = Vector2( 1.55, 1.55 )
-texture = ExtResource( 31 )
-
-[node name="1Board" type="Sprite" parent="."]
-position = Vector2( 506, 497 )
-scale = Vector2( 2.3473, 2.39865 )
-texture = ExtResource( 29 )
-
-[node name="1Tv" type="Sprite" parent="."]
-position = Vector2( 897.625, 431 )
-scale = Vector2( 2.26515, 1.80303 )
-texture = ExtResource( 28 )
+margin_left = 596.0
+margin_top = 196.0
+margin_right = 596.0
+margin_bottom = 196.0
 
 [node name="Area_elevador" type="Area2D" parent="."]
-script = ExtResource( 13 )
-SceneToGo = "res://painelpreto.tscn"
+script = ExtResource( 20 )
 
 [node name="Sprite" type="Sprite" parent="Area_elevador"]
 
@@ -254,7 +196,7 @@ shape = SubResource( 9 )
 
 [node name="Popup_tecla_E" parent="Area_elevador" instance=ExtResource( 23 )]
 
-[node name="painel_elevador" parent="Area_elevador" instance=ExtResource( 27 )]
+[node name="painel_elevador" parent="Area_elevador" instance=ExtResource( 22 )]
 
 [node name="NPC_rosa" parent="." instance=ExtResource( 7 )]
 visible = false
@@ -262,11 +204,36 @@ visible = false
 [node name="NPC_Azul" parent="." instance=ExtResource( 14 )]
 visible = false
 
+[node name="1Paineleletrico" type="Sprite" parent="."]
+position = Vector2( 884, 531 )
+scale = Vector2( 2.15957, 1.94444 )
+texture = ExtResource( 29 )
+
+[node name="1Pcalternativo" type="Sprite" parent="."]
+position = Vector2( 1051, 511 )
+scale = Vector2( 1.44322, 2.05469 )
+texture = ExtResource( 28 )
+
+[node name="1Pc2" type="Sprite" parent="."]
+position = Vector2( 1120, 546 )
+scale = Vector2( 2.96154, 2.46 )
+texture = ExtResource( 26 )
+
+[node name="1Escaneadorelevador" type="Sprite" parent="."]
+position = Vector2( 276, 510 )
+scale = Vector2( 1.35, 1.35 )
+texture = ExtResource( 27 )
+
+[node name="1Telefone" type="Sprite" parent="."]
+position = Vector2( 470, 511 )
+scale = Vector2( 1.75, 1.73077 )
+texture = ExtResource( 30 )
+
 [node name="Inventario" type="Camera2D" parent="."]
 
 [node name="Inventariopng" type="Sprite" parent="Inventario"]
-position = Vector2( 217.5, 92.5 )
-scale = Vector2( 1.85603, 1.86598 )
+position = Vector2( 221.092, 94.9521 )
+scale = Vector2( 1.80473, 1.81542 )
 texture = ExtResource( 16 )
 
 [node name="PenDrive" type="Sprite" parent="Inventario/Inventariopng"]
@@ -283,7 +250,7 @@ texture = ExtResource( 15 )
 
 [node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( 29.6331, -5.4004 )
+position = Vector2( 27.4468, -7.5419 )
 scale = Vector2( 0.214, 0.28 )
 texture = ExtResource( 17 )
 
@@ -293,41 +260,43 @@ position = Vector2( 75.3957, -7.35816 )
 scale = Vector2( 0.468994, 0.455785 )
 texture = ExtResource( 18 )
 
-[node name="PenDrive_Cena" type="Area2D" parent="."]
+[node name="PlacaVideo_Cena" type="Area2D" parent="."]
 visible = false
-position = Vector2( 834, 566 )
+position = Vector2( 834, 565 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="PenDrive" type="Sprite" parent="PenDrive_Cena"]
-position = Vector2( -1, -2 )
-scale = Vector2( 0.489729, 0.324588 )
-texture = ExtResource( 12 )
+[node name="PlacaVideo" type="Sprite" parent="PlacaVideo_Cena"]
+position = Vector2( -2.00001, -2.03449 )
+scale = Vector2( 0.306748, 0.325338 )
+texture = ExtResource( 17 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="PenDrive_Cena"]
-position = Vector2( -2, -13 )
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlacaVideo_Cena"]
+position = Vector2( -2, -12 )
 shape = SubResource( 10 )
 
-[node name="Popup_tecla_E" parent="PenDrive_Cena" instance=ExtResource( 23 )]
+[node name="Popup_tecla_E" parent="PlacaVideo_Cena" instance=ExtResource( 23 )]
 
-[node name="NPC_Pinky" type="Area2D" parent="."]
+[node name="NPC_Norman" type="Area2D" parent="."]
 position = Vector2( 698, 557 )
-script = ExtResource( 20 )
+script = ExtResource( 19 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Sprite" type="Sprite" parent="NPC_Pinky"]
-position = Vector2( 30.5, -34 )
+[node name="Sprite" type="Sprite" parent="NPC_Norman"]
+position = Vector2( 1120, -327 )
 scale = Vector2( 2.54839, 2.78947 )
-texture = ExtResource( 19 )
+texture = ExtResource( 6 )
+offset = Vector2( -427.525, 105.038 )
+flip_h = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC_Pinky"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC_Norman"]
 position = Vector2( 33.5, -37 )
 shape = SubResource( 11 )
 
-[node name="Popup_tecla_E" parent="NPC_Pinky" instance=ExtResource( 23 )]
+[node name="Popup_tecla_E" parent="NPC_Norman" instance=ExtResource( 23 )]
 
 [node name="MainPersonagemMVP2" parent="." instance=ExtResource( 9 )]
 position = Vector2( 256, 559 )
@@ -336,45 +305,18 @@ position = Vector2( 256, 559 )
 
 [node name="Node2D" parent="." instance=ExtResource( 21 )]
 
-[node name="2" type="Sprite" parent="."]
+[node name="3" type="Sprite" parent="."]
 position = Vector2( 192, 412 )
 scale = Vector2( 2, 1.86111 )
-texture = ExtResource( 22 )
+texture = ExtResource( 8 )
 
 [node name="itempegadosfx" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 24 )
 volume_db = -7.363
 
-[node name="Fumacasembg" type="Sprite" parent="."]
-position = Vector2( 1079, 373 )
-texture = ExtResource( 6 )
-hframes = 3
-vframes = 2
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Fumacasembg"]
-autoplay = "fumaca"
-anims/RESET = SubResource( 13 )
-anims/fumaca = SubResource( 14 )
-
-[node name="AreaPC_Roadmap" type="Area2D" parent="."]
-position = Vector2( 1051, 565 )
-script = ExtResource( 26 )
-__meta__ = {
-"_edit_group_": true
-}
-SceneToGo = "res://Roadmap.tscn"
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaPC_Roadmap"]
-position = Vector2( 22, -53.5 )
-shape = SubResource( 15 )
-
-[node name="Popup_tecla_E" parent="AreaPC_Roadmap" instance=ExtResource( 23 )]
-
 [connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
 [connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]
-[connection signal="body_entered" from="PenDrive_Cena" to="." method="_on_PenDrive_Cena_body_entered"]
-[connection signal="body_exited" from="PenDrive_Cena" to="." method="_on_PenDrive_Cena_body_exited"]
-[connection signal="body_entered" from="NPC_Pinky" to="NPC_Pinky" method="_on_NPC_Pinky_body_entered"]
-[connection signal="body_exited" from="NPC_Pinky" to="NPC_Pinky" method="_on_NPC_Pinky_body_exited"]
-[connection signal="body_entered" from="AreaPC_Roadmap" to="AreaPC_Roadmap" method="_on_AreaPC_Roadmap_body_entered"]
-[connection signal="body_exited" from="AreaPC_Roadmap" to="AreaPC_Roadmap" method="_on_AreaPC_Roadmap_body_exited"]
+[connection signal="body_entered" from="PlacaVideo_Cena" to="." method="_on_PlacaVideo_Cena_body_entered"]
+[connection signal="body_exited" from="PlacaVideo_Cena" to="." method="_on_PlacaVideo_Cena_body_exited"]
+[connection signal="body_entered" from="NPC_Norman" to="NPC_Norman" method="_on_NPC_Norman_body_entered"]
+[connection signal="body_exited" from="NPC_Norman" to="NPC_Norman" method="_on_NPC_Norman_body_exited"]

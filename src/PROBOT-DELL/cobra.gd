@@ -1,7 +1,7 @@
 extends Node2D
 
 var direcao = Vector2(0,1)
-var gap = -50
+var gap = -5
 var direcao_prox_cauda = Vector2(1,0)
 var direcao_anterior = Vector2(1,0)
 
@@ -10,15 +10,15 @@ onready var cauda = preload("res://cauda.tscn")
 
 func _process(delta):
 	if Input.is_action_just_pressed("ui_up"):
-		direcao = Vector2(0,-1)
+		direcao = Vector2(0,-13)
 	if Input.is_action_just_pressed("ui_down"):
-		direcao = Vector2(0,1)
+		direcao = Vector2(0,13)
 	if Input.is_action_just_pressed("ui_left"):
-		direcao = Vector2(-1,0)
+		direcao = Vector2(-13,0)
 	if Input.is_action_just_pressed("ui_right"):
-		direcao = Vector2(1,0)	
+		direcao = Vector2(13,0)	
 
-	move_snake()#a
+	move_snake()
 	
 func move_snake():
 	var posicao_cabeca = get_node("cabeca").position

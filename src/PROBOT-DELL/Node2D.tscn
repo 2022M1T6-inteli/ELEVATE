@@ -22,8 +22,8 @@
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=20]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=21]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=22]
-[ext_resource path="res://images/hud inventaria.png" type="Texture" id=23]
-[ext_resource path="res://AssetsInventario/PapelSenha.png" type="Texture" id=24]
+[ext_resource path="res://images/hud inventario.png" type="Texture" id=23]
+[ext_resource path="res://AssetsInventario/PeçasPC3.png" type="Texture" id=24]
 [ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=25]
 [ext_resource path="res://OBJETIVO.tscn" type="PackedScene" id=26]
 [ext_resource path="res://AssetsJogoPÓSBG/AssetsExteriorPredio/Arvore Fora do Predio.png" type="Texture" id=27]
@@ -296,10 +296,9 @@ position = Vector2( 77.1544, -9.55309 )
 scale = Vector2( 0.383368, 0.392424 )
 texture = ExtResource( 25 )
 
-[node name="PapelSenha" type="Sprite" parent="Inventario/Inventariopng"]
-visible = false
-position = Vector2( 24.7939, -7.91901 )
-scale = Vector2( 0.441939, 0.314246 )
+[node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
+position = Vector2( 28.4958, -5.62708 )
+scale = Vector2( 0.214, 0.28 )
 texture = ExtResource( 24 )
 
 [node name="Node2D" parent="." instance=ExtResource( 26 )]

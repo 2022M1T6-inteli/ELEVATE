@@ -14,6 +14,11 @@ func _ready():
 		$Inventario/Inventariopng/RAM.visible= true 
 	elif Global.Inventario_Itens[1] == false:
 		$Inventario/Inventariopng/RAM.visible= false 
+		
+	if Global.Inventario_Itens[3] == true:
+		$Inventario/Inventariopng/PlacaVideo.visible= true 
+	elif Global.Inventario_Itens[3] == false:
+		$Inventario/Inventariopng/PlacaVideo.visible= false 
 	
 	
 	if Global.PCcont == 1:
