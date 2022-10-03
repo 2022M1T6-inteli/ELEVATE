@@ -29,7 +29,6 @@ func _on_AreaPC_Roadmap_body_exited(_body):
 
 func _physics_process(_delta):
 	if Global.Inventario_Itens[1] == true and ControlPcRoadmap == true and Input.is_action_just_pressed("ui_e") and Global.verificacaoFase1 == 1:
-		
 		Global.PCcontRoadmap= 1
 		inventory.visible= false 
 		smokeanim.visible= false

@@ -29,7 +29,7 @@ func _on_AreaPC_Visao_body_exited(_body):
 
 func _physics_process(_delta):
 	if Global.Inventario_Itens[0] == true and ControlPc == true and Input.is_action_just_pressed("ui_e"):
-		print("Oi brother")
+		
 		Global.PCcont= 1
 		inventory.visible= false 
 		smokeanim.visible= false

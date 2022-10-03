@@ -23,13 +23,13 @@ var answer= ["Here the statements about the questions will appear. If you think 
 			"Action items must be updated based on in its impact level, in case of iteration level for stories or in the case of strategy level for script items",
 			"Sharing the validated learning from build-measure-learn cycles with stakeholders leveraging business/user"]
 
-var feedback_certo= ["", 
+var feedback_certo= ["You got it right, this metric is very important as it measures the communication between the parties", 
 "You're right, this alternative is false. The vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
 "You got it right, the vision dimension is exactly that!", 
 "You got it right, the vision dimension is exactly that!"
 	
 ]
-var feedback_errado= ["You got it wrong, that statement is true", 
+var feedback_errado= ["You got it wrong, this metric measures just that", 
 "You got it wrong, actually the vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
 "You got it wrong, that statement is true",
 "You got it wrong, that statement is true"
