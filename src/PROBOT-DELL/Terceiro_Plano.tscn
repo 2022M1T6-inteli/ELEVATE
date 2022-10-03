@@ -372,9 +372,7 @@ SceneToGo = "res://Stakeholders.tscn"
 position = Vector2( 19.5, -53.5 )
 shape = SubResource( 15 )
 
-[node name="Popup_tecla_E" type="Popup" parent="AreaPC_Stakeholders" instance=ExtResource( 23 )]
-margin_right = 37.0
-margin_bottom = 37.0
+[node name="Popup_tecla_E" parent="AreaPC_Stakeholders" instance=ExtResource( 23 )]
 
 [connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
 [connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]

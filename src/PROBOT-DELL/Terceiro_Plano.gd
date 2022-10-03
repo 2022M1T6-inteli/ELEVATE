@@ -11,7 +11,7 @@ func _ready():
 		#$NPC_Azul/Area2D.visible= true
 	#elif Global.NPCAzul_visible == true:
 		#$NPC_Azul/Area2D.visible= false
-		
+	Global.contador = 8
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true 
 	elif Global.Inventario_Itens[0] == false:
@@ -47,7 +47,7 @@ func _physics_process(_delta):
 		$RAM_Cena.visible= false
 		inventario[1].visible= true
 		Global.Inventario_Itens[1]= inventario[1].visible
-		Global.contador = 6
+		#Global.contador = 6
 		if contSfx == 0: 
 			$itempegadosfx.play()
 		contSfx = contSfx+1

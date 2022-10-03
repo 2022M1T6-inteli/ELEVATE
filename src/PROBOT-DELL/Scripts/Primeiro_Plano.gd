@@ -26,7 +26,11 @@ func _ready():
 	
 	if Global.Inventario_Itens[0] == true:
 		Global.contador = 6
-	else:
+	
+	if Global.terminou_fase_1 == true:
+		Global.contador = 7
+	
+	if Global.Inventario_Itens[0] == false and Global.terminou_fase_1 == false:
 		Global.contador = 3
 
 	

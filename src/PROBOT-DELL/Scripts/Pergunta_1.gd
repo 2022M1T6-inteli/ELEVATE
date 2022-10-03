@@ -7,7 +7,7 @@ onready var texto_tras= $FlashCard_Tras/Texto_Button_Tras
 onready var LabelFeedback= $Feedback/Label_Feedback
 onready var ButtonFeedback= $Feedback/Button_Feedback
 onready var feedback= $Feedback
-var conta= 0    
+var conta= 0 
 var botaoCerto = 0;
 var botaoErrado = 0;
 var quest= ["Welcome to the game, click on the screen to proceed",
@@ -50,6 +50,8 @@ func _ready():
 	$pcligandosfx.play()
 	texto_frente.text = quest[0]
 	texto_tras.text = answer[0]
+	Global.terminou_fase_1 = true
+	
 		
 	
 #Sempre que a função for executada, o contador irá contar incrementar mais um
@@ -148,6 +150,7 @@ func Premiacao():
 			$FlashCard_Frente.visible= false
 			platina.visible= true
 			Global.medalha_1 = 1
+			
 		elif pontos == 3:
 			print ("OURO")
 			$FlashCard_Tras.visible= false
