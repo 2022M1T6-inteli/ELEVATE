@@ -4,7 +4,7 @@ var direcao_atual = Vector2(0,0)
 var direcoes = []
 var pos_array = []
 
-func _process(delta):
+func _process(_delta):
 	position +=  direcao_atual/2
 	if direcoes.size() > 0:
 		if position == pos_array[0]:
@@ -26,4 +26,4 @@ func add_na_cauda(posicao_cabeca,direcao):
 
 func _on_cauda_area_entered(area):
 	if area.name == "cabeca":
-		get_tree().reload_current_scene()
+		return get_tree().reload_current_scene()

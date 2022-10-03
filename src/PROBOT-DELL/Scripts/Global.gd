@@ -15,6 +15,7 @@ var PCcontStakeholders= 0
 var portaElevador = false
 var medalha_1 = 0
 var medalha_2 = 0
+var medalha_3 = 0
 
 var terminou_jogo_nave = false
 var terminou_fase_1 = false
@@ -28,3 +29,5 @@ var vida_global = 5
 var pontuacao = 0
 
 var verificacaoFase1 = 0
+
+var Marcos = false

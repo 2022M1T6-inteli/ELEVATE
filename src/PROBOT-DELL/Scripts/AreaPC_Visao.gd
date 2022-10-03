@@ -29,14 +29,15 @@ func _on_AreaPC_Visao_body_exited(_body):
 
 func _physics_process(_delta):
 	if Global.Inventario_Itens[0] == true and ControlPc == true and Input.is_action_just_pressed("ui_e"):
-		
+		return get_tree().change_scene("res://Visao.tscn")
 		Global.PCcont= 1
 		inventory.visible= false 
 		smokeanim.visible= false
-	if Global.PCcont == 1 and Input.is_action_just_pressed("ui_e") and Global.portaElevador == false:
+	if Global.PCcont == 1 and Input.is_action_just_pressed("ui_e") and Global.portaElevador == false and Global.Marcos == false:
 		#return get_tree().change_scene("res://Visao.tscn")
 		Transicao.FadeInto(SceneToGo)
 		Global.contador = 7
+		smokeanim.visible= false
 		
 		
 

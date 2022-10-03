@@ -31,11 +31,11 @@ func _ready():
 	
 
 #Define a variavel de controle como true.
-func _on_PenDrive_Cena_body_entered(body):
+func _on_PenDrive_Cena_body_entered(_body):
 	PenDrive_visibility= true
 
 #define variavel de controle como false. 
-func _on_PenDrive_Cena_body_exited(body):
+func _on_PenDrive_Cena_body_exited(_body):
 	PenDrive_visibility= false
 
 

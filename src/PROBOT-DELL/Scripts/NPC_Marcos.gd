@@ -16,12 +16,14 @@ func _ready():
 	
 #Define a variavel de controle como true. E mostra o popup na tela
 func _on_NPC_Marcos_body_entered(_body):
+	Global.Marcos = true
 	DialogControl= true
 	popup_E.visible= true
 	popup_E.set_global_position(Vector2(595, 420))
 
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
 func _on_NPC_Marcos_body_exited(_body):
+	Global.Marcos == false
 	DialogControl= false
 	popup_E.visible= false
 

@@ -8,7 +8,7 @@ var direcao_anterior = Vector2(1,0)
 onready var cauda = preload("res://cauda.tscn")
 
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("ui_up"):
 		direcao = Vector2(0,-9)
 	if Input.is_action_just_pressed("ui_down"):

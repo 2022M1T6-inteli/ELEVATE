@@ -11,7 +11,7 @@ var direcao = Vector2()
 
 
 
-func _process(delta):
+func _process(_delta):
 	emit_signal("atualizar")
 
 func _physics_process(delta):

@@ -1,14 +1,12 @@
 extends Node2D
 
 	#declaração de variaveis
+var playcontrol= false
 onready var pontuacao = 0
 onready var comida = preload("res://comida.tscn")
-var playcontrol= false
-
 	#faz adicionar comida ao inicio da cena
 func _ready():
 	add_comida()
-	
 	
 	
 	#definicao de nascimento da proxima comida
@@ -26,24 +24,19 @@ func nasceu_nova():
 	
 
 	#pontuacao
-func _process(delta):
+func _process(_delta):
 	$Label.text = str(pontuacao)	
 	if pontuacao == 5:
 		Global.DialogoPenDrive= true
-		get_tree().change_scene("res://Segundo_Plano.tscn")
+		return get_tree().change_scene("res://Segundo_Plano.tscn")
 		$Label.text = "voce conseguiu!"
 	if $cobra/cabeca.position.x < 0 or $cobra/cabeca.position.x > 1260:
-		get_tree().reload_current_scene()
+		return get_tree().reload_current_scene()
 	elif $cobra/cabeca.position.y < 0 or $cobra/cabeca.position.y > 660:
-		get_tree().reload_current_scene()
-		
+		return get_tree().reload_current_scene()
 	if playcontrol == true:
-		$Intrucao_SnakeGame/Tutorial.visible= false
+		$Intrucao_SnakeGame.visible = false
+		
 	
-
-
-
 func _on_Button_Play_pressed():
-	print ("ok")
 	playcontrol= true
-	

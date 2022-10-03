@@ -288,6 +288,7 @@ scale = Vector2( 0.402829, 0.384249 )
 texture = ExtResource( 17 )
 
 [node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
 position = Vector2( 28.0914, -6.78047 )
 scale = Vector2( 0.213548, 0.279553 )
 texture = ExtResource( 16 )

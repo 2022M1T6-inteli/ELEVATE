@@ -10,7 +10,7 @@ func _ready():
 	#NewDialog.connect("timeline_end", self, 'pendriveap')
 	if Global.DialogoPenDrive == true and Global.Inventario_Itens[0] == false and  Global.Inventario_Itens[1] == false and Global.Inventario_Itens[3] == false:
 		print("Entrei na condição")
-		add_child(DialogPenDrive)
+		#add_child(DialogPenDrive)
 		Global.controlPenDrive= true
 	NewDialog.connect("timeline_end", self, 'playsnake')
 	#DialogPenDrive.connect("Take_Pendrive", self, 'takependrive')

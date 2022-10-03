@@ -10,10 +10,10 @@ func _ready():
 
 
 
-func _on_GolEsquerda_body_entered(body):
+func _on_GolEsquerda_body_entered(_body):
 	 emit_signal("gol_esquerda")
 	
 
-func _on_GolDireita_body_entered(body):
+func _on_GolDireita_body_entered(_body):
 	emit_signal("gol_direita")
 	

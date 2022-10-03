@@ -59,3 +59,29 @@ func _ready():
 		$Ouro/Sprite2.visible = false
 		$Prata/Sprite2.visible = false
 		$Bronze/Sprite2.visible = false
+
+	if Global.medalha_3 == 1:
+		$Platina/Sprite3.visible = true
+		$Ouro/Sprite3.visible = false
+		$Prata/Sprite3.visible = false
+		$Bronze/Sprite3.visible = false
+	elif Global.medalha_3 == 2:
+		$Platina/Sprite3.visible = false
+		$Ouro/Sprite3.visible = true
+		$Prata/Sprite3.visible = false
+		$Bronze/Sprite3.visible = false
+	elif Global.medalha_3 == 3:
+		$Platina/Sprite3.visible = false
+		$Ouro/Sprite3.visible = false
+		$Prata/Sprite3.visible = true
+		$Bronze/Sprite3.visible = false
+	elif Global.medalha_3 == 4:
+		$Platina/Sprite3.visible = false
+		$Ouro/Sprite3.visible = false
+		$Prata/Sprite3.visible = false
+		$Bronze/Sprite3.visible = true
+	else:
+		$Platina/Sprite3.visible = false
+		$Ouro/Sprite3.visible = false
+		$Prata/Sprite3.visible = false
+		$Bronze/Sprite3.visible = false
