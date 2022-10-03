@@ -24,13 +24,19 @@
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Congrats on passsing the minigame"
+			"text": "Congrats on passsing the minigame.  Now I will give you more explanation of roadmap vision. \n"
 		},
 		{
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Take the RAM beside me "
+			"text": "With each release, we determine the objectives, what we want to achieve with that product and what we want to achieve with that result."
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We use a results-based roadmap to align product goals with long-term features and releases to guide discussions on priorities and deflect objections. Now take the RAM beside me"
 		}
 	],
 	"metadata": {

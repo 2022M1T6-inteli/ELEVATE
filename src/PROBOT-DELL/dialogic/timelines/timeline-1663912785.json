@@ -24,13 +24,25 @@
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Hii my friend"
+			"text": "Very well, now that you know what the vision dimension i."
 		},
 		{
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You need to play this minigame to take the part"
+			"text": "I will tell you about roadmap."
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The roadmap is a map of how we are going to arrive or create the product based on what we want to achieve."
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now, I need that you play this minigame in order to get the part"
 		},
 		{
 			"emit_signal": "Play_Ship",

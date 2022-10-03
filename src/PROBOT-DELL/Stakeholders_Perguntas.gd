@@ -12,18 +12,18 @@ var conta= 0
 var botaoCerto = 0;
 var botaoErrado = 0;
 var quest= ["Welcome to the game, click on the screen to proceed",
-			"What is the vision's dimension of the product model?", 
-			"What is a vision statement?", 
-			"What is OGSM and why is it important to the vision´s dimension?", 
-			"What is PLM and what are our advantages in adopting it?"]
+			"What does the Stakeholders metric aim to measure?", 
+			"What is RACI map and what is it for?", 
+			"Should we use stakeholder input to convert into action items as needed, how should these inputs be updated?", 
+			"How we should apply the building-measure-learning principles regularly?"]
 			
 var answer= ["Here the statements about the questions will appear. If you think the statement is correct, press check, if you think the statement is false, press X.",
-			"It is a statement of intent indicating what a company, business unit or team wants to become and guiding transformational initiatives, setting a defined direction for future growth.", 
-			"It is a detailed document on how the project will reach the desired result, involving all stages of the process",
-			"The OGSM structure is an acronym for Objectives, Goals, Strategies and measures. It is very important to Vision because it allows companies to define what they wanna do first and then how they will get there.",
-			"The Product Lifecycle Management (PLM) is a management system of the product life cycle. One of the main advantages is a bigger comprehension of the market, facilitating the creation and development  of new products and raising market share."]
+			"This metric is intended to measure communication and engagement towards shared alignment and partnership.", 
+			"It stands for Responsible, Accountable, Consulted and Informed and is a matrix of responsibilities for the activities of a process.",
+			"Action items must be updated based on in its impact level, in case of iteration level for stories or in the case of strategy level for script items",
+			"Sharing the validated learning from build-measure-learn cycles with stakeholders leveraging business/user"]
 
-var feedback_certo= ["You got it right, the vision dimension is exactly that!", 
+var feedback_certo= ["", 
 "You're right, this alternative is false. The vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
 "You got it right, the vision dimension is exactly that!", 
 "You got it right, the vision dimension is exactly that!"
