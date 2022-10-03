@@ -215,7 +215,8 @@ margin_top = 142.0
 margin_right = 321.0
 margin_bottom = 216.0
 rect_scale = Vector2( 2.5, 2.5 )
-text = "You are in the first maturity of the vision´s dimension. The team doesn't know or doesn't have a vision of the product"
+text = "You didn't get enough questions right, but you won a bronze medal.
+"
 autowrap = true
 
 [node name="Home_Button_Bronze" type="TextureButton" parent="Bronze"]
@@ -240,7 +241,8 @@ margin_top = 62.0
 margin_right = 375.0
 margin_bottom = 108.0
 rect_scale = Vector2( 2, 2 )
-text = "Try again. You are not yet ready to go to the next level."
+text = "You didn't get it right enough. Try again
+"
 autowrap = true
 
 [node name="Home_Button_SemMedalha" type="TextureButton" parent="SemMedalha"]

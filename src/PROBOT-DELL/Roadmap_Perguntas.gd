@@ -12,27 +12,27 @@ var conta= 0
 var botaoCerto = 0;
 var botaoErrado = 0;
 var quest= ["Welcome to the game, click on the screen to proceed",
-			"What is the vision's dimension of the product model?", 
-			"What is a vision statement?", 
-			"What is OGSM and why is it important to the vision´s dimension?", 
-			"What is PLM and what are our advantages in adopting it?"]
+			" What is a roadmap and what is it for?", 
+			"What is the only expected result that is present in all maturity levels of the Roadmap?", 
+			"What is a results-based roadmap for each release and why is it important?", 
+			" How should continuous use of data collection and user feedback be made to plan future results to be prioritized in the product roadmap?"]
 			
 var answer= ["Here the statements about the questions will appear. If you think the statement is correct, press check, if you think the statement is false, press X.",
-			"It is a statement of intent indicating what a company, business unit or team wants to become and guiding transformational initiatives, setting a defined direction for future growth.", 
-			"It is a detailed document on how the project will reach the desired result, involving all stages of the process",
-			"The OGSM structure is an acronym for Objectives, Goals, Strategies and measures. It is very important to Vision because it allows companies to define what they wanna do first and then how they will get there.",
-			"The Product Lifecycle Management (PLM) is a management system of the product life cycle. One of the main advantages is a bigger comprehension of the market, facilitating the creation and development  of new products and raising market share."]
+			"It is a kind of 'map' that aims to organize the goals of software development, created independently of the users' needs.", 
+			"Outcome Based Roadmap",
+			"It is the vision of the product, of how we are going to arrive or create the product based on what we want to achieve. With each release, we determine the goals and what we want to achieve with that product and what we want to achieve with that result. Each quarter we develop a component of the product.",
+			"An example: if you want your software to arrive in the PM to start as soon as possible, then you measure that time. It makes features or stories and complements them. Meanwhile, validate with the user, to reduce the time further. What takes the longest is this, so I know I should take that data and automate those fields."]
 
-var feedback_certo= ["You got it right, the vision dimension is exactly that!", 
-"You're right, this alternative is false. The vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
-"You got it right, the vision dimension is exactly that!", 
-"You got it right, the vision dimension is exactly that!"
+var feedback_certo= ["You got right, the entire roadmap is created according to the user's needs", 
+"That's right, Outcome Based Roadmap is the only expected result at all maturity levels",
+"That's right, a complete answer, straight from our Scrum Master", 
+"Wrong, this example well illustrates how we should collect user feedback to plan future outcomes to be prioritized in the product roadmap"
 	
 ]
-var feedback_errado= ["You got it wrong, that statement is true", 
-"You got it wrong, actually the vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
-"You got it wrong, that statement is true",
-"You got it wrong, that statement is true"
+var feedback_errado= ["You got it wrong, the entire roadmap is created according to the user's needs", 
+"You got it wrong, Outcome Based Roadmap is the only expected result at all maturity levels",
+"Wrong, a results-based roadmap is exactly that.",
+"That's right, a complete example, straight from our Scrum Master"
 	
 ]
 
@@ -68,8 +68,8 @@ func PassCards():
 		botaoErrado = 0
 		
 	if conta == 2:
-		if botaoCerto == 1:
-			botaoCerto = 0
+		if botaoErrado == 1:
+			botaoErrado = 0
 			feedback.visible= true
 			LabelFeedback.text= feedback_certo[0]
 			pontos = pontos + 1
@@ -85,8 +85,8 @@ func PassCards():
 		texto_tras.text= answer[2]
 	
 	if conta == 3:
-		if botaoErrado == 1:
-			botaoErrado = 0
+		if botaoCerto == 1:
+			botaoCerto = 0
 			pontos = pontos + 1
 			feedback.visible= true
 			LabelFeedback.text= feedback_certo[1]
@@ -126,11 +126,11 @@ func PassCards():
 			pontos = pontos + 1
 			botaoCerto = 0
 			feedback.visible= true
-			LabelFeedback.text= feedback_certo[3]
+			LabelFeedback.text= feedback_errado[3]
 			feedback.color= Color(0.258824, 0.682353, 0.086275)
 		else:
 			feedback.visible= true
-			LabelFeedback.text= feedback_errado[3]
+			LabelFeedback.text= feedback_certo[3]
 			feedback.color= Color(0.6, 0.078431, 0.078431)
 		print(pontos)
 	print("Pergunta:", conta)
@@ -209,19 +209,19 @@ func _on_Home_Button_Ouro_pressed():
 func _on_Home_Button_Prata_pressed():
 	Global.Inventario_Itens[0]= false
 	BackgroundMusic.play()
-	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Segundo_Plano.tscn")
 
 
 func _on_Home_Button_Bronze_pressed():
 	Global.Inventario_Itens[0]= false
 	BackgroundMusic.play()
-	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Segundo_Plano.tscn")
 
 
 func _on_Home_Button_SemMedalha_pressed():
 	Global.Inventario_Itens[0]= false
 	BackgroundMusic.play()
-	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	return get_tree().change_scene("res://Segundo_Plano.tscn")
 
 
 
