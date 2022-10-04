@@ -282,14 +282,14 @@ texture = ExtResource( 15 )
 
 [node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( 29.6331, -5.4004 )
-scale = Vector2( 0.214, 0.28 )
+position = Vector2( 29.6069, -7.2348 )
+scale = Vector2( 0.235007, 0.286992 )
 texture = ExtResource( 17 )
 
 [node name="Cd" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( 75.3957, -7.35816 )
-scale = Vector2( 0.468994, 0.455785 )
+position = Vector2( 75.1604, -8.30663 )
+scale = Vector2( 0.457731, 0.406468 )
 texture = ExtResource( 18 )
 
 [node name="PenDrive_Cena" type="Area2D" parent="."]

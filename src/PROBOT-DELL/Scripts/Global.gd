@@ -5,7 +5,7 @@ var Inventario_Itens= [false, false, false, false]
 var controlPenDrive= false
 var controlRAM= false
 var controlPlacaVideo= false
-
+var pegou_placa = false
 var contador = 0
 var contfail = 0 
 var Dialogoutcontrol= false

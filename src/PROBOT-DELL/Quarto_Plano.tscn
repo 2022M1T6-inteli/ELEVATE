@@ -249,15 +249,15 @@ texture = ExtResource( 15 )
 
 [node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( 27.4468, -7.5419 )
-scale = Vector2( 0.214, 0.28 )
-texture = ExtResource( 17 )
+position = Vector2( 75.8646, -7.21455 )
+scale = Vector2( 0.476454, 0.427743 )
+texture = ExtResource( 18 )
 
 [node name="Cd" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
-position = Vector2( 75.3957, -7.35816 )
-scale = Vector2( 0.468994, 0.455785 )
-texture = ExtResource( 18 )
+position = Vector2( 28.8662, -7.61942 )
+scale = Vector2( 0.233982, 0.271606 )
+texture = ExtResource( 17 )
 
 [node name="PlacaVideo_Cena" type="Area2D" parent="."]
 visible = false

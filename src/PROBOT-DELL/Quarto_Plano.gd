@@ -42,19 +42,21 @@ func _on_PlacaVideo_Cena_body_exited(body):
 
 
 func _physics_process(_delta):
-	if Global.controlPlacaVideo == true and inventario[3].visible == false: 
+	if Global.controlPlacaVideo == true and inventario[2].visible == false: 
 		$PlacaVideo_Cena.visible= true
 	
 	if PlacaVideo_visibility == true and Input.is_action_just_pressed("ui_e") and $PlacaVideo_Cena.visible == true:
 		$PlacaVideo_Cena.visible= false
-		inventario[3].visible= true
+		inventario[2].visible= true
 		popup_E.visible= false
 		Global.Inventario_Itens[2]= inventario[2].visible
-		Global.contador = 6
+		Global.contador = 13
+		
 		if contSfx == 0: 
 			$itempegadosfx.play()
 		contSfx = contSfx+1
 	
 	
-	if Global.Inventario_Itens[3] == true:
+	if Global.Inventario_Itens[2] == true:
 		Global.controlPlacaVideo= false
+		Global.pegou_placa = true

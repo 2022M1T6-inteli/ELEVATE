@@ -2,7 +2,7 @@ extends ColorRect
 
 
 
-var vet_objetivos = ["Enter the Building","Talk to Ellen","Go to floor 1","Talk to Marcos","Talk to Pinky on floor 2","Take the Pen Drive","Plug the Pen Drive on the computer in floor 1","Go to floor 3", "Talk to Hawking", "Grab the RAM", "Fix the computer in the second floor", "Talk to norman in the fourth floor", " Fix the computer in floor 3"]
+var vet_objetivos = ["Entre no predio","Fale com a Ellen","Va no primeiro andar","Fale com Marcos","Fale com a pinky no segundo andar","Pegue o Pen Drive","Conecte o Pen drive no computador do andar 1","Va no terceiro andar", "Fale com hawking", "Pegue a RAM", "Conserte o computador no segundo andar", "Fale com norman no quarto andar", "Pegue a placa de vídeo","Conserte o computador no terceiro andar"]
 	
 	
 func _physics_process(_delta):

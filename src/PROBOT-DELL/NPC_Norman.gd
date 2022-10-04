@@ -33,7 +33,7 @@ func _on_NPC_Norman_body_exited(body):
 func _physics_process(_delta):
 	if DialogControl == true and Input.is_action_just_pressed("ui_e"):
 		add_child(NewDialog)
-		Global.contador = 4
+		Global.contador = 13
 
 func pingas(_argument):
 	return get_tree().change_scene("res://jogopingas.tscn")

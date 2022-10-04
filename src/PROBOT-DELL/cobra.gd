@@ -10,13 +10,13 @@ onready var cauda = preload("res://cauda.tscn")
 
 func _process(_delta):
 	if Input.is_action_just_pressed("ui_up"):
-		direcao = Vector2(0,-9)
+		direcao = Vector2(0,-7)
 	if Input.is_action_just_pressed("ui_down"):
-		direcao = Vector2(0,9)
+		direcao = Vector2(0,7)
 	if Input.is_action_just_pressed("ui_left"):
-		direcao = Vector2(-9,0)
+		direcao = Vector2(-7,0)
 	if Input.is_action_just_pressed("ui_right"):
-		direcao = Vector2(9,0)	
+		direcao = Vector2(7,0)	
 
 	move_snake()
 	
