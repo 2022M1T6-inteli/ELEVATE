@@ -8,10 +8,9 @@ var pontos_jogador_2 = 0
 var maximo_de_pontos = 5
 
 func _ready():
-	pass
+	$Tutorial.visible= true
+	get_tree().paused= true
 	
-
-
 func _on_Campo_gol_esquerda():
 	pontos_jogador_2 += 1
 	comeca_round_novo()
@@ -31,7 +30,8 @@ func _process(delta):
 		#Transicao.FadeInto(SceneToGo)
 		get_tree().change_scene("res://Quarto_plano.tscn")
 	elif pontos_jogador_2 == 5:
-		$Label3.text = "DERROTA"
+		#$Label3.text = "DERROTA"
+		get_tree().reload_current_scene()
 
 
 func comeca_round_novo():
@@ -42,10 +42,9 @@ func comeca_round_novo():
 	
 	
 
-
-
 func _on_Timer_timeout():
 	acabou_jogo()
+	
 	
 func acabou_jogo():
 	$Raquete.visible = false
@@ -54,3 +53,8 @@ func acabou_jogo():
 	$Label.visible = false
 	$Label2.visible = false
 	$Label3.visible = false
+
+
+func _on_Button_Play_pressed():
+	$Tutorial.visible= false
+	get_tree().paused= false

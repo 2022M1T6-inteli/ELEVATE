@@ -8,10 +8,11 @@ var DialogPenDrive= Dialogic.start('Dialogo_Pinky_Pendrive')
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	#NewDialog.connect("timeline_end", self, 'pendriveap')
-	if Global.DialogoPenDrive == true and Global.Inventario_Itens[0] == false and  Global.Inventario_Itens[1] == false and Global.Inventario_Itens[3] == false:
+	if Global.DialogoPenDrive == true and Global.Inventario_Itens[0] == false and Global.contDialogoNave == true:
 		print("Entrei na condição")
-		#add_child(DialogPenDrive)
+		add_child(DialogPenDrive)
 		Global.controlPenDrive= true
+		Global.contDialogoNave = false
 	NewDialog.connect("timeline_end", self, 'playsnake')
 	#DialogPenDrive.connect("Take_Pendrive", self, 'takependrive')
 	

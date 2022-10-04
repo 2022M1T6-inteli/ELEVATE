@@ -179,6 +179,13 @@ atirar={
 2d_physics/layer_4="laser_jogador"
 2d_physics/layer_5="laser_inimigo "
 
+[locale]
+
+test="en_US"
+fallback="en_US"
+translations=PoolStringArray( "res://languages/languages_traducao.pt_BR.translation", "res://languages/languages_traducao.en_US.translation" )
+locale_filter=[ 1, [ "en_US", "pt_BR" ] ]
+
 [physics]
 
 common/enable_pause_aware_picking=true

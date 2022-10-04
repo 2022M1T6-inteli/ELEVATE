@@ -7,6 +7,7 @@ onready var comida = preload("res://comida.tscn")
 	#faz adicionar comida ao inicio da cena
 func _ready():
 	add_comida()
+	get_tree().paused= true
 	
 	
 	#definicao de nascimento da proxima comida
@@ -27,6 +28,7 @@ func nasceu_nova():
 func _process(_delta):
 	$Label.text = str(pontuacao)	
 	if pontuacao == 5:
+		Global.contDialogoNave= true
 		Global.DialogoPenDrive= true
 		return get_tree().change_scene("res://Segundo_Plano.tscn")
 		$Label.text = "voce conseguiu!"
@@ -35,8 +37,10 @@ func _process(_delta):
 	elif $cobra/cabeca.position.y < 0 or $cobra/cabeca.position.y > 660:
 		return get_tree().reload_current_scene()
 	if playcontrol == true:
-		$Intrucao_SnakeGame.visible = false
+		$Instrucao_Snake/Tutorial.visible = false
 		
 	
 func _on_Button_Play_pressed():
 	playcontrol= true
+	get_tree().paused= false
+	

@@ -24,6 +24,7 @@ var Hawking_DialogSwitch= false
 var DialogoPenDrive= false
 var DialogoRAM= false
 var DialogoPlacaVideo= false
+var contDialogoNave= false
 
 var vida_global = 5
 var pontuacao = 0
@@ -31,3 +32,4 @@ var pontuacao = 0
 var verificacaoFase1 = 0
 
 var Marcos = false
+

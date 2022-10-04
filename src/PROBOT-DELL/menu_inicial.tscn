@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://images/BACKGROUNDDDD.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/menu_inicial.gd" type="Script" id=2]
@@ -10,7 +10,6 @@
 [ext_resource path="res://images/BOTAO_PLAY_ROSA.png" type="Texture" id=8]
 [ext_resource path="res://images/BOTAO_EXIT_BRANCO.png" type="Texture" id=9]
 [ext_resource path="res://images/botao_creditos_branco.png" type="Texture" id=10]
-[ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=11]
 [ext_resource path="res://images/flashcard4.png" type="Texture" id=12]
 [ext_resource path="res://images/X_botao_branco.png" type="Texture" id=13]
 [ext_resource path="res://images/X_botao.png" type="Texture" id=14]
@@ -133,9 +132,6 @@ uppercase = true
 position = Vector2( 630, 102 )
 scale = Vector2( 0.571, 0.539 )
 texture = ExtResource( 7 )
-
-[node name="Mouse_Cursor" parent="." instance=ExtResource( 11 )]
-position = Vector2( 0, 3.05176e-05 )
 
 [node name="Control" type="Control" parent="."]
 visible = false

@@ -1,10 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://cobra.tscn" type="PackedScene" id=1]
 [ext_resource path="res://nivel.gd" type="Script" id=2]
 [ext_resource path="res://cauda.tscn" type="PackedScene" id=3]
 [ext_resource path="res://images/tela_feedback.png" type="Texture" id=4]
-[ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=5]
 
 [node name="nivel" type="Node2D"]
 script = ExtResource( 2 )
@@ -29,38 +28,36 @@ text = "0"
 align = 1
 valign = 1
 
-[node name="Intrucao_SnakeGame" type="CanvasLayer" parent="."]
-layer = 0
+[node name="Instrucao_Snake" type="CanvasLayer" parent="."]
+layer = 2
 
-[node name="Tutorial" type="TextureRect" parent="Intrucao_SnakeGame"]
+[node name="Tutorial" type="TextureRect" parent="Instrucao_Snake"]
+pause_mode = 2
 margin_left = 301.0
 margin_top = 93.0
 margin_right = 1021.0
 margin_bottom = 506.0
 texture = ExtResource( 4 )
 expand = true
-__meta__ = {
-"_edit_group_": true
-}
 
-[node name="Button_Play" type="Button" parent="Intrucao_SnakeGame/Tutorial"]
-margin_left = 295.0
-margin_top = 292.0
-margin_right = 462.0
-margin_bottom = 337.0
+[node name="Button_Play" type="Button" parent="Instrucao_Snake/Tutorial"]
+margin_left = 290.0
+margin_top = 291.0
+margin_right = 457.0
+margin_bottom = 336.0
 text = "PLAY"
 
-[node name="Label" type="Label" parent="Intrucao_SnakeGame/Tutorial"]
-margin_left = 82.0
-margin_top = 66.0
-margin_right = 448.0
-margin_bottom = 143.0
+[node name="Label_texto" type="Label" parent="Instrucao_Snake/Tutorial"]
+margin_left = 62.0
+margin_top = 78.0
+margin_right = 428.0
+margin_bottom = 177.0
 rect_scale = Vector2( 1.6, 1.6 )
-text = "Tutorial: 
--To play the game use the arrow keys on your keyboard.
--Your goal is to eat 5 foods
--If you touch the edges or yourself, you die."
+text = "SNAKE GAME
 
-[node name="Mouse_Cursor" parent="." instance=ExtResource( 5 )]
+Tutorial: 
+-Para jogar, utilize as setinhas do teclado.
+-Seu objetivo é comer 5 comidas
+-Se você tocar nas bordas ou em si mesmo, você morre."
 
-[connection signal="pressed" from="Intrucao_SnakeGame/Tutorial/Button_Play" to="." method="_on_Button_Play_pressed"]
+[connection signal="pressed" from="Instrucao_Snake/Tutorial/Button_Play" to="." method="_on_Button_Play_pressed"]

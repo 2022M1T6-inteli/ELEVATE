@@ -180,6 +180,7 @@ position = Vector2( 238, 171 )
 texture = ExtResource( 6 )
 
 [node name="Prata" type="Control" parent="."]
+visible = false
 margin_right = 40.0
 margin_bottom = 40.0
 
@@ -204,6 +205,7 @@ position = Vector2( 239, 168 )
 texture = ExtResource( 8 )
 
 [node name="Bronze" type="Control" parent="."]
+visible = false
 margin_right = 40.0
 margin_bottom = 40.0
 

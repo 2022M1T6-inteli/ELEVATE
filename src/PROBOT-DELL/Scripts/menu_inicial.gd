@@ -2,7 +2,7 @@ extends Node2D
 
 func _ready():
 	Global.Dialogoutcontrol= false
-
+	
 func _on_jogar_button_pressed():
 	return get_tree().change_scene("res://Node2D.tscn")
 

@@ -2,11 +2,13 @@ extends Node2D
 
 onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node("Inventario/Inventariopng/RAM"), get_node("Inventario/Inventariopng/Cd"), get_node("Inventario/Inventariopng/PlacaVideo")]
 var PenDrive_visibility= false
+onready var smokebg= get_node("Fumacasembg")
 var contSfx = 0
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	
 	if Global.NPCAzul_visible == false:
 		$NPC_Azul/Area2D.visible= true
 	elif Global.NPCAzul_visible == true:
