@@ -24,7 +24,7 @@
 			"character": "character-1663885732.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Congratulations on passing the minigame!!! Now grab the computer part beside me!"
+			"text": "Parabéns por passar o minigame!!! Agora pegue a peça do computador ao meu lado!"
 		},
 		{
 			"emit_signal": "Take_Pendrive",

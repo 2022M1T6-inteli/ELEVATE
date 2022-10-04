@@ -24,25 +24,25 @@
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Very well, now that you know what the vision dimension is"
+			"text": "Muito bem, agora que você sabe qual é a dimensão da visão"
 		},
 		{
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I will tell you about roadmap."
+			"text": "Vou falar sobre o roadmap."
 		},
 		{
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "The roadmap is a map of how we are going to arrive or create the product based on what we want to achieve."
+			"text": "O roadmap é um mapa de como vamos chegar ou criar o produto com base no que queremos alcançar."
 		},
 		{
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Now, I need that you play this minigame in order to get the part"
+			"text": "Agora, eu preciso que você jogue este minigame para conseguir a peça"
 		},
 		{
 			"emit_signal": "Play_Ship",
