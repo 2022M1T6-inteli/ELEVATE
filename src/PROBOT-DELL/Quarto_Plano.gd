@@ -5,6 +5,7 @@ onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node
 var PlacaVideo_visibility= false
 onready var popup_E= $PlacaVideo_Cena/Popup_tecla_E
 var contSfx = 0
+var na= 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
