@@ -51,52 +51,62 @@ func _ready():
 		$Ouro/Sprite2.visible = false
 		$Prata/Sprite2.visible = false
 		$Bronze/Sprite2.visible = false
+		Global.verificacaoFase2 = 1
 	elif Global.medalha_2 == 2:
 		$Platina/Sprite2.visible = false
 		$Ouro/Sprite2.visible = true
 		$Prata/Sprite2.visible = false
 		$Bronze/Sprite2.visible = false
+		Global.verificacaoFase2 = 1
 	elif Global.medalha_2 == 3:
 		$Platina/Sprite2.visible = false
 		$Ouro/Sprite2.visible = false
 		$Prata/Sprite2.visible = true
 		$Bronze/Sprite2.visible = false
+		Global.verificacaoFase2 = 1
 	elif Global.medalha_2 == 4:
 		$Platina/Sprite2.visible = false
 		$Ouro/Sprite2.visible = false
 		$Prata/Sprite2.visible = false
 		$Bronze/Sprite2.visible = true
+		Global.verificacaoFase2 = 0
 	else:
 		$Platina/Sprite2.visible = false
 		$Ouro/Sprite2.visible = false
 		$Prata/Sprite2.visible = false
 		$Bronze/Sprite2.visible = false
+		Global.verificacaoFase2 = 0
 
 	if Global.medalha_3 == 1:
 		$Platina/Sprite3.visible = true
 		$Ouro/Sprite3.visible = false
 		$Prata/Sprite3.visible = false
 		$Bronze/Sprite3.visible = false
+		Global.verificacaoFase3 = 1
 	elif Global.medalha_3 == 2:
 		$Platina/Sprite3.visible = false
 		$Ouro/Sprite3.visible = true
 		$Prata/Sprite3.visible = false
 		$Bronze/Sprite3.visible = false
+		Global.verificacaoFase3 = 1
 	elif Global.medalha_3 == 3:
 		$Platina/Sprite3.visible = false
 		$Ouro/Sprite3.visible = false
 		$Prata/Sprite3.visible = true
 		$Bronze/Sprite3.visible = false
+		Global.verificacaoFase3 = 1
 	elif Global.medalha_3 == 4:
 		$Platina/Sprite3.visible = false
 		$Ouro/Sprite3.visible = false
 		$Prata/Sprite3.visible = false
 		$Bronze/Sprite3.visible = true
+		Global.verificacaoFase3 = 0
 	else:
 		$Platina/Sprite3.visible = false
 		$Ouro/Sprite3.visible = false
 		$Prata/Sprite3.visible = false
 		$Bronze/Sprite3.visible = false
+		Global.verificacaoFase3 = 0
 "
 
 [node name="HUD_INVENTARIO" type="Node2D"]

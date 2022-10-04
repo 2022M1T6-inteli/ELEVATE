@@ -30,6 +30,7 @@ var vida_global = 5
 var pontuacao = 0
 
 var verificacaoFase1 = 0
-
+var verificacaoFase2 = 0
+var verificacaoFase3 = 0
 var Marcos = false
 

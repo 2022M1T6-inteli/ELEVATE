@@ -157,7 +157,14 @@ expand = true
 margin_right = 40.0
 margin_bottom = 14.0
 
+[node name="Button" type="Button" parent="Control"]
+margin_left = 337.0
+margin_top = 351.0
+margin_right = 529.0
+margin_bottom = 416.0
+
 [connection signal="pressed" from="jogar_button" to="." method="_on_jogar_button_pressed"]
 [connection signal="pressed" from="config_button" to="." method="_on_config_button_pressed"]
 [connection signal="pressed" from="sair_button" to="." method="_on_sair_button_pressed"]
 [connection signal="pressed" from="Control/TextureButton" to="." method="_on_TextureButton_pressed"]
+[connection signal="pressed" from="Control/Button" to="." method="_on_Button_pressed"]

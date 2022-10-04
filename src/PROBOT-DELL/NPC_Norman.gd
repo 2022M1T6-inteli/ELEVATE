@@ -20,7 +20,7 @@ func _ready():
 
 
 func _on_NPC_Norman_body_entered(body):
-	#if Global.verificacaoFase1 == 1:
+	if Global.verificacaoFase2 == 1:
 		DialogControl= true
 		popup_E.visible= true
 		popup_E.set_global_position(Vector2(715, 440))

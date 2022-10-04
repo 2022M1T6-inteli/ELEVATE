@@ -28,7 +28,7 @@ func _on_AreaPC_Stakeholders_body_exited(body):
 
 
 func _physics_process(_delta):
-	if Global.Inventario_Itens[3] == true and ControlPcStakeholders == true and Input.is_action_just_pressed("ui_e") and Global.verificacaoFase1 == 1:
+	if Global.Inventario_Itens[3] == true and ControlPcStakeholders == true and Input.is_action_just_pressed("ui_e") and Global.verificacaoFase2 == 1:
 		
 		Global.PCcontStakeholders= 1
 		inventory.visible= false 

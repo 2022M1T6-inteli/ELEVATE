@@ -14,3 +14,7 @@ func _on_sair_button_pressed():
 
 func _on_TextureButton_pressed():
 	$Control.visible = false
+
+
+func _on_Button_pressed():
+	pass
