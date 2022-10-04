@@ -130,7 +130,7 @@ b = Vector2( 1, 656 )
 extents = Vector2( 35, 50 )
 
 [sub_resource type="RectangleShape2D" id=10]
-extents = Vector2( 25, 23 )
+extents = Vector2( 22.5, 23 )
 
 [sub_resource type="RectangleShape2D" id=11]
 extents = Vector2( 40.5, 55 )
@@ -304,12 +304,12 @@ __meta__ = {
 }
 
 [node name="RAM" type="Sprite" parent="RAM_Cena"]
-position = Vector2( -1, -2 )
-scale = Vector2( 0.489729, 0.324588 )
+position = Vector2( -3.49998, -2 )
+scale = Vector2( 0.383928, 0.324588 )
 texture = ExtResource( 15 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RAM_Cena"]
-position = Vector2( -2, -13 )
+position = Vector2( -4.5, -13 )
 shape = SubResource( 10 )
 
 [node name="Popup_tecla_E" parent="RAM_Cena" instance=ExtResource( 23 )]

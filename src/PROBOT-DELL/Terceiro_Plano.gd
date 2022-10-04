@@ -4,6 +4,7 @@ extends Node2D
 onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node("Inventario/Inventariopng/RAM"), get_node("Inventario/Inventariopng/Cd"), get_node("Inventario/Inventariopng/PlacaVideo")]
 var RAM_visibility= false
 var contSfx = 0
+onready var popup_E= $RAM_Cena/Popup_tecla_E
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -37,11 +38,14 @@ func _ready():
 # warning-ignore:unused_argument
 func _on_RAM_Cena_body_entered(body):
 	RAM_visibility= true
+	popup_E.visible= true
+	popup_E.set_global_position(Vector2(815, 500))
 
 #define variavel de controle como false. 
 # warning-ignore:unused_argument
 func _on_RAM_Cena_body_exited(body):
 	RAM_visibility= false
+	popup_E.visible= false
 
 
 func _physics_process(_delta):
@@ -52,6 +56,7 @@ func _physics_process(_delta):
 		$RAM_Cena.visible= false
 		inventario[1].visible= true
 		Global.Inventario_Itens[1]= inventario[1].visible
+		popup_E.visible= false
 		#Global.contador = 6
 		if contSfx == 0: 
 			$itempegadosfx.play()

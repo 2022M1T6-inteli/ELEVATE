@@ -3,6 +3,7 @@ extends Node2D
 
 onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node("Inventario/Inventariopng/RAM"), get_node("Inventario/Inventariopng/Cd"), get_node("Inventario/Inventariopng/PlacaVideo")]
 var PlacaVideo_visibility= false
+onready var popup_E= $PlacaVideo_Cena/Popup_tecla_E
 var contSfx = 0
 
 # Called when the node enters the scene tree for the first time.
@@ -30,10 +31,13 @@ func _ready():
 
 func _on_PlacaVideo_Cena_body_entered(body):
 	PlacaVideo_visibility= true
+	popup_E.visible= true
+	popup_E.set_global_position(Vector2(815, 500))
 
 
 func _on_PlacaVideo_Cena_body_exited(body):
 	PlacaVideo_visibility= false
+	popup_E.visible= false
 
 
 func _physics_process(_delta):
@@ -43,6 +47,7 @@ func _physics_process(_delta):
 	if PlacaVideo_visibility == true and Input.is_action_just_pressed("ui_e") and $PlacaVideo_Cena.visible == true:
 		$PlacaVideo_Cena.visible= false
 		inventario[3].visible= true
+		popup_E.visible= false
 		Global.Inventario_Itens[2]= inventario[2].visible
 		Global.contador = 6
 		if contSfx == 0: 

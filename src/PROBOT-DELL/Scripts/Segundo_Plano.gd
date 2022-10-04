@@ -4,6 +4,7 @@ onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node
 var PenDrive_visibility= false
 onready var smokebg= get_node("Fumacasembg")
 var contSfx = 0
+onready var popup_E= $PenDrive_Cena/Popup_tecla_E
 
 
 # Called when the node enters the scene tree for the first time.
@@ -35,11 +36,15 @@ func _ready():
 #Define a variavel de controle como true.
 func _on_PenDrive_Cena_body_entered(_body):
 	PenDrive_visibility= true
+	popup_E.visible= true
+	popup_E.set_global_position(Vector2(815, 500))
 
 #define variavel de controle como false. 
 func _on_PenDrive_Cena_body_exited(_body):
 	PenDrive_visibility= false
+	popup_E.visible= false
 
+	
 
 func _physics_process(_delta):
 	if Global.controlPenDrive == true and inventario[0].visible == false:
@@ -49,6 +54,7 @@ func _physics_process(_delta):
 		$PenDrive_Cena.visible = false
 		inventario[0].visible= true
 		Global.Inventario_Itens[0]= inventario[0].visible
+		popup_E.visible= false
 		Global.contador = 6
 		
 		if contSfx == 0: 
