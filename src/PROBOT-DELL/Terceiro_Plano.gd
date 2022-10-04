@@ -13,6 +13,8 @@ func _ready():
 		#$NPC_Azul/Area2D.visible= false
 	if Global.terminou_jogo_nave == true:
 		Global.contador = 9
+	elif Global.Inventario_Itens[2] == true:
+		Global.contador = 12
 	else:
 		Global.contador = 8
 	if Global.Inventario_Itens[0] == true:

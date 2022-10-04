@@ -51,6 +51,8 @@ func _ready():
 	$pcligandosfx.play()
 	texto_frente.text = quest[0]
 	texto_tras.text = answer[0]
+	Global.contador = 11
+	Global.Inventario_Itens[1] = false
 		
 	
 #Sempre que a função for executada, o contador irá contar incrementar mais um
