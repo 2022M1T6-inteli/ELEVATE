@@ -47,6 +47,7 @@ onready var sem_medalha = $"../SemMedalha"
 
 
 func _ready():
+	Global.controlPlacaVideo == false
 	BackgroundMusic.stop()
 	$pcligandosfx.play()
 	texto_frente.text = quest[0]
@@ -195,33 +196,38 @@ func _on_Button_Errado_pressed():
 #Funções que trocam de cena ao player apertar o botão home depois que ele terminar
 #todos os flashcards daquela dimensão
 func _on_Home_Button_Platina_pressed():
-	Global.Inventario_Itens[0]= false
-	BackgroundMusic.play()
-	return get_tree().change_scene("res://Segundo_Plano.tscn")
+	Global.Inventario_Itens[2]= false
+	if Global.controlMusic == true:
+		BackgroundMusic.play()
+	return get_tree().change_scene("res://Terceiro_Plano.tscn")
 
 
 func _on_Home_Button_Ouro_pressed():
-	Global.Inventario_Itens[0]= false
-	BackgroundMusic.play()
-	return get_tree().change_scene("res://Segundo_Plano.tscn")
+	Global.Inventario_Itens[2]= false
+	if Global.controlMusic == true:
+		BackgroundMusic.play()
+	return get_tree().change_scene("res://Terceiro_Plano.tscn")
 
 
 func _on_Home_Button_Prata_pressed():
-	Global.Inventario_Itens[0]= false
-	BackgroundMusic.play()
-	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	Global.Inventario_Itens[2]= false
+	if Global.controlMusic == true:
+		BackgroundMusic.play()
+	return get_tree().change_scene("res://Terceiro_Plano.tscn")
 
 
 func _on_Home_Button_Bronze_pressed():
-	Global.Inventario_Itens[0]= false
-	BackgroundMusic.play()
-	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	Global.Inventario_Itens[2]= false
+	if Global.controlMusic == true:
+		BackgroundMusic.play()
+	return get_tree().change_scene("res://Terceiro_Plano.tscn")
 
 
 func _on_Home_Button_SemMedalha_pressed():
-	Global.Inventario_Itens[0]= false
-	BackgroundMusic.play()
-	return get_tree().change_scene("res://Primeiro_Plano.tscn")
+	Global.Inventario_Itens[2]= false
+	if Global.controlMusic == true:
+		BackgroundMusic.play()
+	return get_tree().change_scene("res://Terceiro_Plano.tscn")
 
 
 

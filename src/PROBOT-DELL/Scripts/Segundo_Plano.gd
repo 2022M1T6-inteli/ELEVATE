@@ -24,9 +24,9 @@ func _ready():
 	elif Global.Inventario_Itens[1] == false:
 		$Inventario/Inventariopng/RAM.visible= false 
 		
-	if Global.Inventario_Itens[3] == true:
+	if Global.Inventario_Itens[2] == true:
 		$Inventario/Inventariopng/PlacaVideo.visible= true 
-	elif Global.Inventario_Itens[3] == false:
+	elif Global.Inventario_Itens[2] == false:
 		$Inventario/Inventariopng/PlacaVideo.visible= false 
 		
 		

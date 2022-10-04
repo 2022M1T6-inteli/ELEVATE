@@ -16,5 +16,11 @@ func _on_TextureButton_pressed():
 	$Control.visible = false
 
 
-func _on_Button_pressed():
-	pass
+func _on_ButtonPlay_pressed():
+	Global.controlMusic = true
+	BackgroundMusic.play()
+
+
+func _on_ButtonStop_pressed():
+	Global.controlMusic = false
+	BackgroundMusic.stop()

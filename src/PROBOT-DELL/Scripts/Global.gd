@@ -34,3 +34,4 @@ var verificacaoFase2 = 0
 var verificacaoFase3 = 0
 var Marcos = false
 
+var controlMusic = true

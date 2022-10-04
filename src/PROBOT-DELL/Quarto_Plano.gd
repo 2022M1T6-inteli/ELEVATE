@@ -22,9 +22,9 @@ func _ready():
 	elif Global.Inventario_Itens[1] == false:
 		$Inventario/Inventariopng/RAM.visible= false 
 		
-	if Global.Inventario_Itens[3] == true:
+	if Global.Inventario_Itens[2] == true:
 		$Inventario/Inventariopng/PlacaVideo.visible= true 
-	elif Global.Inventario_Itens[3] == false:
+	elif Global.Inventario_Itens[2] == false:
 		$Inventario/Inventariopng/PlacaVideo.visible= false 
 
 
@@ -43,7 +43,7 @@ func _physics_process(_delta):
 	if PlacaVideo_visibility == true and Input.is_action_just_pressed("ui_e") and $PlacaVideo_Cena.visible == true:
 		$PlacaVideo_Cena.visible= false
 		inventario[3].visible= true
-		Global.Inventario_Itens[3]= inventario[3].visible
+		Global.Inventario_Itens[2]= inventario[2].visible
 		Global.contador = 6
 		if contSfx == 0: 
 			$itempegadosfx.play()
