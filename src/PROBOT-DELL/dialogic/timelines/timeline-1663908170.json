@@ -24,13 +24,13 @@
 			"character": "character-1663907727.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ahhh, finalmente voce chegou!!! Eu vou lhe falar o que é o modelo de produtos!"
+			"text": "Ahhh, finalmente você chegou!!! Eu vou lhe falar o que é o modelo de produtos!"
 		},
 		{
 			"character": "character-1663907727.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "O modelo de produtos é uma ferramenta moderna de desenvolvimento de software. O modelo permite agilidade operacional, o que permite que a organização reaja na velocidade de inicialização"
+			"text": "O modelo de produtos é uma ferramenta moderna de desenvolvimento de software. O modelo permite agilidade operacional, o que permite que a organização reaja na velocidade de inicialização."
 		},
 		{
 			"character": "character-1663907727.json",
@@ -54,7 +54,7 @@
 			"character": "character-1663907727.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Entre no elevador e vá para o primeiro andar para aprender sobre a primeira dimensão: [color= #00FF00]Visão[/color] "
+			"text": "Entre no elevador e vá para o primeiro andar para aprender sobre a primeira dimensão: [color= #00FF00]Visão[/color]. "
 		}
 	],
 	"metadata": {

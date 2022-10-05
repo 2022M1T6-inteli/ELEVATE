@@ -2,7 +2,6 @@ extends Node2D
 
 
 func _ready():
-
 	if Global.medalha_1 == 1:
 		$Platina/Sprite.visible = true
 		$Ouro/Sprite.visible = false

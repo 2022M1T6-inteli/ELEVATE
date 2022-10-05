@@ -30,7 +30,7 @@
 			"character": "character-1664810955.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Jogue o minigame para pegar a peça"
+			"text": "Jogue o minigame para pegar a peça."
 		},
 		{
 			"emit_signal": "Play_Pingas",

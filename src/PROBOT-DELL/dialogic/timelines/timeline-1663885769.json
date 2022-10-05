@@ -24,7 +24,7 @@
 			"character": "character-1663885732.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Olá Dellborg, Ouvi dizer que você precisa de uma peça de computador para consertar o computador do primeiro andar."
+			"text": "Olá Dellborg! Ouvi dizer que você precisa do Pen drive para consertar o computador do primeiro andar."
 		},
 		{
 			"emit_signal": "Play_Snake",
