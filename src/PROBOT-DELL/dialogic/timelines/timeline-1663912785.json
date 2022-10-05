@@ -42,11 +42,45 @@
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Agora, eu preciso que você jogue este minigame para conseguir a peça"
+			"text": "A cada lançamento, determinamos os objetivos, o que queremos alcançar com aquele produto e o que queremos alcançar com aquele result."
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Muito legal, né? "
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Então, fiquei sabendo que você precisava de uma peça para consertar um computador que estava quebrado por ai, seria a memória RAM, certo?"
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu tenho uma sobrando aqui. Posso lhe dar, mas primeiro preciso de uma ajuda sua"
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bom, eu estou desenvolvendo um game, como projeto pessoal, e eu gostaria que você o testasse "
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Espero que você goste dele, estou virando várias madrugadas pra deixá-lo perfeito!"
 		},
 		{
 			"emit_signal": "Play_Ship",
 			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

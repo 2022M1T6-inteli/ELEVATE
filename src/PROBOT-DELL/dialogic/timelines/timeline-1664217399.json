@@ -24,7 +24,13 @@
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parabéns por passar o minigame. Agora vou dar-lhe mais explicações sobre a visão do roadmap.\n"
+			"text": "Obrigado por ter testado meu jogo!!! "
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Agora vou dar-lhe mais explicações sobre a visão do roadmap e em seguida lhe dar sua memória RAM."
 		},
 		{
 			"character": "character-1663908054.json",
@@ -36,7 +42,13 @@
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Usamos um roadmap baseado em resultados para alinhar as metas do produto com recursos e lançamentos de longo prazo para orientar as discussões sobre prioridades e evitar objeções. Agora pegue a RAM ao meu lado"
+			"text": "Usamos um roadmap baseado em resultados para alinhar as metas do produto com recursos e lançamentos de longo prazo para orientar as discussões sobre prioridades e evitar objeções. "
+		},
+		{
+			"character": "character-1663908054.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Espero que você tenha entendido um pouco mais sobre roadmap. Agora pegue a memória RAM que está ao meu lado"
 		}
 	],
 	"metadata": {
