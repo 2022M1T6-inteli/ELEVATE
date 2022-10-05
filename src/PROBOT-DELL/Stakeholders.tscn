@@ -1,7 +1,6 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://Scripts/Stakeholders_Perguntas.gd" type="Script" id=1]
-[ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=2]
 [ext_resource path="res://images/flashcard_frente.png" type="Texture" id=3]
 [ext_resource path="res://images/flashcard_tras.png" type="Texture" id=4]
 [ext_resource path="res://images/Medal_Platina.png" type="Texture" id=5]
@@ -11,6 +10,8 @@
 [ext_resource path="res://images/button_home.png" type="Texture" id=9]
 [ext_resource path="res://Sounds/PC-LIGANDO.ogg" type="AudioStream" id=10]
 [ext_resource path="res://images/tela_feedback.png" type="Texture" id=11]
+[ext_resource path="res://images/BOTAO_MENU_ROSA.png" type="Texture" id=12]
+[ext_resource path="res://images/BOTAO_MENU_BRANCO.png" type="Texture" id=13]
 
 [node name="Node2D" type="Node2D"]
 
@@ -106,8 +107,6 @@ text = "Retornar"
 
 [node name="pcligandosfx" type="AudioStreamPlayer2D" parent="Stakeholders_Perguntas"]
 stream = ExtResource( 10 )
-
-[node name="Mouse_Cursor" parent="." instance=ExtResource( 2 )]
 
 [node name="Platina" type="TextureRect" parent="."]
 visible = false
@@ -265,6 +264,36 @@ margin_bottom = 679.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
+[node name="Texto_Final" type="TextureRect" parent="."]
+visible = false
+margin_left = 1.0
+margin_top = 5.0
+margin_right = 1270.0
+margin_bottom = 648.0
+texture = ExtResource( 11 )
+expand = true
+
+[node name="Label_texto_final" type="Label" parent="Texto_Final"]
+margin_left = 90.0
+margin_top = 130.0
+margin_right = 577.0
+margin_bottom = 212.0
+rect_scale = Vector2( 2.2, 2.2 )
+text = "Parabéns, você concluiu o jogo Probots. E agora que você já sabe sobre o modelo de Produtos, está na hora de você ajudar a Dell a escapar dessa crise global. Boa Sorte, nós contamos com você!
+
+Ass: Dell"
+autowrap = true
+
+[node name="Button_texto_final" type="TextureButton" parent="Texto_Final"]
+margin_left = 477.0
+margin_top = 397.0
+margin_right = 768.0
+margin_bottom = 501.0
+texture_normal = ExtResource( 12 )
+texture_pressed = ExtResource( 13 )
+texture_hover = ExtResource( 13 )
+expand = true
+
 [connection signal="pressed" from="Stakeholders_Perguntas/FlashCard_Tras/Button_Certo" to="Stakeholders_Perguntas" method="_on_Button_Certo_pressed"]
 [connection signal="pressed" from="Stakeholders_Perguntas/FlashCard_Tras/Button_Errado" to="Stakeholders_Perguntas" method="_on_Button_Errado_pressed"]
 [connection signal="pressed" from="Stakeholders_Perguntas/FlashCard_Frente/Button_Flashcard_Front" to="Stakeholders_Perguntas" method="_on_Button_Flashcard_Front_pressed"]
@@ -274,3 +303,4 @@ texture_normal = ExtResource( 9 )
 [connection signal="pressed" from="Prata/Home_Button_Prata" to="Stakeholders_Perguntas" method="_on_Home_Button_Prata_pressed"]
 [connection signal="pressed" from="Bronze/Home_Button_Bronze" to="Stakeholders_Perguntas" method="_on_Home_Button_Bronze_pressed"]
 [connection signal="pressed" from="SemMedalha/Home_Button_SemMedalha" to="Stakeholders_Perguntas" method="_on_Home_Button_SemMedalha_pressed"]
+[connection signal="pressed" from="Texto_Final/Button_texto_final" to="Stakeholders_Perguntas" method="_on_Button_texto_final_pressed"]

@@ -1,6 +1,7 @@
 extends Node2D
 
 
+export var SceneToGo= ""
 onready var visibility_card_front= $FlashCard_Frente
 onready var visibility_card_back= $FlashCard_Tras
 onready var texto_frente= $FlashCard_Frente/Texto_Button_Frente
@@ -44,6 +45,7 @@ onready var ouro = $"../Ouro"
 onready var prata = $"../Prata"
 onready var bronze = $"../Bronze"
 onready var sem_medalha = $"../SemMedalha"
+onready var texto_final= $"../Texto_Final"
 
 
 func _ready():
@@ -90,12 +92,12 @@ func PassCards():
 			botaoErrado = 0
 			pontos = pontos + 1
 			feedback.visible= true
-			LabelFeedback.text= feedback_certo[1]
+			LabelFeedback.text= feedback_errado[1]
 			feedback.color= Color(0.258824, 0.682353, 0.086275)
 			
 		else:
 			feedback.visible= true
-			LabelFeedback.text= feedback_errado[1]
+			LabelFeedback.text= feedback_certo[1]
 			feedback.color= Color(0.6, 0.078431, 0.078431)
 		print(pontos)
 		visibility_card_front.visible= true
@@ -200,7 +202,7 @@ func _on_Home_Button_Platina_pressed():
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()
-	return get_tree().change_scene("res://Terceiro_Plano.tscn")
+	texto_final.visible= true
 
 
 func _on_Home_Button_Ouro_pressed():
@@ -208,7 +210,7 @@ func _on_Home_Button_Ouro_pressed():
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()
-	return get_tree().change_scene("res://Terceiro_Plano.tscn")
+	texto_final.visible= true
 
 
 func _on_Home_Button_Prata_pressed():
@@ -216,7 +218,7 @@ func _on_Home_Button_Prata_pressed():
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()
-	return get_tree().change_scene("res://Terceiro_Plano.tscn")
+	texto_final.visible= true
 
 
 func _on_Home_Button_Bronze_pressed():
@@ -224,7 +226,7 @@ func _on_Home_Button_Bronze_pressed():
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()
-	return get_tree().change_scene("res://Terceiro_Plano.tscn")
+	texto_final.visible= true
 
 
 func _on_Home_Button_SemMedalha_pressed():
@@ -232,7 +234,8 @@ func _on_Home_Button_SemMedalha_pressed():
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()
-	return get_tree().change_scene("res://Terceiro_Plano.tscn")
+	texto_final.visible= true
+	
 
 
 
@@ -241,5 +244,13 @@ func _on_Button_Feedback_pressed():
 	ContFeedback += 1
 	if ContFeedback == 4:
 		Premiacao()
+		if pontos == 1 or pontos == 0:
+			conta= 1
 	print ("Botao feedback: ", ContFeedback)
+
+
+func _on_Button_texto_final_pressed():
+	if pontos == 4 or pontos == 3 or pontos == 2:
+		SceneToGo= "res://menu_inicial.tscn"
+		Transicao.FadeInto(SceneToGo)
 	

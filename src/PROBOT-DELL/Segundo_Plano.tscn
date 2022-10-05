@@ -316,7 +316,6 @@ script = ExtResource( 20 )
 __meta__ = {
 "_edit_group_": true
 }
-SceneToGo = "res://nivel.tscn"
 
 [node name="Sprite" type="Sprite" parent="NPC_Pinky"]
 position = Vector2( 30.5, -34 )
