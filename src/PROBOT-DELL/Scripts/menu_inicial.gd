@@ -15,12 +15,14 @@ func _on_sair_button_pressed():
 func _on_TextureButton_pressed():
 	$Control.visible = false
 
-
-func _on_ButtonPlay_pressed():
-	Global.controlMusic = true
-	BackgroundMusic.play()
-
-
+#função para retirar trilha sonora ao botão ser pressionado, tornando falsa a variavel global que controla a musica no jogo
 func _on_ButtonStop_pressed():
 	Global.controlMusic = false
 	BackgroundMusic.stop()
+	
+
+#função para inserir trilha sonora ao botão ser pressionado, tornando verdadeira a variavel global que controla a musica no jogo
+func _on_ButtonPlay_pressed():
+	Global.controlMusic = true
+	BackgroundMusic.play()
+	
