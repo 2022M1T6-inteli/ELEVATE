@@ -23,7 +23,7 @@ func _on_Campo_gol_direita():
 	comeca_round_novo()
 
 #HUD e checagem de pontos	
-func _process(delta):
+func _process(_delta):
 	$Label.text = str(pontos_jogador_1)
 	$Label2.text = str(pontos_jogador_2)
 	
@@ -33,7 +33,7 @@ func _process(delta):
 		Transicao.FadeInto(SceneToGo)
 	elif pontos_jogador_2 == 5:
 		$Label3.text = "DERROTA"
-		get_tree().reload_current_scene()
+		return get_tree().reload_current_scene()
 
 #resetar posicoes e comeco de novo round
 func comeca_round_novo():

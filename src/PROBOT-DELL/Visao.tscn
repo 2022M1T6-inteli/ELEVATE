@@ -123,10 +123,12 @@ texture = ExtResource( 5 )
 [node name="Label" type="Label" parent="Platina"]
 margin_left = 61.0
 margin_top = 145.0
-margin_right = 317.0
-margin_bottom = 206.0
+margin_right = 311.0
+margin_bottom = 210.0
 rect_scale = Vector2( 2.5, 2.5 )
-text = "Congratulations! you have reached the final maturity! your team is supported by a growth board."
+text = "Parabéns!! Você alcançou a maturidade final!! Seu time é aconselhado por um conselho de crescimento.
+"
+align = 1
 autowrap = true
 
 [node name="Home_Button_Platina" type="TextureButton" parent="Platina"]
@@ -139,9 +141,9 @@ texture_normal = ExtResource( 9 )
 
 [node name="Ouro" type="TextureRect" parent="."]
 visible = false
-margin_left = 241.0
+margin_left = 248.0
 margin_top = 88.0
-margin_right = 983.0
+margin_right = 990.0
 margin_bottom = 512.0
 texture = ExtResource( 11 )
 expand = true
@@ -160,7 +162,7 @@ margin_top = 149.0
 margin_right = 318.0
 margin_bottom = 214.0
 rect_scale = Vector2( 2.5, 2.5 )
-text = "You´ve reached the third maturity of vision's dimension. Now your team uses the product's vision to make its decisions."
+text = "Você alcançou a terceira maturidade da dimensão Visão. Agora seu time utiliza visão de produtos para tomar decisôes!"
 autowrap = true
 
 [node name="Home_Button_Ouro" type="TextureButton" parent="Ouro"]
@@ -191,7 +193,8 @@ margin_top = 146.0
 margin_right = 341.0
 margin_bottom = 211.0
 rect_scale = Vector2( 2.2, 2.2 )
-text = "You are doing good, here in maturity 2 your team is aware of it´s vision of the product and believe it reflects the objective of it´s work"
+text = "Você está indo bem, na maturidade 2 seu time está consciente da visão do produto, refletindo no objetivo do seu trabalho!"
+align = 1
 autowrap = true
 
 [node name="Home_Button_Prata" type="TextureButton" parent="Prata"]
@@ -217,12 +220,13 @@ scale = Vector2( 2.22, 1.7725 )
 texture = ExtResource( 7 )
 
 [node name="Label" type="Label" parent="Bronze"]
-margin_left = 71.0
-margin_top = 142.0
-margin_right = 321.0
-margin_bottom = 216.0
+margin_left = 55.0
+margin_top = 136.0
+margin_right = 305.0
+margin_bottom = 210.0
 rect_scale = Vector2( 2.5, 2.5 )
-text = "You are in the first maturity of the vision´s dimension. The team doesn't know or doesn't have a vision of the product"
+text = "Você alcançou a primeira maturidade da dimensão Visão. O time não sabe e não tem visão sobre o produto."
+align = 1
 autowrap = true
 
 [node name="Home_Button_Bronze" type="TextureButton" parent="Bronze"]
@@ -243,19 +247,20 @@ texture = ExtResource( 11 )
 expand = true
 
 [node name="Label" type="Label" parent="SemMedalha"]
-margin_left = 52.0
-margin_top = 78.0
-margin_right = 376.0
-margin_bottom = 124.0
+margin_left = 47.0
+margin_top = 128.0
+margin_right = 371.0
+margin_bottom = 174.0
 rect_scale = Vector2( 2, 2 )
-text = "Try again. You are not yet ready to go to the next level."
+text = "Tente novamente. Você não está pronto para a próxima fase."
+align = 1
 autowrap = true
 
 [node name="Home_Button_SemMedalha" type="TextureButton" parent="SemMedalha"]
-margin_left = 347.0
-margin_top = 295.0
-margin_right = 731.0
-margin_bottom = 679.0
+margin_left = 327.0
+margin_top = 280.0
+margin_right = 711.0
+margin_bottom = 664.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 

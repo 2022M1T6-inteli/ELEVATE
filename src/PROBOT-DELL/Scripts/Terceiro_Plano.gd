@@ -46,6 +46,8 @@ func _on_RAM_Cena_body_entered(body):
 	if inventario[1].visible == true or $RAM_Cena.visible == true:
 		popup_E.visible= true
 		popup_E.set_global_position(Vector2(815, 500))
+	if $RAM_Cena.visible == false:
+		popup_E.visible= false
 
 #define variavel de controle como false. 
 # warning-ignore:unused_argument

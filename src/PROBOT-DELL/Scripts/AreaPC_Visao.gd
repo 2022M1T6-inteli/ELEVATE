@@ -32,11 +32,10 @@ func _physics_process(_delta):
 		Global.PCcont= 1
 		inventory.visible= false 
 		smokeanim.visible= false
-	if Global.PCcont == 1 and Input.is_action_just_pressed("ui_e") and Global.portaElevador == false and Global.Marcos == false:
+	if Global.PCcont == 1 and Input.is_action_just_pressed("ui_e") and ControlPc == true:
 		Transicao.FadeInto(SceneToGo)
 		Global.contador = 7
 		smokeanim.visible= false
-		
-		
+	
 
 

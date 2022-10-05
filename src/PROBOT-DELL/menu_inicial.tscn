@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://images/BACKGROUNDDDD.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/menu_inicial.gd" type="Script" id=2]
@@ -10,9 +10,14 @@
 [ext_resource path="res://images/BOTAO_PLAY_ROSA.png" type="Texture" id=8]
 [ext_resource path="res://images/BOTAO_EXIT_BRANCO.png" type="Texture" id=9]
 [ext_resource path="res://images/botao_creditos_branco.png" type="Texture" id=10]
+[ext_resource path="res://images/Pause_rosa (1).png" type="Texture" id=11]
 [ext_resource path="res://images/flashcard4.png" type="Texture" id=12]
 [ext_resource path="res://images/X_botao_branco.png" type="Texture" id=13]
 [ext_resource path="res://images/X_botao.png" type="Texture" id=14]
+[ext_resource path="res://images/Pause_branco.png" type="Texture" id=15]
+[ext_resource path="res://images/buto_play_rosa (1).png" type="Texture" id=16]
+[ext_resource path="res://images/buto_play_branco.png" type="Texture" id=17]
+[ext_resource path="res://images/buto_play_branco (1).png" type="Texture" id=18]
 
 [sub_resource type="StyleBoxFlat" id=1]
 
@@ -134,19 +139,25 @@ position = Vector2( 630, 102 )
 scale = Vector2( 0.571, 0.539 )
 texture = ExtResource( 7 )
 
-[node name="ButtonPlay" type="Button" parent="."]
-margin_left = 829.0
-margin_top = 558.0
-margin_right = 1019.0
-margin_bottom = 618.0
-text = "play"
+[node name="ButtonPlay" type="TextureButton" parent="."]
+margin_left = 38.0
+margin_top = 564.0
+margin_right = 100.0
+margin_bottom = 621.0
+texture_normal = ExtResource( 16 )
+texture_pressed = ExtResource( 17 )
+texture_hover = ExtResource( 18 )
+expand = true
 
-[node name="ButtonStop" type="Button" parent="."]
-margin_left = 1032.0
-margin_top = 559.0
-margin_right = 1220.0
-margin_bottom = 618.0
-text = "stop"
+[node name="ButtonStop" type="TextureButton" parent="."]
+margin_left = 113.0
+margin_top = 565.0
+margin_right = 175.0
+margin_bottom = 620.0
+texture_normal = ExtResource( 11 )
+texture_pressed = ExtResource( 15 )
+texture_hover = ExtResource( 15 )
+expand = true
 
 [node name="Control" type="Control" parent="."]
 visible = false
@@ -213,6 +224,14 @@ Nossos professores: VIctor Queiroz, Francisco Escobar
 																OBRIGADO DELL POR NOS PROPORCIONAR O APRENDIZADO
 													
 "
+
+[node name="Label" type="Label" parent="."]
+margin_left = 11.0
+margin_top = 543.0
+margin_right = 210.0
+margin_bottom = 557.0
+text = "MUSIC"
+align = 1
 
 [connection signal="pressed" from="jogar_button" to="." method="_on_jogar_button_pressed"]
 [connection signal="pressed" from="config_button" to="." method="_on_config_button_pressed"]

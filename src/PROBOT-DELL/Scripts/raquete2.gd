@@ -8,7 +8,7 @@ var direcao = Vector2()
 
 
 #atualizar posicao
-func _process(delta):
+func _process(_delta):
 	emit_signal("atualizar")
 #checar colisao 
 func _physics_process(delta):

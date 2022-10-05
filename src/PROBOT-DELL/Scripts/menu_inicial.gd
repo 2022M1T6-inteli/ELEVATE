@@ -17,12 +17,12 @@ func _on_sair_button_pressed():
 func _on_TextureButton_pressed():
 	$Control.visible = false
 
-
+#função para ativar a música do jogo ao clicar no botão
 func _on_ButtonPlay_pressed():
 	Global.controlMusic = true
 	BackgroundMusic.play()
 
-
+#função para desativar a música do jogo ao clicar no botão
 func _on_ButtonStop_pressed():
 	Global.controlMusic = false
 	BackgroundMusic.stop()

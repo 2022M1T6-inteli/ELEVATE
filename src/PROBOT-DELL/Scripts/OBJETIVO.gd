@@ -1,7 +1,7 @@
 extends ColorRect
 
 
-
+#array definindo os objetivos da movimentação do player
 var vet_objetivos = ["Entre no prédio",
 					"Fale com a Ellen",
 					"Vá ao 1° andar",

@@ -24,7 +24,7 @@ func _process(_delta):
 		TimerNave()
 		Transicao.FadeInto(SceneToGo)
 	if Global.vida_global <= 0:
-		get_tree().reload_current_scene()
+		return get_tree().reload_current_scene()
 		
 	if $Tutorial.visible == true:
 		get_tree().paused= true

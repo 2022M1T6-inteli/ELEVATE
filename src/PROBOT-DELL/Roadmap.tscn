@@ -112,34 +112,32 @@ stream = ExtResource( 10 )
 [node name="Platina" type="TextureRect" parent="."]
 visible = false
 margin_left = 241.0
-margin_top = 88.0
-margin_right = 983.0
-margin_bottom = 512.0
+margin_top = 91.0
+margin_right = 985.0
+margin_bottom = 567.0
 texture = ExtResource( 11 )
 expand = true
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Sprite" type="Sprite" parent="Platina"]
-position = Vector2( 369, 92 )
-scale = Vector2( 2.22, 1.7725 )
+position = Vector2( 368.25, 95.8438 )
+scale = Vector2( 2.19, 1.92625 )
 texture = ExtResource( 5 )
 
 [node name="Label" type="Label" parent="Platina"]
 margin_left = 61.0
 margin_top = 145.0
-margin_right = 317.0
-margin_bottom = 206.0
+margin_right = 311.0
+margin_bottom = 227.0
 rect_scale = Vector2( 2.5, 2.5 )
-text = "Congratulations! you have reached the final maturity! your team is supported by a growth board."
+text = "Parabéns!! Você alcançou a maturidade final da dimensão Roadmap! A equipe considera as necessidades do usuário para orientar proativamente as decisões do roteiro do produto​."
+align = 1
 autowrap = true
 
 [node name="Home_Button_Platina" type="TextureButton" parent="Platina"]
-margin_left = 326.0
-margin_top = 293.0
-margin_right = 710.0
-margin_bottom = 677.0
+margin_left = 331.0
+margin_top = 352.0
+margin_right = 715.0
+margin_bottom = 736.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
@@ -148,16 +146,13 @@ visible = false
 margin_left = 241.0
 margin_top = 88.0
 margin_right = 983.0
-margin_bottom = 512.0
+margin_bottom = 538.0
 texture = ExtResource( 11 )
 expand = true
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Sprite" type="Sprite" parent="Ouro"]
-position = Vector2( 369, 93 )
-scale = Vector2( 2.22, 1.7725 )
+position = Vector2( 369, 96.4006 )
+scale = Vector2( 2.22, 1.90586 )
 texture = ExtResource( 8 )
 
 [node name="Label" type="Label" parent="Ouro"]
@@ -166,29 +161,30 @@ margin_top = 149.0
 margin_right = 318.0
 margin_bottom = 214.0
 rect_scale = Vector2( 2.5, 2.5 )
-text = "You´ve reached the third maturity of vision's dimension. Now your team uses the product's vision to make its decisions."
+text = "Você alcançou a terceira maturidade da dimensão Roadmap! A equipe pode ajustar o roteiro do produto com base nas necessidades do usuário."
+align = 1
 autowrap = true
 
 [node name="Home_Button_Ouro" type="TextureButton" parent="Ouro"]
-margin_left = 330.0
-margin_top = 293.0
-margin_right = 714.0
-margin_bottom = 677.0
+margin_left = 327.0
+margin_top = 320.0
+margin_right = 711.0
+margin_bottom = 704.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
 [node name="Prata" type="TextureRect" parent="."]
 visible = false
 margin_left = 241.0
-margin_top = 88.0
+margin_top = 91.0
 margin_right = 983.0
-margin_bottom = 512.0
+margin_bottom = 580.0
 texture = ExtResource( 11 )
 expand = true
 
 [node name="Sprite" type="Sprite" parent="Prata"]
-position = Vector2( 362, 91 )
-scale = Vector2( 2.22, 1.7725 )
+position = Vector2( 362, 94.8437 )
+scale = Vector2( 2.22, 1.92625 )
 texture = ExtResource( 6 )
 
 [node name="Label" type="Label" parent="Prata"]
@@ -197,14 +193,15 @@ margin_top = 146.0
 margin_right = 341.0
 margin_bottom = 211.0
 rect_scale = Vector2( 2.2, 2.2 )
-text = "You are doing good, here in maturity 2 your team is aware of it´s vision of the product and believe it reflects the objective of it´s work"
+text = "Você alcançou a maturidade dois da dimensão Roadmap. A equipe pode desenvolver um roteiro de produto testável e baseado em resultados por meio de interações de usuários e partes interessadas​​. "
+align = 1
 autowrap = true
 
 [node name="Home_Button_Prata" type="TextureButton" parent="Prata"]
-margin_left = 332.0
-margin_top = 296.0
-margin_right = 716.0
-margin_bottom = 680.0
+margin_left = 319.0
+margin_top = 363.0
+margin_right = 703.0
+margin_bottom = 747.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
@@ -223,19 +220,20 @@ scale = Vector2( 2.22, 1.7725 )
 texture = ExtResource( 7 )
 
 [node name="Label" type="Label" parent="Bronze"]
-margin_left = 71.0
-margin_top = 142.0
-margin_right = 321.0
-margin_bottom = 216.0
+margin_left = 59.0
+margin_top = 140.0
+margin_right = 309.0
+margin_bottom = 214.0
 rect_scale = Vector2( 2.5, 2.5 )
-text = "You are in the first maturity of the vision´s dimension. The team doesn't know or doesn't have a vision of the product"
+text = "Você está na primeira maturidade da dimensão Roadmap. A equipe não tem conhecimento ou não mantém um roteiro de produtos."
+align = 1
 autowrap = true
 
 [node name="Home_Button_Bronze" type="TextureButton" parent="Bronze"]
 margin_left = 330.0
-margin_top = 284.0
+margin_top = 301.0
 margin_right = 714.0
-margin_bottom = 668.0
+margin_bottom = 685.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
@@ -249,19 +247,20 @@ texture = ExtResource( 11 )
 expand = true
 
 [node name="Label" type="Label" parent="SemMedalha"]
-margin_left = 52.0
-margin_top = 78.0
-margin_right = 376.0
-margin_bottom = 124.0
+margin_left = 55.0
+margin_top = 127.0
+margin_right = 379.0
+margin_bottom = 173.0
 rect_scale = Vector2( 2, 2 )
-text = "Try again. You are not yet ready to go to the next level."
+text = "Tente novamente. Você não está pronto para a próxima fase."
+align = 1
 autowrap = true
 
 [node name="Home_Button_SemMedalha" type="TextureButton" parent="SemMedalha"]
-margin_left = 347.0
-margin_top = 295.0
-margin_right = 731.0
-margin_bottom = 679.0
+margin_left = 328.0
+margin_top = 262.0
+margin_right = 712.0
+margin_bottom = 646.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 

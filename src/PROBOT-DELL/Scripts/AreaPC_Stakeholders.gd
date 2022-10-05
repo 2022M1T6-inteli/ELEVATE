@@ -14,14 +14,14 @@ func _ready():
 	
 
 
-func _on_AreaPC_Stakeholders_body_entered(body):
+func _on_AreaPC_Stakeholders_body_entered(_body):
 	ControlPcStakeholders= true
 	if Global.Inventario_Itens[2] == true or Global.PCcontStakeholders == 1:
 		popup_E.visible= true
 		popup_E.set_global_position(Vector2(1040, 390))
 
 
-func _on_AreaPC_Stakeholders_body_exited(body):
+func _on_AreaPC_Stakeholders_body_exited(_body):
 	ControlPcStakeholders= false
 	if Global.Inventario_Itens[2] == true or Global.PCcontStakeholders == 1:
 		popup_E.visible= false
@@ -32,7 +32,7 @@ func _physics_process(_delta):
 		Global.PCcontStakeholders= 1
 		inventory.visible= false 
 		smokeanim.visible= false
-	if Global.PCcontStakeholders == 1 and Input.is_action_just_pressed("ui_e"):
+	if Global.PCcontStakeholders == 1 and Input.is_action_just_pressed("ui_e") and ControlPcStakeholders == true:
 		Transicao.FadeInto(SceneToGo)
 		Global.contador = 8
 		

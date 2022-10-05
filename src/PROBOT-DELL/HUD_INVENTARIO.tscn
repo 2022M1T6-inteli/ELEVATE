@@ -13,7 +13,7 @@
 [sub_resource type="GDScript" id=1]
 script/source = "extends Node2D
 
-
+#função que define qual medalha aparecer na hud, dependendo do valor da variavel global. Indicando se o player passou ou não de fase.
 func _ready():
 	if Global.medalha_1 == 1:
 		$Platina/Sprite.visible = true

@@ -45,5 +45,5 @@ func _physics_process(_delta):
 		Global.contador = 5
 
 func playsnake(_argument):
-	get_tree().change_scene("res://nivel.tscn")
+	return get_tree().change_scene("res://nivel.tscn")
 	print ("Entrando Node snake")

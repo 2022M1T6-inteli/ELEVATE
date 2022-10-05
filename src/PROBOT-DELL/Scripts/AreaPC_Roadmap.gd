@@ -11,7 +11,6 @@ export var SceneToGo= ""
 func _ready():
 	pass # Replace with function body.
 
-
 #Define a variavel de controle como true. E mostra o popup na tela
 func _on_AreaPC_Roadmap_body_entered(_body):
 	ControlPcRoadmap= true
@@ -32,7 +31,7 @@ func _physics_process(_delta):
 		Global.PCcontRoadmap= 1
 		inventory.visible= false 
 		smokeanim.visible= false
-	if Global.PCcontRoadmap == 1 and Input.is_action_just_pressed("ui_e") and ControlPcRoadmap == true:
+	if Global.PCcontRoadmap == 1 and Input.is_action_just_pressed("ui_e") and ControlPcRoadmap == true and Global.portaElevador == false:
 		Transicao.FadeInto(SceneToGo)
 		Global.contador = 7
 		
