@@ -67,12 +67,12 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "inputIA",
 "language": "GDScript",
-"path": "res://inputIA.gd"
+"path": "res://Scripts/inputIA.gd"
 }, {
 "base": "Node",
 "class": "inputJogador",
 "language": "GDScript",
-"path": "res://InputJogador.gd"
+"path": "res://Scripts/InputJogador.gd"
 }, {
 "base": "Area2D",
 "class": "jogador",

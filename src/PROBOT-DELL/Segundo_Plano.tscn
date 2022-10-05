@@ -24,7 +24,7 @@
 [ext_resource path="res://Popup_tecla_E.tscn" type="PackedScene" id=23]
 [ext_resource path="res://Sounds/Coletar Item.ogg" type="AudioStream" id=24]
 [ext_resource path="res://HUD_INVENTARIO.tscn" type="PackedScene" id=25]
-[ext_resource path="res://AreaPC_Roadmap.gd" type="Script" id=26]
+[ext_resource path="res://Scripts/AreaPC_Roadmap.gd" type="Script" id=26]
 [ext_resource path="res://painelpreto.tscn" type="PackedScene" id=27]
 [ext_resource path="res://assetssprint5alt/1tv.png" type="Texture" id=28]
 [ext_resource path="res://assetssprint5alt/1board.png" type="Texture" id=29]

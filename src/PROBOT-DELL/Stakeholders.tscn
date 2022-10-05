@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://Stakeholders_Perguntas.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/Stakeholders_Perguntas.gd" type="Script" id=1]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=2]
 [ext_resource path="res://images/flashcard_frente.png" type="Texture" id=3]
 [ext_resource path="res://images/flashcard_tras.png" type="Texture" id=4]
@@ -11,6 +11,7 @@
 [ext_resource path="res://images/button_home.png" type="Texture" id=9]
 [ext_resource path="res://Sounds/PC-LIGANDO.ogg" type="AudioStream" id=10]
 [ext_resource path="res://images/tela_feedback.png" type="Texture" id=11]
+
 
 [node name="Node2D" type="Node2D"]
 

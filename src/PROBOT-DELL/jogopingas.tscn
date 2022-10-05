@@ -4,10 +4,11 @@
 [ext_resource path="res://Campo.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Raquete1.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Raquete2.tscn" type="PackedScene" id=4]
-[ext_resource path="res://inputIA.gd" type="Script" id=5]
-[ext_resource path="res://InputJogador.gd" type="Script" id=6]
-[ext_resource path="res://jogopingas.gd" type="Script" id=7]
+[ext_resource path="res://Scripts/inputIA.gd" type="Script" id=5]
+[ext_resource path="res://Scripts/InputJogador.gd" type="Script" id=6]
+[ext_resource path="res://Scripts/jogopingas.gd" type="Script" id=7]
 [ext_resource path="res://images/tela_feedback.png" type="Texture" id=8]
+
 
 [node name="jogopingas" type="Node"]
 script = ExtResource( 7 )
