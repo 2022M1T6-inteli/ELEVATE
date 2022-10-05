@@ -10,28 +10,28 @@ onready var feedback= $Feedback
 var conta= 0 
 var botaoCerto = 0;
 var botaoErrado = 0;
-var quest= ["Welcome to the game, click on the screen to proceed",
-			"What is the vision's dimension of the product model?", 
-			"What is a vision statement?", 
-			"What is OGSM and why is it important to the vision´s dimension?", 
-			"What is PLM and what are our advantages in adopting it?"]
+var quest= ["Bem vindo ao jogo, clique na tela para prosseguir",
+"Qual é a dimensão da visão do modelo do produto?",
+"O que é uma declaração de visão?",
+"O que é OGSM e por que é importante para a dimensão da visão?",
+"O que é PLM e quais são nossas vantagens em adotá-lo?"]
 			
-var answer= ["Here the statements about the questions will appear. If you think the statement is correct, press check, if you think the statement is false, press X.",
-			"It is a statement of intent indicating what a company, business unit or team wants to become and guiding transformational initiatives, setting a defined direction for future growth.", 
-			"It is a detailed document on how the project will reach the desired result, involving all stages of the process",
-			"The OGSM structure is an acronym for Objectives, Goals, Strategies and measures. It is very important to Vision because it allows companies to define what they wanna do first and then how they will get there.",
-			"The Product Lifecycle Management (PLM) is a management system of the product life cycle. One of the main advantages is a bigger comprehension of the market, facilitating the creation and development  of new products and raising market share."]
+var answer= ["Aqui as declarações sobre as perguntas aparecerão. Se você acha que a afirmação está correta, aperte check, se você acha que a afirmação é falsa, aperte X.",
+"É uma declaração de intenção indicando o que uma empresa, unidade de negócios ou equipe quer se tornar e orientando iniciativas de transformação, definindo uma direção definida para o crescimento futuro.",
+"É um documento detalhado de como o projeto alcançará o resultado desejado, envolvendo todas as etapas do processo",
+"A estrutura OGSM é um acrônimo para Objetivos, Metas, Estratégias e Medidas. É muito importante para a Visão porque permite que as empresas definam primeiro o que querem fazer e depois como chegarão lá.",
+"O Product Lifecycle Management (PLM) é um sistema de gestão do ciclo de vida do produto. Uma das principais vantagens é uma maior compreensão do mercado, facilitando a criação e desenvolvimento de novos produtos e aumentando a participação de mercado."]
 
-var feedback_certo= ["You got it right, the vision dimension is exactly that!", 
-"You're right, this alternative is false. The vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
-"You got it right, the vision dimension is exactly that!", 
-"You got it right, the vision dimension is exactly that!"
+var feedback_certo= ["Você acertou, a dimensão da visão é exatamente isso!",
+"Você está certo, esta alternativa é falsa. A declaração de visão é uma breve descrição do objetivo final de um projeto. Deve ser sucinta e memorável para que todos os envolvidos tenham algum nível de compreensão de onde queremos ir. Não não fornece muitos detalhes, mas dá uma boa compreensão do que é o trabalho.",
+"Você acertou, a dimensão da visão é exatamente isso!",
+"Você acertou, a dimensão da visão é exatamente isso!"
 	
 ]
-var feedback_errado= ["You got it wrong, that statement is true", 
-"You got it wrong, actually the vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
-"You got it wrong, that statement is true",
-"You got it wrong, that statement is true"
+var feedback_errado= ["Você entendeu errado, essa afirmação é verdadeira",
+"Você entendeu errado, na verdade a declaração de visão é uma breve descrição do objetivo final de um projeto. Deve ser sucinta e memorável para que todos os envolvidos tenham algum nível de compreensão de onde queremos ir. Não fornece muito detalhes, mas dá uma boa compreensão do que é o trabalho.",
+"Você entendeu errado, essa afirmação é verdadeira",
+"Você entendeu errado, essa afirmação é verdadeira"
 	
 ]
 

@@ -11,28 +11,28 @@ onready var feedback= $Feedback
 var conta= 0    
 var botaoCerto = 0;
 var botaoErrado = 0;
-var quest= ["Welcome to the game, click on the screen to proceed",
-			" What is a roadmap and what is it for?", 
-			"What is the only expected result that is present in all maturity levels of the Roadmap?", 
-			"What is a results-based roadmap for each release and why is it important?", 
-			" How should continuous use of data collection and user feedback be made to plan future results to be prioritized in the product roadmap?"]
+var quest= ["Bem vindo ao jogo, clique na tela para prosseguir",
+" O que é um roadmap e para que serve?",
+"Qual é o único resultado esperado que está presente em todos os níveis de maturidade do Roadmap?",
+"O que é um roadmap baseado em resultados para cada versão e por que é importante?",
+" Como deve ser feito o uso contínuo da coleta de dados e feedback do usuário para planejar resultados futuros a serem priorizados no roadmap do produto?"]
 			
-var answer= ["Here the statements about the questions will appear. If you think the statement is correct, press check, if you think the statement is false, press X.",
-			"It is a kind of 'map' that aims to organize the goals of software development, created independently of the users' needs.", 
-			"Outcome Based Roadmap",
-			"It is the vision of the product, of how we are going to arrive or create the product based on what we want to achieve. With each release, we determine the goals and what we want to achieve with that product and what we want to achieve with that result. Each quarter we develop a component of the product.",
-			"An example: if you want your software to arrive in the PM to start as soon as possible, then you measure that time. It makes features or stories and complements them. Meanwhile, validate with the user, to reduce the time further. What takes the longest is this, so I know I should take that data and automate those fields."]
+var answer= ["Aqui as declarações sobre as perguntas aparecerão. Se você acha que a afirmação está correta, aperte check, se você acha que a afirmação é falsa, aperte X.",
+"É uma espécie de 'mapa' que visa organizar os objetivos de desenvolvimento de software, criados independentemente das necessidades dos usuários.",
+"Roteiro Baseado em Resultados",
+"É a visão do produto, de como vamos chegar ou criar o produto com base no que queremos alcançar. A cada lançamento, determinamos os objetivos e o que queremos alcançar com aquele produto e o que queremos alcançar com esse resultado. A cada trimestre desenvolvemos um componente do produto.",
+"Um exemplo: se você quer que seu software chegue no PM para iniciar o mais rápido possível, então você mede esse tempo. Ele faz funcionalidades ou histórias e as complementa. Enquanto isso, valide com o usuário, para reduzir ainda mais o tempo. O que leva mais tempo é isso, então eu sei que devo pegar esses dados e automatizar esses campos."]
 
-var feedback_certo= ["You got right, the entire roadmap is created according to the user's needs", 
-"That's right, Outcome Based Roadmap is the only expected result at all maturity levels",
-"That's right, a complete answer, straight from our Scrum Master", 
-"Wrong, this example well illustrates how we should collect user feedback to plan future outcomes to be prioritized in the product roadmap"
+var feedback_certo= ["Você acertou, todo o roadmap é criado de acordo com a necessidade do usuário",
+"Isso mesmo, o Outcome Based Roadmap é o único resultado esperado em todos os níveis de maturidade",
+"Isso mesmo, uma resposta completa, direto do nosso Scrum Master",
+"Errado, este exemplo ilustra bem como devemos coletar feedback do usuário para planejar resultados futuros a serem priorizados no roteiro do produto"
 	
 ]
-var feedback_errado= ["You got it wrong, the entire roadmap is created according to the user's needs", 
-"You got it wrong, Outcome Based Roadmap is the only expected result at all maturity levels",
-"Wrong, a results-based roadmap is exactly that.",
-"That's right, a complete example, straight from our Scrum Master"
+var feedback_errado= ["Você entendeu errado, todo o roadmap é criado de acordo com a necessidade do usuário",
+"Você entendeu errado, o Outcome Based Roadmap é o único resultado esperado em todos os níveis de maturidade",
+"Errado, um roadmap baseado em resultados é exatamente isso.",
+"Isso mesmo, um exemplo completo, direto do nosso Scrum Master"
 	
 ]
 
