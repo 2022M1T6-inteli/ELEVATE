@@ -10,8 +10,8 @@
 [ext_resource path="res://Scripts/Segundo_Plano.gd" type="Script" id=8]
 [ext_resource path="res://DellBorg_Player.tscn" type="PackedScene" id=9]
 [ext_resource path="res://PauseMenu.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Area_elevador_SegundoPlano.gd" type="Script" id=11]
 [ext_resource path="res://AssetsInventario/PenDrive.png" type="Texture" id=12]
-[ext_resource path="res://Scripts/Area_elevador.gd" type="Script" id=13]
 [ext_resource path="res://NPC_Azul.tscn" type="PackedScene" id=14]
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=15]
 [ext_resource path="res://images/hud inventario.png" type="Texture" id=16]
@@ -242,8 +242,7 @@ scale = Vector2( 2.26515, 1.80303 )
 texture = ExtResource( 28 )
 
 [node name="Area_elevador" type="Area2D" parent="."]
-script = ExtResource( 13 )
-SceneToGo = "res://painelpreto.tscn"
+script = ExtResource( 11 )
 
 [node name="Sprite" type="Sprite" parent="Area_elevador"]
 
@@ -317,6 +316,7 @@ script = ExtResource( 20 )
 __meta__ = {
 "_edit_group_": true
 }
+SceneToGo = "res://nivel.tscn"
 
 [node name="Sprite" type="Sprite" parent="NPC_Pinky"]
 position = Vector2( 30.5, -34 )

@@ -5,7 +5,6 @@ var DialogControl= false
 var NewDialog= Dialogic.start('Dialogo_Norman')
 var DialogPlacaVideo= Dialogic.start('Dialogo_Norman_PlacaVideo')
 onready var popup_E= $Popup_tecla_E
-export var SceneToGo= ""
 
 
 # Called when the node enters the scene tree for the first time.
@@ -37,4 +36,4 @@ func _physics_process(_delta):
 		Global.contador = 13
 
 func pingas(_argument):
-	Transicao.FadeInto(SceneToGo)
+	get_tree().change_scene("res://jogopingas.tscn")

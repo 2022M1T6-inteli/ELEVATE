@@ -4,7 +4,7 @@ var DialogControl= false
 var NewDialog= Dialogic.start('Dialogo_Pinky')
 onready var popup_E= $Popup_tecla_E
 var DialogPenDrive= Dialogic.start('Dialogo_Pinky_Pendrive')
-export var SceneToGo= ""
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -45,5 +45,5 @@ func _physics_process(_delta):
 		Global.contador = 5
 
 func playsnake(_argument):
-	Transicao.FadeInto(SceneToGo)
+	get_tree().change_scene("res://nivel.tscn")
 	print ("Entrando Node snake")

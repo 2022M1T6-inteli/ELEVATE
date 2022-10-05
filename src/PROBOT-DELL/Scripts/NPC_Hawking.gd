@@ -5,7 +5,6 @@ var DialogControl= false
 var NewDialog= Dialogic.start('Dialogo_Hawking')
 var DialogRAM= Dialogic.start('Dialogo_Hawking_RAM')
 onready var popup_E= $Popup_tecla_E
-export var SceneToGo= ""
 
 
 # Called when the node enters the scene tree for the first time.
@@ -37,5 +36,5 @@ func _physics_process(_delta):
 		
 
 func playship(_argument):
-	Transicao.FadeInto(SceneToGo)
+	get_tree().change_scene("res://mundo.tscn")
 	

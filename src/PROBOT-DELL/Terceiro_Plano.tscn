@@ -322,6 +322,7 @@ script = ExtResource( 19 )
 __meta__ = {
 "_edit_group_": true
 }
+SceneToGo = "res://mundo.tscn"
 
 [node name="Sprite" type="Sprite" parent="NPC_Hawking"]
 position = Vector2( 30.5, -34 )
