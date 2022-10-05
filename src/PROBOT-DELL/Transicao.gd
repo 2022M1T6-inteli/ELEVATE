@@ -12,6 +12,6 @@ func FadeInto(scene):
 	animation.play("Fade")
 	
 func ChangeScene():
-	get_tree().change_scene(SceneToGo)
+	return get_tree().change_scene(SceneToGo)
 	
 
