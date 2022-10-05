@@ -24,7 +24,37 @@
 			"character": "character-1664810955.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ola, meu amigo!"
+			"text": "Ola, meu amigo! Parece que você está evoluindo. Agora que sabe sobre Roadmap, eu vou te contar sobre Stakeholders "
+		},
+		{
+			"character": "character-1664810955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Essa métrica visa medir a comunicação e o alinhamento entre as partes envolvidas no desenvolvimento."
+		},
+		{
+			"character": "character-1664810955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Para facilitar a comunicação, elabore um RACI map, que significa Responsible, Accountable, Consulted e Informed. "
+		},
+		{
+			"character": "character-1664810955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Trata-se de uma matriz com todas as funções e responsabilidades de pessoas específicas e que estão envolvidas em um projeto, dando clareza para todos."
+		},
+		{
+			"character": "character-1664810955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vi que você precisava de uma placa de vídeo para consertar o computador do andar abaixo. "
+		},
+		{
+			"character": "character-1664810955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu posso lhe dar, mas primeiro quero lhe propor um desafio. "
 		},
 		{
 			"character": "character-1664810955.json",
@@ -33,8 +63,24 @@
 			"text": "Jogue o minigame para pegar a peça."
 		},
 		{
+			"character": "character-1664810955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu estou há mais de 10 anos invicto no jogo Pong, e durante todo esse tempo venho procurarando alguém capaz de me vencer."
+		},
+		{
+			"character": "character-1664810955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Será que você conseguirá me superar?"
+		},
+		{
 			"emit_signal": "Play_Pingas",
 			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
