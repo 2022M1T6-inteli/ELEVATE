@@ -13,7 +13,7 @@ func _ready():
 		#$NPC_Azul/Area2D.visible= true
 	#elif Global.NPCAzul_visible == true:
 		#$NPC_Azul/Area2D.visible= false
-		
+	print(Global.pegou_placa)
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true 
 	elif Global.Inventario_Itens[0] == false:
@@ -50,7 +50,9 @@ func _physics_process(_delta):
 		inventario[2].visible= true
 		popup_E.visible= false
 		Global.Inventario_Itens[2]= inventario[2].visible
+		Global.pegou_placa = true
 		Global.contador = 13
+		
 		
 		if contSfx == 0: 
 			$itempegadosfx.play()
@@ -59,4 +61,4 @@ func _physics_process(_delta):
 	
 	if Global.Inventario_Itens[2] == true:
 		Global.controlPlacaVideo= false
-		Global.pegou_placa = true
+		

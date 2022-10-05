@@ -12,16 +12,17 @@ func _ready():
 		#$NPC_Azul/Area2D.visible= true
 	#elif Global.NPCAzul_visible == true:
 		#$NPC_Azul/Area2D.visible= false
-	if Global.Inventario_Itens[2] == true and Global.pegou_placa == true:
-		Global.contador = 14
-	if Global.terminou_jogo_nave == true and Global.pegou_placa == false:
-		Global.contador = 9
-	elif Global.Inventario_Itens[2] == true:
-		Global.contador = 12
-	elif Global.Inventario_Itens[2] == true and Global.pegou_placa == false:
+	print(Global.terminou_jogo_nave)
+	print(Global.pegou_placa)
+	if Global.pingas_terminado == true:
 		Global.contador = 13
-	else:
+		print("1")
+	if Global.terminou_jogo_nave == true and Global.pingas_terminado== false:
+		Global.contador = 9
+		print("2")
+	if Global.pingas_terminado == false and Global.terminou_jogo_nave == false:
 		Global.contador = 8
+		print("5")
 	if Global.Inventario_Itens[0] == true:
 		$Inventario/Inventariopng/PenDrive.visible= true 
 	elif Global.Inventario_Itens[0] == false:

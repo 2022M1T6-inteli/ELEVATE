@@ -11,28 +11,28 @@ onready var feedback= $Feedback
 var conta= 0    
 var botaoCerto = 0;
 var botaoErrado = 0;
-var quest= ["Welcome to the game, click on the screen to proceed",
-			"What does the Stakeholders metric aim to measure?", 
-			"What is RACI map and what is it for?", 
-			"Should we use stakeholder input to convert into action items as needed, how should these inputs be updated?", 
-			"How we should apply the building-measure-learning principles regularly?"]
+var quest= ["Bem vindo ao jogo, clique na tela para prosseguir",
+"O que a métrica Stakeholders visa medir?",
+"O que é o mapa RACI e para que serve?",
+"Devemos usar a entrada das partes interessadas para converter em itens de ação conforme necessário, como essas entradas devem ser atualizadas?",
+"Como devemos aplicar regularmente os princípios de aprendizagem de medidas de construção?"]
 			
-var answer= ["Here the statements about the questions will appear. If you think the statement is correct, press check, if you think the statement is false, press X.",
-			"This metric is intended to measure communication and engagement towards shared alignment and partnership.", 
-			"It stands for Responsible, Accountable, Consulted and Informed and is a matrix of responsibilities for the activities of a process.",
-			"Action items must be updated based on in its impact level, in case of iteration level for stories or in the case of strategy level for script items",
-			"Sharing the validated learning from build-measure-learn cycles with stakeholders leveraging business/user"]
+var answer= ["Aqui as declarações sobre as perguntas aparecerão. Se você acha que a afirmação está correta, aperte check, se você acha que a afirmação é falsa, aperte X.",
+"Esta métrica destina-se a medir a comunicação e o engajamento para alinhamento e parceria compartilhados.",
+"Significa Responsável, Responsável, Consultado e Informado e é uma matriz de responsabilidades para as atividades de um processo.",
+"Os itens de ação devem ser atualizados com base em seu nível de impacto, no caso de nível de iteração para histórias ou no caso de nível de estratégia para itens de script",
+"Compartilhando o aprendizado validado dos ciclos de construção-medidas-aprendizagem com as partes interessadas, alavancando negócios/usuários"]
 
-var feedback_certo= ["You got it right, this metric is very important as it measures the communication between the parties", 
-"You're right, this alternative is false. The vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
-"You got it right, the vision dimension is exactly that!", 
-"You got it right, the vision dimension is exactly that!"
+var feedback_certo= ["Você acertou, essa métrica é muito importante, pois mede a comunicação entre as partes",
+"Você está certo, esta alternativa é falsa. A declaração de visão é uma breve descrição do objetivo final de um projeto. Deve ser sucinta e memorável para que todos os envolvidos tenham algum nível de compreensão de onde queremos ir. Não não fornece muitos detalhes, mas dá uma boa compreensão do que é o trabalho.",
+"Você acertou, a dimensão da visão é exatamente isso!",
+"Você acertou, a dimensão da visão é exatamente isso!"
 	
 ]
-var feedback_errado= ["You got it wrong, this metric measures just that", 
-"You got it wrong, actually the vision statement is a brief description of the ultimate goal of a project. It should be succinct and memorable so that everyone involved has some level of understanding of where we want to go. It doesn't provide much detail, but it gives a good understanding of what the job is about.",
-"You got it wrong, that statement is true",
-"You got it wrong, that statement is true"
+var feedback_errado= ["Você entendeu errado, essa métrica mede exatamente isso",
+"Você entendeu errado, na verdade a declaração de visão é uma breve descrição do objetivo final de um projeto. Deve ser sucinta e memorável para que todos os envolvidos tenham algum nível de compreensão de onde queremos ir. Não fornece muito detalhes, mas dá uma boa compreensão do que é o trabalho.",
+"Você entendeu errado, essa afirmação é verdadeira",
+"Você entendeu errado, essa afirmação é verdadeira"
 	
 ]
 

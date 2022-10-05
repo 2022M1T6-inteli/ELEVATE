@@ -11,7 +11,7 @@ func _ready():
 	$Tutorial.visible= true
 	get_tree().paused= true
 	Global.contador = 12
-	
+	Global.pingas_terminado = true
 func _on_Campo_gol_esquerda():
 	pontos_jogador_2 += 1
 	comeca_round_novo()
