@@ -43,8 +43,9 @@ func _ready():
 # warning-ignore:unused_argument
 func _on_RAM_Cena_body_entered(body):
 	RAM_visibility= true
-	popup_E.visible= true
-	popup_E.set_global_position(Vector2(815, 500))
+	if inventario[1].visible == true or $RAM_Cena.visible == true:
+		popup_E.visible= true
+		popup_E.set_global_position(Vector2(815, 500))
 
 #define variavel de controle como false. 
 # warning-ignore:unused_argument
@@ -56,6 +57,7 @@ func _on_RAM_Cena_body_exited(body):
 func _physics_process(_delta):
 	if Global.controlRAM == true and inventario[1].visible == false: 
 		$RAM_Cena.visible= true
+
 	
 	if RAM_visibility == true and Input.is_action_just_pressed("ui_e") and $RAM_Cena.visible == true:
 		$RAM_Cena.visible= false

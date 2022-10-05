@@ -32,8 +32,9 @@ func _ready():
 
 func _on_PlacaVideo_Cena_body_entered(body):
 	PlacaVideo_visibility= true
-	popup_E.visible= true
-	popup_E.set_global_position(Vector2(815, 500))
+	if inventario[2].visible == true or $PlacaVideo_Cena.visible == true:
+		popup_E.visible= true
+		popup_E.set_global_position(Vector2(815, 500))
 
 
 func _on_PlacaVideo_Cena_body_exited(body):

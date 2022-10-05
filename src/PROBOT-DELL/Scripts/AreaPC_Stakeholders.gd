@@ -15,12 +15,10 @@ func _ready():
 
 
 func _on_AreaPC_Stakeholders_body_entered(body):
-	print("Hello")
 	ControlPcStakeholders= true
 	if Global.Inventario_Itens[2] == true or Global.PCcontStakeholders == 1:
-		print("Moto")
 		popup_E.visible= true
-		popup_E.set_global_position(Vector2(1060, 380))
+		popup_E.set_global_position(Vector2(1040, 390))
 
 
 func _on_AreaPC_Stakeholders_body_exited(body):

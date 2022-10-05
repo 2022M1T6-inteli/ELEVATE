@@ -314,6 +314,7 @@ position = Vector2( -4.5, -13 )
 shape = SubResource( 10 )
 
 [node name="Popup_tecla_E" parent="RAM_Cena" instance=ExtResource( 23 )]
+visible = false
 
 [node name="NPC_Hawking" type="Area2D" parent="."]
 position = Vector2( 698, 557 )

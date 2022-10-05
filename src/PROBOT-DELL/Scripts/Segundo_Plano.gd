@@ -36,8 +36,9 @@ func _ready():
 #Define a variavel de controle como true.
 func _on_PenDrive_Cena_body_entered(_body):
 	PenDrive_visibility= true
-	popup_E.visible= true
-	popup_E.set_global_position(Vector2(815, 500))
+	if inventario[0].visible == true or $PenDrive_Cena.visible == true:
+		popup_E.visible= true
+		popup_E.set_global_position(Vector2(815, 500))
 
 #define variavel de controle como false. 
 func _on_PenDrive_Cena_body_exited(_body):
