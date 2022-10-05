@@ -1,16 +1,19 @@
 
 extends Node2D
 
+#declaracao de variaveis
 export var SceneToGo= ""
 var is_paused
 var laser =  preload("res://projetil/laserjogador.tscn")
 onready var mundo = $"."
 
-	
+#funcao de atirar
 func _on_jogador_spawn_laser(local):
 	var l = laser.instance()
 	l.global_position = local
 	add_child(l)
+	
+	#Hud do jogo e checagem de vida
 func _process(_delta):
 	$LabelVida.text = "vida: " + str(Global.vida_global)
 	$LabelPontuacao.text = "pontuação:" + str(Global.pontuacao)
@@ -30,15 +33,16 @@ func _process(_delta):
 		
 		
 	#print(Global.vida_global)
-
+#timer de spawn
 func TimerNave():
 	yield(get_tree().create_timer(1.0), "timeout")
 	queue_free()
 	
+#aparecer tutorial
 func _ready():
 	Global.terminou_jogo_nave = true
 	$Tutorial.visible= true
-
+#tutorial sumir e comecar jogo
 func _on_Button_Play_pressed():
 	$Tutorial.visible= false
 	get_tree().paused= false

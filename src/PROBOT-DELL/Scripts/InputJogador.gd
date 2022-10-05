@@ -3,12 +3,12 @@ extends Node
 class_name inputJogador
 
 var jogador_pong
-# Called when the node enters the scene tree for the first time.
+#pegar nodes
 func _ready():
 	jogador_pong = get_parent()
 	jogador_pong.connect("atualizar",self,"input_movimento")
 	
-
+#movimento da raquete
 func input_movimento():
 	if not "direcao" in jogador_pong:
 		return

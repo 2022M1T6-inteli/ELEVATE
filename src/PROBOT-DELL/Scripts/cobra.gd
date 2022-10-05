@@ -1,5 +1,5 @@
 extends Node2D
-
+#variaveis
 var direcao = Vector2(0,1)
 var gap = -6
 var direcao_prox_cauda = Vector2(1,0)
@@ -7,7 +7,7 @@ var direcao_anterior = Vector2(1,0)
 
 onready var cauda = preload("res://cauda.tscn")
 
-
+#movimento da cobra
 func _process(_delta):
 	if Input.is_action_just_pressed("ui_up"):
 		direcao = Vector2(0,-7)
@@ -19,7 +19,7 @@ func _process(_delta):
 		direcao = Vector2(7,0)	
 
 	move_snake()
-	
+	#movimento da cobra
 func move_snake():
 	var posicao_cabeca = get_node("cabeca").position
 	get_node("cabeca").position += direcao/2
@@ -31,7 +31,8 @@ func move_snake():
 	if mudanca_direcao == true:
 		for i in range(1,get_child_count()):
 			get_child(i).add_na_cauda(posicao_cabeca,direcao)
-			
+
+	#adicionar cauda nova e fazer ela pegar a direcao da cabeca/cauda anterior
 func add_cauda():
 	var instance = cauda.instance()
 	var cauda_anterior = get_child(get_child_count()-1 )
