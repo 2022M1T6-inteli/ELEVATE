@@ -1,10 +1,12 @@
 extends Node2D
 
+export var SceneToGo= ""
+
 func _ready():
 	Global.Dialogoutcontrol= false
 	
 func _on_jogar_button_pressed():
-	return get_tree().change_scene("res://Node2D.tscn")
+	Transicao.FadeInto(SceneToGo)
 
 func _on_config_button_pressed():
 	$Control.visible = true

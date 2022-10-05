@@ -28,10 +28,9 @@ func _process(delta):
 	if pontos_jogador_1 == 1:
 		$Label3.text = "VITORIA"
 		Global.DialogoPlacaVideo= true
-		#Transicao.FadeInto(SceneToGo)
-		get_tree().change_scene("res://Quarto_plano.tscn")
+		Transicao.FadeInto(SceneToGo)
 	elif pontos_jogador_2 == 5:
-		#$Label3.text = "DERROTA"
+		$Label3.text = "DERROTA"
 		get_tree().reload_current_scene()
 
 

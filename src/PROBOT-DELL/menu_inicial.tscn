@@ -45,6 +45,7 @@ Button/styles/pressed = SubResource( 13 )
 [node name="Node2D2" type="Node2D"]
 pause_mode = 2
 script = ExtResource( 2 )
+SceneToGo = "res://Node2D.tscn"
 
 [node name="fundo_inicial" type="Sprite" parent="."]
 pause_mode = 2

@@ -4,7 +4,9 @@ extends Node2D
 var playcontrol= false
 onready var pontuacao = 0
 onready var comida = preload("res://comida.tscn")
-	#faz adicionar comida ao inicio da cena
+export var SceneToGo= "" 
+
+#faz adicionar comida ao inicio da cena
 func _ready():
 	add_comida()
 	get_tree().paused= true
@@ -30,7 +32,7 @@ func _process(_delta):
 	if pontuacao == 5:
 		Global.contDialogoNave= true
 		Global.DialogoPenDrive= true
-		return get_tree().change_scene("res://Segundo_Plano.tscn")
+		Transicao.FadeInto(SceneToGo)
 		$Label.text = "voce conseguiu!"
 	if $cobra/cabeca.position.x < 0 or $cobra/cabeca.position.x > 1260:
 		return get_tree().reload_current_scene()

@@ -464,6 +464,7 @@ position = Vector2( -9, -0.25 )
 shape = SubResource( 7 )
 
 [node name="Popup_tecla_E" parent="Area_Recepcionista" instance=ExtResource( 9 )]
+visible = false
 
 [node name="Colisao_Parede_Esquerda" type="StaticBody2D" parent="."]
 
@@ -480,11 +481,17 @@ SceneToGo = "res://Node2D.tscn"
 
 [node name="Sprite" type="Sprite" parent="Area2D2"]
 
+[node name="Porta" type="Sprite" parent="Area2D2"]
+position = Vector2( 4, 3.06299 )
+scale = Vector2( 0.439024, 0.338061 )
+texture = ExtResource( 34 )
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
 position = Vector2( 4, 2.5 )
 shape = SubResource( 6 )
 
 [node name="Popup_tecla_E" parent="Area2D2" instance=ExtResource( 9 )]
+visible = false
 
 [node name="Area2D" type="Area2D" parent="."]
 script = ExtResource( 14 )
@@ -496,12 +503,8 @@ SceneToGo = "res://painelpreto.tscn"
 position = Vector2( 1088.5, 524 )
 shape = SubResource( 5 )
 
-[node name="Porta" type="Sprite" parent="Area2D"]
-position = Vector2( 125, 513.063 )
-scale = Vector2( 0.439024, 0.338061 )
-texture = ExtResource( 34 )
-
 [node name="Popup_tecla_E" parent="Area2D" instance=ExtResource( 9 )]
+visible = false
 
 [node name="painel_elevador" parent="Area2D" instance=ExtResource( 42 )]
 
@@ -539,6 +542,7 @@ scale = Vector2( 0.586024, 0.425359 )
 texture = ExtResource( 27 )
 
 [node name="RAM" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
 position = Vector2( -18.9096, -8.04472 )
 scale = Vector2( 0.303476, 0.436636 )
 texture = ExtResource( 28 )
@@ -550,6 +554,7 @@ scale = Vector2( 0.410613, 0.412863 )
 texture = ExtResource( 31 )
 
 [node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
 position = Vector2( 28.6155, -5.35627 )
 scale = Vector2( 0.214, 0.28 )
 texture = ExtResource( 30 )

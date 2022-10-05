@@ -33,7 +33,6 @@ func _physics_process(_delta):
 		inventory.visible= false 
 		smokeanim.visible= false
 	if Global.PCcontStakeholders == 1 and Input.is_action_just_pressed("ui_e"):
-		#return get_tree().change_scene("res://Roadmap.tscn")
 		Transicao.FadeInto(SceneToGo)
 		Global.contador = 8
 		

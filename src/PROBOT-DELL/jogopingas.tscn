@@ -9,9 +9,9 @@
 [ext_resource path="res://Scripts/jogopingas.gd" type="Script" id=7]
 [ext_resource path="res://images/tela_feedback.png" type="Texture" id=8]
 
-
 [node name="jogopingas" type="Node"]
 script = ExtResource( 7 )
+SceneToGo = "res://Quarto_plano.tscn"
 
 [node name="Campo" parent="." instance=ExtResource( 2 )]
 

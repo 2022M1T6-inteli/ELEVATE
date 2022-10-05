@@ -260,6 +260,7 @@ shape = SubResource( 5 )
 [node name="Sprite" type="Sprite" parent="Area2D"]
 
 [node name="Popup_tecla_E" parent="Area2D" instance=ExtResource( 19 )]
+visible = false
 margin_left = 801.0
 margin_top = 380.0
 margin_right = 838.0
