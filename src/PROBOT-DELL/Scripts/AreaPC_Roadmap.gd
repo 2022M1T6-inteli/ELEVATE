@@ -32,7 +32,7 @@ func _physics_process(_delta):
 		Global.PCcontRoadmap= 1
 		inventory.visible= false 
 		smokeanim.visible= false
-	if Global.PCcontRoadmap == 1 and Input.is_action_just_pressed("ui_e"):
+	if Global.PCcontRoadmap == 1 and Input.is_action_just_pressed("ui_e") and ControlPcRoadmap == true:
 		Transicao.FadeInto(SceneToGo)
 		Global.contador = 7
 		
