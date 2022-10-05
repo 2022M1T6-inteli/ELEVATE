@@ -27,6 +27,12 @@
 			"text": "Olá Dellborg! Ouvi dizer que você precisa do Pen drive para consertar o computador do primeiro andar."
 		},
 		{
+			"character": "character-1663885732.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mas antes, gostaria que você me ajudasse em algo"
+		},
+		{
 			"emit_signal": "Play_Snake",
 			"event_id": "dialogic_040"
 		}

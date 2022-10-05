@@ -3,6 +3,7 @@
 [ext_resource path="res://images/tecla_e.png" type="Texture" id=1]
 
 [node name="Popup_tecla_E" type="Popup"]
+visible = true
 margin_right = 37.0
 margin_bottom = 37.0
 
