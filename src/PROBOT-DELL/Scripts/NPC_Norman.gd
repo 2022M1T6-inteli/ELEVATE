@@ -20,10 +20,10 @@ func _ready():
 
 
 func _on_NPC_Norman_body_entered(body):
-	if Global.verificacaoFase2 == 1:
-		DialogControl= true
-		popup_E.visible= true
-		popup_E.set_global_position(Vector2(715, 440))
+	#if Global.verificacaoFase2 == 1:
+	DialogControl= true
+	popup_E.visible= true
+	popup_E.set_global_position(Vector2(715, 440))
 
 func _on_NPC_Norman_body_exited(body):
 	DialogControl= false
@@ -36,4 +36,5 @@ func _physics_process(_delta):
 		Global.contador = 13
 
 func pingas(_argument):
+	
 	return get_tree().change_scene("res://jogopingas.tscn")

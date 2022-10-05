@@ -231,6 +231,7 @@ position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
 [node name="Popup_tecla_E" parent="Area_elevador" instance=ExtResource( 23 )]
+visible = false
 
 [node name="painel_elevador" parent="Area_elevador" instance=ExtResource( 22 )]
 
@@ -332,6 +333,7 @@ position = Vector2( 33.5, -37 )
 shape = SubResource( 11 )
 
 [node name="Popup_tecla_E" parent="NPC_Hawking" instance=ExtResource( 23 )]
+visible = false
 
 [node name="MainPersonagemMVP2" parent="." instance=ExtResource( 9 )]
 position = Vector2( 256, 559 )
@@ -371,6 +373,7 @@ position = Vector2( 19.5, -53.5 )
 shape = SubResource( 15 )
 
 [node name="Popup_tecla_E" parent="AreaPC_Stakeholders" instance=ExtResource( 23 )]
+visible = false
 
 [connection signal="body_entered" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_entered"]
 [connection signal="body_exited" from="Area_elevador" to="Area_elevador" method="_on_Area_elevador_body_exited"]

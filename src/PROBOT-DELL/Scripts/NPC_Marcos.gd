@@ -23,7 +23,7 @@ func _on_NPC_Marcos_body_entered(_body):
 
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela
 func _on_NPC_Marcos_body_exited(_body):
-	Global.Marcos == false
+	Global.Marcos = false
 	DialogControl= false
 	popup_E.visible= false
 

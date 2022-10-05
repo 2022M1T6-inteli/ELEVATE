@@ -15,26 +15,27 @@ func _ready():
 
 
 func _on_AreaPC_Stakeholders_body_entered(body):
+	print("Hello")
 	ControlPcStakeholders= true
-	if Global.Inventario_Itens[3] == true or Global.PCcontRoadmap == 1:
+	if Global.Inventario_Itens[2] == true or Global.PCcontStakeholders == 1:
+		print("Moto")
 		popup_E.visible= true
 		popup_E.set_global_position(Vector2(1060, 380))
 
 
 func _on_AreaPC_Stakeholders_body_exited(body):
 	ControlPcStakeholders= false
-	if Global.Inventario_Itens[3] == true or Global.PCcontRoadmap == 1:
+	if Global.Inventario_Itens[2] == true or Global.PCcontStakeholders == 1:
 		popup_E.visible= false
 
 
 func _physics_process(_delta):
-	if Global.Inventario_Itens[3] == true and ControlPcStakeholders == true and Input.is_action_just_pressed("ui_e") and Global.verificacaoFase2 == 1:
-		
+	if Global.Inventario_Itens[2] == true and ControlPcStakeholders == true and Input.is_action_just_pressed("ui_e"):
 		Global.PCcontStakeholders= 1
 		inventory.visible= false 
 		smokeanim.visible= false
-	if Global.PCcontStakeholders == 1 and Input.is_action_just_pressed("ui_e") and Global.portaElevador == false:
+	if Global.PCcontStakeholders == 1 and Input.is_action_just_pressed("ui_e"):
 		#return get_tree().change_scene("res://Roadmap.tscn")
 		Transicao.FadeInto(SceneToGo)
-		Global.contador = 7
+		Global.contador = 8
 		

@@ -196,6 +196,7 @@ func _on_Button_Errado_pressed():
 #Funções que trocam de cena ao player apertar o botão home depois que ele terminar
 #todos os flashcards daquela dimensão
 func _on_Home_Button_Platina_pressed():
+	Global.DialogoPlacaVideo= false
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()
@@ -203,6 +204,7 @@ func _on_Home_Button_Platina_pressed():
 
 
 func _on_Home_Button_Ouro_pressed():
+	Global.DialogoPlacaVideo= false
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()
@@ -210,6 +212,7 @@ func _on_Home_Button_Ouro_pressed():
 
 
 func _on_Home_Button_Prata_pressed():
+	Global.DialogoPlacaVideo= false
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()
@@ -217,6 +220,7 @@ func _on_Home_Button_Prata_pressed():
 
 
 func _on_Home_Button_Bronze_pressed():
+	Global.DialogoPlacaVideo= false
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()
@@ -224,6 +228,7 @@ func _on_Home_Button_Bronze_pressed():
 
 
 func _on_Home_Button_SemMedalha_pressed():
+	Global.DialogoPlacaVideo= false
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
 		BackgroundMusic.play()

@@ -13,9 +13,13 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://Idle_Hawking_new.png"
+			"path": ""
+		},
+		{
+			"name": "Idle_Hawking_new",
+			"path": "res://images/Idle_Hawking_new.png"
 		}
 	],
-	"scale": 1200,
+	"scale": 1400,
 	"theme": ""
 }

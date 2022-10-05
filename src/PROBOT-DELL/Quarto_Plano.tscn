@@ -194,6 +194,7 @@ position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
 [node name="Popup_tecla_E" parent="Area_elevador" instance=ExtResource( 23 )]
+visible = false
 
 [node name="painel_elevador" parent="Area_elevador" instance=ExtResource( 22 )]
 
@@ -296,6 +297,7 @@ position = Vector2( 33.5, -37 )
 shape = SubResource( 11 )
 
 [node name="Popup_tecla_E" parent="NPC_Norman" instance=ExtResource( 23 )]
+visible = false
 
 [node name="MainPersonagemMVP2" parent="." instance=ExtResource( 9 )]
 position = Vector2( 256, 559 )

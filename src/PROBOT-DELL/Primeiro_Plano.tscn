@@ -248,6 +248,7 @@ position = Vector2( 192, 526 )
 shape = SubResource( 9 )
 
 [node name="Popup_tecla_E" parent="Area_elevador" instance=ExtResource( 23 )]
+visible = false
 
 [node name="painel_elevador" parent="Area_elevador" instance=ExtResource( 25 )]
 

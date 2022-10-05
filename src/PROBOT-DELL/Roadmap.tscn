@@ -12,7 +12,6 @@
 [ext_resource path="res://Sounds/PC-LIGANDO.ogg" type="AudioStream" id=10]
 [ext_resource path="res://images/tela_feedback.png" type="Texture" id=11]
 
-
 [node name="Node2D" type="Node2D"]
 
 [node name="Roadmap_Perguntas" type="Node2D" parent="."]
