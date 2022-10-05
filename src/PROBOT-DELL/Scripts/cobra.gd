@@ -1,7 +1,7 @@
 extends Node2D
 
 var direcao = Vector2(0,1)
-var gap = -10
+var gap = -6
 var direcao_prox_cauda = Vector2(1,0)
 var direcao_anterior = Vector2(1,0)
 

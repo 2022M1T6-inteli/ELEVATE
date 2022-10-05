@@ -191,11 +191,8 @@ tracks/1/keys = {
 }
 
 [node name="MainPersonagemMVP2" type="KinematicBody2D"]
-position = Vector2( 257, 564 )
+position = Vector2( 256, 562 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 38, -51 )
@@ -203,9 +200,12 @@ scale = Vector2( 2.24332, 2.77737 )
 texture = ExtResource( 1 )
 hframes = 20
 frame = 10
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 62, -33 )
+position = Vector2( 20, -31 )
 shape = SubResource( 10 )
 
 [node name="Animacao_Andar" type="AnimationPlayer" parent="."]
