@@ -14,8 +14,6 @@ func _ready():
 		add_child(DialogRAM)
 		Global.controlRAM= true
 	
-		
-		
 	NewDialog.connect("timeline_end", self, 'playship')
 
 #define variavel de controle como false ao sair da area 2D. E Deleta o popup da tela

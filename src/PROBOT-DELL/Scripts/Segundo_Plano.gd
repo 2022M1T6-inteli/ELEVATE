@@ -2,14 +2,13 @@ extends Node2D
 
 onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node("Inventario/Inventariopng/RAM"), get_node("Inventario/Inventariopng/Cd"), get_node("Inventario/Inventariopng/PlacaVideo")]
 var PenDrive_visibility= false
-onready var smokebg= get_node("Fumacasembg")
+onready var smokeanim= $Fumacasembg
 var contSfx = 0
 onready var popup_E= $PenDrive_Cena/Popup_tecla_E
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	
 	if Global.NPCAzul_visible == false:
 		$NPC_Azul/Area2D.visible= true
 	elif Global.NPCAzul_visible == true:
@@ -29,6 +28,9 @@ func _ready():
 		$Inventario/Inventariopng/PlacaVideo.visible= true 
 	elif Global.Inventario_Itens[2] == false:
 		$Inventario/Inventariopng/PlacaVideo.visible= false 
+		
+	if Global.fumaca_roadmap == true:
+		smokeanim.visible= false
 	
 	
 

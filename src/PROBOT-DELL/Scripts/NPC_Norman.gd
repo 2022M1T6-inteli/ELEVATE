@@ -17,8 +17,6 @@ func _ready():
 	NewDialog.connect("timeline_end", self, 'pingas')
 
 
-
-
 func _on_NPC_Norman_body_entered(_body):
 	if Global.verificacaoFase2 == 1:
 		DialogControl= true

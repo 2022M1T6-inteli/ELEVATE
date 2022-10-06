@@ -20,20 +20,20 @@ var quest= ["Bem vindo ao jogo, clique na tela para prosseguir",
 			
 var answer= ["Aqui as declarações sobre as perguntas aparecerão. Se você acha que a afirmação está correta, aperte check, se você acha que a afirmação é falsa, aperte X.",
 "Esta métrica destina-se a medir a comunicação e o engajamento para alinhamento e parceria compartilhados.",
-"Significa Responsável, Responsável, Consultado e Informado e é uma matriz de responsabilidades para as atividades de um processo.",
+"Significa Responsible, Accountable, Consulted e Informed e trata-se de uma matriz de responsabilidades para as atividades de um processo.",
 "Os itens de ação devem ser atualizados com base em seu nível de impacto, no caso de nível de iteração para histórias ou no caso de nível de estratégia para itens de script",
 "Compartilhando o aprendizado validado dos ciclos de construção-medidas-aprendizagem com as partes interessadas, alavancando negócios/usuários"]
 
 var feedback_certo= ["Você acertou, essa métrica é muito importante, pois mede a comunicação entre as partes",
-"Você está certo, esta alternativa é falsa. A declaração de visão é uma breve descrição do objetivo final de um projeto. Deve ser sucinta e memorável para que todos os envolvidos tenham algum nível de compreensão de onde queremos ir. Não não fornece muitos detalhes, mas dá uma boa compreensão do que é o trabalho.",
-"Você acertou, a dimensão da visão é exatamente isso!",
-"Você acertou, a dimensão da visão é exatamente isso!"
-	
-]
+"Você acertou! Uma matriz Raci é muito importante porque ela tem o objetivo de ter representado em uma matriz, as funções e responsabilidades de pessoas específicas e que estão envolvidas em um projeto, dando clareza para todos.",
+"Você acertou! As atualizações do item de ação devem ser feitas de acordo com o nível de impacto",
+"Você acertou, Esse aprendizado validado deve ser compartilhado para levar o projeto adiante."]
+
+
 var feedback_errado= ["Você entendeu errado, essa métrica mede exatamente isso",
-"Você entendeu errado, na verdade a declaração de visão é uma breve descrição do objetivo final de um projeto. Deve ser sucinta e memorável para que todos os envolvidos tenham algum nível de compreensão de onde queremos ir. Não fornece muito detalhes, mas dá uma boa compreensão do que é o trabalho.",
-"Você entendeu errado, essa afirmação é verdadeira",
-"Você entendeu errado, essa afirmação é verdadeira"
+"Você errou, uma matriz Raci é exatamente isso. Ela é muito importante porque ela tem o objetivo de ter representado em uma matriz, as funções e responsabilidades de pessoas específicas e que estão envolvidas em um projeto, dando clareza para todos",
+"Você entendeu errado. Na verdade as atualizações do item de ação devem ser feitas de acordo com o nível de impacto.",
+"Você entendeu errado. Esse aprendizado validado deve ser compartilhado para levar o projeto adiante."
 	
 ]
 
@@ -201,6 +201,7 @@ func _on_Button_Errado_pressed():
 #Funções que trocam de cena ao player apertar o botão home depois que ele terminar
 #todos os flashcards daquela dimensão
 func _on_Home_Button_Platina_pressed():
+	Global.fumaca_stakeholders= true
 	Global.DialogoPlacaVideo= false
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
@@ -209,6 +210,7 @@ func _on_Home_Button_Platina_pressed():
 
 
 func _on_Home_Button_Ouro_pressed():
+	Global.fumaca_stakeholders= true
 	Global.DialogoPlacaVideo= false
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
@@ -217,6 +219,7 @@ func _on_Home_Button_Ouro_pressed():
 
 
 func _on_Home_Button_Prata_pressed():
+	Global.fumaca_stakeholders= true
 	Global.DialogoPlacaVideo= false
 	Global.Inventario_Itens[2]= false
 	if Global.controlMusic == true:
@@ -255,6 +258,6 @@ func _on_Button_Feedback_pressed():
 
 func _on_Button_texto_final_pressed():
 	if pontos == 4 or pontos == 3 or pontos == 2:
-		SceneToGo= "res://menu_inicial.tscn"
-		Transicao.FadeInto(SceneToGo)
+		get_tree().quit()
+
 	

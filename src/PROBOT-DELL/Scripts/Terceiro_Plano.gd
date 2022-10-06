@@ -5,6 +5,7 @@ onready var inventario= [get_node("Inventario/Inventariopng/PenDrive"), get_node
 var RAM_visibility= false
 var contSfx = 0
 onready var popup_E= $RAM_Cena/Popup_tecla_E
+onready var smokeanim= $Fumacasembg
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -37,6 +38,9 @@ func _ready():
 		$Inventario/Inventariopng/PlacaVideo.visible= true 
 	elif Global.Inventario_Itens[2] == false:
 		$Inventario/Inventariopng/PlacaVideo.visible= false 
+		
+	if Global.fumaca_stakeholders == true:
+		smokeanim.visible= false
 		
 
 #Define a variavel de controle como true.
@@ -75,6 +79,6 @@ func _physics_process(_delta):
 	if Global.Inventario_Itens[1] == true:
 		Global.controlRAM= false
 		
-		
+	
 	if Global.Inventario_Itens[1] == true:
 		Global.contador = 10

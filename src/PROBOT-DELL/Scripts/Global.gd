@@ -36,3 +36,5 @@ var Marcos = false
 
 var controlMusic = true
 var fumaca_visao= false
+var fumaca_roadmap= false
+var fumaca_stakeholders= false

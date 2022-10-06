@@ -199,6 +199,7 @@ func _on_Button_Errado_pressed():
 #Funções que trocam de cena ao player apertar o botão home depois que ele terminar
 #todos os flashcards daquela dimensão
 func _on_Home_Button_Platina_pressed():
+	Global.fumaca_roadmap= true
 	Global.DialogoRAM= false
 	Global.Inventario_Itens[1]= false
 	if Global.controlMusic == true:
@@ -207,6 +208,7 @@ func _on_Home_Button_Platina_pressed():
 
 
 func _on_Home_Button_Ouro_pressed():
+	Global.fumaca_roadmap= true
 	Global.DialogoRAM= false
 	Global.Inventario_Itens[1]= false
 	if Global.controlMusic == true:
@@ -215,6 +217,7 @@ func _on_Home_Button_Ouro_pressed():
 
 
 func _on_Home_Button_Prata_pressed():
+	Global.fumaca_roadmap= true
 	Global.DialogoRAM= false
 	Global.Inventario_Itens[1]= false
 	if Global.controlMusic == true:

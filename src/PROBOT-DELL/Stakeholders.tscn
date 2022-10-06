@@ -11,8 +11,8 @@
 [ext_resource path="res://images/button_home.png" type="Texture" id=9]
 [ext_resource path="res://Sounds/PC-LIGANDO.ogg" type="AudioStream" id=10]
 [ext_resource path="res://images/tela_feedback.png" type="Texture" id=11]
-[ext_resource path="res://images/BOTAO_MENU_ROSA.png" type="Texture" id=12]
-[ext_resource path="res://images/BOTAO_MENU_BRANCO.png" type="Texture" id=13]
+[ext_resource path="res://images/BOTAO_EXIT_BRANCO.png" type="Texture" id=12]
+[ext_resource path="res://images/BOTAO_EXIT_ROSA.png" type="Texture" id=13]
 [ext_resource path="res://images/buto_play_rosa (1).png" type="Texture" id=14]
 
 [node name="Node2D2" type="Node2D"]
@@ -294,13 +294,13 @@ Ass: Dell"
 autowrap = true
 
 [node name="Button_texto_final" type="TextureButton" parent="Texto_Final"]
-margin_left = 477.0
+margin_left = 487.0
 margin_top = 397.0
-margin_right = 768.0
+margin_right = 778.0
 margin_bottom = 501.0
-texture_normal = ExtResource( 12 )
-texture_pressed = ExtResource( 13 )
-texture_hover = ExtResource( 13 )
+texture_normal = ExtResource( 13 )
+texture_pressed = ExtResource( 12 )
+texture_hover = ExtResource( 12 )
 expand = true
 
 [connection signal="pressed" from="Stakeholders_Perguntas/FlashCard_Tras/Button_Certo" to="Stakeholders_Perguntas" method="_on_Button_Certo_pressed"]

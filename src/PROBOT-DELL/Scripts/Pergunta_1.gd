@@ -1,5 +1,7 @@
 extends Node2D
 
+
+
 onready var visibility_card_front= $FlashCard_Frente
 onready var visibility_card_back= $FlashCard_Tras
 onready var texto_frente= $FlashCard_Frente/Texto_Button_Frente
@@ -23,9 +25,9 @@ var answer= ["Aqui as declarações sobre as perguntas aparecerão. Se você ach
 "O Product Lifecycle Management (PLM) é um sistema de gestão do ciclo de vida do produto. Uma das principais vantagens é uma maior compreensão do mercado, facilitando a criação e desenvolvimento de novos produtos e aumentando a participação de mercado."]
 
 var feedback_certo= ["Você acertou, a dimensão da visão é exatamente isso!",
-"Você está certo, esta alternativa é falsa. A declaração de visão é uma breve descrição do objetivo final de um projeto. Deve ser sucinta e memorável para que todos os envolvidos tenham algum nível de compreensão de onde queremos ir. Não não fornece muitos detalhes, mas dá uma boa compreensão do que é o trabalho.",
-"Você acertou, a dimensão da visão é exatamente isso!",
-"Você acertou, a dimensão da visão é exatamente isso!"
+"Você está certo, esta alternativa é falsa. A declaração de visão é uma breve descrição do objetivo final de um projeto. Deve ser sucinta e memorável para que todos os envolvidos tenham algum nível de compreensão de onde queremos ir. Não fornece muitos detalhes, mas dá uma boa compreensão do que é o trabalho.",
+"Voce acertou. OGSM é exatamente sobre isso!",
+"Você acertou. PLM é exatamente sobre isso!"
 	
 ]
 var feedback_errado= ["Você entendeu errado, essa afirmação é verdadeira",
@@ -229,7 +231,6 @@ func _on_Home_Button_Prata_pressed():
 
 
 func _on_Home_Button_Bronze_pressed():
-	Global.fumaca_visao= true
 	Global.DialogoPenDrive= false
 	Global.Inventario_Itens[0]= false
 	if Global.controlMusic == true:
@@ -238,7 +239,6 @@ func _on_Home_Button_Bronze_pressed():
 
 
 func _on_Home_Button_SemMedalha_pressed():
-	Global.fumaca_visao= true
 	Global.DialogoPenDrive= false
 	Global.Inventario_Itens[0]= false
 	if Global.controlMusic == true:
