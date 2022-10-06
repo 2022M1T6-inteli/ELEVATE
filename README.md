@@ -14,7 +14,7 @@
 
 📜 Descrição curta sobre o que seu projeto faz.
 <br><br>
-O objetivo desse projeto é desenvolver um jogo, estilo serious game, para ensinar os colaboradores da Dell sobre o novo modelo de produtos.
+Probots é um jogo educativo 2D estilo plataforma que possui mecânica de validação de afirmativas (flashcards) e minigames interativos. O objetivo do projeto é ensinar o modelo de produtos aos colaboradores da Dell de uma maneira fácil, intuitiva e recreativa.
 <br><br>
 <p align="center">
 <img src="https://i.imgur.com/CK7xQiK.png" alt="PROBOTS" border="0">
