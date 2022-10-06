@@ -42,7 +42,7 @@
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "Idle_Hawking_new",
-			"text": "A cada lançamento, determinamos os objetivos, o que queremos alcançar com aquele produto e o que queremos alcançar com aquele result."
+			"text": "A cada lançamento, determinamos os objetivos, o que queremos alcançar com aquele produto e o que queremos alcançar com aquele resultado."
 		},
 		{
 			"character": "character-1663908054.json",
@@ -54,7 +54,7 @@
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
 			"portrait": "Idle_Hawking_new",
-			"text": "Então, fiquei sabendo que você precisava de uma peça para consertar um computador que estava quebrado por ai, seria a memória RAM, certo?"
+			"text": "Então, fiquei sabendo que você precisava de uma peça para consertar um computador que estava quebrado por aí, seria a memória RAM, certo?"
 		},
 		{
 			"character": "character-1663908054.json",
@@ -65,8 +65,8 @@
 		{
 			"character": "character-1663908054.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Bom, eu estou desenvolvendo um game, como projeto pessoal, e eu gostaria que você o testasse "
+			"portrait": "Idle_Hawking_new",
+			"text": "Bom, eu estou desenvolvendo um game como projeto pessoal e eu gostaria que você o testasse "
 		},
 		{
 			"character": "character-1663908054.json",

@@ -13,9 +13,9 @@ var conta= 0
 var botaoCerto = 0;
 var botaoErrado = 0;
 var quest= ["Bem vindo ao jogo, clique na tela para prosseguir",
-"Qual é a dimensão da visão do modelo do produto?",
-"O que é uma declaração de visão?",
-"O que é OGSM e por que é importante para a dimensão da visão?",
+"O que é a dimensão Visão do modelo do produtos?",
+"O que é uma declaração de Visão?",
+"O que é OGSM e por que é importante para a dimensão da Visão?",
 "O que é PLM e quais são nossas vantagens em adotá-lo?"]
 			
 var answer= ["Aqui as declarações sobre as perguntas aparecerão. Se você acha que a afirmação está correta, aperte check, se você acha que a afirmação é falsa, aperte X.",
@@ -24,7 +24,7 @@ var answer= ["Aqui as declarações sobre as perguntas aparecerão. Se você ach
 "A estrutura OGSM é um acrônimo para Objetivos, Metas, Estratégias e Medidas. É muito importante para a Visão porque permite que as empresas definam primeiro o que querem fazer e depois como chegarão lá.",
 "O Product Lifecycle Management (PLM) é um sistema de gestão do ciclo de vida do produto. Uma das principais vantagens é uma maior compreensão do mercado, facilitando a criação e desenvolvimento de novos produtos e aumentando a participação de mercado."]
 
-var feedback_certo= ["Você acertou, a dimensão da visão é exatamente isso!",
+var feedback_certo= ["Você acertou, a dimensão Visão é exatamente isso!",
 "Você está certo, esta alternativa é falsa. A declaração de visão é uma breve descrição do objetivo final de um projeto. Deve ser sucinta e memorável para que todos os envolvidos tenham algum nível de compreensão de onde queremos ir. Não fornece muitos detalhes, mas dá uma boa compreensão do que é o trabalho.",
 "Voce acertou. OGSM é exatamente sobre isso!",
 "Você acertou. PLM é exatamente sobre isso!"

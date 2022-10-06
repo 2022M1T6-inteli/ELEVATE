@@ -36,13 +36,13 @@
 			"character": "character-1663885732.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Estou jogando um jogo que é um compilado de minigames famosos, e está faltando apenas um minigame para que eu consiga zerar o jogo."
+			"text": "Estou jogando um jogo que é um compilado de minigames famosos e está faltando apenas um minigame para que eu consiga zerar o jogo."
 		},
 		{
 			"character": "character-1663885732.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Porém, não estou conseguindo terminar. Me ajude a terminar o jogo que então eu lhe dou o Pen Drive. "
+			"text": "Porém, não estou conseguindo terminar. Ajude-me a terminar o jogo que então eu lhe dou o Pen Drive. "
 		},
 		{
 			"emit_signal": "Play_Snake",
