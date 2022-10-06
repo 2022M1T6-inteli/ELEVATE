@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 #declaracao de variaveis
 signal atualizar 
-export var velocidade_movimento = 200
+export var velocidade_movimento = 165
 var direcao = Vector2()
 
 

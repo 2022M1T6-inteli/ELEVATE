@@ -1,7 +1,7 @@
 extends Node2D
 #variaveis
 var direcao = Vector2(0,1)
-var gap = -8
+var gap = -4
 var direcao_prox_cauda = Vector2(1,0)
 var direcao_anterior = Vector2(1,0)
 
@@ -10,13 +10,13 @@ onready var cauda = preload("res://cauda.tscn")
 #movimento da cobra
 func _process(_delta):
 	if Input.is_action_just_pressed("ui_up"):
-		direcao = Vector2(0,-7)
+		direcao = Vector2(0,-13)
 	if Input.is_action_just_pressed("ui_down"):
-		direcao = Vector2(0,7)
+		direcao = Vector2(0,13)
 	if Input.is_action_just_pressed("ui_left"):
-		direcao = Vector2(-7,0)
+		direcao = Vector2(-13,0)
 	if Input.is_action_just_pressed("ui_right"):
-		direcao = Vector2(7,0)	
+		direcao = Vector2(13,0)	
 
 	move_snake()
 	#movimento da cobra

@@ -29,7 +29,7 @@ func nasceu_nova():
 	#pontuacao
 func _process(_delta):
 	$Label.text = str(pontuacao)	
-	if pontuacao == 5:
+	if pontuacao == 10:
 		Global.contDialogoNave= true
 		Global.DialogoPenDrive= true
 		Transicao.FadeInto(SceneToGo)

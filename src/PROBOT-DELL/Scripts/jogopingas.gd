@@ -27,7 +27,7 @@ func _process(_delta):
 	$Label.text = str(pontos_jogador_1)
 	$Label2.text = str(pontos_jogador_2)
 	
-	if pontos_jogador_1 == 1:
+	if pontos_jogador_1 == 3:
 		$Label3.text = "VITORIA"
 		Global.DialogoPlacaVideo= true
 		Transicao.FadeInto(SceneToGo)
