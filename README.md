@@ -105,14 +105,69 @@ Coloque código do prompt de comnando se for necessário
 A cada atualização os detalhes devem ser lançados aqui.
 
 
-* 0.0.1 - 29/08/2022
+* 0.0.1 - 07/08/2022
+    * Elaboração do nome do jogo e da história do jogo
+* 0.0.2 - 10/08/2022
+    * Elaboração da tela de fundo do menu inicial
+* 0.1.0 - 12/08/2022
+    * Correção de bugs
+    * Finalização do menu principal
+    * Funcionalidade dos botões "EXIT" e "PLAY"
+    * Implementação do sistema de mudança de cenas
+* 0.1.1 - 29/08/2022
     * Implementação do template no github.
-* 0.0.2 - 06/10/2022
-    * Atualização da foto principal e das fontes da imagem.
-* 0.0.3 - 06/10/2022
-    * Atualização dos membros do grupo e de seus Linkedins.
-* 0.0.4 - 06/10/2022
-    * Atualização do histórico de lançamentos.
+    * Atualização dos membros do grupo e de seus Linkedins no ReadME.
+* 0.1.2 - 30/08/2022
+    * Atualização e revisão geral da documentação (GDD)
+    * Lançamento da mecânica de flashcards (afirmativas)
+* 0.1.3 - 01/09/2022
+    * Criação da primeira fase
+    * Criação de 2 NPCs (Ellen e Marcos)
+* 0.2.0 - 06/09/2022
+    * Correção de bugs
+    * Implementação da segunda fase
+    * Novos assets nos andares do prédio
+* 0.2.1 - 10/09/2022
+    * Design dos computadores
+    * Padronização do design dos personagens
+    * Atualização da imagem de fundo da primeira cena (fora do prédio)
+* 0.2.2 - 13/09/2022
+    * Atualização da imagem de fundo do menu inicial
+    * Atualização do design das teclas de menu
+* 0.2.3 - 15/09/2022
+    * Implementação de novo NPC (Pinky)
+    * Implementação do conteúdo didático nos flashcards
+* 0.2.4 - 16/09/2022
+    * Atualização da documentação (GDD)
+* 0.3.0 - 19/09/2022
+    * Correção de bugs
+* 0.3.1 - 20/09/2022
+    * Implementação do inventário de itens
+    * Créditos do jogo
+* 0.3.2 - 21/09/2022
+    * Mudança do design do de todos andares
+* 0.3.3 - 22/09/2022
+    * Design do mouse do usuário
+    * Novo NPC (Hawking)
+* 0.4.0 - 25/09/2022
+    * Implementação da mecânica de minigames
+    * Correção de bugs
+* 0.4.1 - 26/09/2022
+    * Atualização da documentação
+    * Implementação da mecânica de recompensas (medalhas)
+    * Novo NPC (Norman)
+* 0.4.2 - 30/09/2022
+    * Mudança do fluxo do jogo
+    * Correção de bugs dos minigames
+* 0.4.3 - 01/10/2022
+    * Alteração da padronização de cores do jogo
+    * Atualização da documentação do jogo
+* 0.4.4 - 03/10/2022
+    * Correção de bugs
+* 0.5.0 - 05/10/2022 (Última versão)
+    * Atualização do ReadME
+    * Correção de bugs
+
 
 ## 📋 Licença/License
 
