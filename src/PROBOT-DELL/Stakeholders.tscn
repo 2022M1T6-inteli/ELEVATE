@@ -1,6 +1,7 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Scripts/Stakeholders_Perguntas.gd" type="Script" id=1]
+[ext_resource path="res://images/buto_play_branco.png" type="Texture" id=2]
 [ext_resource path="res://images/flashcard_frente.png" type="Texture" id=3]
 [ext_resource path="res://images/flashcard_tras.png" type="Texture" id=4]
 [ext_resource path="res://images/Medal_Platina.png" type="Texture" id=5]
@@ -12,6 +13,7 @@
 [ext_resource path="res://images/tela_feedback.png" type="Texture" id=11]
 [ext_resource path="res://images/BOTAO_MENU_ROSA.png" type="Texture" id=12]
 [ext_resource path="res://images/BOTAO_MENU_BRANCO.png" type="Texture" id=13]
+[ext_resource path="res://images/buto_play_rosa (1).png" type="Texture" id=14]
 
 [node name="Node2D" type="Node2D"]
 
@@ -86,9 +88,6 @@ margin_top = 75.0
 margin_right = 1145.0
 margin_bottom = 549.0
 color = Color( 0.258824, 0.682353, 0.0862745, 1 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Label_Feedback" type="Label" parent="Stakeholders_Perguntas/Feedback"]
 margin_left = 121.0
@@ -98,12 +97,15 @@ align = 1
 valign = 1
 autowrap = true
 
-[node name="Button_Feedback" type="Button" parent="Stakeholders_Perguntas/Feedback"]
-margin_left = 345.0
-margin_top = 322.0
-margin_right = 711.0
-margin_bottom = 414.0
-text = "Retornar"
+[node name="Button_Feedback" type="TextureButton" parent="Stakeholders_Perguntas/Feedback"]
+margin_left = 460.0
+margin_top = 357.0
+margin_right = 559.0
+margin_bottom = 448.0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 14 )
+texture_hover = ExtResource( 14 )
+expand = true
 
 [node name="pcligandosfx" type="AudioStreamPlayer2D" parent="Stakeholders_Perguntas"]
 stream = ExtResource( 10 )
