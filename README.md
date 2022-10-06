@@ -17,8 +17,8 @@
 O objetivo desse projeto é desenvolver um jogo, estilo serious game, para ensinar os colaboradores da Dell sobre o novo modelo de produtos.
 <br><br>
 <p align="center">
-<img src="https://prnt.sc/iICWHco0fKOf" alt="PROBOTS" border="0">
-  Probots Logo by <a href="http://www.inteli.edu.br/">.</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="https://prnt.sc/iICWHco0fKOf">Lightshot</a>
+<img src="https://imgur.com/a/IYR9OJ8" alt="PROBOTS" border="0">
+  Probots Logo by <a href="http://www.inteli.edu.br/">.</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="https://imgur.com/a/IYR9OJ8">Lightshot</a>
 </p>
 
 
