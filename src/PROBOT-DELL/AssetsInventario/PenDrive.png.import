@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PenDrive.png-e2bc1635b7e0b9002389dbda41a7ea25.stex"
+path="res://.import/PenDrive.png-45bdfba1cdc510699fd2c4796e0aa08a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetsInventario/PenDrive.png"
-dest_files=[ "res://.import/PenDrive.png-e2bc1635b7e0b9002389dbda41a7ea25.stex" ]
+source_file="res://AssetsInventario/PenDrive.png"
+dest_files=[ "res://.import/PenDrive.png-45bdfba1cdc510699fd2c4796e0aa08a.stex" ]
 
 [params]
 
