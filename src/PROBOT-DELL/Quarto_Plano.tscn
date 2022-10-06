@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=2]
+[gd_scene load_steps=36 format=2]
 
 [ext_resource path="res://images/Wall 4 Light.png" type="Texture" id=1]
 [ext_resource path="res://images/Floor 1.png" type="Texture" id=2]
@@ -16,7 +16,6 @@
 [ext_resource path="res://AssetsInventario/PeçasPC2.png" type="Texture" id=15]
 [ext_resource path="res://images/hud inventario.png" type="Texture" id=16]
 [ext_resource path="res://AssetsInventario/PeçasPC3.png" type="Texture" id=17]
-[ext_resource path="res://AssetsInventario/CD.png" type="Texture" id=18]
 [ext_resource path="res://Scripts/NPC_Norman.gd" type="Script" id=19]
 [ext_resource path="res://Scripts/Area_elevador_QuartoPlano.gd" type="Script" id=20]
 [ext_resource path="res://OBJETIVO.tscn" type="PackedScene" id=21]
@@ -248,13 +247,13 @@ position = Vector2( -20.4256, -10.2235 )
 scale = Vector2( 0.314875, 0.423405 )
 texture = ExtResource( 15 )
 
-[node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
-visible = false
-position = Vector2( 75.8646, -7.21455 )
-scale = Vector2( 0.476454, 0.427743 )
-texture = ExtResource( 18 )
-
 [node name="Cd" type="Sprite" parent="Inventario/Inventariopng"]
+visible = false
+position = Vector2( 28.2917, -7.14032 )
+scale = Vector2( 0.227851, 0.295469 )
+texture = ExtResource( 17 )
+
+[node name="PlacaVideo" type="Sprite" parent="Inventario/Inventariopng"]
 visible = false
 position = Vector2( 28.8662, -7.61942 )
 scale = Vector2( 0.233982, 0.271606 )
