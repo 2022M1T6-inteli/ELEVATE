@@ -13,7 +13,7 @@ var conta= 0
 var botaoCerto = 0;
 var botaoErrado = 0;
 var quest= ["Bem vindo ao jogo, clique na tela para prosseguir",
-"O que é a dimensão Visão do modelo do produtos?",
+"O que é a dimensão Visão do modelo de produtos?",
 "O que é uma declaração de Visão?",
 "O que é OGSM e por que é importante para a dimensão da Visão?",
 "O que é PLM e quais são nossas vantagens em adotá-lo?"]
