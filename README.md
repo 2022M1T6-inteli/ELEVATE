@@ -17,16 +17,16 @@
 O objetivo desse projeto é desenvolver um jogo, estilo serious game, para ensinar os colaboradores da Dell sobre o novo modelo de produtos.
 <br><br>
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="PROBOTS" border="0">
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
 
-💡 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+💡 Nosso projeto:.
 <br><br>
-Meu projeto ajuda estudantes inteli a configurarem seus githubs.
+Nosso projeto tem o propósito de ensinar aos colaboradores da Dell sobre o modelo de produtos de maneira lúdica, interativa e eficiente.
 <br><br>
-May the force be with you!
+Solução: jogo estilo plataforma, com mecânicas de verdadeiro e falso para validar o conhecimento do usuário e minigames durante fases para gerar descontração e diversão.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -65,9 +65,6 @@ Há também 4 pastas que seguem da seguinte forma:
 Faça o Download do JOGO.apk no seu celular.
 Execute o APK e siga as instruções de seu telefone.
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
 
 <b>Windows:</b>
 
@@ -89,13 +86,9 @@ Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado
 
 Adicione blocos de códigos e, se necessário, screenshots.
 
-Este modelo pode ser copiado e utilizado à vontade.
-
-Através da cópia/clone/ download do repositório, altere os dados do readme.md e carregue os arquivos de seu projeto.
-
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Para desenvolver o código é necessário clonar o repositório e utilizar a plataforma do GODOT ENGINE com a linguagem GDScript.
 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
