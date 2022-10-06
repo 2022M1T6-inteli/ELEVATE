@@ -53,5 +53,7 @@ func _on_Button_Play_pressed():
 	get_tree().paused= false
 	
 func Pause():
-	get_tree().reload_current_scene()
+	Global.vida_global = 5
+	return get_tree().reload_current_scene()
+	
 	#get_tree().paused
