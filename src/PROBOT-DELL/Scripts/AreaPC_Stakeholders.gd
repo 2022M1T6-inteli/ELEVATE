@@ -11,8 +11,6 @@ export var SceneToGo= ""
 func _ready():
 	pass # Replace with function body.
 
-	
-
 
 func _on_AreaPC_Stakeholders_body_entered(_body):
 	ControlPcStakeholders= true

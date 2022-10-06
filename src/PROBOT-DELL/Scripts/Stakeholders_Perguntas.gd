@@ -54,7 +54,10 @@ func _ready():
 	$pcligandosfx.play()
 	texto_frente.text = quest[0]
 	texto_tras.text = answer[0]
-		
+#Pergunta 1= Verdadeiro
+#Pergunta 2= Verdadeiro
+#Pergunta 3= Verdadeiro
+#Pergunta 4= Verdadeiro
 	
 #Sempre que a função for executada, o contador irá contar incrementar mais um
 #então irá fazer um if, onde dependendo do valor do cont, ele irá mostrar uma 
@@ -88,16 +91,16 @@ func PassCards():
 		texto_tras.text= answer[2]
 	
 	if conta == 3:
-		if botaoErrado == 1:
-			botaoErrado = 0
+		if botaoCerto == 1:
+			botaoCerto = 0
 			pontos = pontos + 1
 			feedback.visible= true
-			LabelFeedback.text= feedback_errado[1]
+			LabelFeedback.text= feedback_certo[1]
 			feedback.color= Color(0.258824, 0.682353, 0.086275)
 			
 		else:
 			feedback.visible= true
-			LabelFeedback.text= feedback_certo[1]
+			LabelFeedback.text= feedback_errado[1]
 			feedback.color= Color(0.6, 0.078431, 0.078431)
 		print(pontos)
 		visibility_card_front.visible= true
@@ -245,7 +248,8 @@ func _on_Button_Feedback_pressed():
 	if ContFeedback == 4:
 		Premiacao()
 		if pontos == 1 or pontos == 0:
-			conta= 1
+			yield(get_tree().create_timer(2.0), "timeout")
+			get_tree().reload_current_scene()
 	print ("Botao feedback: ", ContFeedback)
 
 

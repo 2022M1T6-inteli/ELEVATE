@@ -111,23 +111,23 @@ stream = ExtResource( 10 )
 [node name="Platina" type="TextureRect" parent="."]
 visible = false
 margin_left = 240.0
-margin_top = 24.0
-margin_right = 999.0
-margin_bottom = 608.0
+margin_top = 85.0
+margin_right = 982.0
+margin_bottom = 573.0
 texture = ExtResource( 11 )
 expand = true
 
 [node name="Sprite" type="Sprite" parent="Platina"]
-position = Vector2( 368.75, 88.1563 )
+position = Vector2( 367.75, 104.156 )
 scale = Vector2( 2.21, 1.92625 )
 texture = ExtResource( 5 )
 
 [node name="Label" type="Label" parent="Platina"]
-margin_left = 61.0
-margin_top = 145.0
-margin_right = 317.0
-margin_bottom = 206.0
-rect_scale = Vector2( 2.5, 2.5 )
+margin_left = 52.0
+margin_top = 170.0
+margin_right = 368.0
+margin_bottom = 252.0
+rect_scale = Vector2( 2, 2 )
 text = "Parabéns!! Você alcançou a maturidade final!! A parte interessada do negócio experimentou
 aprendizado validado por meio de iterações do
 Loop Build-Measure-Learn que deu a eles
@@ -137,9 +137,9 @@ autowrap = true
 
 [node name="Home_Button_Platina" type="TextureButton" parent="Platina"]
 margin_left = 328.0
-margin_top = 488.0
+margin_top = 352.0
 margin_right = 712.0
-margin_bottom = 872.0
+margin_bottom = 736.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
@@ -153,26 +153,26 @@ texture = ExtResource( 11 )
 expand = true
 
 [node name="Sprite" type="Sprite" parent="Ouro"]
-position = Vector2( 366.375, 96.0497 )
-scale = Vector2( 2.215, 1.8843 )
+position = Vector2( 370.5, 105.05 )
+scale = Vector2( 2.14, 1.8843 )
 texture = ExtResource( 8 )
 
 [node name="Label" type="Label" parent="Ouro"]
-margin_left = 64.0
-margin_top = 149.0
-margin_right = 318.0
-margin_bottom = 214.0
-rect_scale = Vector2( 2.5, 2.5 )
+margin_left = 74.0
+margin_top = 156.0
+margin_right = 328.0
+margin_bottom = 238.0
+rect_scale = Vector2( 2.3, 2.3 )
 text = "Você alcançou a terceira maturidade da dimensão Stakeholders!  A equipe de produto mudou o negócio e
 planeja com base no que eles aprenderam."
 align = 1
 autowrap = true
 
 [node name="Home_Button_Ouro" type="TextureButton" parent="Ouro"]
-margin_left = 327.0
-margin_top = 360.0
-margin_right = 711.0
-margin_bottom = 744.0
+margin_left = 341.0
+margin_top = 354.0
+margin_right = 725.0
+margin_bottom = 738.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
@@ -186,16 +186,16 @@ texture = ExtResource( 11 )
 expand = true
 
 [node name="Sprite" type="Sprite" parent="Prata"]
-position = Vector2( 367, 88 )
+position = Vector2( 385, 104 )
 scale = Vector2( 2.15082, 1.94625 )
 texture = ExtResource( 6 )
 
 [node name="Label" type="Label" parent="Prata"]
-margin_left = 86.0
-margin_top = 146.0
-margin_right = 341.0
-margin_bottom = 211.0
-rect_scale = Vector2( 2.2, 2.2 )
+margin_left = 161.0
+margin_top = 161.0
+margin_right = 416.0
+margin_bottom = 260.0
+rect_scale = Vector2( 1.8, 1.8 )
 text = "Você alcançou a maturidade dois da dimensão Stakeholders! A equipe tem frequentes
 reuniões com as partes interessadas no negócio e recebe
 entradas que influencia as iterações."
@@ -203,10 +203,10 @@ align = 1
 autowrap = true
 
 [node name="Home_Button_Prata" type="TextureButton" parent="Prata"]
-margin_left = 327.0
-margin_top = 368.0
-margin_right = 711.0
-margin_bottom = 752.0
+margin_left = 341.0
+margin_top = 344.0
+margin_right = 725.0
+margin_bottom = 728.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 
@@ -220,16 +220,16 @@ texture = ExtResource( 11 )
 expand = true
 
 [node name="Sprite" type="Sprite" parent="Bronze"]
-position = Vector2( 368, 91 )
+position = Vector2( 367, 101 )
 scale = Vector2( 2.22, 1.7725 )
 texture = ExtResource( 7 )
 
 [node name="Label" type="Label" parent="Bronze"]
-margin_left = 71.0
-margin_top = 142.0
-margin_right = 321.0
-margin_bottom = 216.0
-rect_scale = Vector2( 2.5, 2.5 )
+margin_left = 108.0
+margin_top = 168.0
+margin_right = 399.0
+margin_bottom = 267.0
+rect_scale = Vector2( 1.8, 1.8 )
 text = "Você alcançou a primeira maturidade da simensão Stakeholders! Não existem partes interessadas nas 
 reuniões de negócios e não recebem entradas que
 influencia as iterações."
@@ -237,10 +237,10 @@ align = 1
 autowrap = true
 
 [node name="Home_Button_Bronze" type="TextureButton" parent="Bronze"]
-margin_left = 328.0
-margin_top = 400.0
-margin_right = 712.0
-margin_bottom = 784.0
+margin_left = 331.0
+margin_top = 366.0
+margin_right = 715.0
+margin_bottom = 750.0
 rect_scale = Vector2( 0.2, 0.2 )
 texture_normal = ExtResource( 9 )
 

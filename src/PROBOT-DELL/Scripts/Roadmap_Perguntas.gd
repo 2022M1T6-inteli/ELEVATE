@@ -56,6 +56,7 @@ func _ready():
 	Global.Inventario_Itens[1] = false
 		
 	
+	
 #Sempre que a função for executada, o contador irá contar incrementar mais um
 #então irá fazer um if, onde dependendo do valor do cont, ele irá mostrar uma 
 #nova pergunta e uma nova resposta
