@@ -96,8 +96,8 @@ rect_scale = Vector2( 1.6, 1.6 )
 text = "PINGAS
 
 Tutorial: 
--Para jogar, utilize a setinha \"Cima\" e a setinha \"Baixo\" do seu teclado
--Seu objetivo é fazer 5 pontos na IA
+-Para jogar, utilize a setinha \"Cima\" e a setinha \"Baixo\" do seu teclado.
+-Seu objetivo é fazer 3 pontos na IA.
 -Não deixe ela fazer 5 pontos em você, caso contrário você perde."
 autowrap = true
 
