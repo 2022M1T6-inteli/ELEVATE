@@ -72,7 +72,7 @@ text = "SPACESHIPS
 
 Tutorial: 
 -Utilize as setinhas Esquerda e Direita do teclado para movimentar a nave e \"Espaço a para atirar\".
--Seu objetivo é destruir 5 naves.
+-Seu objetivo é destruir 12 naves.
 -Não encoste nas naves.
 -Não deixe mais de 4 naves. passarem por você."
 autowrap = true
