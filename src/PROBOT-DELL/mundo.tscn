@@ -39,6 +39,7 @@ rect_scale = Vector2( 2.5, 2.5 )
 
 [node name="Tutorial" type="TextureRect" parent="."]
 pause_mode = 2
+process_priority = 2
 margin_left = 301.0
 margin_top = 93.0
 margin_right = 1021.0

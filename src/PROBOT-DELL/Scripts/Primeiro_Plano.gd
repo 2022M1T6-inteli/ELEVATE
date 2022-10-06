@@ -20,6 +20,9 @@ func _ready():
 	elif Global.Inventario_Itens[2] == false:
 		$Inventario/Inventariopng/PlacaVideo.visible= false 
 	
+	if Global.fumaca_visao == true:
+		smokeanim.visible= false
+		
 	
 	if Global.PCcont == 1:
 		smokeanim.visible= false

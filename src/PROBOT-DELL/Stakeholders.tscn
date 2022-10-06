@@ -15,7 +15,7 @@
 [ext_resource path="res://images/BOTAO_MENU_BRANCO.png" type="Texture" id=13]
 [ext_resource path="res://images/buto_play_rosa (1).png" type="Texture" id=14]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D2" type="Node2D"]
 
 [node name="Stakeholders_Perguntas" type="Node2D" parent="."]
 script = ExtResource( 1 )

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PeçasPC3.png-0210359a285db671da8770cb409122b3.stex"
+path="res://.import/PeçasPC3.png-f99a0bc67ab4133246915d6cb2e4c640.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsInventario/PeçasPC3.png"
-dest_files=[ "res://.import/PeçasPC3.png-0210359a285db671da8770cb409122b3.stex" ]
+source_file="res://assetsInventario/PeçasPC3.png"
+dest_files=[ "res://.import/PeçasPC3.png-f99a0bc67ab4133246915d6cb2e4c640.stex" ]
 
 [params]
 

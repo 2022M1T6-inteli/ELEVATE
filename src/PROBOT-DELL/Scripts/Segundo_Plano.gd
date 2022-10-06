@@ -29,8 +29,7 @@ func _ready():
 		$Inventario/Inventariopng/PlacaVideo.visible= true 
 	elif Global.Inventario_Itens[2] == false:
 		$Inventario/Inventariopng/PlacaVideo.visible= false 
-		
-		
+	
 	
 
 #Define a variavel de controle como true.

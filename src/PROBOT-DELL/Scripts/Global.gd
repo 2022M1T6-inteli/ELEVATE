@@ -35,3 +35,4 @@ var verificacaoFase3 = 0
 var Marcos = false
 
 var controlMusic = true
+var fumaca_visao= false
