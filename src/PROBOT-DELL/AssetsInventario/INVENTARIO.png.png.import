@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/INVENTARIO.png.png-b0314f33966adfcbf113710643e35636.stex"
+path="res://.import/INVENTARIO.png.png-62cf9957e19d631added5d452ee8caf0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetsInventario/INVENTARIO.png.png"
-dest_files=[ "res://.import/INVENTARIO.png.png-b0314f33966adfcbf113710643e35636.stex" ]
+source_file="res://AssetsInventario/INVENTARIO.png.png"
+dest_files=[ "res://.import/INVENTARIO.png.png-62cf9957e19d631added5d452ee8caf0.stex" ]
 
 [params]
 

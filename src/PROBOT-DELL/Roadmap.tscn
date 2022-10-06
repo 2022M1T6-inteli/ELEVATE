@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Scripts/Roadmap_Perguntas.gd" type="Script" id=1]
 [ext_resource path="res://Mouse_Cursor.tscn" type="PackedScene" id=2]
@@ -11,6 +11,8 @@
 [ext_resource path="res://images/button_home.png" type="Texture" id=9]
 [ext_resource path="res://Sounds/PC-LIGANDO.ogg" type="AudioStream" id=10]
 [ext_resource path="res://images/tela_feedback.png" type="Texture" id=11]
+[ext_resource path="res://images/buto_play_branco.png" type="Texture" id=12]
+[ext_resource path="res://images/buto_play_rosa (1).png" type="Texture" id=13]
 
 [node name="Node2D" type="Node2D"]
 
@@ -85,9 +87,6 @@ margin_top = 75.0
 margin_right = 1145.0
 margin_bottom = 549.0
 color = Color( 0.258824, 0.682353, 0.0862745, 1 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Label_Feedback" type="Label" parent="Roadmap_Perguntas/Feedback"]
 margin_left = 121.0
@@ -97,12 +96,15 @@ align = 1
 valign = 1
 autowrap = true
 
-[node name="Button_Feedback" type="Button" parent="Roadmap_Perguntas/Feedback"]
-margin_left = 345.0
-margin_top = 322.0
-margin_right = 711.0
-margin_bottom = 414.0
-text = "Retornar"
+[node name="Button_Feedback" type="TextureButton" parent="Roadmap_Perguntas/Feedback"]
+margin_left = 476.0
+margin_top = 358.0
+margin_right = 572.0
+margin_bottom = 444.0
+texture_normal = ExtResource( 12 )
+texture_pressed = ExtResource( 13 )
+texture_hover = ExtResource( 13 )
+expand = true
 
 [node name="pcligandosfx" type="AudioStreamPlayer2D" parent="Roadmap_Perguntas"]
 stream = ExtResource( 10 )
