@@ -106,7 +106,13 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 
 * 0.0.1 - 29/08/2022
-    * Implementação do template no github
+    * Implementação do template no github.
+* 0.0.2 - 06/10/2022
+    * Atualização da foto principal e das fontes da imagem.
+* 0.0.3 - 06/10/2022
+    * Atualização dos membros do grupo e de seus Linkedins.
+* 0.0.4 - 06/10/2022
+    * Atualização do histórico de lançamentos.
 
 ## 📋 Licença/License
 
