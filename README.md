@@ -8,37 +8,36 @@
 
 ## ELEVATE
 
-## Integrantes: <a href="https://www.linkedin.com/in/mariana-g%C3%B6rresen-b03059210">Mariana Görresen</a>, <a href="https://www.linkedin.com/in/thomaz-klifson-046490125">Thomaz Klifson</a>, <a href="https://www.linkedin.com/in/emely-tavares-3575ba24a/">Emely Tavares</a>, <a href="https://www.linkedin.com/in/guilherme-moura-9668821a5/">Guilherme Moura</a>, <a href="https://www.linkedin.com/in/henrique-burle/">Henrique Burle</a>, <a href="https://www.linkedin.com/in/jos%C3%A9-vitor-marcelino-4165ba24a/">José Vitor Marcelino</a>
+## Integrantes
+- <a href="https://www.linkedin.com/in/mariana-g%C3%B6rresen-b03059210">Mariana Görresen</a>
+- <a href="https://www.linkedin.com/in/thomaz-klifson-046490125">Thomaz Klifson</a>
+- <a href="https://www.linkedin.com/in/emely-tavares-3575ba24a/">Emely Tavares</a>
+- <a href="https://www.linkedin.com/in/guilherme-moura-9668821a5/">Guilherme Moura</a>
+- <a href="https://www.linkedin.com/in/henrique-burle/">Henrique Burle</a>
+- <a href="https://www.linkedin.com/in/jos%C3%A9-vitor-marcelino-4165ba24a/">José Vitor Marcelino</a>
 
 ## Descrição
 
-📜 Descrição curta sobre o que seu projeto faz.
-<br><br>
 Probots é um jogo educativo 2D estilo plataforma que possui mecânica de validação de afirmativas (flashcards) e minigames interativos. O objetivo do projeto é ensinar o modelo de produtos aos colaboradores da Dell de uma maneira fácil, intuitiva e recreativa.
-<br><br>
-<p align="center">
-<img src="https://i.imgur.com/CK7xQiK.png" alt="PROBOTS" border="0">
-  Probots Logo by <a href="http://www.inteli.edu.br/">.</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="https://imgur.com/a/IYR9OJ8">Lightshot</a>
-</p>
 
-
-💡 Nosso projeto:.
-<br><br>
 Nosso projeto tem o propósito de ensinar aos colaboradores da Dell sobre o modelo de produtos de maneira lúdica, interativa e eficiente.
 <br><br>
 Solução: jogo estilo plataforma, com mecânicas de verdadeiro e falso para validar o conhecimento do usuário e minigames durante fases para gerar descontração e diversão.
 <br><br>
 
-## 🛠 Estrutura de pastas
+## 🎮 Jogue agora
 
--Raiz<br>
-|<br>
+Para acessar o jogo diretamente do seu navegador entre no seguinte link: [PROBOTS](https://2022m1t6-inteli.github.io/ELEVATE)
+
+## 📁 Estrutura de pastas
+
+|-->docs
 |-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|GDD.docx ou Documentação.docx<br>
+  &emsp;|-->outros<br>
+  &emsp;|T6_G5_V1_Game_Design_Document.docx<br>
+  &emsp;|T6_G5_V1_Game_Design_Document.pdf<br>
 |-->executáveis<br>
   &emsp;|-->windows<br>
-  &emsp;|-->android<br>
   &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
@@ -49,8 +48,8 @@ A pasta raiz contem dois arquivos que devem ser alterados:
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
 Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Aqui estarão todos os documentos do projeto, mas principalmente o <b>GDD (Game Design Document)/Documentação do Sistema</b>. Há uma pasta <b>antigos</b> onde estarão todas as versões antigas da documentação.
+<b>docs</b>:Aqui serão colocados os arquivos compilados em HTML do jogo.<br>
+<b>documentos</b>: Aqui estarão todos os documentos do projeto, mas principalmente o <b>GDD (Game Design Document)/Documentação do Sistema</b>. Há uma pasta <b>antigos</b> onde estarão todas as versões antigas da documentação.<br>
 
 <b>executáveis</b>: Aqui estarão todos os executáveis do jogo, prontos para rodar. Há no mínimo 3 pastas, uma para binários <b>Windows</b>, uma para binários <b>android</b> e uma para a <b>Web/HTML</b>
 
@@ -60,31 +59,15 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Instalação
 
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-
 <b>Windows:</b>
 
 Não há instalação! Apenas executável!
 Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
 <b>HTML:</b>
 
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-
-## 📈 Exemplo de uso
-
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado.
-
-Adicione blocos de códigos e, se necessário, screenshots.
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -94,16 +77,9 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://godotengine.org/download">GODOT</a>
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
-
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
-
 
 * 0.0.1 - 07/08/2022
     * Elaboração do nome do jogo e da história do jogo
@@ -171,7 +147,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 ## 📋 Licença/License
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2022M1T6/Projeto5">Probots</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2022M1T6/Projeto5">INTELI, Mariana Görresen , Thomaz Klifson Falcão Barboza, Emely Tavares , Guilherme Moura , José Vitor Marcelino, Henrique Burle Ferreira Lima</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2022M1T6-inteli/ELEVATE">Elevate</a> <a>by</a> <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/InteliProjects">Inteli, <a href="https://www.linkedin.com/in/mariana-g%C3%B6rresen-b03059210">Mariana Görresen</a>, <a href="https://www.linkedin.com/in/thomaz-klifson-046490125">Thomaz Klifson</a>, <a href="https://www.linkedin.com/in/emely-tavares-3575ba24a/">Emely Tavares</a>, <a href="https://www.linkedin.com/in/guilherme-moura-9668821a5/">Guilherme Moura</a>, <a href="https://www.linkedin.com/in/henrique-burle/">Henrique Burle</a>, <a href="https://www.linkedin.com/in/jos%C3%A9-vitor-marcelino-4165ba24a/">José Vitor Marcelino</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
 ## 🎓 Referências
 
