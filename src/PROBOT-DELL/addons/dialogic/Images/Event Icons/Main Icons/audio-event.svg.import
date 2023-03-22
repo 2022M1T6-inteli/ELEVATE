@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/audio-event.svg-d192398662daf4684b0a1cb09391d1c1.stex"
+path="res://.import/audio-event.svg-b396902048cc8550b13c0477fc436376.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Images/Event Icons/Main Icons/audio-event.svg"
-dest_files=[ "res://.import/audio-event.svg-d192398662daf4684b0a1cb09391d1c1.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Images/Event Icons/Main Icons/audio-event.svg"
+dest_files=[ "res://.import/audio-event.svg-b396902048cc8550b13c0477fc436376.stex" ]
 
 [params]
 

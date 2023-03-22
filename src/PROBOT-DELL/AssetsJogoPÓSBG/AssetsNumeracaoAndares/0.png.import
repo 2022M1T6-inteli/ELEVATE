@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/0.png-479837907bc4544f338afa3252bd5694.stex"
+path="res://.import/0.png-d83500b8da4effe726852b55c1569e4b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/AssetsNumeracaoAndares/0.png"
-dest_files=[ "res://.import/0.png-479837907bc4544f338afa3252bd5694.stex" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/AssetsNumeracaoAndares/0.png"
+dest_files=[ "res://.import/0.png-d83500b8da4effe726852b55c1569e4b.stex" ]
 
 [params]
 

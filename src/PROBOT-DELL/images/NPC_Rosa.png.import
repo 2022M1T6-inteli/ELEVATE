@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/NPC_Rosa.png-e07416dcd43c8033643ce4c8ea415ecb.stex"
+path="res://.import/NPC_Rosa.png-3907e6340e48347891048e6c73257e71.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/NPC_Rosa.png"
-dest_files=[ "res://.import/NPC_Rosa.png-e07416dcd43c8033643ce4c8ea415ecb.stex" ]
+source_file="res://PROBOT-DELL/images/NPC_Rosa.png"
+dest_files=[ "res://.import/NPC_Rosa.png-3907e6340e48347891048e6c73257e71.stex" ]
 
 [params]
 

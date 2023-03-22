@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/botaoazul (1).png-5e03d135843586ef8d0bfc128a0a719c.stex"
+path="res://.import/botaoazul (1).png-4e242726b6394488893cd1b0a29e7fb6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/botaoazul (1).png"
-dest_files=[ "res://.import/botaoazul (1).png-5e03d135843586ef8d0bfc128a0a719c.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/botaoazul (1).png"
+dest_files=[ "res://.import/botaoazul (1).png-4e242726b6394488893cd1b0a29e7fb6.stex" ]
 
 [params]
 

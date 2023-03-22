@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BACKGROUNDDDD.png-56f1113e26782392a1fbb46af0a55539.stex"
+path="res://.import/BACKGROUNDDDD.png-f31f9736576236a83ab4d875a1fd515d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/BACKGROUNDDDD.png"
-dest_files=[ "res://.import/BACKGROUNDDDD.png-56f1113e26782392a1fbb46af0a55539.stex" ]
+source_file="res://PROBOT-DELL/images/BACKGROUNDDDD.png"
+dest_files=[ "res://.import/BACKGROUNDDDD.png-f31f9736576236a83ab4d875a1fd515d.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/NPC_Pinky.png-657960d93022a579d6d0ad2b52f49286.stex"
+path="res://.import/NPC_Pinky.png-da412e08db06688568ad1c46d00c41ca.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/NPC_Pinky.png"
-dest_files=[ "res://.import/NPC_Pinky.png-657960d93022a579d6d0ad2b52f49286.stex" ]
+source_file="res://PROBOT-DELL/images/NPC_Pinky.png"
+dest_files=[ "res://.import/NPC_Pinky.png-da412e08db06688568ad1c46d00c41ca.stex" ]
 
 [params]
 

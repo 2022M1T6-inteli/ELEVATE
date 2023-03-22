@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TVTESTE3.png-f21dcfeee2d80a13d1457a4747c5c526.stex"
+path="res://.import/TVTESTE3.png-9cec3ea9836623433f86db22fed76d0c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/AssetsInteriorPredio/TVAnimação/TVTESTE3.png"
-dest_files=[ "res://.import/TVTESTE3.png-f21dcfeee2d80a13d1457a4747c5c526.stex" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/AssetsInteriorPredio/TVAnimação/TVTESTE3.png"
+dest_files=[ "res://.import/TVTESTE3.png-9cec3ea9836623433f86db22fed76d0c.stex" ]
 
 [params]
 

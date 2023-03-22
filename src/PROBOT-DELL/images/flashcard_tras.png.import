@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/flashcard_tras.png-5f82a11b8dea38233af970aa528f6658.stex"
+path="res://.import/flashcard_tras.png-9652162fe38218e7730dc9166a925fcd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/flashcard_tras.png"
-dest_files=[ "res://.import/flashcard_tras.png-5f82a11b8dea38233af970aa528f6658.stex" ]
+source_file="res://PROBOT-DELL/images/flashcard_tras.png"
+dest_files=[ "res://.import/flashcard_tras.png-9652162fe38218e7730dc9166a925fcd.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Skateboard1.png-80147e4d730a8173cf9b23087b0bc576.stex"
+path="res://.import/Skateboard1.png-b1142e70c07f8086e5cbb750d5f7b887.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Other/Skateboard1.png"
-dest_files=[ "res://.import/Skateboard1.png-80147e4d730a8173cf9b23087b0bc576.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Other/Skateboard1.png"
+dest_files=[ "res://.import/Skateboard1.png-b1142e70c07f8086e5cbb750d5f7b887.stex" ]
 
 [params]
 

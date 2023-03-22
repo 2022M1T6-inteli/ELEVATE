@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/history_button_positions.png-72533a28ddfc07077b44d0a6e96e1baa.stex"
+path="res://.import/history_button_positions.png-31e0ddd09d50a1fe35299760dc629f1c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Documentation/Content/Reference/Images/history_button_positions.png"
-dest_files=[ "res://.import/history_button_positions.png-72533a28ddfc07077b44d0a6e96e1baa.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Documentation/Content/Reference/Images/history_button_positions.png"
+dest_files=[ "res://.import/history_button_positions.png-31e0ddd09d50a1fe35299760dc629f1c.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1telaerrada.png-42df021c0ff70ba827a6aee0f152aead.stex"
+path="res://.import/1telaerrada.png-090875d9b9af0056b7313c0ab50a846d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetssprint5alt/1telaerrada.png"
-dest_files=[ "res://.import/1telaerrada.png-42df021c0ff70ba827a6aee0f152aead.stex" ]
+source_file="res://PROBOT-DELL/assetssprint5alt/1telaerrada.png"
+dest_files=[ "res://.import/1telaerrada.png-090875d9b9af0056b7313c0ab50a846d.stex" ]
 
 [params]
 

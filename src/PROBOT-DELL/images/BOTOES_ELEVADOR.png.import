@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BOTOES_ELEVADOR.png-12172438d3f379be14312df7fa1375ef.stex"
+path="res://.import/BOTOES_ELEVADOR.png-63fe94e5953099ae63ab108e12fea611.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/BOTOES_ELEVADOR.png"
-dest_files=[ "res://.import/BOTOES_ELEVADOR.png-12172438d3f379be14312df7fa1375ef.stex" ]
+source_file="res://PROBOT-DELL/images/BOTOES_ELEVADOR.png"
+dest_files=[ "res://.import/BOTOES_ELEVADOR.png-63fe94e5953099ae63ab108e12fea611.stex" ]
 
 [params]
 

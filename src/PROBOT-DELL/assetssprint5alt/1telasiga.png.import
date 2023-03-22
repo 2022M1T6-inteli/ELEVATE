@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1telasiga.png-94c079f5435d30106238311d7e20eff8.stex"
+path="res://.import/1telasiga.png-2fd217b3e700442c75cb631b607db965.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetssprint5alt/1telasiga.png"
-dest_files=[ "res://.import/1telasiga.png-94c079f5435d30106238311d7e20eff8.stex" ]
+source_file="res://PROBOT-DELL/assetssprint5alt/1telasiga.png"
+dest_files=[ "res://.import/1telasiga.png-2fd217b3e700442c75cb631b607db965.stex" ]
 
 [params]
 

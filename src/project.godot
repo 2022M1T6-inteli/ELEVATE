@@ -12,72 +12,72 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "DTS",
 "language": "GDScript",
-"path": "res://addons/dialogic/Localization/translation_service.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Localization/translation_service.gd"
 }, {
 "base": "Node",
 "class": "Dialogic",
 "language": "GDScript",
-"path": "res://addons/dialogic/Other/DialogicClass.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Other/DialogicClass.gd"
 }, {
 "base": "Reference",
 "class": "DialogicAnimaPropertiesHelper",
 "language": "GDScript",
-"path": "res://addons/dialogic/Nodes/Anima/DialogicAnimaPropertiesHelper.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Nodes/Anima/DialogicAnimaPropertiesHelper.gd"
 }, {
 "base": "Node",
 "class": "DialogicAnimaResources",
 "language": "GDScript",
-"path": "res://addons/dialogic/Nodes/Anima/DialogicAnimaResources.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Nodes/Anima/DialogicAnimaResources.gd"
 }, {
 "base": "Control",
 "class": "DialogicBackgroundMusic",
 "language": "GDScript",
-"path": "res://addons/dialogic/Nodes/BackgroundMusic.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Nodes/BackgroundMusic.gd"
 }, {
 "base": "Node",
 "class": "DialogicCustomEvents",
 "language": "GDScript",
-"path": "res://addons/dialogic/Nodes/DialogicCustomEvents.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Nodes/DialogicCustomEvents.gd"
 }, {
 "base": "Node",
 "class": "DialogicDefinitionsUtil",
 "language": "GDScript",
-"path": "res://addons/dialogic/Other/DialogicDefinitionsUtil.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Other/DialogicDefinitionsUtil.gd"
 }, {
 "base": "Node",
 "class": "DialogicParser",
 "language": "GDScript",
-"path": "res://addons/dialogic/Parser/DialogicParser.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Parser/DialogicParser.gd"
 }, {
 "base": "Reference",
 "class": "DialogicResources",
 "language": "GDScript",
-"path": "res://addons/dialogic/Other/DialogicResources.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Other/DialogicResources.gd"
 }, {
 "base": "Reference",
 "class": "DialogicUtil",
 "language": "GDScript",
-"path": "res://addons/dialogic/Other/DialogicUtil.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Other/DialogicUtil.gd"
 }, {
 "base": "PanelContainer",
 "class": "HistoryRow",
 "language": "GDScript",
-"path": "res://addons/dialogic/Example Assets/History/HistoryRow.gd"
+"path": "res://PROBOT-DELL/addons/dialogic/Example Assets/History/HistoryRow.gd"
 }, {
 "base": "Node",
 "class": "inputIA",
 "language": "GDScript",
-"path": "res://Scripts/inputIA.gd"
+"path": "res://PROBOT-DELL/Scripts/inputIA.gd"
 }, {
 "base": "Node",
 "class": "inputJogador",
 "language": "GDScript",
-"path": "res://Scripts/InputJogador.gd"
+"path": "res://PROBOT-DELL/Scripts/InputJogador.gd"
 }, {
 "base": "Area2D",
 "class": "jogador",
 "language": "GDScript",
-"path": "res://personagens/jogador/jogador.gd"
+"path": "res://PROBOT-DELL/personagens/jogador/jogador.gd"
 } ]
 _global_script_class_icons={
 "DTS": "",
@@ -122,7 +122,7 @@ window/stretch/mode="2d"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg" )
+enabled=PoolStringArray(  )
 
 [input]
 
@@ -189,7 +189,3 @@ locale_filter=[ 1, [ "en_US", "pt_BR" ] ]
 [physics]
 
 common/enable_pause_aware_picking=true
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"

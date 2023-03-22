@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ladder1.png-3ba8986ad6049da074c096e666fb7d1f.stex"
+path="res://.import/Ladder1.png-4b96ba8d77cfe5f778152046691f9a0a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Other/Ladder1.png"
-dest_files=[ "res://.import/Ladder1.png-3ba8986ad6049da074c096e666fb7d1f.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Other/Ladder1.png"
+dest_files=[ "res://.import/Ladder1.png-4b96ba8d77cfe5f778152046691f9a0a.stex" ]
 
 [params]
 

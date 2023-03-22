@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mapa.png-c3242a51e5e93278eb59b13910782970.stex"
+path="res://.import/mapa.png-2807a8b7452916ef7db4d096a12b0389.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/AssetsInteriorPredio/mapa.png"
-dest_files=[ "res://.import/mapa.png-c3242a51e5e93278eb59b13910782970.stex" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/AssetsInteriorPredio/mapa.png"
+dest_files=[ "res://.import/mapa.png-2807a8b7452916ef7db4d096a12b0389.stex" ]
 
 [params]
 

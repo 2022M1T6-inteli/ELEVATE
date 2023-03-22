@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Idle2.png-59ba0e1bc421e2b9971f5bcec13318a2.stex"
+path="res://.import/Idle2.png-f471261fd4a12eed4978872f8c32a714.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/1/Idle2.png"
-dest_files=[ "res://.import/Idle2.png-59ba0e1bc421e2b9971f5bcec13318a2.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/1/Idle2.png"
+dest_files=[ "res://.import/Idle2.png-f471261fd4a12eed4978872f8c32a714.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/botao_creditos_branco.png-f7a61975652b0d9e1bb144e5161402b7.stex"
+path="res://.import/botao_creditos_branco.png-46a529f61bf8f6e0d50c5434e3a2f187.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/botao_creditos_branco.png"
-dest_files=[ "res://.import/botao_creditos_branco.png-f7a61975652b0d9e1bb144e5161402b7.stex" ]
+source_file="res://PROBOT-DELL/images/botao_creditos_branco.png"
+dest_files=[ "res://.import/botao_creditos_branco.png-46a529f61bf8f6e0d50c5434e3a2f187.stex" ]
 
 [params]
 

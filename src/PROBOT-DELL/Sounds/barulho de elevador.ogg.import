@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/barulho de elevador.ogg-158cb296343260c668508f8017b0dc07.oggstr"
+path="res://.import/barulho de elevador.ogg-f87e9064a93d7685e472637c6fb4679e.oggstr"
 
 [deps]
 
-source_file="res://Sounds/barulho de elevador.ogg"
-dest_files=[ "res://.import/barulho de elevador.ogg-158cb296343260c668508f8017b0dc07.oggstr" ]
+source_file="res://PROBOT-DELL/Sounds/barulho de elevador.ogg"
+dest_files=[ "res://.import/barulho de elevador.ogg-f87e9064a93d7685e472637c6fb4679e.oggstr" ]
 
 [params]
 

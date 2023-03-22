@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tiro jogador.png-d0b628b0e73e54ce3748b9f08d18cacd.stex"
+path="res://.import/tiro jogador.png-942602c616dbe4c48f0da576180eb7ac.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/tiro jogador.png"
-dest_files=[ "res://.import/tiro jogador.png-d0b628b0e73e54ce3748b9f08d18cacd.stex" ]
+source_file="res://PROBOT-DELL/images/tiro jogador.png"
+dest_files=[ "res://.import/tiro jogador.png-942602c616dbe4c48f0da576180eb7ac.stex" ]
 
 [params]
 

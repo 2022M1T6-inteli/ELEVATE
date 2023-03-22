@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/camponovo.png-1b2703a177c2c8a789729004e0fc7a08.stex"
+path="res://.import/camponovo.png-4a838e04f696c22a5d59e1eba2f77fda.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pingas/camponovo.png"
-dest_files=[ "res://.import/camponovo.png-1b2703a177c2c8a789729004e0fc7a08.stex" ]
+source_file="res://PROBOT-DELL/pingas/camponovo.png"
+dest_files=[ "res://.import/camponovo.png-4a838e04f696c22a5d59e1eba2f77fda.stex" ]
 
 [params]
 

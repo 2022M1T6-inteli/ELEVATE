@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Walk.png-f6485b495c1b2900686df61077246656.stex"
+path="res://.import/Walk.png-29839d6c89cc43bfb668667cd43beecf.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-481510-free-townspeople-cyberpunk-pixel-art/12/Walk.png"
-dest_files=[ "res://.import/Walk.png-f6485b495c1b2900686df61077246656.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-481510-free-townspeople-cyberpunk-pixel-art/12/Walk.png"
+dest_files=[ "res://.import/Walk.png-29839d6c89cc43bfb668667cd43beecf.stex" ]
 
 [params]
 

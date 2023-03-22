@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/logo_probots.png-7b533eee1262f4036e7a415cd21b33c1.stex"
+path="res://.import/logo_probots.png-c9630e785b6c06649c7f5546374a3661.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/logo_probots.png"
-dest_files=[ "res://.import/logo_probots.png-7b533eee1262f4036e7a415cd21b33c1.stex" ]
+source_file="res://PROBOT-DELL/images/logo_probots.png"
+dest_files=[ "res://.import/logo_probots.png-c9630e785b6c06649c7f5546374a3661.stex" ]
 
 [params]
 

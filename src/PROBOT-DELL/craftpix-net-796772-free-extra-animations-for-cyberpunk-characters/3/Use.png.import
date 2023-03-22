@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Use.png-bafa3beaeabf54f64a5af740b7e3abec.stex"
+path="res://.import/Use.png-58bf862d47e3a4935f9b3a4f388b7a95.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Use.png"
-dest_files=[ "res://.import/Use.png-bafa3beaeabf54f64a5af740b7e3abec.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Use.png"
+dest_files=[ "res://.import/Use.png-58bf862d47e3a4935f9b3a4f388b7a95.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Raquete.png-a5cd5b2499e1a65b769d25236cb7ec92.stex"
+path="res://.import/Raquete.png-2029f5fb224ef387422d228e2132b091.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pingas/Raquete.png"
-dest_files=[ "res://.import/Raquete.png-a5cd5b2499e1a65b769d25236cb7ec92.stex" ]
+source_file="res://PROBOT-DELL/pingas/Raquete.png"
+dest_files=[ "res://.import/Raquete.png-2029f5fb224ef387422d228e2132b091.stex" ]
 
 [params]
 

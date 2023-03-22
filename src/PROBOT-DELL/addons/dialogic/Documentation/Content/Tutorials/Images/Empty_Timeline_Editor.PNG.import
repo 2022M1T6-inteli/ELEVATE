@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Empty_Timeline_Editor.PNG-508a5eb2b419ec35635764d597b0d17f.stex"
+path="res://.import/Empty_Timeline_Editor.PNG-e70baa1876321df7baa66d2ec5586086.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Documentation/Content/Tutorials/Images/Empty_Timeline_Editor.PNG"
-dest_files=[ "res://.import/Empty_Timeline_Editor.PNG-508a5eb2b419ec35635764d597b0d17f.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Documentation/Content/Tutorials/Images/Empty_Timeline_Editor.PNG"
+dest_files=[ "res://.import/Empty_Timeline_Editor.PNG-e70baa1876321df7baa66d2ec5586086.stex" ]
 
 [params]
 

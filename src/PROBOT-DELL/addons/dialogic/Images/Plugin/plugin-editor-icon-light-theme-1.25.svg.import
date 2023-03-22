@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/plugin-editor-icon-light-theme-1.25.svg-b4a3d8bc3495118f83700d2ce43b9be7.stex"
+path="res://.import/plugin-editor-icon-light-theme-1.25.svg-1b0decfc68ed4f4b37af284bb39b646f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Images/Plugin/plugin-editor-icon-light-theme-1.25.svg"
-dest_files=[ "res://.import/plugin-editor-icon-light-theme-1.25.svg-b4a3d8bc3495118f83700d2ce43b9be7.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Images/Plugin/plugin-editor-icon-light-theme-1.25.svg"
+dest_files=[ "res://.import/plugin-editor-icon-light-theme-1.25.svg-1b0decfc68ed4f4b37af284bb39b646f.stex" ]
 
 [params]
 

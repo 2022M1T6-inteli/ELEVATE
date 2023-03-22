@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cyborg_Main_Personagem_Espelhada.png-e7b64022c697b3220211410e8a5e6239.stex"
+path="res://.import/Cyborg_Main_Personagem_Espelhada.png-f8c5b119e5c8411d7e6a17bc2cc7e261.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Cyborg_Main_Personagem_Espelhada.png"
-dest_files=[ "res://.import/Cyborg_Main_Personagem_Espelhada.png-e7b64022c697b3220211410e8a5e6239.stex" ]
+source_file="res://PROBOT-DELL/images/Cyborg_Main_Personagem_Espelhada.png"
+dest_files=[ "res://.import/Cyborg_Main_Personagem_Espelhada.png-f8c5b119e5c8411d7e6a17bc2cc7e261.stex" ]
 
 [params]
 

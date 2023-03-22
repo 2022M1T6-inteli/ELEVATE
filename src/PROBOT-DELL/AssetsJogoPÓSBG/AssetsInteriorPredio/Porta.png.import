@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Porta.png-6a6f51425cdd3df7313e8eda0ff10776.stex"
+path="res://.import/Porta.png-a45b92164dbe9cf895f94907937bd73a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/AssetsInteriorPredio/Porta.png"
-dest_files=[ "res://.import/Porta.png-6a6f51425cdd3df7313e8eda0ff10776.stex" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/AssetsInteriorPredio/Porta.png"
+dest_files=[ "res://.import/Porta.png-a45b92164dbe9cf895f94907937bd73a.stex" ]
 
 [params]
 

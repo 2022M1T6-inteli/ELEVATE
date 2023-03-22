@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pause_rosa.png-ac376af94d0bac3309ba3167a0122dfd.stex"
+path="res://.import/Pause_rosa.png-bfd58b7a8d1c1cf351198e7b435f877f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Pause_rosa.png"
-dest_files=[ "res://.import/Pause_rosa.png-ac376af94d0bac3309ba3167a0122dfd.stex" ]
+source_file="res://PROBOT-DELL/images/Pause_rosa.png"
+dest_files=[ "res://.import/Pause_rosa.png-bfd58b7a8d1c1cf351198e7b435f877f.stex" ]
 
 [params]
 

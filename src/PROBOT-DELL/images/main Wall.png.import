@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/main Wall.png-d4a441379003cc5c2438d54a40cabff5.stex"
+path="res://.import/main Wall.png-983f24118fe96c3fb378b58d997324f4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/main Wall.png"
-dest_files=[ "res://.import/main Wall.png-d4a441379003cc5c2438d54a40cabff5.stex" ]
+source_file="res://PROBOT-DELL/images/main Wall.png"
+dest_files=[ "res://.import/main Wall.png-983f24118fe96c3fb378b58d997324f4.stex" ]
 
 [params]
 

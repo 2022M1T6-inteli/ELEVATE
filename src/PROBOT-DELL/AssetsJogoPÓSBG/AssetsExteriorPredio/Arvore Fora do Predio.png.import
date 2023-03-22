@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Arvore Fora do Predio.png-d65cafa7e12f7969111672f978427b1d.stex"
+path="res://.import/Arvore Fora do Predio.png-8a4bf3cb57ae47b218bbfbf1fd02da03.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/AssetsExteriorPredio/Arvore Fora do Predio.png"
-dest_files=[ "res://.import/Arvore Fora do Predio.png-d65cafa7e12f7969111672f978427b1d.stex" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/AssetsExteriorPredio/Arvore Fora do Predio.png"
+dest_files=[ "res://.import/Arvore Fora do Predio.png-8a4bf3cb57ae47b218bbfbf1fd02da03.stex" ]
 
 [params]
 

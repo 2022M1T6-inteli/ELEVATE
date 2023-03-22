@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sofá_recepcao_1_resized.png-9e9490fc758b606ef6a79b4b414c56f7.stex"
+path="res://.import/Sofá_recepcao_1_resized.png-4331ad4f12a57adf54f931ed5e558a8b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Sofá_recepcao_1_resized.png"
-dest_files=[ "res://.import/Sofá_recepcao_1_resized.png-9e9490fc758b606ef6a79b4b414c56f7.stex" ]
+source_file="res://PROBOT-DELL/images/Sofá_recepcao_1_resized.png"
+dest_files=[ "res://.import/Sofá_recepcao_1_resized.png-4331ad4f12a57adf54f931ed5e558a8b.stex" ]
 
 [params]
 

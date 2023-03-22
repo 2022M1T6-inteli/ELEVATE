@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bola.png-36380e5ece791de01312234435949000.stex"
+path="res://.import/Bola.png-96cab97dc057b7e3f7349ffb9b202eab.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pingas/Bola.png"
-dest_files=[ "res://.import/Bola.png-36380e5ece791de01312234435949000.stex" ]
+source_file="res://PROBOT-DELL/pingas/Bola.png"
+dest_files=[ "res://.import/Bola.png-96cab97dc057b7e3f7349ffb9b202eab.stex" ]
 
 [params]
 

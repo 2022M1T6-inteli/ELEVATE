@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/typing5.wav-18d3a5e3d0af1e07d53b8606cfa86aa3.sample"
+path="res://.import/typing5.wav-a82c33e98da2897bbc70c4b3bf1d0b27.sample"
 
 [deps]
 
-source_file="res://addons/dialogic/Example Assets/Sound Effects/Keyboard Noises/typing5.wav"
-dest_files=[ "res://.import/typing5.wav-18d3a5e3d0af1e07d53b8606cfa86aa3.sample" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Example Assets/Sound Effects/Keyboard Noises/typing5.wav"
+dest_files=[ "res://.import/typing5.wav-a82c33e98da2897bbc70c4b3bf1d0b27.sample" ]
 
 [params]
 
@@ -17,5 +17,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

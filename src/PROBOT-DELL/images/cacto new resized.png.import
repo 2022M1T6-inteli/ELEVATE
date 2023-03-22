@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cacto new resized.png-ef5e6d72ab62f6c61a2ad0d12d084f93.stex"
+path="res://.import/cacto new resized.png-bfb60a92f70c4cb70ecdb172713240cf.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/cacto new resized.png"
-dest_files=[ "res://.import/cacto new resized.png-ef5e6d72ab62f6c61a2ad0d12d084f93.stex" ]
+source_file="res://PROBOT-DELL/images/cacto new resized.png"
+dest_files=[ "res://.import/cacto new resized.png-bfb60a92f70c4cb70ecdb172713240cf.stex" ]
 
 [params]
 

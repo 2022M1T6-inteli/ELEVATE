@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1escaneadorelevador.png-4720650fe47277f910433811c5c0ed0c.stex"
+path="res://.import/1escaneadorelevador.png-f421f272e6bd08cd0d13d3a4f4c1bdc2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetssprint5alt/1escaneadorelevador.png"
-dest_files=[ "res://.import/1escaneadorelevador.png-4720650fe47277f910433811c5c0ed0c.stex" ]
+source_file="res://PROBOT-DELL/assetssprint5alt/1escaneadorelevador.png"
+dest_files=[ "res://.import/1escaneadorelevador.png-f421f272e6bd08cd0d13d3a4f4c1bdc2.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Empty_Character_Editor.PNG-b81e9a25b7190089d68ae8c2351d5ed6.stex"
+path="res://.import/Empty_Character_Editor.PNG-f76647fd66daff3cfaa5c78971646c81.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Documentation/Content/Tutorials/Images/Empty_Character_Editor.PNG"
-dest_files=[ "res://.import/Empty_Character_Editor.PNG-b81e9a25b7190089d68ae8c2351d5ed6.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Documentation/Content/Tutorials/Images/Empty_Character_Editor.PNG"
+dest_files=[ "res://.import/Empty_Character_Editor.PNG-f76647fd66daff3cfaa5c78971646c81.stex" ]
 
 [params]
 

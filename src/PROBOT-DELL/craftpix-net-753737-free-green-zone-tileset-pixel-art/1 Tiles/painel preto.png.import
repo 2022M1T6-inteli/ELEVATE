@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/painel preto.png-db2f90a47ff7c1928339e385a00de0f0.stex"
+path="res://.import/painel preto.png-3c207992b721956975df8574dfbd32d9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/painel preto.png"
-dest_files=[ "res://.import/painel preto.png-db2f90a47ff7c1928339e385a00de0f0.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/painel preto.png"
+dest_files=[ "res://.import/painel preto.png-3c207992b721956975df8574dfbd32d9.stex" ]
 
 [params]
 

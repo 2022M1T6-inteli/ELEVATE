@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Idle.png-05c3b7ce35635c258f3fa56797b23d34.stex"
+path="res://.import/Idle.png-74dc256b27acd4564c9c92c190d49741.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-481510-free-townspeople-cyberpunk-pixel-art/7/Idle.png"
-dest_files=[ "res://.import/Idle.png-05c3b7ce35635c258f3fa56797b23d34.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-481510-free-townspeople-cyberpunk-pixel-art/7/Idle.png"
+dest_files=[ "res://.import/Idle.png-74dc256b27acd4564c9c92c190d49741.stex" ]
 
 [params]
 

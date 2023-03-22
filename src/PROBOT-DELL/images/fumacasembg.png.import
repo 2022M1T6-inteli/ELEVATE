@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fumacasembg.png-30277c29882e6b89d62b1a23f0de81d3.stex"
+path="res://.import/fumacasembg.png-ddff724cca92d3e717f2c89922f57ac8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/fumacasembg.png"
-dest_files=[ "res://.import/fumacasembg.png-30277c29882e6b89d62b1a23f0de81d3.stex" ]
+source_file="res://PROBOT-DELL/images/fumacasembg.png"
+dest_files=[ "res://.import/fumacasembg.png-ddff724cca92d3e717f2c89922f57ac8.stex" ]
 
 [params]
 

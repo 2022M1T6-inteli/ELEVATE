@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PREDIODOLADO-removebg-preview.png-73a1fb67e9d02a7ff6e7f88763e72f77.stex"
+path="res://.import/PREDIODOLADO-removebg-preview.png-167f0a1a89aca98eb47b096e6e70c39b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/AssetsExteriorPredio/PREDIODOLADO-removebg-preview.png"
-dest_files=[ "res://.import/PREDIODOLADO-removebg-preview.png-73a1fb67e9d02a7ff6e7f88763e72f77.stex" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/AssetsExteriorPredio/PREDIODOLADO-removebg-preview.png"
+dest_files=[ "res://.import/PREDIODOLADO-removebg-preview.png-167f0a1a89aca98eb47b096e6e70c39b.stex" ]
 
 [params]
 

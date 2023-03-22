@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Coupon by craftpix.png-5e60fc064bf9a3e670e68288250bd8e1.stex"
+path="res://.import/Coupon by craftpix.png-8586e9ce07990ed0d6fa7fd9044fb1c8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/Coupon by craftpix.png"
-dest_files=[ "res://.import/Coupon by craftpix.png-5e60fc064bf9a3e670e68288250bd8e1.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/Coupon by craftpix.png"
+dest_files=[ "res://.import/Coupon by craftpix.png-8586e9ce07990ed0d6fa7fd9044fb1c8.stex" ]
 
 [params]
 

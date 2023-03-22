@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/navejogador.png-8375081d0c7a92864ddf5e0a26a6daa1.stex"
+path="res://.import/navejogador.png-6e741461d55f2a377cbb809326703330.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/navejogador.png"
-dest_files=[ "res://.import/navejogador.png-8375081d0c7a92864ddf5e0a26a6daa1.stex" ]
+source_file="res://PROBOT-DELL/images/navejogador.png"
+dest_files=[ "res://.import/navejogador.png-6e741461d55f2a377cbb809326703330.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Fire-extinguisher1.png-2ca90519979063360a93451bec861fad.stex"
+path="res://.import/Fire-extinguisher1.png-2e8f0c238148e6120a12c0be7c1d011c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/AssetsInteriorPredio/Fire-extinguisher1.png"
-dest_files=[ "res://.import/Fire-extinguisher1.png-2ca90519979063360a93451bec861fad.stex" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/AssetsInteriorPredio/Fire-extinguisher1.png"
+dest_files=[ "res://.import/Fire-extinguisher1.png-2e8f0c238148e6120a12c0be7c1d011c.stex" ]
 
 [params]
 

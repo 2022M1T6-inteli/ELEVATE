@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mesarecp.png-f06062d62b26d7855edc2d957c85325f.stex"
+path="res://.import/mesarecp.png-40d30d7d96b71c23e1a09b4df9cc945e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/mesarecp.png"
-dest_files=[ "res://.import/mesarecp.png-f06062d62b26d7855edc2d957c85325f.stex" ]
+source_file="res://PROBOT-DELL/images/mesarecp.png"
+dest_files=[ "res://.import/mesarecp.png-40d30d7d96b71c23e1a09b4df9cc945e.stex" ]
 
 [params]
 

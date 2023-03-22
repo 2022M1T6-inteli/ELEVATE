@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/buto_play_rosa (1).png-1b6d9101927d6911bf94a0a04247f3e8.stex"
+path="res://.import/buto_play_rosa (1).png-1d443f70f8c342e56b5bafec6c0ec9a5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/buto_play_rosa (1).png"
-dest_files=[ "res://.import/buto_play_rosa (1).png-1b6d9101927d6911bf94a0a04247f3e8.stex" ]
+source_file="res://PROBOT-DELL/images/buto_play_rosa (1).png"
+dest_files=[ "res://.import/buto_play_rosa (1).png-1d443f70f8c342e56b5bafec6c0ec9a5.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/interaçãolabel-removebg-preview.png-ffd6ff0043d6bc5c849692bbe4f7259d.stex"
+path="res://.import/interaçãolabel-removebg-preview.png-53ae779a6caadbb42310f8e9e57b97f9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/interaçãolabel-removebg-preview.png"
-dest_files=[ "res://.import/interaçãolabel-removebg-preview.png-ffd6ff0043d6bc5c849692bbe4f7259d.stex" ]
+source_file="res://PROBOT-DELL/images/interaçãolabel-removebg-preview.png"
+dest_files=[ "res://.import/interaçãolabel-removebg-preview.png-53ae779a6caadbb42310f8e9e57b97f9.stex" ]
 
 [params]
 

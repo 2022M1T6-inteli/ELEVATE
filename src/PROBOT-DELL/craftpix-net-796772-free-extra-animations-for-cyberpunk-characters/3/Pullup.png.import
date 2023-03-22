@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pullup.png-d3ff4a7d7437996fb2a683282e644f5d.stex"
+path="res://.import/Pullup.png-6fb4f49305a486782872b89719593406.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Pullup.png"
-dest_files=[ "res://.import/Pullup.png-d3ff4a7d7437996fb2a683282e644f5d.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Pullup.png"
+dest_files=[ "res://.import/Pullup.png-6fb4f49305a486782872b89719593406.stex" ]
 
 [params]
 

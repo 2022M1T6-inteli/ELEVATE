@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/undefined - Imgur.png-292567a4ec956f151c244c5a1478154a.stex"
+path="res://.import/undefined - Imgur.png-4311f8ee33c4d0ebbb6dea6501600340.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/undefined - Imgur.png"
-dest_files=[ "res://.import/undefined - Imgur.png-292567a4ec956f151c244c5a1478154a.stex" ]
+source_file="res://PROBOT-DELL/images/undefined - Imgur.png"
+dest_files=[ "res://.import/undefined - Imgur.png-4311f8ee33c4d0ebbb6dea6501600340.stex" ]
 
 [params]
 

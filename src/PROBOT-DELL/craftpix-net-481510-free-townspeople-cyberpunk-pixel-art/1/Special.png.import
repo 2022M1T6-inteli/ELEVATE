@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Special.png-837e70e1fda2531f006307d963af89eb.stex"
+path="res://.import/Special.png-f7216fa82bdcc29d89d9e50779fc2acc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-481510-free-townspeople-cyberpunk-pixel-art/1/Special.png"
-dest_files=[ "res://.import/Special.png-837e70e1fda2531f006307d963af89eb.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-481510-free-townspeople-cyberpunk-pixel-art/1/Special.png"
+dest_files=[ "res://.import/Special.png-f7216fa82bdcc29d89d9e50779fc2acc.stex" ]
 
 [params]
 

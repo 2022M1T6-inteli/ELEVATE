@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sitdown.png-a767fc68c370a79070615c378b21b5d4.stex"
+path="res://.import/Sitdown.png-e4309aaea10001888a0f96c9fc30849b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/2/Sitdown.png"
-dest_files=[ "res://.import/Sitdown.png-a767fc68c370a79070615c378b21b5d4.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/2/Sitdown.png"
+dest_files=[ "res://.import/Sitdown.png-e4309aaea10001888a0f96c9fc30849b.stex" ]
 
 [params]
 

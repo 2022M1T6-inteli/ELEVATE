@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/background-2.png-16cefbac02f843f04a3346ffecedf6b6.stex"
+path="res://.import/background-2.png-3f8405440d4a11944f548964cf63e6b2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Example Assets/backgrounds/background-2.png"
-dest_files=[ "res://.import/background-2.png-16cefbac02f843f04a3346ffecedf6b6.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Example Assets/backgrounds/background-2.png"
+dest_files=[ "res://.import/background-2.png-3f8405440d4a11944f548964cf63e6b2.stex" ]
 
 [params]
 

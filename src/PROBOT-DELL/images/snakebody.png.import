@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/snakebody.png-0e1dd70bdaf42ef13fb76e16838505a5.stex"
+path="res://.import/snakebody.png-98ef45e554e43c79a2e1cd4f1a40b7e3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/snakebody.png"
-dest_files=[ "res://.import/snakebody.png-0e1dd70bdaf42ef13fb76e16838505a5.stex" ]
+source_file="res://PROBOT-DELL/images/snakebody.png"
+dest_files=[ "res://.import/snakebody.png-98ef45e554e43c79a2e1cd4f1a40b7e3.stex" ]
 
 [params]
 

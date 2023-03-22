@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1cadeira.png-2c0c6d786c79db728bd620f680194e58.stex"
+path="res://.import/1cadeira.png-33176f861c7318436571a67aae36c775.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetssprint5alt/1cadeira.png"
-dest_files=[ "res://.import/1cadeira.png-2c0c6d786c79db728bd620f680194e58.stex" ]
+source_file="res://PROBOT-DELL/assetssprint5alt/1cadeira.png"
+dest_files=[ "res://.import/1cadeira.png-33176f861c7318436571a67aae36c775.stex" ]
 
 [params]
 

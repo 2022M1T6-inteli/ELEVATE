@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Probots_Pointer_new.png-235c055278c8c47db7dac7f8fc1767fa.stex"
+path="res://.import/Probots_Pointer_new.png-d7736d04b0b026dbbc85ba33edddef50.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Probots_Pointer_new.png"
-dest_files=[ "res://.import/Probots_Pointer_new.png-235c055278c8c47db7dac7f8fc1767fa.stex" ]
+source_file="res://PROBOT-DELL/images/Probots_Pointer_new.png"
+dest_files=[ "res://.import/Probots_Pointer_new.png-d7736d04b0b026dbbc85ba33edddef50.stex" ]
 
 [params]
 

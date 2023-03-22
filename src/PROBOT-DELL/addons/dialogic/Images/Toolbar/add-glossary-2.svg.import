@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/add-glossary-2.svg-df70e38f107b9fc6109af658c7e14964.stex"
+path="res://.import/add-glossary-2.svg-912876d37af268e0fff8cbce0c1db76b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Images/Toolbar/add-glossary-2.svg"
-dest_files=[ "res://.import/add-glossary-2.svg-df70e38f107b9fc6109af658c7e14964.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Images/Toolbar/add-glossary-2.svg"
+dest_files=[ "res://.import/add-glossary-2.svg-912876d37af268e0fff8cbce0c1db76b.stex" ]
 
 [params]
 

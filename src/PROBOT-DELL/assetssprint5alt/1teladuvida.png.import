@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1teladuvida.png-574909a467f43454fdbae1c2b6d07f29.stex"
+path="res://.import/1teladuvida.png-bb1a2bd2c67f7bbc7578ed49d535ce99.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetssprint5alt/1teladuvida.png"
-dest_files=[ "res://.import/1teladuvida.png-574909a467f43454fdbae1c2b6d07f29.stex" ]
+source_file="res://PROBOT-DELL/assetssprint5alt/1teladuvida.png"
+dest_files=[ "res://.import/1teladuvida.png-bb1a2bd2c67f7bbc7578ed49d535ce99.stex" ]
 
 [params]
 

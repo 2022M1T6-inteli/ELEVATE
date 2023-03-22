@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Dash.png-2faf38c9679b33264b09328041c54a4b.stex"
+path="res://.import/Dash.png-6890135b1d3129783ef5419dc056d802.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/2/Dash.png"
-dest_files=[ "res://.import/Dash.png-2faf38c9679b33264b09328041c54a4b.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/2/Dash.png"
+dest_files=[ "res://.import/Dash.png-6890135b1d3129783ef5419dc056d802.stex" ]
 
 [params]
 

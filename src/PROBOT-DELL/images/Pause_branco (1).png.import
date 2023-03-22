@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pause_branco (1).png-50969129fc3c06ade8025439daf15030.stex"
+path="res://.import/Pause_branco (1).png-11b9a1ebca6b41e96926b52f35859f2c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Pause_branco (1).png"
-dest_files=[ "res://.import/Pause_branco (1).png-50969129fc3c06ade8025439daf15030.stex" ]
+source_file="res://PROBOT-DELL/images/Pause_branco (1).png"
+dest_files=[ "res://.import/Pause_branco (1).png-11b9a1ebca6b41e96926b52f35859f2c.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Fall.png-09d986903264d31269ab799e64836c64.stex"
+path="res://.import/Fall.png-466fdca1b14d940309ca081d87108b24.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/1/Fall.png"
-dest_files=[ "res://.import/Fall.png-09d986903264d31269ab799e64836c64.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/1/Fall.png"
+dest_files=[ "res://.import/Fall.png-466fdca1b14d940309ca081d87108b24.stex" ]
 
 [params]
 

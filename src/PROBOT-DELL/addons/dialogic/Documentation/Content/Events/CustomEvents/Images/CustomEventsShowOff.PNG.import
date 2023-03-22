@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CustomEventsShowOff.PNG-1ca9776c8c1de417754bb64c0e9ae3f2.stex"
+path="res://.import/CustomEventsShowOff.PNG-b5d241bdc6740d76dd33a4ea17dcbc2a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Documentation/Content/Events/CustomEvents/Images/CustomEventsShowOff.PNG"
-dest_files=[ "res://.import/CustomEventsShowOff.PNG-1ca9776c8c1de417754bb64c0e9ae3f2.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Documentation/Content/Events/CustomEvents/Images/CustomEventsShowOff.PNG"
+dest_files=[ "res://.import/CustomEventsShowOff.PNG-b5d241bdc6740d76dd33a4ea17dcbc2a.stex" ]
 
 [params]
 

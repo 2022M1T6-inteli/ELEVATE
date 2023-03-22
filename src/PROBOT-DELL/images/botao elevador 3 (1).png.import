@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/botao elevador 3 (1).png-775a8dcbeb06b12582c656d4ef419cba.stex"
+path="res://.import/botao elevador 3 (1).png-3357e13c9c65e632aefa2e8aa50aa869.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/botao elevador 3 (1).png"
-dest_files=[ "res://.import/botao elevador 3 (1).png-775a8dcbeb06b12582c656d4ef419cba.stex" ]
+source_file="res://PROBOT-DELL/images/botao elevador 3 (1).png"
+dest_files=[ "res://.import/botao elevador 3 (1).png-3357e13c9c65e632aefa2e8aa50aa869.stex" ]
 
 [params]
 

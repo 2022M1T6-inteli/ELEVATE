@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Medal_Ouro.png-427871a58c503b80bbec7a04eeb999b7.stex"
+path="res://.import/Medal_Ouro.png-944964cb03445bef5a5466e7237ccbfc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Medal_Ouro.png"
-dest_files=[ "res://.import/Medal_Ouro.png-427871a58c503b80bbec7a04eeb999b7.stex" ]
+source_file="res://PROBOT-DELL/images/Medal_Ouro.png"
+dest_files=[ "res://.import/Medal_Ouro.png-944964cb03445bef5a5466e7237ccbfc.stex" ]
 
 [params]
 

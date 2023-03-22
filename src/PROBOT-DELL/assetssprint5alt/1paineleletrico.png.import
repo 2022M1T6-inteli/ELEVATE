@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1paineleletrico.png-7877599aef3f000cc90e3762237da32e.stex"
+path="res://.import/1paineleletrico.png-620a272c2108e38587e589b9187ca191.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetssprint5alt/1paineleletrico.png"
-dest_files=[ "res://.import/1paineleletrico.png-7877599aef3f000cc90e3762237da32e.stex" ]
+source_file="res://PROBOT-DELL/assetssprint5alt/1paineleletrico.png"
+dest_files=[ "res://.import/1paineleletrico.png-620a272c2108e38587e589b9187ca191.stex" ]
 
 [params]
 

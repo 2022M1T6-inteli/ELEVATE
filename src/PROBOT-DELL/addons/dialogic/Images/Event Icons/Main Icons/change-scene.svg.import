@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/change-scene.svg-6725a8049733078ddbd90a4b2658171a.stex"
+path="res://.import/change-scene.svg-11d2e0ae1ee79e2e21d105b8d660a2b4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Images/Event Icons/Main Icons/change-scene.svg"
-dest_files=[ "res://.import/change-scene.svg-6725a8049733078ddbd90a4b2658171a.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Images/Event Icons/Main Icons/change-scene.svg"
+dest_files=[ "res://.import/change-scene.svg-11d2e0ae1ee79e2e21d105b8d660a2b4.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PeçasPC3.png-0210359a285db671da8770cb409122b3.stex"
+path="res://.import/PeçasPC3.png-2f1b32a5aebd7286c098eece5eb1145f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsInventario/PeçasPC3.png"
-dest_files=[ "res://.import/PeçasPC3.png-0210359a285db671da8770cb409122b3.stex" ]
+source_file="res://PROBOT-DELL/AssetsInventario/PeçasPC3.png"
+dest_files=[ "res://.import/PeçasPC3.png-2f1b32a5aebd7286c098eece5eb1145f.stex" ]
 
 [params]
 

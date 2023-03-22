@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1telefone.png-22e7ce336c871a28069429808b3039a4.stex"
+path="res://.import/1telefone.png-4f5ea5041966dd49cbd74f822335cf38.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetssprint5alt/1telefone.png"
-dest_files=[ "res://.import/1telefone.png-22e7ce336c871a28069429808b3039a4.stex" ]
+source_file="res://PROBOT-DELL/assetssprint5alt/1telefone.png"
+dest_files=[ "res://.import/1telefone.png-4f5ea5041966dd49cbd74f822335cf38.stex" ]
 
 [params]
 

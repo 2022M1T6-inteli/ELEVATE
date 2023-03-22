@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/porta.png-27f5474293004e60b1f3af3529246d27.stex"
+path="res://.import/porta.png-035331a6071f7c2031edcc5f9c34a21b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/porta.png"
-dest_files=[ "res://.import/porta.png-27f5474293004e60b1f3af3529246d27.stex" ]
+source_file="res://PROBOT-DELL/images/porta.png"
+dest_files=[ "res://.import/porta.png-035331a6071f7c2031edcc5f9c34a21b.stex" ]
 
 [params]
 

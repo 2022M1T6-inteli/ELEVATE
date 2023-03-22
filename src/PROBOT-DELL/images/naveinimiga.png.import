@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/naveinimiga.png-f2542a6e0bfb81e4f915289b3078170d.stex"
+path="res://.import/naveinimiga.png-a1d9f88bbd61cfbbbb707d85d779968d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/naveinimiga.png"
-dest_files=[ "res://.import/naveinimiga.png-f2542a6e0bfb81e4f915289b3078170d.stex" ]
+source_file="res://PROBOT-DELL/images/naveinimiga.png"
+dest_files=[ "res://.import/naveinimiga.png-a1d9f88bbd61cfbbbb707d85d779968d.stex" ]
 
 [params]
 

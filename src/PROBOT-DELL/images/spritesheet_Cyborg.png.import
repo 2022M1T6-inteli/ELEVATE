@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/spritesheet_Cyborg.png-bce3b167682cc8729d5345ad827aebe6.stex"
+path="res://.import/spritesheet_Cyborg.png-cf09ed987b2ab52f44fa7c2f6cf3f275.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/spritesheet_Cyborg.png"
-dest_files=[ "res://.import/spritesheet_Cyborg.png-bce3b167682cc8729d5345ad827aebe6.stex" ]
+source_file="res://PROBOT-DELL/images/spritesheet_Cyborg.png"
+dest_files=[ "res://.import/spritesheet_Cyborg.png-cf09ed987b2ab52f44fa7c2f6cf3f275.stex" ]
 
 [params]
 

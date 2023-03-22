@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/emit-signal.svg-e7476cdba0b41b81b70ecd21f85b0b2f.stex"
+path="res://.import/emit-signal.svg-cf3ff9a2dffd32eb28b9ad290f96104c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Images/Event Icons/Main Icons/emit-signal.svg"
-dest_files=[ "res://.import/emit-signal.svg-e7476cdba0b41b81b70ecd21f85b0b2f.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Images/Event Icons/Main Icons/emit-signal.svg"
+dest_files=[ "res://.import/emit-signal.svg-cf3ff9a2dffd32eb28b9ad290f96104c.stex" ]
 
 [params]
 

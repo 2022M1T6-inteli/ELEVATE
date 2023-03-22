@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Computer station 2.png-43c2e12b555c3034c37be61a46ae602b.stex"
+path="res://.import/Computer station 2.png-739441a5e952370f92a837fc253b8a32.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Computer station 2.png"
-dest_files=[ "res://.import/Computer station 2.png-43c2e12b555c3034c37be61a46ae602b.stex" ]
+source_file="res://PROBOT-DELL/images/Computer station 2.png"
+dest_files=[ "res://.import/Computer station 2.png-739441a5e952370f92a837fc253b8a32.stex" ]
 
 [params]
 

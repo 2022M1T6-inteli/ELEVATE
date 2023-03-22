@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PROBOT-DELL.apple-touch-icon.png-a309f0645c26a8b687af702a66cd053d.stex"
+path="res://.import/PROBOT-DELL.apple-touch-icon.png-bfd2c2dba14b06325985a1f2acb0940d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://html/PROBOT-DELL.apple-touch-icon.png"
-dest_files=[ "res://.import/PROBOT-DELL.apple-touch-icon.png-a309f0645c26a8b687af702a66cd053d.stex" ]
+source_file="res://PROBOT-DELL/html/PROBOT-DELL.apple-touch-icon.png"
+dest_files=[ "res://.import/PROBOT-DELL.apple-touch-icon.png-bfd2c2dba14b06325985a1f2acb0940d.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Walk_attack.png-d0702cde6485357c83de752d5daf11ec.stex"
+path="res://.import/Walk_attack.png-166a8abfa7ac1ea3350b72e0bfa6cd88.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Walk_attack.png"
-dest_files=[ "res://.import/Walk_attack.png-d0702cde6485357c83de752d5daf11ec.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Walk_attack.png"
+dest_files=[ "res://.import/Walk_attack.png-166a8abfa7ac1ea3350b72e0bfa6cd88.stex" ]
 
 [params]
 

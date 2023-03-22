@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/Coletar Item.ogg-65afa8c82fd101a2c106f4f0b3275afe.oggstr"
+path="res://.import/Coletar Item.ogg-66a13b0597bcd7930c68d3bbfa6e3a79.oggstr"
 
 [deps]
 
-source_file="res://Sounds/Coletar Item.ogg"
-dest_files=[ "res://.import/Coletar Item.ogg-65afa8c82fd101a2c106f4f0b3275afe.oggstr" ]
+source_file="res://PROBOT-DELL/Sounds/Coletar Item.ogg"
+dest_files=[ "res://.import/Coletar Item.ogg-66a13b0597bcd7930c68d3bbfa6e3a79.oggstr" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PREDIOS 2.png-9b6a18f4a131beb966d5b3a4e808ce31.stex"
+path="res://.import/PREDIOS 2.png-b4da555c730716fdf3491558c8ef5c17.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/PREDIOS 2.png"
-dest_files=[ "res://.import/PREDIOS 2.png-9b6a18f4a131beb966d5b3a4e808ce31.stex" ]
+source_file="res://PROBOT-DELL/images/PREDIOS 2.png"
+dest_files=[ "res://.import/PREDIOS 2.png-b4da555c730716fdf3491558c8ef5c17.stex" ]
 
 [params]
 

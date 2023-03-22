@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PopupDesign.png-416bdf8aea9aa7a42eb58c88522d3628.stex"
+path="res://.import/PopupDesign.png-cf8888abca01cef8a4947b36540106cd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/PopupDesign.png"
-dest_files=[ "res://.import/PopupDesign.png-416bdf8aea9aa7a42eb58c88522d3628.stex" ]
+source_file="res://PROBOT-DELL/images/PopupDesign.png"
+dest_files=[ "res://.import/PopupDesign.png-cf8888abca01cef8a4947b36540106cd.stex" ]
 
 [params]
 

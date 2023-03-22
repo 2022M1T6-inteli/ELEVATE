@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/INVENTARIO.png.png-62cf9957e19d631added5d452ee8caf0.stex"
+path="res://.import/INVENTARIO.png.png-33bfa77e37756590608408b3d13afb41.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsInventario/INVENTARIO.png.png"
-dest_files=[ "res://.import/INVENTARIO.png.png-62cf9957e19d631added5d452ee8caf0.stex" ]
+source_file="res://PROBOT-DELL/AssetsInventario/INVENTARIO.png.png"
+dest_files=[ "res://.import/INVENTARIO.png.png-33bfa77e37756590608408b3d13afb41.stex" ]
 
 [params]
 

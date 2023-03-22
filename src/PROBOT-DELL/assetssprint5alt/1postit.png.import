@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1postit.png-4aae80bd81c39e5bd12b601275753985.stex"
+path="res://.import/1postit.png-dbdf387d9a585e5ee194ed46873ef6c0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetssprint5alt/1postit.png"
-dest_files=[ "res://.import/1postit.png-4aae80bd81c39e5bd12b601275753985.stex" ]
+source_file="res://PROBOT-DELL/assetssprint5alt/1postit.png"
+dest_files=[ "res://.import/1postit.png-dbdf387d9a585e5ee194ed46873ef6c0.stex" ]
 
 [params]
 

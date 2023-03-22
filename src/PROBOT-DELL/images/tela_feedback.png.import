@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tela_feedback.png-5d788e4b4d96260104a3ba8f9e75d907.stex"
+path="res://.import/tela_feedback.png-ad57de8bc115620a3e856262a316ac5e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/tela_feedback.png"
-dest_files=[ "res://.import/tela_feedback.png-5d788e4b4d96260104a3ba8f9e75d907.stex" ]
+source_file="res://PROBOT-DELL/images/tela_feedback.png"
+dest_files=[ "res://.import/tela_feedback.png-ad57de8bc115620a3e856262a316ac5e.stex" ]
 
 [params]
 

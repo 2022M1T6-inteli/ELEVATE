@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Imagem_porta_fechada.png-0f2b674cdf7daf94f4558a35bbce78f5.stex"
+path="res://.import/Imagem_porta_fechada.png-c1bf9847f54c351b0f0409fea643ee09.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Imagem_porta_fechada.png"
-dest_files=[ "res://.import/Imagem_porta_fechada.png-0f2b674cdf7daf94f4558a35bbce78f5.stex" ]
+source_file="res://PROBOT-DELL/images/Imagem_porta_fechada.png"
+dest_files=[ "res://.import/Imagem_porta_fechada.png-c1bf9847f54c351b0f0409fea643ee09.stex" ]
 
 [params]
 

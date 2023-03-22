@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Idle_Hawking_new.png-022c0a0d83f7d6546ee684a209a3d90b.stex"
+path="res://.import/Idle_Hawking_new.png-950d2c8b8490978bdaa203dff4357d3f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Idle_Hawking_new.png"
-dest_files=[ "res://.import/Idle_Hawking_new.png-022c0a0d83f7d6546ee684a209a3d90b.stex" ]
+source_file="res://PROBOT-DELL/images/Idle_Hawking_new.png"
+dest_files=[ "res://.import/Idle_Hawking_new.png-950d2c8b8490978bdaa203dff4357d3f.stex" ]
 
 [params]
 

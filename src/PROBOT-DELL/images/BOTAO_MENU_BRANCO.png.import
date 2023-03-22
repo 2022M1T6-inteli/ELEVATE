@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BOTAO_MENU_BRANCO.png-02695ffae32b235070b425cce035b25b.stex"
+path="res://.import/BOTAO_MENU_BRANCO.png-7e334a591163cbbb2b707fbb194a99f1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/BOTAO_MENU_BRANCO.png"
-dest_files=[ "res://.import/BOTAO_MENU_BRANCO.png-02695ffae32b235070b425cce035b25b.stex" ]
+source_file="res://PROBOT-DELL/images/BOTAO_MENU_BRANCO.png"
+dest_files=[ "res://.import/BOTAO_MENU_BRANCO.png-7e334a591163cbbb2b707fbb194a99f1.stex" ]
 
 [params]
 

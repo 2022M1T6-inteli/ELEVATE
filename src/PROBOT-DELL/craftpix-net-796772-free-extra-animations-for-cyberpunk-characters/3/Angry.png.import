@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Angry.png-324982850f22f17d95e216a9ecaae74f.stex"
+path="res://.import/Angry.png-a67c9318e1735792fb55f7a7f16cd06b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Angry.png"
-dest_files=[ "res://.import/Angry.png-324982850f22f17d95e216a9ecaae74f.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Angry.png"
+dest_files=[ "res://.import/Angry.png-a67c9318e1735792fb55f7a7f16cd06b.stex" ]
 
 [params]
 

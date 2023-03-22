@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/background-menu.png-ecee9783be31316234bbfaa040db09d2.stex"
+path="res://.import/background-menu.png-23c9d6bf5e8fd641e7f5c623914f537c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/background-menu.png"
-dest_files=[ "res://.import/background-menu.png-ecee9783be31316234bbfaa040db09d2.stex" ]
+source_file="res://PROBOT-DELL/images/background-menu.png"
+dest_files=[ "res://.import/background-menu.png-23c9d6bf5e8fd641e7f5c623914f537c.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Event_Wait_Seconds.PNG-8023c213d12ebc598f48204427f06be2.stex"
+path="res://.import/Event_Wait_Seconds.PNG-b149640c716ebe4c979798d6026af988.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Documentation/Content/Events/Images/Event_Wait_Seconds.PNG"
-dest_files=[ "res://.import/Event_Wait_Seconds.PNG-8023c213d12ebc598f48204427f06be2.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Documentation/Content/Events/Images/Event_Wait_Seconds.PNG"
+dest_files=[ "res://.import/Event_Wait_Seconds.PNG-b149640c716ebe4c979798d6026af988.stex" ]
 
 [params]
 

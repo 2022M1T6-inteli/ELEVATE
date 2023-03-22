@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Wall 4 Light.png-e1a1df0ab555d1ca290da41a823af94c.stex"
+path="res://.import/Wall 4 Light.png-1e99561620f2e0618aa74b5455d3d524.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Wall 4 Light.png"
-dest_files=[ "res://.import/Wall 4 Light.png-e1a1df0ab555d1ca290da41a823af94c.stex" ]
+source_file="res://PROBOT-DELL/images/Wall 4 Light.png"
+dest_files=[ "res://.import/Wall 4 Light.png-1e99561620f2e0618aa74b5455d3d524.stex" ]
 
 [params]
 

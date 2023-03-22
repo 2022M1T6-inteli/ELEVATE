@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/teclaroxaesq (2).png-ad6ad89280398de29c13c906a4ebb12a.stex"
+path="res://.import/teclaroxaesq (2).png-7ce9ec24bf1f4ca200582b292620da67.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/teclaroxaesq (2).png"
-dest_files=[ "res://.import/teclaroxaesq (2).png-ad6ad89280398de29c13c906a4ebb12a.stex" ]
+source_file="res://PROBOT-DELL/images/teclaroxaesq (2).png"
+dest_files=[ "res://.import/teclaroxaesq (2).png-7ce9ec24bf1f4ca200582b292620da67.stex" ]
 
 [params]
 

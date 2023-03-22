@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Double_door_outside.png-85c669b7b064b76e3ce1adf57e7191c5.stex"
+path="res://.import/Double_door_outside.png-b8d435524442eae41b13c3098fda7fb9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Double_door_outside.png"
-dest_files=[ "res://.import/Double_door_outside.png-85c669b7b064b76e3ce1adf57e7191c5.stex" ]
+source_file="res://PROBOT-DELL/images/Double_door_outside.png"
+dest_files=[ "res://.import/Double_door_outside.png-b8d435524442eae41b13c3098fda7fb9.stex" ]
 
 [params]
 

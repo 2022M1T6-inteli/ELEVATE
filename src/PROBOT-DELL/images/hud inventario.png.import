@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hud inventario.png-9824ab2ab320f2c1a740bee52f1e34d8.stex"
+path="res://.import/hud inventario.png-9ee1833832fd166bd153c1799c6bfda5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/hud inventario.png"
-dest_files=[ "res://.import/hud inventario.png-9824ab2ab320f2c1a740bee52f1e34d8.stex" ]
+source_file="res://PROBOT-DELL/images/hud inventario.png"
+dest_files=[ "res://.import/hud inventario.png-9ee1833832fd166bd153c1799c6bfda5.stex" ]
 
 [params]
 

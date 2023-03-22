@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/COMIDA.png-906562d4a25adeb7435d4538e67ed136.stex"
+path="res://.import/COMIDA.png-b064a6486dfa866d7d8848c890562411.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/COMIDA.png"
-dest_files=[ "res://.import/COMIDA.png-906562d4a25adeb7435d4538e67ed136.stex" ]
+source_file="res://PROBOT-DELL/images/COMIDA.png"
+dest_files=[ "res://.import/COMIDA.png-b064a6486dfa866d7d8848c890562411.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Happy.png-a070a3f174ac684b61500ba490532d2d.stex"
+path="res://.import/Happy.png-966a12f36cdcbc512194d86d6137c2ab.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Happy.png"
-dest_files=[ "res://.import/Happy.png-a070a3f174ac684b61500ba490532d2d.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/3/Happy.png"
+dest_files=[ "res://.import/Happy.png-966a12f36cdcbc512194d86d6137c2ab.stex" ]
 
 [params]
 

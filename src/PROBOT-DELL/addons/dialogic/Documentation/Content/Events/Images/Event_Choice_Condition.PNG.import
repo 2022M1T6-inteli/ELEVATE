@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Event_Choice_Condition.PNG-47064c87073a3b92a27167e9940f8c31.stex"
+path="res://.import/Event_Choice_Condition.PNG-d01ddf0f938fb23573d248db6e3f3d07.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Documentation/Content/Events/Images/Event_Choice_Condition.PNG"
-dest_files=[ "res://.import/Event_Choice_Condition.PNG-47064c87073a3b92a27167e9940f8c31.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Documentation/Content/Events/Images/Event_Choice_Condition.PNG"
+dest_files=[ "res://.import/Event_Choice_Condition.PNG-d01ddf0f938fb23573d248db6e3f3d07.stex" ]
 
 [params]
 

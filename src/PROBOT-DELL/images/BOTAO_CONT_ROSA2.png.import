@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BOTAO_CONT_ROSA2.png-a409d60c7420889f1ddcd4ee5da4c524.stex"
+path="res://.import/BOTAO_CONT_ROSA2.png-07008c7ff8c31d92ce0bcac11ea3752b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/BOTAO_CONT_ROSA2.png"
-dest_files=[ "res://.import/BOTAO_CONT_ROSA2.png-a409d60c7420889f1ddcd4ee5da4c524.stex" ]
+source_file="res://PROBOT-DELL/images/BOTAO_CONT_ROSA2.png"
+dest_files=[ "res://.import/BOTAO_CONT_ROSA2.png-07008c7ff8c31d92ce0bcac11ea3752b.stex" ]
 
 [params]
 

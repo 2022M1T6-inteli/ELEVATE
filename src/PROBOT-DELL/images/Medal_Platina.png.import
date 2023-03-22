@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Medal_Platina.png-ee487ff82782c2e654a84bd5331218a9.stex"
+path="res://.import/Medal_Platina.png-e3b6394ab4487df3fe1a89ec0a0910d5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Medal_Platina.png"
-dest_files=[ "res://.import/Medal_Platina.png-ee487ff82782c2e654a84bd5331218a9.stex" ]
+source_file="res://PROBOT-DELL/images/Medal_Platina.png"
+dest_files=[ "res://.import/Medal_Platina.png-e3b6394ab4487df3fe1a89ec0a0910d5.stex" ]
 
 [params]
 

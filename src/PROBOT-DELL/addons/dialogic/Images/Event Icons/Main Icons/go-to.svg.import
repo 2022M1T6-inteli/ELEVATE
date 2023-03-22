@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/go-to.svg-119e813c34907fb6f30d6ed2a5cdc6b9.stex"
+path="res://.import/go-to.svg-0ac02750cacbc8a5abd648ea8aa01e4c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Images/Event Icons/Main Icons/go-to.svg"
-dest_files=[ "res://.import/go-to.svg-119e813c34907fb6f30d6ed2a5cdc6b9.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Images/Event Icons/Main Icons/go-to.svg"
+dest_files=[ "res://.import/go-to.svg-0ac02750cacbc8a5abd648ea8aa01e4c.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/aataelefoneasset-removebg-preview.png-23c646bdcb1b54fa9e037734aa7bb31d.stex"
+path="res://.import/aataelefoneasset-removebg-preview.png-455ea352d703fcf52fa27a3838aef437.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assetssprint5alt/aataelefoneasset-removebg-preview.png"
-dest_files=[ "res://.import/aataelefoneasset-removebg-preview.png-23c646bdcb1b54fa9e037734aa7bb31d.stex" ]
+source_file="res://PROBOT-DELL/assetssprint5alt/aataelefoneasset-removebg-preview.png"
+dest_files=[ "res://.import/aataelefoneasset-removebg-preview.png-455ea352d703fcf52fa27a3838aef437.stex" ]
 
 [params]
 

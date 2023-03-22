@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Acertou varias questoes.wav-66dec9cc52b1535bad40eaadfbb5e25a.sample"
+path="res://.import/Acertou varias questoes.wav-4994d8f0939354174463dcc7ddb66841.sample"
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/Efeitos Sonoroa/Acertou varias questoes.wav"
-dest_files=[ "res://.import/Acertou varias questoes.wav-66dec9cc52b1535bad40eaadfbb5e25a.sample" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/Efeitos Sonoroa/Acertou varias questoes.wav"
+dest_files=[ "res://.import/Acertou varias questoes.wav-4994d8f0939354174463dcc7ddb66841.sample" ]
 
 [params]
 
@@ -17,5 +17,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

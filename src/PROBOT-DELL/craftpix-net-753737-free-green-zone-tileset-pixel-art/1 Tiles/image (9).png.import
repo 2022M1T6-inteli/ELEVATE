@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/image (9).png-f223e8ed9c80f85d96552b991b88998b.stex"
+path="res://.import/image (9).png-54d94116e4b8f2f39545aaadea1c81ee.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/image (9).png"
-dest_files=[ "res://.import/image (9).png-f223e8ed9c80f85d96552b991b88998b.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-753737-free-green-zone-tileset-pixel-art/1 Tiles/image (9).png"
+dest_files=[ "res://.import/image (9).png-54d94116e4b8f2f39545aaadea1c81ee.stex" ]
 
 [params]
 

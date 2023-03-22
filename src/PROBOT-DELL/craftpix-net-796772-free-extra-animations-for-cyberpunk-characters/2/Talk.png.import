@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Talk.png-0e85595b23980daeeffffb224130b816.stex"
+path="res://.import/Talk.png-04e94ce40cb78a073b122da2fffd96a2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/2/Talk.png"
-dest_files=[ "res://.import/Talk.png-0e85595b23980daeeffffb224130b816.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-796772-free-extra-animations-for-cyberpunk-characters/2/Talk.png"
+dest_files=[ "res://.import/Talk.png-04e94ce40cb78a073b122da2fffd96a2.stex" ]
 
 [params]
 

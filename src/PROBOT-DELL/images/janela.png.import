@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/janela.png-6eb0e99b3ba7057f9e81db42980d4400.stex"
+path="res://.import/janela.png-e173156a19e91b17541f854575818041.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/janela.png"
-dest_files=[ "res://.import/janela.png-6eb0e99b3ba7057f9e81db42980d4400.stex" ]
+source_file="res://PROBOT-DELL/images/janela.png"
+dest_files=[ "res://.import/janela.png-e173156a19e91b17541f854575818041.stex" ]
 
 [params]
 

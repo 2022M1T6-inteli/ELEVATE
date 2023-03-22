@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BOTAO_PLAY_BRANCO.png-c5b7cb56958ae43edeb0c0574dd9620a.stex"
+path="res://.import/BOTAO_PLAY_BRANCO.png-e77e90dd385685457946b15d3ec6bbb9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/BOTAO_PLAY_BRANCO.png"
-dest_files=[ "res://.import/BOTAO_PLAY_BRANCO.png-c5b7cb56958ae43edeb0c0574dd9620a.stex" ]
+source_file="res://PROBOT-DELL/images/BOTAO_PLAY_BRANCO.png"
+dest_files=[ "res://.import/BOTAO_PLAY_BRANCO.png-e77e90dd385685457946b15d3ec6bbb9.stex" ]
 
 [params]
 

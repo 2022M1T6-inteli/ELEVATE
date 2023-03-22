@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/history_log_margin.png-7951084d0435f2e56c190e6e2640f6c5.stex"
+path="res://.import/history_log_margin.png-bef506d84de569a481ff14a8caef2c9f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Documentation/Content/Reference/Images/history_log_margin.png"
-dest_files=[ "res://.import/history_log_margin.png-7951084d0435f2e56c190e6e2640f6c5.stex" ]
+source_file="res://PROBOT-DELL/addons/dialogic/Documentation/Content/Reference/Images/history_log_margin.png"
+dest_files=[ "res://.import/history_log_margin.png-bef506d84de569a481ff14a8caef2c9f.stex" ]
 
 [params]
 

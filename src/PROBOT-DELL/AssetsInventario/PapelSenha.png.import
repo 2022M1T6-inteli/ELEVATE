@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PapelSenha.png-7c1f31f34e55e6b2578911e1c2bbf5a6.stex"
+path="res://.import/PapelSenha.png-50ab96f7beb0ce8da0db751d155136b7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsInventario/PapelSenha.png"
-dest_files=[ "res://.import/PapelSenha.png-7c1f31f34e55e6b2578911e1c2bbf5a6.stex" ]
+source_file="res://PROBOT-DELL/AssetsInventario/PapelSenha.png"
+dest_files=[ "res://.import/PapelSenha.png-50ab96f7beb0ce8da0db751d155136b7.stex" ]
 
 [params]
 

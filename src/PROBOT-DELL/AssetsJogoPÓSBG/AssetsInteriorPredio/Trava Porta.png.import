@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Trava Porta.png-fc7eef93ba208a0afa1f55d225dbd392.stex"
+path="res://.import/Trava Porta.png-2d2ad8c2ba41bb558484a4c5e173261c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/AssetsInteriorPredio/Trava Porta.png"
-dest_files=[ "res://.import/Trava Porta.png-fc7eef93ba208a0afa1f55d225dbd392.stex" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/AssetsInteriorPredio/Trava Porta.png"
+dest_files=[ "res://.import/Trava Porta.png-2d2ad8c2ba41bb558484a4c5e173261c.stex" ]
 
 [params]
 

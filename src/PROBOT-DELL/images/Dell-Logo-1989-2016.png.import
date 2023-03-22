@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Dell-Logo-1989-2016.png-c9df05bb9423096d845c2488c17198a8.stex"
+path="res://.import/Dell-Logo-1989-2016.png-6a6482c1baf32a8e526898a0ccb2e4f2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Dell-Logo-1989-2016.png"
-dest_files=[ "res://.import/Dell-Logo-1989-2016.png-c9df05bb9423096d845c2488c17198a8.stex" ]
+source_file="res://PROBOT-DELL/images/Dell-Logo-1989-2016.png"
+dest_files=[ "res://.import/Dell-Logo-1989-2016.png-6a6482c1baf32a8e526898a0ccb2e4f2.stex" ]
 
 [params]
 

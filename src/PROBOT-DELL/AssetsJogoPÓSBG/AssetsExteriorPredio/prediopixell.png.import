@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/prediopixell.png-4432fd2eb25174c8f0e9514cb5ec55c7.stex"
+path="res://.import/prediopixell.png-7d87976fc8eac2dc880f65cf297ff83a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AssetsJogoPÓSBG/AssetsExteriorPredio/prediopixell.png"
-dest_files=[ "res://.import/prediopixell.png-4432fd2eb25174c8f0e9514cb5ec55c7.stex" ]
+source_file="res://PROBOT-DELL/AssetsJogoPÓSBG/AssetsExteriorPredio/prediopixell.png"
+dest_files=[ "res://.import/prediopixell.png-7d87976fc8eac2dc880f65cf297ff83a.stex" ]
 
 [params]
 

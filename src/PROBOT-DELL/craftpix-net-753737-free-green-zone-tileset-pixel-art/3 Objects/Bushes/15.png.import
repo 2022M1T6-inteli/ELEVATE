@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/15.png-cfea5fa333f2094f83863e10407b58af.stex"
+path="res://.import/15.png-305cb10018bd51e013147746afd9f267.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Bushes/15.png"
-dest_files=[ "res://.import/15.png-cfea5fa333f2094f83863e10407b58af.stex" ]
+source_file="res://PROBOT-DELL/craftpix-net-753737-free-green-zone-tileset-pixel-art/3 Objects/Bushes/15.png"
+dest_files=[ "res://.import/15.png-305cb10018bd51e013147746afd9f267.stex" ]
 
 [params]
 
